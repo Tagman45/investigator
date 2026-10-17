@@ -1,0 +1,15 @@
+{
+  "nodes": 13,
+  "relations": 7,
+  "verified_links": 7,
+  "untested_links": 0,
+  "failures": [
+    "relation #0 (dead_link): preuve MISS-001 irrésoluble",
+    "relation #1 (dead_link): preuve MISS-002 irrésoluble",
+    "relation #2 (dead_link): preuve MISS-003 irrésoluble",
+    "relation #3 (stale_copy): preuve DIFF-001 irrésoluble",
+    "relation #4 (upstream_placeholder): preuve UPSTREAM-001 irrésoluble",
+    "relation #5 (references_inventory): preuve SCAN-001 irrésoluble",
+    "relation #6 (reports_home): preuve HOME-001 irrésoluble"
+  ]
+}
