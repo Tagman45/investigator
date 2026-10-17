@@ -1,0 +1,556 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_code_audit_",
+      "label": "internal:code-audit/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_collecte_rapports_xdna2_",
+      "label": "internal:collecte_rapports_xdna2/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_evidence_",
+      "label": "internal:evidence/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_experiments_",
+      "label": "internal:experiments/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_hardware_",
+      "label": "internal:hardware/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_kernels_",
+      "label": "internal:kernels/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_local_audit_",
+      "label": "internal:local-audit/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_models_",
+      "label": "internal:models/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_reports_",
+      "label": "internal:reports/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_reverse_",
+      "label": "internal:reverse/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_skills_",
+      "label": "internal:skills/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_skills_backup_",
+      "label": "internal:skills_backup/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_sources_",
+      "label": "internal:sources/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tests_",
+      "label": "internal:tests/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tools_",
+      "label": "internal:tools/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_xdna2_evidence_oracle_",
+      "label": "internal:xdna2-evidence-oracle/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_DOCSKILL",
+      "label": "repo:DOCSKILL",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_experiments_gemv_q4nx_dispatch_position_bench_",
+      "label": "repo:DOCSKILL/experiments\\gemv_q4nx\\dispatch_position_bench.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_experiments_gemv_q4nx_gemv_abab_bench_py",
+      "label": "repo:DOCSKILL/experiments\\gemv_q4nx\\gemv_abab_bench.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py",
+      "label": "repo:DOCSKILL/experiments\\gemv_q4nx\\gemv_q4nx_bench.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga",
+      "label": "repo:DOCSKILL/skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\build_ecosystem_graph.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s",
+      "label": "repo:DOCSKILL/skills_backup\\opencode\\xdna2-evidence-oracle\\scripts\\check_urls.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_script",
+      "label": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\scripts\\diagram_local.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_",
+      "label": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\tests\\test_diagram_compare.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_che",
+      "label": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\check_urls.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_gen",
+      "label": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\generate_evidence.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_res",
+      "label": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\research.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_test_oracle_py",
+      "label": "repo:DOCSKILL/test_oracle.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_bench_normalized_py",
+      "label": "repo:DOCSKILL/tools\\python\\bench_normalized.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_env_report_py",
+      "label": "repo:DOCSKILL/tools\\python\\env_report.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_ogad_v4_py",
+      "label": "repo:DOCSKILL/tools\\python\\ogad_v4.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_reloc_corrected_py",
+      "label": "repo:DOCSKILL/tools\\python\\reloc_corrected.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_test_env_report_py",
+      "label": "repo:DOCSKILL/tools\\python\\test_env_report.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_tests_cross_py",
+      "label": "repo:DOCSKILL/tools\\python\\tests_cross.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_tools_python_validate_final_py",
+      "label": "repo:DOCSKILL/tools\\python\\validate_final.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "label": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_DOCSKILL_xdna2_evidence_oracle_tests_test_oracle_py",
+      "label": "repo:DOCSKILL/xdna2-evidence-oracle\\tests\\test_oracle.py",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal__racine__",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_code_audit_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:code-audit/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (code-audit)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_collecte_rapports_xdna2_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:collecte_rapports_xdna2/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (collecte_rapports_xdna2)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_evidence_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:evidence/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (evidence)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_experiments_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:experiments/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (experiments)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_hardware_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:hardware/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (hardware)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_kernels_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:kernels/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (kernels)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_local_audit_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:local-audit/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (local-audit)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_models_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:models/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (models)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_reports_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:reports/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (reports)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_reverse_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:reverse/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (reverse)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_skills_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:skills/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (skills)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_skills_backup_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:skills_backup/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (skills_backup)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_sources_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:sources/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (sources)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_tests_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:tests/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tests)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_tools_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:tools/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tools)"
+    },
+    {
+      "source_id": "repo_DOCSKILL",
+      "target_id": "internal_xdna2_evidence_oracle_",
+      "source": "repo:DOCSKILL",
+      "destination": "internal:xdna2-evidence-oracle/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (xdna2-evidence-oracle)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_test_oracle_py",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/test_oracle.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_experiments_gemv_q4nx_dispatch_position_bench_",
+      "target_id": "repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py",
+      "source": "repo:DOCSKILL/experiments\\gemv_q4nx\\dispatch_position_bench.py",
+      "destination": "repo:DOCSKILL/experiments\\gemv_q4nx\\gemv_q4nx_bench.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'gemv_q4nx_bench' résolu vers experiments\\gemv_q4nx\\gemv_q4nx_bench.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_experiments_gemv_q4nx_gemv_abab_bench_py",
+      "target_id": "repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py",
+      "source": "repo:DOCSKILL/experiments\\gemv_q4nx\\gemv_abab_bench.py",
+      "destination": "repo:DOCSKILL/experiments\\gemv_q4nx\\gemv_q4nx_bench.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'gemv_q4nx_bench' résolu vers experiments\\gemv_q4nx\\gemv_q4nx_bench.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_script",
+      "target_id": "repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga",
+      "source": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\scripts\\diagram_local.py",
+      "destination": "repo:DOCSKILL/skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\build_ecosystem_graph.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'build_ecosystem_graph' résolu vers skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\build_ecosystem_graph.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_script",
+      "target_id": "repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga",
+      "source": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\scripts\\investigation_engine.py",
+      "destination": "repo:DOCSKILL/skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\verify_bilan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'verify_bilan' résolu vers skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\verify_bilan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_",
+      "target_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_script",
+      "source": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\tests\\test_diagram_compare.py",
+      "destination": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\scripts\\compare_repos.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'compare_repos' résolu vers skills\\local\\git-ecosystem-investigator\\scripts\\compare_repos.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_",
+      "target_id": "repo_DOCSKILL_skills_local_git_ecosystem_investigator_script",
+      "source": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\tests\\test_diagram_compare.py",
+      "destination": "repo:DOCSKILL/skills\\local\\git-ecosystem-investigator\\scripts\\diagram_local.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'diagram_local' résolu vers skills\\local\\git-ecosystem-investigator\\scripts\\diagram_local.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_che",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\check_urls.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_gen",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\generate_evidence.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_res",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills\\local\\xdna2-evidence-oracle\\scripts\\research.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga",
+      "target_id": "repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga",
+      "source": "repo:DOCSKILL/skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\investigation_engine.py",
+      "destination": "repo:DOCSKILL/skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\verify_bilan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'verify_bilan' résolu vers skills_backup\\opencode\\git-ecosystem-investigator\\scripts\\verify_bilan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills_backup\\opencode\\xdna2-evidence-oracle\\scripts\\check_urls.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills_backup\\opencode\\xdna2-evidence-oracle\\scripts\\generate_evidence.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/skills_backup\\opencode\\xdna2-evidence-oracle\\scripts\\research.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_tools_python_bench_normalized_py",
+      "target_id": "repo_DOCSKILL_tools_python_ogad_v4_py",
+      "source": "repo:DOCSKILL/tools\\python\\bench_normalized.py",
+      "destination": "repo:DOCSKILL/tools\\python\\ogad_v4.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'ogad_v4' résolu vers tools\\python\\ogad_v4.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_tools_python_tests_cross_py",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/tools\\python\\tests_cross.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_tools_python_test_env_report_py",
+      "target_id": "repo_DOCSKILL_tools_python_env_report_py",
+      "source": "repo:DOCSKILL/tools\\python\\test_env_report.py",
+      "destination": "repo:DOCSKILL/tools\\python\\env_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'env_report' résolu vers tools\\python\\env_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_tools_python_validate_final_py",
+      "target_id": "repo_DOCSKILL_tools_python_reloc_corrected_py",
+      "source": "repo:DOCSKILL/tools\\python\\validate_final.py",
+      "destination": "repo:DOCSKILL/tools\\python\\reloc_corrected.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'reloc_corrected' résolu vers tools\\python\\reloc_corrected.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_DOCSKILL_xdna2_evidence_oracle_tests_test_oracle_py",
+      "target_id": "repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py",
+      "source": "repo:DOCSKILL/xdna2-evidence-oracle\\tests\\test_oracle.py",
+      "destination": "repo:DOCSKILL/xdna2-evidence-oracle\\scripts\\oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'oracle' résolu vers xdna2-evidence-oracle\\scripts\\oracle.py (statique, pas une preuve d'exécution)"
+    }
+  ]
+}

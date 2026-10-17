@@ -1,0 +1,77 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_code_audit_["internal:code-audit/"]
+  internal_collecte_rapports_xdna2_["internal:collecte_rapports_xdna2/"]
+  internal_evidence_["internal:evidence/"]
+  internal_experiments_["internal:experiments/"]
+  internal_hardware_["internal:hardware/"]
+  internal_kernels_["internal:kernels/"]
+  internal_local_audit_["internal:local-audit/"]
+  internal_models_["internal:models/"]
+  internal_reports_["internal:reports/"]
+  internal_reverse_["internal:reverse/"]
+  internal_skills_["internal:skills/"]
+  internal_skills_backup_["internal:skills_backup/"]
+  internal_sources_["internal:sources/"]
+  internal_tests_["internal:tests/"]
+  internal_tools_["internal:tools/"]
+  internal_xdna2_evidence_oracle_["internal:xdna2-evidence-oracle/"]
+  repo_DOCSKILL["repo:DOCSKILL"]
+  repo_DOCSKILL_experiments_gemv_q4nx_dispatch_position_bench_["repo:DOCSKILL/experiments\gemv_q4nx\dispatch_position_bench.py"]
+  repo_DOCSKILL_experiments_gemv_q4nx_gemv_abab_bench_py["repo:DOCSKILL/experiments\gemv_q4nx\gemv_abab_bench.py"]
+  repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py["repo:DOCSKILL/experiments\gemv_q4nx\gemv_q4nx_bench.py"]
+  repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga["repo:DOCSKILL/skills_backup\opencode\git-ecosystem-investigator\scripts\build_ecosystem_graph.py"]
+  repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s["repo:DOCSKILL/skills_backup\opencode\xdna2-evidence-oracle\scripts\check_urls.py"]
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_script["repo:DOCSKILL/skills\local\git-ecosystem-investigator\scripts\diagram_local.py"]
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_["repo:DOCSKILL/skills\local\git-ecosystem-investigator\tests\test_diagram_compare.py"]
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_che["repo:DOCSKILL/skills\local\xdna2-evidence-oracle\scripts\check_urls.py"]
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_gen["repo:DOCSKILL/skills\local\xdna2-evidence-oracle\scripts\generate_evidence.py"]
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_res["repo:DOCSKILL/skills\local\xdna2-evidence-oracle\scripts\research.py"]
+  repo_DOCSKILL_test_oracle_py["repo:DOCSKILL/test_oracle.py"]
+  repo_DOCSKILL_tools_python_bench_normalized_py["repo:DOCSKILL/tools\python\bench_normalized.py"]
+  repo_DOCSKILL_tools_python_env_report_py["repo:DOCSKILL/tools\python\env_report.py"]
+  repo_DOCSKILL_tools_python_ogad_v4_py["repo:DOCSKILL/tools\python\ogad_v4.py"]
+  repo_DOCSKILL_tools_python_reloc_corrected_py["repo:DOCSKILL/tools\python\reloc_corrected.py"]
+  repo_DOCSKILL_tools_python_test_env_report_py["repo:DOCSKILL/tools\python\test_env_report.py"]
+  repo_DOCSKILL_tools_python_tests_cross_py["repo:DOCSKILL/tools\python\tests_cross.py"]
+  repo_DOCSKILL_tools_python_validate_final_py["repo:DOCSKILL/tools\python\validate_final.py"]
+  repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py["repo:DOCSKILL/xdna2-evidence-oracle\scripts\oracle.py"]
+  repo_DOCSKILL_xdna2_evidence_oracle_tests_test_oracle_py["repo:DOCSKILL/xdna2-evidence-oracle\tests\test_oracle.py"]
+  repo_DOCSKILL -->|contains:INFERRED| internal__racine__
+  repo_DOCSKILL -->|contains:INFERRED| internal_code_audit_
+  repo_DOCSKILL -->|contains:INFERRED| internal_collecte_rapports_xdna2_
+  repo_DOCSKILL -->|contains:INFERRED| internal_evidence_
+  repo_DOCSKILL -->|contains:INFERRED| internal_experiments_
+  repo_DOCSKILL -->|contains:INFERRED| internal_hardware_
+  repo_DOCSKILL -->|contains:INFERRED| internal_kernels_
+  repo_DOCSKILL -->|contains:INFERRED| internal_local_audit_
+  repo_DOCSKILL -->|contains:INFERRED| internal_models_
+  repo_DOCSKILL -->|contains:INFERRED| internal_reports_
+  repo_DOCSKILL -->|contains:INFERRED| internal_reverse_
+  repo_DOCSKILL -->|contains:INFERRED| internal_skills_
+  repo_DOCSKILL -->|contains:INFERRED| internal_skills_backup_
+  repo_DOCSKILL -->|contains:INFERRED| internal_sources_
+  repo_DOCSKILL -->|contains:INFERRED| internal_tests_
+  repo_DOCSKILL -->|contains:INFERRED| internal_tools_
+  repo_DOCSKILL -->|contains:INFERRED| internal_xdna2_evidence_oracle_
+  repo_DOCSKILL_test_oracle_py -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_experiments_gemv_q4nx_dispatch_position_bench_ -->|imports:INFERRED| repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py
+  repo_DOCSKILL_experiments_gemv_q4nx_gemv_abab_bench_py -->|imports:INFERRED| repo_DOCSKILL_experiments_gemv_q4nx_gemv_q4nx_bench_py
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_script -->|imports:INFERRED| repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_script -->|imports:INFERRED| repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_ -->|imports:INFERRED| repo_DOCSKILL_skills_local_git_ecosystem_investigator_script
+  repo_DOCSKILL_skills_local_git_ecosystem_investigator_tests_ -->|imports:INFERRED| repo_DOCSKILL_skills_local_git_ecosystem_investigator_script
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_che -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_gen -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_skills_local_xdna2_evidence_oracle_scripts_res -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga -->|imports:INFERRED| repo_DOCSKILL_skills_backup_opencode_git_ecosystem_investiga
+  repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_skills_backup_opencode_xdna2_evidence_oracle_s -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_tools_python_bench_normalized_py -->|imports:INFERRED| repo_DOCSKILL_tools_python_ogad_v4_py
+  repo_DOCSKILL_tools_python_tests_cross_py -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+  repo_DOCSKILL_tools_python_test_env_report_py -->|imports:INFERRED| repo_DOCSKILL_tools_python_env_report_py
+  repo_DOCSKILL_tools_python_validate_final_py -->|imports:INFERRED| repo_DOCSKILL_tools_python_reloc_corrected_py
+  repo_DOCSKILL_xdna2_evidence_oracle_tests_test_oracle_py -->|imports:INFERRED| repo_DOCSKILL_xdna2_evidence_oracle_scripts_oracle_py
+```

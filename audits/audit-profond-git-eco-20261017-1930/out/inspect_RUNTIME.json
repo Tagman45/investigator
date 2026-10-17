@@ -1,0 +1,2310 @@
+{
+  "repository": "C:\\Users\\videl\\AppData\\Local\\Temp\\gitdemos\\runtime",
+  "git": {
+    "returncode": 0,
+    "stdout": "C:/Users/videl/AppData/Local/Temp/gitdemos/runtime\n",
+    "stderr": ""
+  },
+  "head": {
+    "returncode": 0,
+    "stdout": "324e15a4724c77873594b4a3ba43c75c5c9abade\n",
+    "stderr": ""
+  },
+  "recent_log": {
+    "returncode": 0,
+    "stdout": "324e15a4724c77873594b4a3ba43c75c5c9abade\t2026-09-23T22:58:09+02:00\tDUAL SWIGLU DIAG phase1: PAS layout (cos 0.14), corruption generalisee\n",
+    "stderr": ""
+  },
+  "submodules": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "files": [
+    ".gitignore",
+    "dashboard.html",
+    "pyproject.toml",
+    "README.md",
+    "REPRODUCIBILITY.md",
+    "scan_results.json",
+    "_scan_web.py",
+    "adaptive_xdna_runtime\\candidate.py",
+    "adaptive_xdna_runtime\\compiler.py",
+    "adaptive_xdna_runtime\\contracts.py",
+    "adaptive_xdna_runtime\\dataset.py",
+    "adaptive_xdna_runtime\\dma.py",
+    "adaptive_xdna_runtime\\git_tracker.py",
+    "adaptive_xdna_runtime\\graph.py",
+    "adaptive_xdna_runtime\\int8_gemv.py",
+    "adaptive_xdna_runtime\\int8_tuning.py",
+    "adaptive_xdna_runtime\\iron_source.py",
+    "adaptive_xdna_runtime\\layout.py",
+    "adaptive_xdna_runtime\\manifest.py",
+    "adaptive_xdna_runtime\\mcp_server.py",
+    "adaptive_xdna_runtime\\observation.py",
+    "adaptive_xdna_runtime\\partition.py",
+    "adaptive_xdna_runtime\\planner.py",
+    "adaptive_xdna_runtime\\registry.py",
+    "adaptive_xdna_runtime\\schema.py",
+    "adaptive_xdna_runtime\\toolchain.py",
+    "adaptive_xdna_runtime\\validation.py",
+    "adaptive_xdna_runtime\\web_fetch.py",
+    "adaptive_xdna_runtime\\xclbin_extractor.py",
+    "adaptive_xdna_runtime\\__init__.py",
+    "dataset\\p3v2_planner_freeze.json",
+    "dataset\\p3v3_manifest.json",
+    "dataset\\p3v3_manifest.sha256",
+    "dataset\\p3_meta_results.json",
+    "dataset\\manifests\\e4b_v140_manifest.json",
+    "dataset\\manifests\\p4_h1_K896_report.json",
+    "dataset\\manifests\\p4_h2_K1152_frozen.json",
+    "dataset\\manifests\\p4_h2_K1152_report.json",
+    "dataset\\manifests\\p4_train.jsonl",
+    "dataset\\manifests\\p4_cols8\\frozen_prediction.json",
+    "docs\\ADAPTIVE_ARCHITECTURE.md",
+    "docs\\ARCHITECTURE_REFERENCE.md",
+    "docs\\ATTRIBUTIONORACLE_4EME_COMPOSANT.md",
+    "docs\\AUDIT_PROBLEMES_2026-09-18.md",
+    "docs\\B3_PHYSICAL_VALIDE.md",
+    "docs\\BISSECTION_F3BEST_CRASH.md",
+    "docs\\BLOCAGE_RUN_QWEN_CRASH_ALLOC.md",
+    "docs\\CORRELATION_16_MATCHED_LAYER_5D4T.md",
+    "docs\\COUT_TRANSITION_XDNA2.md",
+    "docs\\CRITIQUE_SERVEUR_NPU_0_DISPATCH.md",
+    "docs\\CROISEMENT_LITTERATURE_FUSION.md",
+    "docs\\CROISEMENT_M005_ORACLE_EP.md",
+    "docs\\CROISEMENT_M005_ORACLE_V2_KERNEL.md",
+    "docs\\CROISEMENT_PREDICTIVE_KERNEL_ORACLE_WORLDMODEL.md",
+    "docs\\DECISION_RECENTRAGE_ADAPTIVE_KERNEL.md",
+    "docs\\DECOMPOSITION_TOKEN_WALL_595MS.md",
+    "docs\\DIAG_FFN_DOWN_STATIC_PLAN_REJECT.md",
+    "docs\\DIAG_NPU_ZERO_SYNTHESE.md",
+    "docs\\E4B_ANALYSE_COMPLETE_VERROU.md",
+    "docs\\E4B_AOT_MLIR_1COL_4COL.md",
+    "docs\\E4B_MAPPING_COMPLET.md",
+    "docs\\E4B_V140_FERME.md",
+    "docs\\ENQUETE_E3_FLM_GRANULARITE.md",
+    "docs\\ENQUETE_E4E5_719US_DEVICE_FIRMWARE.md",
+    "docs\\ETAPES_IMPLEMENTATION.md",
+    "docs\\ETAT_GLOBAL_TWO_MACHINES.md",
+    "docs\\ETAT_PROJET_COMPLET_2026-09-21.md",
+    "docs\\ETAT_REEL_GEMV_TIMEOUT_QWEN.md",
+    "docs\\ETAT_SESSION_2026-09-22.md",
+    "docs\\EXECUTION_PLAN_ARCHITECTURE.md",
+    "docs\\F3BEST_STABLE.md",
+    "docs\\FULLSTACK0_CANARY_RESULTAT.md",
+    "docs\\FUSED_QWEN_1A_VALIDE_2471us.md",
+    "docs\\GATE_TOKEN1_DIVERGENCE.md",
+    "docs\\GATE_TOKEN_DETERMINISME.md",
+    "docs\\HOST_SEQUENCE_REFUTEE_DESIGN_SEQUENCE.md",
+    "docs\\H_COLS8_B2_REFUTE.md",
+    "docs\\INT8_GEMV_NPU_BASELINE_2026-09-19.md",
+    "docs\\INVENTAIRE_M005_2026-09-21.md",
+    "docs\\KERNEL_DATASET.md",
+    "docs\\LISTE_A_FAIRE_GAPS_2026-09-22.md",
+    "docs\\MECANISMES_GENERATION_REGISTRE.md",
+    "docs\\MECHANISM_REGISTRY.jsonl",
+    "docs\\P2_SEQUENCE8_RUNTIME_SEQUENCE.md",
+    "docs\\P4_B3_H3_PROSPECTIF.md",
+    "docs\\P4_H2_K1152_REPLICATION.md",
+    "docs\\PATH_SHOOTOUT_TRANSITION.md",
+    "docs\\PLANNER_B3_DEFAULT.md",
+    "docs\\PLAN_CONVERGENCE_2026-09-23.md",
+    "docs\\PLAN_XDNA_RUNTIME.md",
+    "docs\\PREDICTEUR_LATENCE.md",
+    "docs\\PREDICTIVE_VS_FIXED_SCALING.md",
+    "docs\\PREMIER_TOKEN_ETAT.md",
+    "docs\\PROBLEMES_B3V0_QWEN.md",
+    "docs\\PROBLEME_CRASH_QWEN_BUILD_OBSOLETE_RESOLU.md",
+    "docs\\PROBLEME_SERVEUR_GATEDDELTANET.md",
+    "docs\\PROJECT_STATE.md",
+    "docs\\QWEN_OOD0_ORACLE.md",
+    "docs\\RAPPORT_ARBORESCENCE_PROJET.md",
+    "docs\\RAPPORT_B2_B3_VS_ROOFLINE.md",
+    "docs\\RAPPORT_CDO_1A_STRUCTUREL.md",
+    "docs\\RAPPORT_CDO_1B_FRAMING.md",
+    "docs\\RAPPORT_CDO_1C_REGMAP.md",
+    "docs\\RAPPORT_CDO_1D_B_FINALSTATE.md",
+    "docs\\RAPPORT_CDO_1D_DIFF.md",
+    "docs\\RAPPORT_CDO_1E_E1_BASELINE.md",
+    "docs\\RAPPORT_CDO_1E_E2_CONTROLPKT.md",
+    "docs\\RAPPORT_CDO_1E_E3_TXN_STATIC_DYNAMIC.md",
+    "docs\\RAPPORT_CDO_1E_E4B_SOURCE_OLLAMAAMDNPU.md",
+    "docs\\RAPPORT_CDO_1E_E4_COLUMN_SCALING.md",
+    "docs\\RAPPORT_CDO_1E_E5D_GEMM_REELS_HRX.md",
+    "docs\\RAPPORT_CDO_1E_E5D_PAIRING_HARDWARE.md",
+    "docs\\RAPPORT_CDO_1E_E5D_REVERSE_HRX.md",
+    "docs\\RAPPORT_CDO_1E_E5F_CANONICALISATION.md",
+    "docs\\RAPPORT_CDO_1E_E5_FULL_VS_DELTA.md",
+    "docs\\RAPPORT_CDO_1E_PROTOCOLE.md",
+    "docs\\RAPPORT_CDO_1E_SYNTHESE.md",
+    "docs\\RAPPORT_CROISEMENT_DOCS_TAGMAN.md",
+    "docs\\RAPPORT_CROISEMENT_GOVERNOR_RAG_REVERSE.md",
+    "docs\\RAPPORT_DATASET_ADAPTATIF_2026-09-20.md",
+    "docs\\RAPPORT_EXECPLAN_P25.md",
+    "docs\\RAPPORT_LITTERATURE_2026_HETEROGENEOUS.md",
+    "docs\\RAPPORT_LITTERATURE_AUTOTUNING.md",
+    "docs\\RAPPORT_LITTERATURE_TRANSITIONPLAN.md",
+    "docs\\RAPPORT_LLM_PROBLEMES_2026-09-20.md",
+    "docs\\RAPPORT_M005_B7_RESIDENCE.md",
+    "docs\\RAPPORT_M005_DISPATCH.md",
+    "docs\\RAPPORT_M005_L12_TRANSFER.md",
+    "docs\\RAPPORT_P0_ARCHAEOLOGIE_XCLBIN.md",
+    "docs\\RAPPORT_P1A2_LOWERING_CHAIN.md",
+    "docs\\RAPPORT_P1A3_M002.md",
+    "docs\\RAPPORT_P1A3_v3_M002_CHAINE.md",
+    "docs\\RAPPORT_P1A3_v4_M002_XDNA2.md",
+    "docs\\RAPPORT_P1A3_v5_M002_TRANSFER.md",
+    "docs\\RAPPORT_P1A3_v6_TILING_ORTHOGONAL.md",
+    "docs\\RAPPORT_P1A_SPEC_EFFECT_AUDIT.md",
+    "docs\\RAPPORT_P1B_SEALED_REBENCH.md",
+    "docs\\RAPPORT_P1_RANDOM_FEASIBLE.md",
+    "docs\\RAPPORT_P25_v2_BASELINES.md",
+    "docs\\RAPPORT_P2_1_FEASIBILITY.md",
+    "docs\\RAPPORT_P2_COST_MODEL.md",
+    "docs\\RAPPORT_P3_BD_CAUSE_RACINE.md",
+    "docs\\RAPPORT_P3_BD_SCALABLE_GEMV.md",
+    "docs\\RAPPORT_P3_GEMM_GEMV_TRANSFERT.md",
+    "docs\\RAPPORT_P3_V1_GEMM_GEMV.md",
+    "docs\\RAPPORT_P3_V2_LARGE_GEMV.md",
+    "docs\\RAPPORT_P3_V3B_SEALED.md",
+    "docs\\RAPPORT_P3_V3_24_SHAPES.md",
+    "docs\\RAPPORT_P4B_INTERACTION_LOOC.md",
+    "docs\\RAPPORT_P4_0_DIAGNOSTIC.md",
+    "docs\\RAPPORT_P4_0_MLIR_AIE_1_4_MIGRATION.md",
+    "docs\\RAPPORT_P4_MULTIKNOB.md",
+    "docs\\RAPPORT_PDI_CDO_AMD_INTEGRATION.md",
+    "docs\\RAPPORT_PILOTAGE_LLM_PROJET.md",
+    "docs\\RAPPORT_PONT_LLM_PROJET.md",
+    "docs\\RAPPORT_R3A_CAUSE_RACINE_STATE8.md",
+    "docs\\RAPPORT_R3A_MATRICE_COLD_WARM.md",
+    "docs\\RAPPORT_R3A_RECOVERY.md",
+    "docs\\RAPPORT_R3B_PAYLOAD_SUBMIT_DECOMPOSITION.md",
+    "docs\\RAPPORT_R3B_PREUVE_GEOMETRIQUE_TXN.md",
+    "docs\\RAPPORT_R3D2_POLLUTION_CONTEXT.md",
+    "docs\\RAPPORT_R3D3_CONTEXT_POLLUTION.md",
+    "docs\\RAPPORT_R3D4_FACTORIAL_GENERATIONS.md",
+    "docs\\RAPPORT_R3D_MINIMUM_ARM.md",
+    "docs\\RAPPORT_REPRODUCTIBLE_SESSION_2026-09-23.md",
+    "docs\\RAPPORT_SCAN_2026-09-20.md",
+    "docs\\RAPPORT_STRESS_TEST_ROOFLINE.md",
+    "docs\\RAPPORT_TECHNIQUE_2026-09-20.md",
+    "docs\\RAPPORT_TELECHARGEMENT_XCLBIN_2026-09-20.md",
+    "docs\\RAPPORT_TOPK_HARDWARE_UNSEEN.md",
+    "docs\\RAPPORT_TOPK_UNSEEN_SHAPE.md",
+    "docs\\RAPPORT_TRANSITION_PLANNER.md",
+    "docs\\RAPPORT_WORLD_MODEL_RUNTIME_MEMOIRE.md",
+    "docs\\RAPPORT_XDNA_RUNTIME_R0_R2_AVIS_R3.md",
+    "docs\\RECETTE_ENV_NPU_DISPATCH.md",
+    "docs\\REPRO2_PARITE_TEMPORALITE.md",
+    "docs\\REPRO2_SCELLAGE_ANALYSE_REMAT.md",
+    "docs\\REPRODUCTION_M002_XDNA2.md",
+    "docs\\REPRODUCTION_T6_SCELLEE_596ms.md",
+    "docs\\REPRO_PLAN_0_5_PORT_T6.md",
+    "docs\\RISQUES_P4V2_4_GATES.md",
+    "docs\\RUNLIST_UPSTREAM_PAS_NPU_WINDOWS.md",
+    "docs\\RUNTIME_V0_BOUCLE_FERMEE.md",
+    "docs\\SB_BISSECTION_TIMEOUT.md",
+    "docs\\SB_GEMV_SINGLE_BUFFER_K12288.md",
+    "docs\\SCALE_TOPS_6TOPS.md",
+    "docs\\SOURCES_CHALLENGE_GENERATION_XDNA2_2026-09-18.md",
+    "docs\\SOURCES_CROSSWALK.md",
+    "docs\\SOURCES_MAP.md",
+    "docs\\SOURCE_LINEAGE.md",
+    "docs\\SOURCE_REGISTER.md",
+    "docs\\SOURCE_REGISTRY.jsonl",
+    "docs\\SYNTHESE_STATE_MACHINE_R3c_R3d4.md",
+    "docs\\T6_REPRODUCIBLE_RUNTIME.md",
+    "docs\\TEST_B_RUNLIST_FUSION.md",
+    "docs\\TEST_CAUSAL_TRANSPORT_AB_BW.md",
+    "docs\\TOPK_HARDWARE_UNSEEN_2026-09-20.md",
+    "docs\\TRACE_QWEN_TOKEN_PREFILL_DECODE.md",
+    "docs\\TXN_AMD_VALIDE_SOURCE_PRIMAIRE.md",
+    "docs\\XCLBIN_PROVENANCE.jsonl",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\frozen_predictions.json",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\hardware_results.jsonl",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b2_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b2_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b4_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b4_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b8_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n32_b8_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n64_b2_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n64_b2_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n64_b4_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m32_k64_n64_b4_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m64_k64_n32_b2_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m64_k64_n32_b2_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m64_k64_n32_b4_j1.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\m64_k64_n32_b4_j8.log",
+    "docs\\evidence\\topk_hardware_unseen_M128_K1024_N512\\report.json",
+    "docs\\superpowers\\plans\\2026-09-18-adaptive-xdna2-compiler.md",
+    "examples\\aie_api_vector_copy.cpp",
+    "examples\\autovec_i8_dot.cpp",
+    "examples\\build_iron_smoke.ps1",
+    "examples\\compile_aie_api_vector_copy.cmd",
+    "examples\\compile_aie_api_vector_copy_direct.cmd",
+    "examples\\compile_autovec_i8_dot.cmd",
+    "examples\\compile_minimal_aie2p.cmd",
+    "examples\\compile_probe_aie2p_lock.cmd",
+    "examples\\iron_smoke_core.cpp",
+    "examples\\minimal_aie2p_kernel.cpp",
+    "examples\\peano_version.cmd",
+    "examples\\probe_aie2p_lock.cpp",
+    "examples\\run_iron_smoke.ps1",
+    "reproducible_runtime\\build_all.ps1",
+    "reproducible_runtime\\build_seq8.ps1",
+    "reproducible_runtime\\README.md",
+    "runtime\\qwen_t6_repro\\observation_log.jsonl",
+    "runtime\\qwen_t6_repro\\config\\model.json",
+    "runtime\\qwen_t6_repro\\golden\\manifest.json",
+    "runtime\\qwen_t6_repro\\proofs\\aliasing_scan_20260923_221155.json",
+    "runtime\\qwen_t6_repro\\proofs\\artifact_manifest.json",
+    "runtime\\qwen_t6_repro\\proofs\\artifact_provenance_invalid_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\b4_baseline_20260923_223245.json",
+    "runtime\\qwen_t6_repro\\proofs\\b4_baseline_scelle_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\b4_ffn_integration_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\b4_schedulability_ffn_20260923_223521.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N1_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N2_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N3_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N4_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N5_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N6_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\bo_sweep_N7_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\costpath0_20260923_204004.json",
+    "runtime\\qwen_t6_repro\\proofs\\costpath_official_20260923_215532.json",
+    "runtime\\qwen_t6_repro\\proofs\\costpath_token_real_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\dual_swiglu_diag_phase1_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\FAIL_Q4_raw.npy",
+    "runtime\\qwen_t6_repro\\proofs\\fa_batch_20260923_133332.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch0_20260923_125122.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch0_20260923_125607.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch1_20260923_130543.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch2_20260923_131308.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch2_final_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\ffn_batch3_20260923_131922.json",
+    "runtime\\qwen_t6_repro\\proofs\\fmtp_verify_20260923_120417.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_083309.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_083958.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_084028.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_090858.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_091010.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_091209.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack0_20260923_091509.json",
+    "runtime\\qwen_t6_repro\\proofs\\fullstack_qwen0_attn_q.json",
+    "runtime\\qwen_t6_repro\\proofs\\fuse_gate_up_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_cost_map_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_cost_segmented_20260923_125026.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_proj_20260923_134015.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_proj_sealed_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_proj_status_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_qkv_strict_20260923_134407.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_qkv_strict_20260923_134546.json",
+    "runtime\\qwen_t6_repro\\proofs\\gdn_qkv_strict_20260923_135019.json",
+    "runtime\\qwen_t6_repro\\proofs\\golden_oracle_bug_decode_q40_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\healthgate_check_20260923_214523.json",
+    "runtime\\qwen_t6_repro\\proofs\\healthgate_check_20260923_214602.json",
+    "runtime\\qwen_t6_repro\\proofs\\healthgate_check_20260923_220346.json",
+    "runtime\\qwen_t6_repro\\proofs\\layer_m4_20260923_204259.json",
+    "runtime\\qwen_t6_repro\\proofs\\layer_m4_20260923_204512.json",
+    "runtime\\qwen_t6_repro\\proofs\\layer_m4_20260923_204612.json",
+    "runtime\\qwen_t6_repro\\proofs\\layer_m4_20260923_204936.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_composition_clarifiee_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_diagnostic_multikernel_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_full_layer_20260923_213402.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_full_layer_20260923_213535.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_full_layer_closed_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_matrix_2x2_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_reset_ladder_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_validation2_20260923_212639.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_validation_20260923_212134.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_validation_20260923_212411.json",
+    "runtime\\qwen_t6_repro\\proofs\\p3d_verdict_diagnostic_final_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\parallel_qkv_20260923_222316.json",
+    "runtime\\qwen_t6_repro\\proofs\\parallel_qkv_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen4b_token_20260923_114834.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_layer0_20260923_105427.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_layer1_20260923_110341.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_layer1_20260923_110353.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_layer1_20260923_110454.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_op0_20260923_104351.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_op1_20260923_104826.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_op1_20260923_105112.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_token0_20260923_112548.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_token0_20260923_112716.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_token0_20260923_114240.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_token0_20260923_114403.json",
+    "runtime\\qwen_t6_repro\\proofs\\qwen_token0_20260923_114516.json",
+    "runtime\\qwen_t6_repro\\proofs\\revalidate_artifacts_20260923_220734.json",
+    "runtime\\qwen_t6_repro\\proofs\\revalidate_artifacts_20260923_220838.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist0_20260923_215904.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist_ab_20260923_221657.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist_ab_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist_burst_diag_20260923_222026.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist_conclusion_finale_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\runlist_phase3_verdict_20260923.json",
+    "runtime\\qwen_t6_repro\\proofs\\runtime_res_20260923_120711.json",
+    "runtime\\qwen_t6_repro\\proofs\\runtime_res_20260923_120916.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_layer0_20260923_092047.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_093453.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_095048.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_101228.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_101606.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_101853.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token0_20260923_102155.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token64_20260923_102758.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token64_20260923_102827.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token64_sealed_20260923_103007.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token64_sealed_20260923_103040.json",
+    "runtime\\qwen_t6_repro\\proofs\\smollm2_token8_20260923_102345.json",
+    "runtime\\qwen_t6_repro\\results\\repro2_q_ref.json",
+    "runtime\\qwen_t6_repro\\results\\repro2_q_rr.json",
+    "runtime\\qwen_t6_repro\\results\\T6_REFERENCE.json",
+    "runtime\\qwen_t6_repro\\results\\transport_ab_head.json",
+    "runtime\\qwen_t6_repro\\results\\transport_ab_o.json",
+    "runtime\\qwen_t6_repro\\results\\transport_ab_q.json",
+    "runtime\\qwen_t6_repro\\scripts\\run_repro.ps1",
+    "runtime\\qwen_t6_repro\\scripts\\verify_env.ps1",
+    "runtime\\qwen_t6_repro\\src\\p3d_full_layer.py",
+    "runtime\\qwen_t6_repro\\src\\p3d_validate.py",
+    "runtime\\qwen_t6_repro\\src\\p3d_validate2.py",
+    "runtime\\qwen_t6_repro\\src\\p3d_worker_op.py",
+    "runtime\\qwen_t6_repro\\src\\rr_aliasing_scan.py",
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_reconcile.py",
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_registry.py",
+    "runtime\\qwen_t6_repro\\src\\rr_attribution.py",
+    "runtime\\qwen_t6_repro\\src\\rr_b4_baseline.py",
+    "runtime\\qwen_t6_repro\\src\\rr_b4_schedulability_ffn.py",
+    "runtime\\qwen_t6_repro\\src\\rr_costpath0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_costpath_official.py",
+    "runtime\\qwen_t6_repro\\src\\rr_decompose.py",
+    "runtime\\qwen_t6_repro\\src\\rr_decompose_kernel.py",
+    "runtime\\qwen_t6_repro\\src\\rr_dual_diag.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fa_batch.py",
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch1.py",
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch2.py",
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch3.py",
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_fused_build.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fmtp_verify.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fmtp_verify9b.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack_layer0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack_qwen0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_g4b.py",
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_cost.py",
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_proj.py",
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_qkv.py",
+    "runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+    "runtime\\qwen_t6_repro\\src\\rr_observation.py",
+    "runtime\\qwen_t6_repro\\src\\rr_parallel_qkv.py",
+    "runtime\\qwen_t6_repro\\src\\rr_profiler.py",
+    "runtime\\qwen_t6_repro\\src\\rr_proof.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen4b.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer1.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer_m4.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_op0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_op1.py",
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_token0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_repro2.py",
+    "runtime\\qwen_t6_repro\\src\\rr_repro2_analyze.py",
+    "runtime\\qwen_t6_repro\\src\\rr_revalidate_artifacts.py",
+    "runtime\\qwen_t6_repro\\src\\rr_runlist0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_runlist_ab.py",
+    "runtime\\qwen_t6_repro\\src\\rr_runlist_burst_diag.py",
+    "runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_runtime_v1.py",
+    "runtime\\qwen_t6_repro\\src\\rr_schema.py",
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2.py",
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_golden.py",
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token0.py",
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token64.py",
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token8.py",
+    "runtime\\qwen_t6_repro\\src\\rr_transport.py",
+    "runtime\\qwen_t6_repro\\src\\rr_transport_ab.py",
+    "runtime\\qwen_t6_repro\\src\\rr_txn.py",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\attn_context.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\down_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\down_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\down_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\fvec.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\gate_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\gate_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\gate_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\H4.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\hg_input.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\hg_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\hg_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\Hn_ffn.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\H_final.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\H_final_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\K_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\k_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\k_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\O_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\o_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\o_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\Q_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\q_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\q_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_input.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_k.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_k.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_o.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_o.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_up.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_up.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_v.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\rev_v.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\up_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\up_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\up_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\V_gold.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\v_out.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\v_out.npy.meta.json",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\X4.npy",
+    "runtime\\qwen_t6_repro\\src\\p3d_stage\\Xn_attn.npy",
+    "runtime\\xdna_runtime\\abi_probe.exe",
+    "runtime\\xdna_runtime\\abi_probe.obj",
+    "runtime\\xdna_runtime\\CMakeLists.txt",
+    "runtime\\xdna_runtime\\README.md",
+    "runtime\\xdna_runtime\\bin\\e4b_bench.exe",
+    "runtime\\xdna_runtime\\bin\\xdna_r1.exe",
+    "runtime\\xdna_runtime\\bin\\xdna_r2.exe",
+    "runtime\\xdna_runtime\\bin\\xdna_runtime.dll",
+    "runtime\\xdna_runtime\\bin\\xdna_smoke.exe",
+    "runtime\\xdna_runtime\\include\\xdna_runtime.h",
+    "runtime\\xdna_runtime\\src\\artifact.cpp",
+    "runtime\\xdna_runtime\\src\\buffer.cpp",
+    "runtime\\xdna_runtime\\src\\device.cpp",
+    "runtime\\xdna_runtime\\src\\dispatch.cpp",
+    "runtime\\xdna_runtime\\src\\runtime.cpp",
+    "runtime\\xdna_runtime\\src\\backends\\xrt\\xrt_backend.cpp",
+    "runtime\\xdna_runtime\\src\\internal\\backend.h",
+    "runtime\\xdna_runtime\\src\\internal\\xdna_internal.hpp",
+    "runtime\\xdna_runtime\\tests\\e4b_bench.cpp",
+    "runtime\\xdna_runtime\\tests\\f3best_bench.cpp",
+    "runtime\\xdna_runtime\\tests\\path_bench.cpp",
+    "runtime\\xdna_runtime\\tests\\r1_e3b1.cpp",
+    "runtime\\xdna_runtime\\tests\\r2_gemm.cpp",
+    "runtime\\xdna_runtime\\tests\\r3a_recovery.cpp",
+    "runtime\\xdna_runtime\\tests\\r3c_effects.cpp",
+    "runtime\\xdna_runtime\\tests\\r3d2_pollution.cpp",
+    "runtime\\xdna_runtime\\tests\\r3d3_state_machine.cpp",
+    "runtime\\xdna_runtime\\tests\\r3d4_factorial.cpp",
+    "runtime\\xdna_runtime\\tests\\r3d_minimum_arm.cpp",
+    "runtime\\xdna_runtime\\tests\\runlist_bench.cpp",
+    "runtime\\xdna_runtime\\tests\\smoke_device.cpp",
+    "runtime\\xdna_runtime\\tests\\switch_bench.cpp",
+    "runtime\\xdna_runtime\\tools\\abi_probe.cpp",
+    "runtime\\xdna_runtime\\tools\\abi_probe.exe",
+    "runtime\\xdna_runtime\\tools\\abi_probe.obj",
+    "runtime\\xdna_runtime\\tools\\abi_probe_output.txt",
+    "runtime\\xdna_runtime\\tools\\inject_run.cpp",
+    "runtime\\xdna_runtime\\tools\\inject_run.exe",
+    "runtime\\xdna_runtime\\tools\\inject_run.obj",
+    "runtime\\xdna_runtime\\tools\\load_and_run.cpp",
+    "runtime\\xdna_runtime\\tools\\load_and_run.exe",
+    "runtime\\xdna_runtime\\tools\\load_and_run.obj",
+    "runtime\\xdna_runtime\\tools\\submit_capture.c",
+    "runtime\\xdna_runtime\\tools\\submit_capture.dll",
+    "runtime\\xdna_runtime\\tools\\submit_capture.log",
+    "runtime\\xdna_runtime\\tools\\submit_capture.obj",
+    "runtime_reproducible\\README.md",
+    "runtime_reproducible\\pipeline\\rr_generate.py",
+    "runtime_reproducible\\pipeline\\rr_manifest.py",
+    "runtime_reproducible\\runs\\20260922_084233_manifest.json",
+    "runtime_reproducible\\workers\\rr_keepalive.py",
+    "runtime_reproducible\\workers\\rr_restart_all.py",
+    "runtime_reproducible\\workers\\rr_shm.py",
+    "runtime_reproducible\\workers\\rr_worker.py",
+    "runtime_reproducible\\workers\\rr_worker2.py",
+    "runtime_reproducible\\workers\\rr_worker_head.py",
+    "tests\\test_candidate.py",
+    "tests\\test_compiler.py",
+    "tests\\test_contracts.py",
+    "tests\\test_dataset.py",
+    "tests\\test_dma.py",
+    "tests\\test_graph.py",
+    "tests\\test_int8_gemv.py",
+    "tests\\test_int8_tuning.py",
+    "tests\\test_iron_source.py",
+    "tests\\test_layout.py",
+    "tests\\test_manifest.py",
+    "tests\\test_partition.py",
+    "tests\\test_planner.py",
+    "tests\\test_registry.py",
+    "tests\\test_state_tracker.py",
+    "tests\\test_toolchain.py",
+    "tests\\test_transition_planner.py",
+    "tests\\test_unseen_state.py",
+    "tests\\test_validation.py",
+    "toolchain_shim\\aie2pintrin.h",
+    "toolchain_shim\\aie2p_locks_compat.h",
+    "tools\\adaptive_planner.py",
+    "tools\\adaptive_runner.py",
+    "tools\\adaptive_runner_mcp.py",
+    "tools\\add_reviewed_sources.py",
+    "tools\\add_upstream_sources.py",
+    "tools\\b2_analytical_interaction.py",
+    "tools\\b3_physical.py",
+    "tools\\b3_surrogate.py",
+    "tools\\build_e4b_kernel.ps1",
+    "tools\\build_int8_gemv.py",
+    "tools\\build_kernel_dataset.py",
+    "tools\\build_source_registry.py",
+    "tools\\cdo_1d_diff.py",
+    "tools\\cdo_1d_finalstate.py",
+    "tools\\cdo_parser.py",
+    "tools\\cdo_regmap.py",
+    "tools\\compat.py",
+    "tools\\correlate_matched_layers.py",
+    "tools\\dashboard.py",
+    "tools\\download_all_xclbin.py",
+    "tools\\execution_plan.py",
+    "tools\\exec_plan.py",
+    "tools\\exec_plan_factorial.py",
+    "tools\\exec_plan_factorial_all.py",
+    "tools\\fetch_external_corpus.py",
+    "tools\\flm_ctrl_scan.py",
+    "tools\\full_scan.py",
+    "tools\\gemm_harness.py",
+    "tools\\gemm_iron_m002.py",
+    "tools\\gemm_iron_topk_verified.py",
+    "tools\\gemv_marker_tiles.py",
+    "tools\\gemv_topk_hardware_unseen.py",
+    "tools\\kernel_cache.py",
+    "tools\\latency_predictor.py",
+    "tools\\llm_agent.py",
+    "tools\\lowering_chain_audit.py",
+    "tools\\m002_compile.py",
+    "tools\\m002_package_xclbin.py",
+    "tools\\m002_sweep.py",
+    "tools\\m002_transfer.py",
+    "tools\\m003_tiling_sweep.py",
+    "tools\\m005b_overhead.py",
+    "tools\\m005_b6_jobs.py",
+    "tools\\m005_b7_jobs.py",
+    "tools\\m005_dispatch.py",
+    "tools\\m005_l12_generalize.py",
+    "tools\\mechanism_experiment.py",
+    "tools\\mm_minimal.o",
+    "tools\\p1b_sealed_rebench.py",
+    "tools\\p1_random_feasible.py",
+    "tools\\p2_5_planner.py",
+    "tools\\p2_5_v2.py",
+    "tools\\p2_boundary_sweep.py",
+    "tools\\p2_calibrate.py",
+    "tools\\p2_cost_model.py",
+    "tools\\p2_feasibility.py",
+    "tools\\p2_interaction.py",
+    "tools\\p2_leave_one_shape_out.py",
+    "tools\\p3v2_large_gemv.py",
+    "tools\\p3v2_write_freeze_manifest.py",
+    "tools\\p3v3b_sealed.py",
+    "tools\\p3v3_freeze_manifest.py",
+    "tools\\p3v3_sweep.py",
+    "tools\\p3_meta_ranker.py",
+    "tools\\p4b_interaction_looc.py",
+    "tools\\p4_b3_holdout.py",
+    "tools\\p4_b3_scale.py",
+    "tools\\p4_holdout.py",
+    "tools\\p4_models.py",
+    "tools\\pipeline_auto.py",
+    "tools\\qwen_ood0.py",
+    "tools\\repair_planner.py",
+    "tools\\run_int8_gemv_oracle.py",
+    "tools\\sb_c0_runonly.py",
+    "tools\\sb_gemv_k12288.py",
+    "tools\\scan_xclbin_corpus.py",
+    "tools\\setup_opencode.py",
+    "tools\\spec_effect_audit.py",
+    "tools\\state_tracker.py",
+    "tools\\stress_mid_shapes.py",
+    "tools\\topk_hardware_unseen.py",
+    "tools\\topk_unseen.py",
+    "tools\\transition_planner.py",
+    "tools\\tune_int8_gemv.py",
+    "tools\\unseen_shape_harness.py",
+    "tools\\unseen_state_test.py",
+    "tools\\update_literature_sources.py",
+    "tools\\whole_array_aot.py",
+    "tools\\whole_array_aot_v140.py",
+    "tools\\whole_array_seq8_aot.py",
+    "tools\\_dump_sections.py",
+    "tools\\_inspect_xclbin.py",
+    "tools\\_m002_diff.py",
+    "tools\\whole_array_v140\\whole_array.py",
+    "xdna2- v2\\README.md",
+    "xdna2- v2\\reproducible_runtime\\build_all.ps1",
+    "xdna2- v2\\reproducible_runtime\\README.md",
+    "xdna2- v2\\runtime\\bin\\e4b_bench.exe",
+    "xdna2- v2\\runtime\\bin\\xdna_r1.exe",
+    "xdna2- v2\\runtime\\bin\\xdna_r2.exe",
+    "xdna2- v2\\runtime\\bin\\xdna_runtime.dll",
+    "xdna2- v2\\runtime\\bin\\xdna_smoke.exe",
+    "xdna2- v2\\runtime\\include\\xdna_runtime.h",
+    "xdna2- v2\\tools\\adaptive_planner.py",
+    "xdna2- v2\\tools\\b3_physical.py",
+    "xdna2- v2\\tools\\build_e4b_kernel.ps1",
+    "xdna2- v2\\tools\\execution_plan.py",
+    "xdna2- v2\\tools\\latency_predictor.py",
+    "xdna2- v2\\tools\\whole_array_aot_v140.py"
+  ],
+  "manifests": [
+    "pyproject.toml",
+    "runtime\\xdna_runtime\\CMakeLists.txt"
+  ],
+  "imports": {
+    "_scan_web.py": [
+      "json",
+      "pathlib",
+      "re",
+      "time",
+      "urllib.parse",
+      "urllib.request"
+    ],
+    "adaptive_xdna_runtime\\candidate.py": [
+      ".contracts",
+      ".planner",
+      "dataclasses",
+      "json"
+    ],
+    "adaptive_xdna_runtime\\compiler.py": [
+      ".candidate",
+      "dataclasses",
+      "hashlib",
+      "pathlib",
+      "subprocess",
+      "tempfile"
+    ],
+    "adaptive_xdna_runtime\\contracts.py": [
+      "dataclasses"
+    ],
+    "adaptive_xdna_runtime\\dataset.py": [
+      "dataclasses",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "shutil",
+      "subprocess"
+    ],
+    "adaptive_xdna_runtime\\dma.py": [
+      "dataclasses",
+      "hashlib",
+      "json",
+      "math"
+    ],
+    "adaptive_xdna_runtime\\git_tracker.py": [
+      "dataclasses",
+      "json",
+      "pathlib",
+      "subprocess"
+    ],
+    "adaptive_xdna_runtime\\graph.py": [
+      "dataclasses"
+    ],
+    "adaptive_xdna_runtime\\int8_gemv.py": [
+      ".contracts",
+      "aie.helpers.taplib",
+      "aie.iron",
+      "aie.iron.controlflow",
+      "aie.iron.device",
+      "aie.iron.placers",
+      "dataclasses",
+      "numpy",
+      "stdint.h"
+    ],
+    "adaptive_xdna_runtime\\int8_tuning.py": [
+      "math",
+      "statistics"
+    ],
+    "adaptive_xdna_runtime\\iron_source.py": [
+      ".contracts",
+      ".dma",
+      ".layout",
+      ".planner",
+      "aie.iron",
+      "aie.iron.device",
+      "aie.iron.placers",
+      "numpy"
+    ],
+    "adaptive_xdna_runtime\\layout.py": [
+      ".contracts",
+      "dataclasses",
+      "enum"
+    ],
+    "adaptive_xdna_runtime\\manifest.py": [
+      ".dma",
+      "dataclasses",
+      "hashlib",
+      "pathlib",
+      "re",
+      "types",
+      "typing"
+    ],
+    "adaptive_xdna_runtime\\mcp_server.py": [
+      "adaptive_xdna_runtime.git_tracker",
+      "adaptive_xdna_runtime.schema",
+      "adaptive_xdna_runtime.web_fetch",
+      "argparse",
+      "http.server",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "adaptive_xdna_runtime\\observation.py": [
+      "__future__",
+      "dataclasses",
+      "typing"
+    ],
+    "adaptive_xdna_runtime\\partition.py": [
+      ".graph",
+      "dataclasses",
+      "typing"
+    ],
+    "adaptive_xdna_runtime\\planner.py": [
+      ".contracts",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "math",
+      "re"
+    ],
+    "adaptive_xdna_runtime\\registry.py": [
+      ".manifest",
+      "dataclasses",
+      "re"
+    ],
+    "adaptive_xdna_runtime\\schema.py": [
+      "dataclasses",
+      "json",
+      "typing"
+    ],
+    "adaptive_xdna_runtime\\toolchain.py": [
+      "dataclasses",
+      "hashlib",
+      "pathlib"
+    ],
+    "adaptive_xdna_runtime\\validation.py": [
+      ".registry",
+      "dataclasses",
+      "math",
+      "re"
+    ],
+    "adaptive_xdna_runtime\\web_fetch.py": [
+      "dataclasses",
+      "hashlib",
+      "json",
+      "pathlib",
+      "re",
+      "urllib.error",
+      "urllib.parse",
+      "urllib.request"
+    ],
+    "adaptive_xdna_runtime\\xclbin_extractor.py": [
+      ".observation",
+      "__future__",
+      "hashlib",
+      "pathlib",
+      "re",
+      "struct",
+      "sys",
+      "typing",
+      "xml.etree.ElementTree"
+    ],
+    "examples\\aie_api_vector_copy.cpp": [
+      "aie_api/aie.hpp"
+    ],
+    "examples\\autovec_i8_dot.cpp": [
+      "aie2p_locks_compat.h"
+    ],
+    "examples\\iron_smoke_core.cpp": [
+      "stdint.h"
+    ],
+    "examples\\probe_aie2p_lock.cpp": [
+      "aie2p_locks_compat.h"
+    ],
+    "runtime\\qwen_t6_repro\\src\\p3d_full_layer.py": [
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\p3d_validate.py": [
+      "ctypes",
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\p3d_validate2.py": [
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\p3d_worker_op.py": [
+      "importlib.util",
+      "pyxrt",
+      "sys,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_aliasing_scan.py": [
+      "importlib.util",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_reconcile.py": [
+      "execution_plan",
+      "json,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_artifact_registry.py": [
+      "dataclasses",
+      "execution_plan",
+      "json,",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_attribution.py": [
+      "dataclasses",
+      "enum",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_b4_baseline.py": [
+      "os,",
+      "rr_artifact_manifest",
+      "rr_healthgate"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_b4_schedulability_ffn.py": [
+      "os,",
+      "rr_artifact_manifest",
+      "rr_healthgate"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_costpath0.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_costpath_official.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_healthgate",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_decompose.py": [
+      "json,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_decompose_kernel.py": [
+      "collections"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_dual_diag.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_artifact_manifest",
+      "rr_healthgate",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fa_batch.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch0.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch1.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "sys"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch2.py": [
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_batch3.py": [
+      "os,",
+      "re"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_ffn_fused_build.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fmtp_verify.py": [
+      "argparse",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fmtp_verify9b.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack0.py": [
+      "execution_plan",
+      "json,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack_layer0.py": [
+      "json,",
+      "rr_fullstack0"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_fullstack_qwen0.py": [
+      "json,",
+      "rr_fullstack0"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_g4b.py": [
+      "numpy",
+      "os,",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_cost.py": [
+      "csv,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_proj.py": [
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_gdn_qkv.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "struct,",
+      "torch,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_healthgate.py": [
+      "importlib.util",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_observation.py": [
+      "dataclasses",
+      "enum",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_parallel_qkv.py": [
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_artifact_manifest",
+      "rr_healthgate",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_profiler.py": [
+      "json,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_proof.py": [
+      "enum",
+      "json,",
+      "subprocess"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen4b.py": [
+      "collections",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer0.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer1.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_layer_m4.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_op0.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_op1.py": [
+      "ctypes.wintypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_qwen_token0.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_repro2.py": [
+      "ctypes",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "rr_g4b"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_repro2_analyze.py": [
+      "json,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_revalidate_artifacts.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_runlist0.py": [
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_healthgate",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_runlist_ab.py": [
+      "argparse",
+      "os,",
+      "rr_artifact_manifest",
+      "rr_healthgate"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_runlist_burst_diag.py": [
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_artifact_manifest",
+      "rr_healthgate",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py": [
+      "b3_physical",
+      "dataclasses",
+      "execution_plan",
+      "json,",
+      "rr_attribution",
+      "rr_schema",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_runtime_v1.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_schema.py": [
+      "dataclasses",
+      "enum",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2.py": [
+      "argparse",
+      "gguf",
+      "numpy",
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_golden.py": [
+      "argparse",
+      "ctypes,",
+      "numpy"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token0.py": [
+      "gguf",
+      "os,",
+      "rr_smollm2",
+      "urllib.request"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token64.py": [
+      "collections",
+      "os,",
+      "select"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_smollm2_token8.py": [
+      "os,"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_transport.py": [
+      "dataclasses",
+      "typing"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_transport_ab.py": [
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "statistics",
+      "torch"
+    ],
+    "runtime\\qwen_t6_repro\\src\\rr_txn.py": [
+      "collections",
+      "dataclasses"
+    ],
+    "runtime\\xdna_runtime\\include\\xdna_runtime.h": [
+      "stddef.h",
+      "stdint.h"
+    ],
+    "runtime\\xdna_runtime\\src\\artifact.cpp": [
+      "cstring",
+      "internal/xdna_internal.hpp",
+      "memory",
+      "string",
+      "vector",
+      "xdna_runtime.h",
+      "xrt/experimental/xrt_xclbin.h",
+      "xrt/xrt_device.h",
+      "xrt/xrt_hw_context.h",
+      "xrt/xrt_kernel.h"
+    ],
+    "runtime\\xdna_runtime\\src\\buffer.cpp": [
+      "internal/xdna_internal.hpp",
+      "memory",
+      "xdna_runtime.h",
+      "xrt/xrt_bo.h",
+      "xrt/xrt_kernel.h"
+    ],
+    "runtime\\xdna_runtime\\src\\device.cpp": [
+      "exception",
+      "internal/backend.h",
+      "internal/xdna_internal.hpp",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\src\\dispatch.cpp": [
+      "chrono",
+      "internal/xdna_internal.hpp",
+      "memory",
+      "vector",
+      "xdna_runtime.h",
+      "xrt/detail/ert.h",
+      "xrt/xrt_bo.h",
+      "xrt/xrt_kernel.h"
+    ],
+    "runtime\\xdna_runtime\\src\\runtime.cpp": [
+      "cstring",
+      "internal/backend.h",
+      "internal/xdna_internal.hpp",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\src\\backends\\xrt\\xrt_backend.cpp": [
+      "exception",
+      "internal/backend.h",
+      "internal/xdna_internal.hpp",
+      "xrt/xrt_device.h"
+    ],
+    "runtime\\xdna_runtime\\src\\internal\\backend.h": [
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\src\\internal\\xdna_internal.hpp": [
+      "memory",
+      "string",
+      "vector",
+      "xrt/xrt_bo.h",
+      "xrt/xrt_device.h",
+      "xrt/xrt_hw_context.h",
+      "xrt/xrt_kernel.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\e4b_bench.cpp": [
+      "algorithm",
+      "chrono",
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\f3best_bench.cpp": [
+      "algorithm",
+      "chrono",
+      "cstdio",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\path_bench.cpp": [
+      "algorithm",
+      "chrono",
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r1_e3b1.cpp": [
+      "cstdio",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r2_gemm.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3a_recovery.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3c_effects.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3d2_pollution.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3d3_state_machine.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3d4_factorial.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\r3d_minimum_arm.cpp": [
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\runlist_bench.cpp": [
+      "algorithm",
+      "chrono",
+      "cstdio",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h",
+      "xrt/experimental/xrt_kernel.h",
+      "xrt/experimental/xrt_xclbin.h",
+      "xrt/xrt_bo.h",
+      "xrt/xrt_device.h",
+      "xrt/xrt_hw_context.h",
+      "xrt/xrt_kernel.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\smoke_device.cpp": [
+      "cstdio",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tests\\switch_bench.cpp": [
+      "algorithm",
+      "chrono",
+      "cstdio",
+      "cstdlib",
+      "cstring",
+      "fstream",
+      "vector",
+      "xdna_runtime.h"
+    ],
+    "runtime\\xdna_runtime\\tools\\abi_probe.cpp": [
+      "cstddef",
+      "cstdio",
+      "d3dkmthk.h",
+      "windows.h"
+    ],
+    "runtime\\xdna_runtime\\tools\\inject_run.cpp": [
+      "cstdio",
+      "psapi.h",
+      "string"
+    ],
+    "runtime\\xdna_runtime\\tools\\load_and_run.cpp": [
+      "cstdio",
+      "string",
+      "vector"
+    ],
+    "runtime\\xdna_runtime\\tools\\submit_capture.c": [
+      "stdint.h",
+      "stdio.h",
+      "string.h",
+      "time.h",
+      "windows.h"
+    ],
+    "runtime_reproducible\\pipeline\\rr_generate.py": [
+      "os,",
+      "rr_manifest",
+      "runpy"
+    ],
+    "runtime_reproducible\\pipeline\\rr_manifest.py": [
+      "os,",
+      "rr_manifest",
+      "statistics"
+    ],
+    "runtime_reproducible\\workers\\rr_restart_all.py": [
+      "os,",
+      "rr_shm"
+    ],
+    "runtime_reproducible\\workers\\rr_shm.py": [
+      "os,",
+      "time"
+    ],
+    "runtime_reproducible\\workers\\rr_worker.py": [
+      "base64",
+      "ctypes",
+      "glob",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_shm",
+      "torch",
+      "traceback"
+    ],
+    "runtime_reproducible\\workers\\rr_worker2.py": [
+      "base64",
+      "ctypes",
+      "glob",
+      "importlib.util",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_shm",
+      "torch",
+      "traceback"
+    ],
+    "runtime_reproducible\\workers\\rr_worker_head.py": [
+      "base64",
+      "glob",
+      "hashlib",
+      "numpy",
+      "os,",
+      "pyxrt",
+      "rr_shm",
+      "traceback"
+    ],
+    "tests\\test_candidate.py": [
+      "adaptive_xdna_runtime.candidate",
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.planner",
+      "unittest"
+    ],
+    "tests\\test_compiler.py": [
+      "adaptive_xdna_runtime.candidate",
+      "adaptive_xdna_runtime.compiler",
+      "adaptive_xdna_runtime.contracts",
+      "pathlib",
+      "sys",
+      "tempfile",
+      "unittest"
+    ],
+    "tests\\test_contracts.py": [
+      "adaptive_xdna_runtime.contracts",
+      "unittest"
+    ],
+    "tests\\test_dataset.py": [
+      "adaptive_xdna_runtime.dataset",
+      "json",
+      "pathlib",
+      "tempfile",
+      "unittest"
+    ],
+    "tests\\test_dma.py": [
+      "adaptive_xdna_runtime.dma",
+      "unittest"
+    ],
+    "tests\\test_graph.py": [
+      "adaptive_xdna_runtime.graph",
+      "unittest"
+    ],
+    "tests\\test_int8_gemv.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.int8_gemv",
+      "hashlib",
+      "json",
+      "pathlib",
+      "tempfile",
+      "tools.build_int8_gemv",
+      "tools.run_int8_gemv_oracle",
+      "unittest"
+    ],
+    "tests\\test_int8_tuning.py": [
+      "adaptive_xdna_runtime.int8_tuning",
+      "unittest"
+    ],
+    "tests\\test_iron_source.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.dma",
+      "adaptive_xdna_runtime.iron_source",
+      "adaptive_xdna_runtime.layout",
+      "adaptive_xdna_runtime.planner",
+      "unittest"
+    ],
+    "tests\\test_layout.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.layout",
+      "unittest"
+    ],
+    "tests\\test_manifest.py": [
+      "adaptive_xdna_runtime.dma",
+      "adaptive_xdna_runtime.manifest",
+      "hashlib",
+      "pathlib",
+      "tempfile",
+      "unittest"
+    ],
+    "tests\\test_partition.py": [
+      "adaptive_xdna_runtime.graph",
+      "adaptive_xdna_runtime.partition",
+      "unittest"
+    ],
+    "tests\\test_planner.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.planner",
+      "math",
+      "unittest"
+    ],
+    "tests\\test_registry.py": [
+      "adaptive_xdna_runtime.manifest",
+      "adaptive_xdna_runtime.registry",
+      "adaptive_xdna_runtime.validation",
+      "unittest"
+    ],
+    "tests\\test_state_tracker.py": [
+      "pathlib",
+      "state_tracker",
+      "sys",
+      "unittest"
+    ],
+    "tests\\test_toolchain.py": [
+      "adaptive_xdna_runtime.toolchain",
+      "hashlib",
+      "pathlib",
+      "shutil",
+      "tempfile",
+      "unittest"
+    ],
+    "tests\\test_transition_planner.py": [
+      "pathlib",
+      "sys",
+      "transition_planner",
+      "unittest"
+    ],
+    "tests\\test_unseen_state.py": [
+      "pathlib",
+      "state_tracker",
+      "sys",
+      "unittest"
+    ],
+    "tests\\test_validation.py": [
+      "adaptive_xdna_runtime.manifest",
+      "adaptive_xdna_runtime.registry",
+      "adaptive_xdna_runtime.validation",
+      "math",
+      "unittest"
+    ],
+    "tools\\adaptive_planner.py": [
+      "__future__",
+      "b3_physical",
+      "dataclasses",
+      "execution_plan",
+      "json",
+      "latency_predictor",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\adaptive_runner.py": [
+      "argparse",
+      "itertools",
+      "json",
+      "os",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "tools.adaptive_runner"
+    ],
+    "tools\\adaptive_runner_mcp.py": [
+      "json",
+      "pathlib",
+      "sys",
+      "tools.adaptive_runner"
+    ],
+    "tools\\add_reviewed_sources.py": [
+      "json",
+      "pathlib"
+    ],
+    "tools\\add_upstream_sources.py": [
+      "json",
+      "pathlib"
+    ],
+    "tools\\b2_analytical_interaction.py": [
+      "json",
+      "numpy",
+      "pathlib",
+      "statistics",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\b3_physical.py": [
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\b3_surrogate.py": [
+      "json",
+      "numpy",
+      "pathlib",
+      "sklearn.ensemble",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\build_int8_gemv.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.int8_gemv",
+      "argparse",
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\build_kernel_dataset.py": [
+      "adaptive_xdna_runtime.dataset",
+      "adaptive_xdna_runtime.git_tracker",
+      "adaptive_xdna_runtime.web_fetch",
+      "argparse",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\build_source_registry.py": [
+      "argparse",
+      "collections",
+      "json",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\cdo_1d_diff.py": [
+      "argparse",
+      "collections",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "tools\\cdo_1d_finalstate.py": [
+      "argparse",
+      "collections",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "tools\\cdo_parser.py": [
+      "argparse",
+      "collections",
+      "json",
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "tools\\cdo_regmap.py": [
+      "argparse",
+      "collections",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "tools\\compat.py": [
+      "aie.iron",
+      "aie.iron.device",
+      "aie.iron.runtime.dmatask",
+      "aie.iron.runtime.taskgroup",
+      "importlib",
+      "sys",
+      "types"
+    ],
+    "tools\\correlate_matched_layers.py": [
+      "re"
+    ],
+    "tools\\dashboard.py": [
+      "adaptive_xdna_runtime.git_tracker",
+      "adaptive_xdna_runtime.web_fetch",
+      "argparse",
+      "http.server",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\download_all_xclbin.py": [
+      "adaptive_xdna_runtime.web_fetch",
+      "datetime",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "sys",
+      "time",
+      "urllib.parse",
+      "urllib.request"
+    ],
+    "tools\\execution_plan.py": [
+      "__future__",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "pathlib",
+      "re",
+      "shutil",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "tools\\exec_plan.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\exec_plan_factorial.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\exec_plan_factorial_all.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\fetch_external_corpus.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "tools\\flm_ctrl_scan.py": [
+      "collections",
+      "os,"
+    ],
+    "tools\\full_scan.py": [
+      "adaptive_xdna_runtime.schema",
+      "adaptive_xdna_runtime.web_fetch",
+      "argparse",
+      "datetime",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time",
+      "urllib.parse",
+      "urllib.request"
+    ],
+    "tools\\gemm_harness.py": [
+      "aie.dialects.aie",
+      "aie.dialects.aiex",
+      "aie.extras.context",
+      "aie.helpers.dialects.scf",
+      "argparse",
+      "numpy",
+      "pathlib"
+    ],
+    "tools\\gemm_iron_m002.py": [
+      "aie.helpers.taplib",
+      "aie.iron",
+      "aie.iron.controlflow",
+      "aie.utils.benchmark",
+      "aie.utils.hostruntime.argparse",
+      "aie.utils.hostruntime.cli",
+      "aie.utils.trace",
+      "aie.utils.verify",
+      "argparse",
+      "numpy"
+    ],
+    "tools\\gemm_iron_topk_verified.py": [
+      "aie.helpers.taplib",
+      "aie.iron",
+      "aie.iron.controlflow",
+      "aie.utils.benchmark",
+      "aie.utils.hostruntime.argparse",
+      "aie.utils.hostruntime.cli",
+      "aie.utils.trace",
+      "aie.utils.verify",
+      "argparse",
+      "numpy"
+    ],
+    "tools\\gemv_marker_tiles.py": [
+      "adaptive_xdna_runtime.int8_gemv",
+      "argparse",
+      "pathlib",
+      "struct",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\gemv_topk_hardware_unseen.py": [
+      "argparse",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "time",
+      "tools"
+    ],
+    "tools\\kernel_cache.py": [
+      "__future__",
+      "dataclasses",
+      "json",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\latency_predictor.py": [
+      "__future__",
+      "json",
+      "math",
+      "numpy",
+      "pathlib"
+    ],
+    "tools\\llm_agent.py": [
+      "argparse",
+      "json",
+      "pathlib",
+      "re",
+      "sys",
+      "tools.adaptive_runner",
+      "urllib.request"
+    ],
+    "tools\\lowering_chain_audit.py": [
+      "aie.dialects.aie",
+      "aie.dialects.aiex",
+      "aie.extras.context",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\m002_compile.py": [
+      "argparse",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "shutil",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\m002_package_xclbin.py": [
+      "aie.extras.context",
+      "aie.utils.compile",
+      "argparse",
+      "gemm_harness",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\m002_sweep.py": [
+      "aie.extras.context",
+      "argparse",
+      "gemm_harness",
+      "hashlib",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\m002_transfer.py": [
+      "subprocess,"
+    ],
+    "tools\\m003_tiling_sweep.py": [
+      "subprocess,"
+    ],
+    "tools\\m005b_overhead.py": [
+      "json",
+      "os",
+      "pathlib",
+      "random",
+      "re",
+      "statistics",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\m005_b6_jobs.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\m005_b7_jobs.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\m005_dispatch.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\m005_l12_generalize.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\mechanism_experiment.py": [
+      "adaptive_xdna_runtime.observation",
+      "aie.dialects.aie",
+      "aie.dialects.aiex",
+      "aie.extras.context",
+      "aie.helpers.dialects.scf",
+      "argparse",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "tempfile"
+    ],
+    "tools\\p1b_sealed_rebench.py": [
+      "hashlib",
+      "json",
+      "pathlib",
+      "random",
+      "re",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "tools\\p1_random_feasible.py": [
+      "json",
+      "pathlib",
+      "random",
+      "sys"
+    ],
+    "tools\\p2_5_planner.py": [
+      "json",
+      "pathlib",
+      "random",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p2_5_v2.py": [
+      "json",
+      "pathlib",
+      "random",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p2_boundary_sweep.py": [
+      "pathlib",
+      "subprocess,",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p2_calibrate.py": [
+      "pathlib",
+      "subprocess,",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p2_cost_model.py": [
+      "json",
+      "math",
+      "pathlib"
+    ],
+    "tools\\p2_feasibility.py": [
+      "argparse",
+      "json",
+      "pathlib",
+      "re"
+    ],
+    "tools\\p2_interaction.py": [
+      "subprocess,"
+    ],
+    "tools\\p2_leave_one_shape_out.py": [
+      "json",
+      "math",
+      "pathlib",
+      "random"
+    ],
+    "tools\\p3v2_large_gemv.py": [
+      "argparse",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "time",
+      "tools",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p3v2_write_freeze_manifest.py": [
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\p3v3b_sealed.py": [
+      "collections",
+      "hashlib",
+      "json",
+      "pathlib",
+      "random",
+      "re",
+      "subprocess",
+      "sys",
+      "time",
+      "tools"
+    ],
+    "tools\\p3v3_freeze_manifest.py": [
+      "collections",
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p3v3_sweep.py": [
+      "collections",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "random",
+      "subprocess",
+      "sys",
+      "time",
+      "tools",
+      "tools.p2_feasibility"
+    ],
+    "tools\\p3_meta_ranker.py": [
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\p4b_interaction_looc.py": [
+      "json",
+      "latency_predictor",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\p4_b3_holdout.py": [
+      "argparse",
+      "b3_physical",
+      "execution_plan",
+      "hashlib",
+      "json",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\p4_b3_scale.py": [
+      "adaptive_planner",
+      "argparse",
+      "b3_physical",
+      "execution_plan",
+      "hashlib",
+      "json",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\p4_holdout.py": [
+      "argparse",
+      "execution_plan",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\p4_models.py": [
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "tools\\pipeline_auto.py": [
+      "adaptive_xdna_runtime.git_tracker",
+      "adaptive_xdna_runtime.web_fetch",
+      "argparse",
+      "datetime",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "tools\\qwen_ood0.py": [
+      "b3_physical",
+      "hashlib",
+      "json",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\repair_planner.py": [
+      "argparse",
+      "json",
+      "pathlib",
+      "re",
+      "sys",
+      "tools.p2_feasibility"
+    ],
+    "tools\\run_int8_gemv_oracle.py": [
+      "adaptive_xdna_runtime.int8_gemv",
+      "argparse",
+      "hashlib",
+      "json",
+      "math",
+      "pathlib",
+      "random",
+      "re",
+      "struct",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\sb_c0_runonly.py": [
+      "aie.utils",
+      "iron.common.test_utils",
+      "iron.operators.gemv.op",
+      "iron.operators.gemv.reference",
+      "pathlib",
+      "sys",
+      "torch"
+    ],
+    "tools\\sb_gemv_k12288.py": [
+      "aie.utils",
+      "iron.common.test_utils",
+      "iron.operators.gemv.op",
+      "iron.operators.gemv.reference",
+      "sys"
+    ],
+    "tools\\scan_xclbin_corpus.py": [
+      "adaptive_xdna_runtime.xclbin_extractor",
+      "argparse",
+      "collections",
+      "hashlib",
+      "json",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "tools\\setup_opencode.py": [
+      "argparse",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time",
+      "urllib.request"
+    ],
+    "tools\\spec_effect_audit.py": [
+      "adaptive_xdna_runtime.contracts",
+      "adaptive_xdna_runtime.iron_source",
+      "adaptive_xdna_runtime.layout",
+      "adaptive_xdna_runtime.planner",
+      "pathlib",
+      "sys"
+    ],
+    "tools\\state_tracker.py": [
+      "json",
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "tools\\stress_mid_shapes.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tools\\topk_hardware_unseen.py": [
+      "argparse",
+      "collections",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "re",
+      "subprocess",
+      "sys",
+      "time",
+      "tools",
+      "tools.p2_feasibility"
+    ],
+    "tools\\topk_unseen.py": [
+      "collections",
+      "json",
+      "pathlib",
+      "re",
+      "sys",
+      "tools.p2_feasibility",
+      "urllib.request"
+    ],
+    "tools\\transition_planner.py": [
+      "pathlib",
+      "state_tracker",
+      "sys"
+    ],
+    "tools\\tune_int8_gemv.py": [
+      "adaptive_xdna_runtime.int8_tuning",
+      "argparse",
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "tools\\unseen_shape_harness.py": [
+      "argparse",
+      "execution_plan",
+      "hashlib",
+      "json",
+      "latency_predictor",
+      "os",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "tools\\unseen_state_test.py": [
+      "pathlib",
+      "state_tracker",
+      "sys"
+    ],
+    "tools\\update_literature_sources.py": [
+      "json",
+      "pathlib"
+    ],
+    "tools\\whole_array_aot.py": [
+      "argparse",
+      "sys",
+      "whole_array"
+    ],
+    "tools\\whole_array_aot_v140.py": [
+      "argparse",
+      "sys",
+      "whole_array"
+    ],
+    "tools\\whole_array_seq8_aot.py": [
+      "argparse",
+      "sys",
+      "whole_array"
+    ],
+    "tools\\_dump_sections.py": [
+      "pathlib",
+      "struct"
+    ],
+    "tools\\_inspect_xclbin.py": [
+      "pathlib",
+      "struct,"
+    ],
+    "tools\\_m002_diff.py": [
+      "aie.extras.context",
+      "gemm_harness",
+      "pathlib",
+      "re",
+      "sys,"
+    ],
+    "tools\\whole_array_v140\\whole_array.py": [
+      "aie.helpers.taplib",
+      "aie.iron",
+      "aie.iron.controlflow",
+      "aie.iron.device",
+      "aie.utils.benchmark",
+      "aie.utils.hostruntime.argparse",
+      "aie.utils.hostruntime.cli",
+      "aie.utils.verify",
+      "argparse",
+      "numpy",
+      "sys"
+    ],
+    "xdna2- v2\\runtime\\include\\xdna_runtime.h": [
+      "stddef.h",
+      "stdint.h"
+    ],
+    "xdna2- v2\\tools\\adaptive_planner.py": [
+      "__future__",
+      "b3_physical",
+      "dataclasses",
+      "execution_plan",
+      "json",
+      "latency_predictor",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "xdna2- v2\\tools\\b3_physical.py": [
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "xdna2- v2\\tools\\execution_plan.py": [
+      "__future__",
+      "dataclasses",
+      "hashlib",
+      "json",
+      "pathlib",
+      "re",
+      "shutil",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "xdna2- v2\\tools\\latency_predictor.py": [
+      "__future__",
+      "json",
+      "math",
+      "numpy",
+      "pathlib"
+    ],
+    "xdna2- v2\\tools\\whole_array_aot_v140.py": [
+      "argparse",
+      "sys",
+      "whole_array"
+    ]
+  },
+  "limits": {
+    "max_files": 5000,
+    "ignored_dirs": [
+      ".git",
+      ".venv",
+      "__pycache__",
+      "build",
+      "dist",
+      "node_modules"
+    ]
+  }
+}

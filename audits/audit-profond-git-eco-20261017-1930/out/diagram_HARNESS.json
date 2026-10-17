@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_apps_",
+      "label": "internal:apps/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_audit_",
+      "label": "internal:audit/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_docs_",
+      "label": "internal:docs/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_src_",
+      "label": "internal:src/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tests_",
+      "label": "internal:tests/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tools_",
+      "label": "internal:tools/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_HARNESS",
+      "label": "repo:HARNESS",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_Cargo_lock",
+      "label": "repo:HARNESS/Cargo.lock",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_Cargo_toml",
+      "label": "repo:HARNESS/Cargo.toml",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS__racine__",
+      "label": "repo:HARNESS/(racine)/",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_apps_",
+      "label": "repo:HARNESS/apps/",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_apps_desktop_src_tauri_Cargo_lock",
+      "label": "repo:HARNESS/apps/desktop/src-tauri/Cargo.lock",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_apps_desktop_src_tauri_Cargo_toml",
+      "label": "repo:HARNESS/apps/desktop/src-tauri/Cargo.toml",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_apps_desktop_src_tauri_src_main_rs",
+      "label": "repo:HARNESS/apps/desktop/src-tauri/src/main.rs",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_src_",
+      "label": "repo:HARNESS/src/",
+      "domain": "other"
+    },
+    {
+      "id": "repo_HARNESS_src_main_rs",
+      "label": "repo:HARNESS/src/main.rs",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal__racine__",
+      "source": "repo:HARNESS",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_HARNESS__racine__",
+      "target_id": "repo_HARNESS_Cargo_lock",
+      "source": "repo:HARNESS/(racine)/",
+      "destination": "repo:HARNESS/Cargo.lock",
+      "type": "manifest",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : Cargo.lock"
+    },
+    {
+      "source_id": "repo_HARNESS__racine__",
+      "target_id": "repo_HARNESS_Cargo_toml",
+      "source": "repo:HARNESS/(racine)/",
+      "destination": "repo:HARNESS/Cargo.toml",
+      "type": "manifest",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : Cargo.toml"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_apps_",
+      "source": "repo:HARNESS",
+      "destination": "internal:apps/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (apps)"
+    },
+    {
+      "source_id": "repo_HARNESS_apps_",
+      "target_id": "repo_HARNESS_apps_desktop_src_tauri_Cargo_lock",
+      "source": "repo:HARNESS/apps/",
+      "destination": "repo:HARNESS/apps/desktop/src-tauri/Cargo.lock",
+      "type": "manifest",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : apps/desktop/src-tauri/Cargo.lock"
+    },
+    {
+      "source_id": "repo_HARNESS_apps_",
+      "target_id": "repo_HARNESS_apps_desktop_src_tauri_Cargo_toml",
+      "source": "repo:HARNESS/apps/",
+      "destination": "repo:HARNESS/apps/desktop/src-tauri/Cargo.toml",
+      "type": "manifest",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : apps/desktop/src-tauri/Cargo.toml"
+    },
+    {
+      "source_id": "repo_HARNESS_apps_",
+      "target_id": "repo_HARNESS_apps_desktop_src_tauri_src_main_rs",
+      "source": "repo:HARNESS/apps/",
+      "destination": "repo:HARNESS/apps/desktop/src-tauri/src/main.rs",
+      "type": "entry_point",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : apps/desktop/src-tauri/src/main.rs"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_audit_",
+      "source": "repo:HARNESS",
+      "destination": "internal:audit/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (audit)"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_docs_",
+      "source": "repo:HARNESS",
+      "destination": "internal:docs/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (docs)"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_src_",
+      "source": "repo:HARNESS",
+      "destination": "internal:src/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (src)"
+    },
+    {
+      "source_id": "repo_HARNESS_src_",
+      "target_id": "repo_HARNESS_src_main_rs",
+      "source": "repo:HARNESS/src/",
+      "destination": "repo:HARNESS/src/main.rs",
+      "type": "entry_point",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : src/main.rs"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_tests_",
+      "source": "repo:HARNESS",
+      "destination": "internal:tests/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tests)"
+    },
+    {
+      "source_id": "repo_HARNESS",
+      "target_id": "internal_tools_",
+      "source": "repo:HARNESS",
+      "destination": "internal:tools/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tools)"
+    }
+  ]
+}

@@ -1,0 +1,2126 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_adaptive_xdna_runtime_",
+      "label": "internal:adaptive_xdna_runtime/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_dataset_",
+      "label": "internal:dataset/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_docs_",
+      "label": "internal:docs/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_examples_",
+      "label": "internal:examples/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_reproducible_runtime_",
+      "label": "internal:reproducible_runtime/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_runtime_",
+      "label": "internal:runtime/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_runtime_reproducible_",
+      "label": "internal:runtime_reproducible/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tests_",
+      "label": "internal:tests/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_toolchain_shim_",
+      "label": "internal:toolchain_shim/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tools_",
+      "label": "internal:tools/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_xdna2__v2_",
+      "label": "internal:xdna2- v2/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_RUNTIME",
+      "label": "repo:RUNTIME",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME__racine__",
+      "label": "repo:RUNTIME/(racine)/",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_candidate_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\candidate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_compiler_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\compiler.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_dataset_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\dataset.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_dma_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\dma.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\git_tracker.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_graph_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\graph.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\int8_gemv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\int8_tuning.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_iron_source_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\iron_source.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_layout_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\layout.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_manifest_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\manifest.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\mcp_server.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_observation_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\observation.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_partition_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\partition.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_planner_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_registry_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\registry.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_schema_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\schema.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_toolchain_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\toolchain.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_validation_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\validation.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_adaptive_xdna_runtime_xclbin_extractor_py",
+      "label": "repo:RUNTIME/adaptive_xdna_runtime\\xclbin_extractor.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_pyproject_toml",
+      "label": "repo:RUNTIME/pyproject.toml",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_reconcile",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_reconcile.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_registry_",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_registry.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_attribution_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_attribution.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_baseline.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_schedulability_ffn.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_costpath_official_",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_costpath_official.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_dual_diag.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_layer0_p",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack_layer0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_qwen0_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack_qwen0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_g4b_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_g4b.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_parallel_qkv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_repro2_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_repro2.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist0_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_ab.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_burst_diag.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_schema_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_schema.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_smollm2.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_token0_py",
+      "label": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_smollm2_token0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_pipeline_rr_generate_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\pipeline\\rr_generate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_pipeline_rr_manifest_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\pipeline\\rr_manifest.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_workers_rr_restart_all_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\workers\\rr_restart_all.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_workers_rr_shm_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\workers\\rr_shm.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker2_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker2.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker_head_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker_head.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker_py",
+      "label": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_candidate_py",
+      "label": "repo:RUNTIME/tests\\test_candidate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_compiler_py",
+      "label": "repo:RUNTIME/tests\\test_compiler.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_contracts_py",
+      "label": "repo:RUNTIME/tests\\test_contracts.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_dataset_py",
+      "label": "repo:RUNTIME/tests\\test_dataset.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_dma_py",
+      "label": "repo:RUNTIME/tests\\test_dma.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_graph_py",
+      "label": "repo:RUNTIME/tests\\test_graph.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_int8_gemv_py",
+      "label": "repo:RUNTIME/tests\\test_int8_gemv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_int8_tuning_py",
+      "label": "repo:RUNTIME/tests\\test_int8_tuning.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_iron_source_py",
+      "label": "repo:RUNTIME/tests\\test_iron_source.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_layout_py",
+      "label": "repo:RUNTIME/tests\\test_layout.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_manifest_py",
+      "label": "repo:RUNTIME/tests\\test_manifest.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_partition_py",
+      "label": "repo:RUNTIME/tests\\test_partition.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_planner_py",
+      "label": "repo:RUNTIME/tests\\test_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_registry_py",
+      "label": "repo:RUNTIME/tests\\test_registry.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_state_tracker_py",
+      "label": "repo:RUNTIME/tests\\test_state_tracker.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_toolchain_py",
+      "label": "repo:RUNTIME/tests\\test_toolchain.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_transition_planner_py",
+      "label": "repo:RUNTIME/tests\\test_transition_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_unseen_state_py",
+      "label": "repo:RUNTIME/tests\\test_unseen_state.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tests_test_validation_py",
+      "label": "repo:RUNTIME/tests\\test_validation.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools__m002_diff_py",
+      "label": "repo:RUNTIME/tools\\_m002_diff.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_adaptive_planner_py",
+      "label": "repo:RUNTIME/tools\\adaptive_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_adaptive_runner_mcp_py",
+      "label": "repo:RUNTIME/tools\\adaptive_runner_mcp.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_adaptive_runner_py",
+      "label": "repo:RUNTIME/tools\\adaptive_runner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_b2_analytical_interaction_py",
+      "label": "repo:RUNTIME/tools\\b2_analytical_interaction.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_b3_surrogate_py",
+      "label": "repo:RUNTIME/tools\\b3_surrogate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_build_int8_gemv_py",
+      "label": "repo:RUNTIME/tools\\build_int8_gemv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_build_kernel_dataset_py",
+      "label": "repo:RUNTIME/tools\\build_kernel_dataset.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_dashboard_py",
+      "label": "repo:RUNTIME/tools\\dashboard.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_download_all_xclbin_py",
+      "label": "repo:RUNTIME/tools\\download_all_xclbin.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_full_scan_py",
+      "label": "repo:RUNTIME/tools\\full_scan.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_gemm_harness_py",
+      "label": "repo:RUNTIME/tools\\gemm_harness.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_gemv_marker_tiles_py",
+      "label": "repo:RUNTIME/tools\\gemv_marker_tiles.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_llm_agent_py",
+      "label": "repo:RUNTIME/tools\\llm_agent.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_m002_package_xclbin_py",
+      "label": "repo:RUNTIME/tools\\m002_package_xclbin.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_m002_sweep_py",
+      "label": "repo:RUNTIME/tools\\m002_sweep.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_mechanism_experiment_py",
+      "label": "repo:RUNTIME/tools\\mechanism_experiment.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p2_5_planner_py",
+      "label": "repo:RUNTIME/tools\\p2_5_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p2_5_v2_py",
+      "label": "repo:RUNTIME/tools\\p2_5_v2.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p2_boundary_sweep_py",
+      "label": "repo:RUNTIME/tools\\p2_boundary_sweep.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p2_calibrate_py",
+      "label": "repo:RUNTIME/tools\\p2_calibrate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "label": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p3v2_large_gemv_py",
+      "label": "repo:RUNTIME/tools\\p3v2_large_gemv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p3v3_freeze_manifest_py",
+      "label": "repo:RUNTIME/tools\\p3v3_freeze_manifest.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p3v3_sweep_py",
+      "label": "repo:RUNTIME/tools\\p3v3_sweep.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p4_b3_holdout_py",
+      "label": "repo:RUNTIME/tools\\p4_b3_holdout.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p4_b3_scale_py",
+      "label": "repo:RUNTIME/tools\\p4_b3_scale.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p4_holdout_py",
+      "label": "repo:RUNTIME/tools\\p4_holdout.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_p4b_interaction_looc_py",
+      "label": "repo:RUNTIME/tools\\p4b_interaction_looc.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_pipeline_auto_py",
+      "label": "repo:RUNTIME/tools\\pipeline_auto.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_qwen_ood0_py",
+      "label": "repo:RUNTIME/tools\\qwen_ood0.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_repair_planner_py",
+      "label": "repo:RUNTIME/tools\\repair_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_run_int8_gemv_oracle_py",
+      "label": "repo:RUNTIME/tools\\run_int8_gemv_oracle.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_scan_xclbin_corpus_py",
+      "label": "repo:RUNTIME/tools\\scan_xclbin_corpus.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_spec_effect_audit_py",
+      "label": "repo:RUNTIME/tools\\spec_effect_audit.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_state_tracker_py",
+      "label": "repo:RUNTIME/tools\\state_tracker.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_topk_hardware_unseen_py",
+      "label": "repo:RUNTIME/tools\\topk_hardware_unseen.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_topk_unseen_py",
+      "label": "repo:RUNTIME/tools\\topk_unseen.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_transition_planner_py",
+      "label": "repo:RUNTIME/tools\\transition_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_tune_int8_gemv_py",
+      "label": "repo:RUNTIME/tools\\tune_int8_gemv.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_unseen_shape_harness_py",
+      "label": "repo:RUNTIME/tools\\unseen_shape_harness.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_unseen_state_test_py",
+      "label": "repo:RUNTIME/tools\\unseen_state_test.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_whole_array_aot_py",
+      "label": "repo:RUNTIME/tools\\whole_array_aot.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_whole_array_aot_v140_py",
+      "label": "repo:RUNTIME/tools\\whole_array_aot_v140.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_whole_array_seq8_aot_py",
+      "label": "repo:RUNTIME/tools\\whole_array_seq8_aot.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_tools_whole_array_v140_whole_array_py",
+      "label": "repo:RUNTIME/tools\\whole_array_v140\\whole_array.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py",
+      "label": "repo:RUNTIME/xdna2- v2\\tools\\adaptive_planner.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "label": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "label": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_xdna2__v2_tools_latency_predictor_py",
+      "label": "repo:RUNTIME/xdna2- v2\\tools\\latency_predictor.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_RUNTIME_xdna2__v2_tools_whole_array_aot_v140_py",
+      "label": "repo:RUNTIME/xdna2- v2\\tools\\whole_array_aot_v140.py",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal__racine__",
+      "source": "repo:RUNTIME",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_RUNTIME__racine__",
+      "target_id": "repo_RUNTIME_pyproject_toml",
+      "source": "repo:RUNTIME/(racine)/",
+      "destination": "repo:RUNTIME/pyproject.toml",
+      "type": "manifest",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "fichier pivot : pyproject.toml"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_adaptive_xdna_runtime_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:adaptive_xdna_runtime/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (adaptive_xdna_runtime)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_dataset_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:dataset/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (dataset)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_docs_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:docs/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (docs)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_examples_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:examples/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (examples)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_reproducible_runtime_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:reproducible_runtime/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (reproducible_runtime)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_runtime_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:runtime/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (runtime)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_runtime_reproducible_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:runtime_reproducible/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (runtime_reproducible)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_tests_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:tests/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tests)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_toolchain_shim_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:toolchain_shim/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (toolchain_shim)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_tools_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:tools/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tools)"
+    },
+    {
+      "source_id": "repo_RUNTIME",
+      "target_id": "internal_xdna2__v2_",
+      "source": "repo:RUNTIME",
+      "destination": "internal:xdna2- v2/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (xdna2- v2)"
+    },
+    {
+      "source_id": "repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py",
+      "source": "repo:RUNTIME/adaptive_xdna_runtime\\mcp_server.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\git_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.git_tracker' résolu vers adaptive_xdna_runtime\\git_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_schema_py",
+      "source": "repo:RUNTIME/adaptive_xdna_runtime\\mcp_server.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\schema.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.schema' résolu vers adaptive_xdna_runtime\\schema.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/adaptive_xdna_runtime\\mcp_server.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_reconcile",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_reconcile.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_registry_",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_registry.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_baseline.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_baseline.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_schedulability_ffn.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_b4_schedulability_ffn.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_costpath_official_",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_costpath_official.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_dual_diag.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_dual_diag.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack0.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_layer0_p",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack_layer0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack0.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_fullstack0' résolu vers runtime\\qwen_t6_repro\\src\\rr_fullstack0.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_qwen0_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack_qwen0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_fullstack0.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_fullstack0' résolu vers runtime\\qwen_t6_repro\\src\\rr_fullstack0.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_parallel_qkv.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_parallel_qkv.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_repro2_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_g4b_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_repro2.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_g4b.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_g4b' résolu vers runtime\\qwen_t6_repro\\src\\rr_g4b.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist0_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_ab.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_ab.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_burst_diag.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_artifact_manifest' résolu vers runtime\\qwen_t6_repro\\src\\rr_artifact_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runlist_burst_diag.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_healthgate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_healthgate' résolu vers runtime\\qwen_t6_repro\\src\\rr_healthgate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_attribution_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_attribution.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_attribution' résolu vers runtime\\qwen_t6_repro\\src\\rr_attribution.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_schema_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_runtime_v0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_schema.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_schema' résolu vers runtime\\qwen_t6_repro\\src\\rr_schema.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_token0_py",
+      "target_id": "repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_py",
+      "source": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_smollm2_token0.py",
+      "destination": "repo:RUNTIME/runtime\\qwen_t6_repro\\src\\rr_smollm2.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_smollm2' résolu vers runtime\\qwen_t6_repro\\src\\rr_smollm2.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_reproducible_pipeline_rr_generate_py",
+      "target_id": "repo_RUNTIME_runtime_reproducible_pipeline_rr_manifest_py",
+      "source": "repo:RUNTIME/runtime_reproducible\\pipeline\\rr_generate.py",
+      "destination": "repo:RUNTIME/runtime_reproducible\\pipeline\\rr_manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_manifest' résolu vers runtime_reproducible\\pipeline\\rr_manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_reproducible_workers_rr_restart_all_py",
+      "target_id": "repo_RUNTIME_runtime_reproducible_workers_rr_shm_py",
+      "source": "repo:RUNTIME/runtime_reproducible\\workers\\rr_restart_all.py",
+      "destination": "repo:RUNTIME/runtime_reproducible\\workers\\rr_shm.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_shm' résolu vers runtime_reproducible\\workers\\rr_shm.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker_py",
+      "target_id": "repo_RUNTIME_runtime_reproducible_workers_rr_shm_py",
+      "source": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker.py",
+      "destination": "repo:RUNTIME/runtime_reproducible\\workers\\rr_shm.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_shm' résolu vers runtime_reproducible\\workers\\rr_shm.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker2_py",
+      "target_id": "repo_RUNTIME_runtime_reproducible_workers_rr_shm_py",
+      "source": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker2.py",
+      "destination": "repo:RUNTIME/runtime_reproducible\\workers\\rr_shm.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_shm' résolu vers runtime_reproducible\\workers\\rr_shm.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_runtime_reproducible_workers_rr_worker_head_py",
+      "target_id": "repo_RUNTIME_runtime_reproducible_workers_rr_shm_py",
+      "source": "repo:RUNTIME/runtime_reproducible\\workers\\rr_worker_head.py",
+      "destination": "repo:RUNTIME/runtime_reproducible\\workers\\rr_shm.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'rr_shm' résolu vers runtime_reproducible\\workers\\rr_shm.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_candidate_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_candidate_py",
+      "source": "repo:RUNTIME/tests\\test_candidate.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\candidate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.candidate' résolu vers adaptive_xdna_runtime\\candidate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_candidate_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_candidate.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_candidate_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_planner_py",
+      "source": "repo:RUNTIME/tests\\test_candidate.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.planner' résolu vers adaptive_xdna_runtime\\planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_compiler_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_candidate_py",
+      "source": "repo:RUNTIME/tests\\test_compiler.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\candidate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.candidate' résolu vers adaptive_xdna_runtime\\candidate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_compiler_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_compiler_py",
+      "source": "repo:RUNTIME/tests\\test_compiler.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\compiler.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.compiler' résolu vers adaptive_xdna_runtime\\compiler.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_compiler_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_compiler.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_contracts_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_contracts.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_dataset_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_dataset_py",
+      "source": "repo:RUNTIME/tests\\test_dataset.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\dataset.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.dataset' résolu vers adaptive_xdna_runtime\\dataset.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_dma_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_dma_py",
+      "source": "repo:RUNTIME/tests\\test_dma.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\dma.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.dma' résolu vers adaptive_xdna_runtime\\dma.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_graph_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_graph_py",
+      "source": "repo:RUNTIME/tests\\test_graph.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\graph.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.graph' résolu vers adaptive_xdna_runtime\\graph.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_int8_gemv_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_int8_gemv.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_int8_gemv_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py",
+      "source": "repo:RUNTIME/tests\\test_int8_gemv.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_gemv.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_gemv' résolu vers adaptive_xdna_runtime\\int8_gemv.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_int8_gemv_py",
+      "target_id": "repo_RUNTIME_tools_build_int8_gemv_py",
+      "source": "repo:RUNTIME/tests\\test_int8_gemv.py",
+      "destination": "repo:RUNTIME/tools\\build_int8_gemv.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.build_int8_gemv' résolu vers tools\\build_int8_gemv.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_int8_gemv_py",
+      "target_id": "repo_RUNTIME_tools_run_int8_gemv_oracle_py",
+      "source": "repo:RUNTIME/tests\\test_int8_gemv.py",
+      "destination": "repo:RUNTIME/tools\\run_int8_gemv_oracle.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.run_int8_gemv_oracle' résolu vers tools\\run_int8_gemv_oracle.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_int8_tuning_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py",
+      "source": "repo:RUNTIME/tests\\test_int8_tuning.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_tuning.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_tuning' résolu vers adaptive_xdna_runtime\\int8_tuning.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_iron_source_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_iron_source.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_iron_source_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_dma_py",
+      "source": "repo:RUNTIME/tests\\test_iron_source.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\dma.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.dma' résolu vers adaptive_xdna_runtime\\dma.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_iron_source_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_iron_source_py",
+      "source": "repo:RUNTIME/tests\\test_iron_source.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\iron_source.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.iron_source' résolu vers adaptive_xdna_runtime\\iron_source.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_iron_source_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_layout_py",
+      "source": "repo:RUNTIME/tests\\test_iron_source.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\layout.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.layout' résolu vers adaptive_xdna_runtime\\layout.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_iron_source_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_planner_py",
+      "source": "repo:RUNTIME/tests\\test_iron_source.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.planner' résolu vers adaptive_xdna_runtime\\planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_layout_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_layout.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_layout_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_layout_py",
+      "source": "repo:RUNTIME/tests\\test_layout.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\layout.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.layout' résolu vers adaptive_xdna_runtime\\layout.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_manifest_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_dma_py",
+      "source": "repo:RUNTIME/tests\\test_manifest.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\dma.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.dma' résolu vers adaptive_xdna_runtime\\dma.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_manifest_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_manifest_py",
+      "source": "repo:RUNTIME/tests\\test_manifest.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.manifest' résolu vers adaptive_xdna_runtime\\manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_partition_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_graph_py",
+      "source": "repo:RUNTIME/tests\\test_partition.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\graph.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.graph' résolu vers adaptive_xdna_runtime\\graph.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_partition_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_partition_py",
+      "source": "repo:RUNTIME/tests\\test_partition.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\partition.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.partition' résolu vers adaptive_xdna_runtime\\partition.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_planner_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tests\\test_planner.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_planner_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_planner_py",
+      "source": "repo:RUNTIME/tests\\test_planner.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.planner' résolu vers adaptive_xdna_runtime\\planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_registry_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_manifest_py",
+      "source": "repo:RUNTIME/tests\\test_registry.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.manifest' résolu vers adaptive_xdna_runtime\\manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_registry_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_registry_py",
+      "source": "repo:RUNTIME/tests\\test_registry.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\registry.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.registry' résolu vers adaptive_xdna_runtime\\registry.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_registry_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_validation_py",
+      "source": "repo:RUNTIME/tests\\test_registry.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\validation.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.validation' résolu vers adaptive_xdna_runtime\\validation.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_state_tracker_py",
+      "target_id": "repo_RUNTIME_tools_state_tracker_py",
+      "source": "repo:RUNTIME/tests\\test_state_tracker.py",
+      "destination": "repo:RUNTIME/tools\\state_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'state_tracker' résolu vers tools\\state_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_toolchain_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_toolchain_py",
+      "source": "repo:RUNTIME/tests\\test_toolchain.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\toolchain.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.toolchain' résolu vers adaptive_xdna_runtime\\toolchain.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_transition_planner_py",
+      "target_id": "repo_RUNTIME_tools_transition_planner_py",
+      "source": "repo:RUNTIME/tests\\test_transition_planner.py",
+      "destination": "repo:RUNTIME/tools\\transition_planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'transition_planner' résolu vers tools\\transition_planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_unseen_state_py",
+      "target_id": "repo_RUNTIME_tools_state_tracker_py",
+      "source": "repo:RUNTIME/tests\\test_unseen_state.py",
+      "destination": "repo:RUNTIME/tools\\state_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'state_tracker' résolu vers tools\\state_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_validation_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_manifest_py",
+      "source": "repo:RUNTIME/tests\\test_validation.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\manifest.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.manifest' résolu vers adaptive_xdna_runtime\\manifest.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_validation_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_registry_py",
+      "source": "repo:RUNTIME/tests\\test_validation.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\registry.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.registry' résolu vers adaptive_xdna_runtime\\registry.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tests_test_validation_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_validation_py",
+      "source": "repo:RUNTIME/tests\\test_validation.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\validation.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.validation' résolu vers adaptive_xdna_runtime\\validation.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_latency_predictor_py",
+      "source": "repo:RUNTIME/tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\latency_predictor.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'latency_predictor' résolu vers xdna2- v2\\tools\\latency_predictor.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_adaptive_runner_mcp_py",
+      "target_id": "repo_RUNTIME_tools_adaptive_runner_py",
+      "source": "repo:RUNTIME/tools\\adaptive_runner_mcp.py",
+      "destination": "repo:RUNTIME/tools\\adaptive_runner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.adaptive_runner' résolu vers tools\\adaptive_runner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_b2_analytical_interaction_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\b2_analytical_interaction.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_b3_surrogate_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\b3_surrogate.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_build_int8_gemv_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tools\\build_int8_gemv.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_build_int8_gemv_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py",
+      "source": "repo:RUNTIME/tools\\build_int8_gemv.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_gemv.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_gemv' résolu vers adaptive_xdna_runtime\\int8_gemv.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_build_kernel_dataset_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_dataset_py",
+      "source": "repo:RUNTIME/tools\\build_kernel_dataset.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\dataset.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.dataset' résolu vers adaptive_xdna_runtime\\dataset.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_build_kernel_dataset_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py",
+      "source": "repo:RUNTIME/tools\\build_kernel_dataset.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\git_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.git_tracker' résolu vers adaptive_xdna_runtime\\git_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_build_kernel_dataset_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/tools\\build_kernel_dataset.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_dashboard_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py",
+      "source": "repo:RUNTIME/tools\\dashboard.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\git_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.git_tracker' résolu vers adaptive_xdna_runtime\\git_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_dashboard_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/tools\\dashboard.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_download_all_xclbin_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/tools\\download_all_xclbin.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_full_scan_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_schema_py",
+      "source": "repo:RUNTIME/tools\\full_scan.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\schema.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.schema' résolu vers adaptive_xdna_runtime\\schema.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_full_scan_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/tools\\full_scan.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_gemv_marker_tiles_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py",
+      "source": "repo:RUNTIME/tools\\gemv_marker_tiles.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_gemv.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_gemv' résolu vers adaptive_xdna_runtime\\int8_gemv.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_llm_agent_py",
+      "target_id": "repo_RUNTIME_tools_adaptive_runner_py",
+      "source": "repo:RUNTIME/tools\\llm_agent.py",
+      "destination": "repo:RUNTIME/tools\\adaptive_runner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.adaptive_runner' résolu vers tools\\adaptive_runner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_m002_package_xclbin_py",
+      "target_id": "repo_RUNTIME_tools_gemm_harness_py",
+      "source": "repo:RUNTIME/tools\\m002_package_xclbin.py",
+      "destination": "repo:RUNTIME/tools\\gemm_harness.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'gemm_harness' résolu vers tools\\gemm_harness.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_m002_sweep_py",
+      "target_id": "repo_RUNTIME_tools_gemm_harness_py",
+      "source": "repo:RUNTIME/tools\\m002_sweep.py",
+      "destination": "repo:RUNTIME/tools\\gemm_harness.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'gemm_harness' résolu vers tools\\gemm_harness.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_mechanism_experiment_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_observation_py",
+      "source": "repo:RUNTIME/tools\\mechanism_experiment.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\observation.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.observation' résolu vers adaptive_xdna_runtime\\observation.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p2_5_planner_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p2_5_planner.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p2_5_v2_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p2_5_v2.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p2_boundary_sweep_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p2_boundary_sweep.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p2_calibrate_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p2_calibrate.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p3v2_large_gemv_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p3v2_large_gemv.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p3v3_freeze_manifest_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p3v3_freeze_manifest.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p3v3_sweep_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\p3v3_sweep.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4b_interaction_looc_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_latency_predictor_py",
+      "source": "repo:RUNTIME/tools\\p4b_interaction_looc.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\latency_predictor.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'latency_predictor' résolu vers xdna2- v2\\tools\\latency_predictor.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_b3_holdout_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/tools\\p4_b3_holdout.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_b3_holdout_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/tools\\p4_b3_holdout.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_b3_scale_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py",
+      "source": "repo:RUNTIME/tools\\p4_b3_scale.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\adaptive_planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_planner' résolu vers xdna2- v2\\tools\\adaptive_planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_b3_scale_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/tools\\p4_b3_scale.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_b3_scale_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/tools\\p4_b3_scale.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_p4_holdout_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/tools\\p4_holdout.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_pipeline_auto_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py",
+      "source": "repo:RUNTIME/tools\\pipeline_auto.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\git_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.git_tracker' résolu vers adaptive_xdna_runtime\\git_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_pipeline_auto_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py",
+      "source": "repo:RUNTIME/tools\\pipeline_auto.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.web_fetch' résolu vers adaptive_xdna_runtime\\web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_qwen_ood0_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/tools\\qwen_ood0.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_repair_planner_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\repair_planner.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_run_int8_gemv_oracle_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py",
+      "source": "repo:RUNTIME/tools\\run_int8_gemv_oracle.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_gemv.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_gemv' résolu vers adaptive_xdna_runtime\\int8_gemv.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_scan_xclbin_corpus_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_xclbin_extractor_py",
+      "source": "repo:RUNTIME/tools\\scan_xclbin_corpus.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\xclbin_extractor.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.xclbin_extractor' résolu vers adaptive_xdna_runtime\\xclbin_extractor.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_spec_effect_audit_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_contracts_py",
+      "source": "repo:RUNTIME/tools\\spec_effect_audit.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\contracts.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.contracts' résolu vers adaptive_xdna_runtime\\contracts.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_spec_effect_audit_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_iron_source_py",
+      "source": "repo:RUNTIME/tools\\spec_effect_audit.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\iron_source.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.iron_source' résolu vers adaptive_xdna_runtime\\iron_source.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_spec_effect_audit_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_layout_py",
+      "source": "repo:RUNTIME/tools\\spec_effect_audit.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\layout.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.layout' résolu vers adaptive_xdna_runtime\\layout.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_spec_effect_audit_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_planner_py",
+      "source": "repo:RUNTIME/tools\\spec_effect_audit.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\planner.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.planner' résolu vers adaptive_xdna_runtime\\planner.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_topk_hardware_unseen_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\topk_hardware_unseen.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_topk_unseen_py",
+      "target_id": "repo_RUNTIME_tools_p2_feasibility_py",
+      "source": "repo:RUNTIME/tools\\topk_unseen.py",
+      "destination": "repo:RUNTIME/tools\\p2_feasibility.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'tools.p2_feasibility' résolu vers tools\\p2_feasibility.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_transition_planner_py",
+      "target_id": "repo_RUNTIME_tools_state_tracker_py",
+      "source": "repo:RUNTIME/tools\\transition_planner.py",
+      "destination": "repo:RUNTIME/tools\\state_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'state_tracker' résolu vers tools\\state_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_tune_int8_gemv_py",
+      "target_id": "repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py",
+      "source": "repo:RUNTIME/tools\\tune_int8_gemv.py",
+      "destination": "repo:RUNTIME/adaptive_xdna_runtime\\int8_tuning.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'adaptive_xdna_runtime.int8_tuning' résolu vers adaptive_xdna_runtime\\int8_tuning.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_unseen_shape_harness_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/tools\\unseen_shape_harness.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_unseen_shape_harness_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_latency_predictor_py",
+      "source": "repo:RUNTIME/tools\\unseen_shape_harness.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\latency_predictor.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'latency_predictor' résolu vers xdna2- v2\\tools\\latency_predictor.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_unseen_state_test_py",
+      "target_id": "repo_RUNTIME_tools_state_tracker_py",
+      "source": "repo:RUNTIME/tools\\unseen_state_test.py",
+      "destination": "repo:RUNTIME/tools\\state_tracker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'state_tracker' résolu vers tools\\state_tracker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_whole_array_aot_py",
+      "target_id": "repo_RUNTIME_tools_whole_array_v140_whole_array_py",
+      "source": "repo:RUNTIME/tools\\whole_array_aot.py",
+      "destination": "repo:RUNTIME/tools\\whole_array_v140\\whole_array.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'whole_array' résolu vers tools\\whole_array_v140\\whole_array.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_whole_array_aot_v140_py",
+      "target_id": "repo_RUNTIME_tools_whole_array_v140_whole_array_py",
+      "source": "repo:RUNTIME/tools\\whole_array_aot_v140.py",
+      "destination": "repo:RUNTIME/tools\\whole_array_v140\\whole_array.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'whole_array' résolu vers tools\\whole_array_v140\\whole_array.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools_whole_array_seq8_aot_py",
+      "target_id": "repo_RUNTIME_tools_whole_array_v140_whole_array_py",
+      "source": "repo:RUNTIME/tools\\whole_array_seq8_aot.py",
+      "destination": "repo:RUNTIME/tools\\whole_array_v140\\whole_array.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'whole_array' résolu vers tools\\whole_array_v140\\whole_array.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_tools__m002_diff_py",
+      "target_id": "repo_RUNTIME_tools_gemm_harness_py",
+      "source": "repo:RUNTIME/tools\\_m002_diff.py",
+      "destination": "repo:RUNTIME/tools\\gemm_harness.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'gemm_harness' résolu vers tools\\gemm_harness.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_b3_physical_py",
+      "source": "repo:RUNTIME/xdna2- v2\\tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\b3_physical.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'b3_physical' résolu vers xdna2- v2\\tools\\b3_physical.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_execution_plan_py",
+      "source": "repo:RUNTIME/xdna2- v2\\tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\execution_plan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'execution_plan' résolu vers xdna2- v2\\tools\\execution_plan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py",
+      "target_id": "repo_RUNTIME_xdna2__v2_tools_latency_predictor_py",
+      "source": "repo:RUNTIME/xdna2- v2\\tools\\adaptive_planner.py",
+      "destination": "repo:RUNTIME/xdna2- v2\\tools\\latency_predictor.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'latency_predictor' résolu vers xdna2- v2\\tools\\latency_predictor.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_RUNTIME_xdna2__v2_tools_whole_array_aot_v140_py",
+      "target_id": "repo_RUNTIME_tools_whole_array_v140_whole_array_py",
+      "source": "repo:RUNTIME/xdna2- v2\\tools\\whole_array_aot_v140.py",
+      "destination": "repo:RUNTIME/tools\\whole_array_v140\\whole_array.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'whole_array' résolu vers tools\\whole_array_v140\\whole_array.py (statique, pas une preuve d'exécution)"
+    }
+  ]
+}

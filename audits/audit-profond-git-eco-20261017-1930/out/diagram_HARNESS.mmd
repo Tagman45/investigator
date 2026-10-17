@@ -1,0 +1,33 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_apps_["internal:apps/"]
+  internal_audit_["internal:audit/"]
+  internal_docs_["internal:docs/"]
+  internal_src_["internal:src/"]
+  internal_tests_["internal:tests/"]
+  internal_tools_["internal:tools/"]
+  repo_HARNESS["repo:HARNESS"]
+  repo_HARNESS_Cargo_lock["repo:HARNESS/Cargo.lock"]
+  repo_HARNESS_Cargo_toml["repo:HARNESS/Cargo.toml"]
+  repo_HARNESS__racine__["repo:HARNESS/(racine)/"]
+  repo_HARNESS_apps_["repo:HARNESS/apps/"]
+  repo_HARNESS_apps_desktop_src_tauri_Cargo_lock["repo:HARNESS/apps/desktop/src-tauri/Cargo.lock"]
+  repo_HARNESS_apps_desktop_src_tauri_Cargo_toml["repo:HARNESS/apps/desktop/src-tauri/Cargo.toml"]
+  repo_HARNESS_apps_desktop_src_tauri_src_main_rs["repo:HARNESS/apps/desktop/src-tauri/src/main.rs"]
+  repo_HARNESS_src_["repo:HARNESS/src/"]
+  repo_HARNESS_src_main_rs["repo:HARNESS/src/main.rs"]
+  repo_HARNESS -->|contains:INFERRED| internal__racine__
+  repo_HARNESS__racine__ -->|manifest:INFERRED| repo_HARNESS_Cargo_lock
+  repo_HARNESS__racine__ -->|manifest:INFERRED| repo_HARNESS_Cargo_toml
+  repo_HARNESS -->|contains:INFERRED| internal_apps_
+  repo_HARNESS_apps_ -->|manifest:INFERRED| repo_HARNESS_apps_desktop_src_tauri_Cargo_lock
+  repo_HARNESS_apps_ -->|manifest:INFERRED| repo_HARNESS_apps_desktop_src_tauri_Cargo_toml
+  repo_HARNESS_apps_ -->|entry_point:INFERRED| repo_HARNESS_apps_desktop_src_tauri_src_main_rs
+  repo_HARNESS -->|contains:INFERRED| internal_audit_
+  repo_HARNESS -->|contains:INFERRED| internal_docs_
+  repo_HARNESS -->|contains:INFERRED| internal_src_
+  repo_HARNESS_src_ -->|entry_point:INFERRED| repo_HARNESS_src_main_rs
+  repo_HARNESS -->|contains:INFERRED| internal_tests_
+  repo_HARNESS -->|contains:INFERRED| internal_tools_
+```

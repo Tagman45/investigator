@@ -1,0 +1,283 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_adaptive_xdna_runtime_["internal:adaptive_xdna_runtime/"]
+  internal_dataset_["internal:dataset/"]
+  internal_docs_["internal:docs/"]
+  internal_examples_["internal:examples/"]
+  internal_reproducible_runtime_["internal:reproducible_runtime/"]
+  internal_runtime_["internal:runtime/"]
+  internal_runtime_reproducible_["internal:runtime_reproducible/"]
+  internal_tests_["internal:tests/"]
+  internal_toolchain_shim_["internal:toolchain_shim/"]
+  internal_tools_["internal:tools/"]
+  internal_xdna2__v2_["internal:xdna2- v2/"]
+  repo_RUNTIME["repo:RUNTIME"]
+  repo_RUNTIME__racine__["repo:RUNTIME/(racine)/"]
+  repo_RUNTIME_adaptive_xdna_runtime_candidate_py["repo:RUNTIME/adaptive_xdna_runtime\candidate.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_compiler_py["repo:RUNTIME/adaptive_xdna_runtime\compiler.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_contracts_py["repo:RUNTIME/adaptive_xdna_runtime\contracts.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_dataset_py["repo:RUNTIME/adaptive_xdna_runtime\dataset.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_dma_py["repo:RUNTIME/adaptive_xdna_runtime\dma.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py["repo:RUNTIME/adaptive_xdna_runtime\git_tracker.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_graph_py["repo:RUNTIME/adaptive_xdna_runtime\graph.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py["repo:RUNTIME/adaptive_xdna_runtime\int8_gemv.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py["repo:RUNTIME/adaptive_xdna_runtime\int8_tuning.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_iron_source_py["repo:RUNTIME/adaptive_xdna_runtime\iron_source.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_layout_py["repo:RUNTIME/adaptive_xdna_runtime\layout.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_manifest_py["repo:RUNTIME/adaptive_xdna_runtime\manifest.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py["repo:RUNTIME/adaptive_xdna_runtime\mcp_server.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_observation_py["repo:RUNTIME/adaptive_xdna_runtime\observation.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_partition_py["repo:RUNTIME/adaptive_xdna_runtime\partition.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_planner_py["repo:RUNTIME/adaptive_xdna_runtime\planner.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_registry_py["repo:RUNTIME/adaptive_xdna_runtime\registry.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_schema_py["repo:RUNTIME/adaptive_xdna_runtime\schema.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_toolchain_py["repo:RUNTIME/adaptive_xdna_runtime\toolchain.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_validation_py["repo:RUNTIME/adaptive_xdna_runtime\validation.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py["repo:RUNTIME/adaptive_xdna_runtime\web_fetch.py"]
+  repo_RUNTIME_adaptive_xdna_runtime_xclbin_extractor_py["repo:RUNTIME/adaptive_xdna_runtime\xclbin_extractor.py"]
+  repo_RUNTIME_pyproject_toml["repo:RUNTIME/pyproject.toml"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_artifact_manifest.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_reconcile["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_artifact_reconcile.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_registry_["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_artifact_registry.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_attribution_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_attribution.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_b4_baseline.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_b4_schedulability_ffn.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_costpath_official_["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_costpath_official.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_dual_diag.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_fullstack0.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_layer0_p["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_fullstack_layer0.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_qwen0_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_fullstack_qwen0.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_g4b_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_g4b.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_healthgate.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_parallel_qkv.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_repro2_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_repro2.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist0_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_runlist0.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_runlist_ab.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_runlist_burst_diag.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_runtime_v0.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_schema_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_schema.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_smollm2.py"]
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_token0_py["repo:RUNTIME/runtime\qwen_t6_repro\src\rr_smollm2_token0.py"]
+  repo_RUNTIME_runtime_reproducible_pipeline_rr_generate_py["repo:RUNTIME/runtime_reproducible\pipeline\rr_generate.py"]
+  repo_RUNTIME_runtime_reproducible_pipeline_rr_manifest_py["repo:RUNTIME/runtime_reproducible\pipeline\rr_manifest.py"]
+  repo_RUNTIME_runtime_reproducible_workers_rr_restart_all_py["repo:RUNTIME/runtime_reproducible\workers\rr_restart_all.py"]
+  repo_RUNTIME_runtime_reproducible_workers_rr_shm_py["repo:RUNTIME/runtime_reproducible\workers\rr_shm.py"]
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker2_py["repo:RUNTIME/runtime_reproducible\workers\rr_worker2.py"]
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker_head_py["repo:RUNTIME/runtime_reproducible\workers\rr_worker_head.py"]
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker_py["repo:RUNTIME/runtime_reproducible\workers\rr_worker.py"]
+  repo_RUNTIME_tests_test_candidate_py["repo:RUNTIME/tests\test_candidate.py"]
+  repo_RUNTIME_tests_test_compiler_py["repo:RUNTIME/tests\test_compiler.py"]
+  repo_RUNTIME_tests_test_contracts_py["repo:RUNTIME/tests\test_contracts.py"]
+  repo_RUNTIME_tests_test_dataset_py["repo:RUNTIME/tests\test_dataset.py"]
+  repo_RUNTIME_tests_test_dma_py["repo:RUNTIME/tests\test_dma.py"]
+  repo_RUNTIME_tests_test_graph_py["repo:RUNTIME/tests\test_graph.py"]
+  repo_RUNTIME_tests_test_int8_gemv_py["repo:RUNTIME/tests\test_int8_gemv.py"]
+  repo_RUNTIME_tests_test_int8_tuning_py["repo:RUNTIME/tests\test_int8_tuning.py"]
+  repo_RUNTIME_tests_test_iron_source_py["repo:RUNTIME/tests\test_iron_source.py"]
+  repo_RUNTIME_tests_test_layout_py["repo:RUNTIME/tests\test_layout.py"]
+  repo_RUNTIME_tests_test_manifest_py["repo:RUNTIME/tests\test_manifest.py"]
+  repo_RUNTIME_tests_test_partition_py["repo:RUNTIME/tests\test_partition.py"]
+  repo_RUNTIME_tests_test_planner_py["repo:RUNTIME/tests\test_planner.py"]
+  repo_RUNTIME_tests_test_registry_py["repo:RUNTIME/tests\test_registry.py"]
+  repo_RUNTIME_tests_test_state_tracker_py["repo:RUNTIME/tests\test_state_tracker.py"]
+  repo_RUNTIME_tests_test_toolchain_py["repo:RUNTIME/tests\test_toolchain.py"]
+  repo_RUNTIME_tests_test_transition_planner_py["repo:RUNTIME/tests\test_transition_planner.py"]
+  repo_RUNTIME_tests_test_unseen_state_py["repo:RUNTIME/tests\test_unseen_state.py"]
+  repo_RUNTIME_tests_test_validation_py["repo:RUNTIME/tests\test_validation.py"]
+  repo_RUNTIME_tools__m002_diff_py["repo:RUNTIME/tools\_m002_diff.py"]
+  repo_RUNTIME_tools_adaptive_planner_py["repo:RUNTIME/tools\adaptive_planner.py"]
+  repo_RUNTIME_tools_adaptive_runner_mcp_py["repo:RUNTIME/tools\adaptive_runner_mcp.py"]
+  repo_RUNTIME_tools_adaptive_runner_py["repo:RUNTIME/tools\adaptive_runner.py"]
+  repo_RUNTIME_tools_b2_analytical_interaction_py["repo:RUNTIME/tools\b2_analytical_interaction.py"]
+  repo_RUNTIME_tools_b3_surrogate_py["repo:RUNTIME/tools\b3_surrogate.py"]
+  repo_RUNTIME_tools_build_int8_gemv_py["repo:RUNTIME/tools\build_int8_gemv.py"]
+  repo_RUNTIME_tools_build_kernel_dataset_py["repo:RUNTIME/tools\build_kernel_dataset.py"]
+  repo_RUNTIME_tools_dashboard_py["repo:RUNTIME/tools\dashboard.py"]
+  repo_RUNTIME_tools_download_all_xclbin_py["repo:RUNTIME/tools\download_all_xclbin.py"]
+  repo_RUNTIME_tools_full_scan_py["repo:RUNTIME/tools\full_scan.py"]
+  repo_RUNTIME_tools_gemm_harness_py["repo:RUNTIME/tools\gemm_harness.py"]
+  repo_RUNTIME_tools_gemv_marker_tiles_py["repo:RUNTIME/tools\gemv_marker_tiles.py"]
+  repo_RUNTIME_tools_llm_agent_py["repo:RUNTIME/tools\llm_agent.py"]
+  repo_RUNTIME_tools_m002_package_xclbin_py["repo:RUNTIME/tools\m002_package_xclbin.py"]
+  repo_RUNTIME_tools_m002_sweep_py["repo:RUNTIME/tools\m002_sweep.py"]
+  repo_RUNTIME_tools_mechanism_experiment_py["repo:RUNTIME/tools\mechanism_experiment.py"]
+  repo_RUNTIME_tools_p2_5_planner_py["repo:RUNTIME/tools\p2_5_planner.py"]
+  repo_RUNTIME_tools_p2_5_v2_py["repo:RUNTIME/tools\p2_5_v2.py"]
+  repo_RUNTIME_tools_p2_boundary_sweep_py["repo:RUNTIME/tools\p2_boundary_sweep.py"]
+  repo_RUNTIME_tools_p2_calibrate_py["repo:RUNTIME/tools\p2_calibrate.py"]
+  repo_RUNTIME_tools_p2_feasibility_py["repo:RUNTIME/tools\p2_feasibility.py"]
+  repo_RUNTIME_tools_p3v2_large_gemv_py["repo:RUNTIME/tools\p3v2_large_gemv.py"]
+  repo_RUNTIME_tools_p3v3_freeze_manifest_py["repo:RUNTIME/tools\p3v3_freeze_manifest.py"]
+  repo_RUNTIME_tools_p3v3_sweep_py["repo:RUNTIME/tools\p3v3_sweep.py"]
+  repo_RUNTIME_tools_p4_b3_holdout_py["repo:RUNTIME/tools\p4_b3_holdout.py"]
+  repo_RUNTIME_tools_p4_b3_scale_py["repo:RUNTIME/tools\p4_b3_scale.py"]
+  repo_RUNTIME_tools_p4_holdout_py["repo:RUNTIME/tools\p4_holdout.py"]
+  repo_RUNTIME_tools_p4b_interaction_looc_py["repo:RUNTIME/tools\p4b_interaction_looc.py"]
+  repo_RUNTIME_tools_pipeline_auto_py["repo:RUNTIME/tools\pipeline_auto.py"]
+  repo_RUNTIME_tools_qwen_ood0_py["repo:RUNTIME/tools\qwen_ood0.py"]
+  repo_RUNTIME_tools_repair_planner_py["repo:RUNTIME/tools\repair_planner.py"]
+  repo_RUNTIME_tools_run_int8_gemv_oracle_py["repo:RUNTIME/tools\run_int8_gemv_oracle.py"]
+  repo_RUNTIME_tools_scan_xclbin_corpus_py["repo:RUNTIME/tools\scan_xclbin_corpus.py"]
+  repo_RUNTIME_tools_spec_effect_audit_py["repo:RUNTIME/tools\spec_effect_audit.py"]
+  repo_RUNTIME_tools_state_tracker_py["repo:RUNTIME/tools\state_tracker.py"]
+  repo_RUNTIME_tools_topk_hardware_unseen_py["repo:RUNTIME/tools\topk_hardware_unseen.py"]
+  repo_RUNTIME_tools_topk_unseen_py["repo:RUNTIME/tools\topk_unseen.py"]
+  repo_RUNTIME_tools_transition_planner_py["repo:RUNTIME/tools\transition_planner.py"]
+  repo_RUNTIME_tools_tune_int8_gemv_py["repo:RUNTIME/tools\tune_int8_gemv.py"]
+  repo_RUNTIME_tools_unseen_shape_harness_py["repo:RUNTIME/tools\unseen_shape_harness.py"]
+  repo_RUNTIME_tools_unseen_state_test_py["repo:RUNTIME/tools\unseen_state_test.py"]
+  repo_RUNTIME_tools_whole_array_aot_py["repo:RUNTIME/tools\whole_array_aot.py"]
+  repo_RUNTIME_tools_whole_array_aot_v140_py["repo:RUNTIME/tools\whole_array_aot_v140.py"]
+  repo_RUNTIME_tools_whole_array_seq8_aot_py["repo:RUNTIME/tools\whole_array_seq8_aot.py"]
+  repo_RUNTIME_tools_whole_array_v140_whole_array_py["repo:RUNTIME/tools\whole_array_v140\whole_array.py"]
+  repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py["repo:RUNTIME/xdna2- v2\tools\adaptive_planner.py"]
+  repo_RUNTIME_xdna2__v2_tools_b3_physical_py["repo:RUNTIME/xdna2- v2\tools\b3_physical.py"]
+  repo_RUNTIME_xdna2__v2_tools_execution_plan_py["repo:RUNTIME/xdna2- v2\tools\execution_plan.py"]
+  repo_RUNTIME_xdna2__v2_tools_latency_predictor_py["repo:RUNTIME/xdna2- v2\tools\latency_predictor.py"]
+  repo_RUNTIME_xdna2__v2_tools_whole_array_aot_v140_py["repo:RUNTIME/xdna2- v2\tools\whole_array_aot_v140.py"]
+  repo_RUNTIME -->|contains:INFERRED| internal__racine__
+  repo_RUNTIME__racine__ -->|manifest:INFERRED| repo_RUNTIME_pyproject_toml
+  repo_RUNTIME -->|contains:INFERRED| internal_adaptive_xdna_runtime_
+  repo_RUNTIME -->|contains:INFERRED| internal_dataset_
+  repo_RUNTIME -->|contains:INFERRED| internal_docs_
+  repo_RUNTIME -->|contains:INFERRED| internal_examples_
+  repo_RUNTIME -->|contains:INFERRED| internal_reproducible_runtime_
+  repo_RUNTIME -->|contains:INFERRED| internal_runtime_
+  repo_RUNTIME -->|contains:INFERRED| internal_runtime_reproducible_
+  repo_RUNTIME -->|contains:INFERRED| internal_tests_
+  repo_RUNTIME -->|contains:INFERRED| internal_toolchain_shim_
+  repo_RUNTIME -->|contains:INFERRED| internal_tools_
+  repo_RUNTIME -->|contains:INFERRED| internal_xdna2__v2_
+  repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py
+  repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_schema_py
+  repo_RUNTIME_adaptive_xdna_runtime_mcp_server_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_reconcile -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_registry_ -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_baseline_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_ -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_b4_schedulability_ -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_costpath_official_ -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_dual_diag_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_layer0_p -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack_qwen0_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_fullstack0_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_parallel_qkv_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_repro2_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_g4b_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist0_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_ab_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_artifact_manifest_
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runlist_burst_diag -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_healthgate_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_attribution_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_runtime_v0_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_schema_py
+  repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_token0_py -->|imports:INFERRED| repo_RUNTIME_runtime_qwen_t6_repro_src_rr_smollm2_py
+  repo_RUNTIME_runtime_reproducible_pipeline_rr_generate_py -->|imports:INFERRED| repo_RUNTIME_runtime_reproducible_pipeline_rr_manifest_py
+  repo_RUNTIME_runtime_reproducible_workers_rr_restart_all_py -->|imports:INFERRED| repo_RUNTIME_runtime_reproducible_workers_rr_shm_py
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker_py -->|imports:INFERRED| repo_RUNTIME_runtime_reproducible_workers_rr_shm_py
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker2_py -->|imports:INFERRED| repo_RUNTIME_runtime_reproducible_workers_rr_shm_py
+  repo_RUNTIME_runtime_reproducible_workers_rr_worker_head_py -->|imports:INFERRED| repo_RUNTIME_runtime_reproducible_workers_rr_shm_py
+  repo_RUNTIME_tests_test_candidate_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_candidate_py
+  repo_RUNTIME_tests_test_candidate_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_candidate_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_planner_py
+  repo_RUNTIME_tests_test_compiler_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_candidate_py
+  repo_RUNTIME_tests_test_compiler_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_compiler_py
+  repo_RUNTIME_tests_test_compiler_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_contracts_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_dataset_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_dataset_py
+  repo_RUNTIME_tests_test_dma_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_dma_py
+  repo_RUNTIME_tests_test_graph_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_graph_py
+  repo_RUNTIME_tests_test_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py
+  repo_RUNTIME_tests_test_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_tools_build_int8_gemv_py
+  repo_RUNTIME_tests_test_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_tools_run_int8_gemv_oracle_py
+  repo_RUNTIME_tests_test_int8_tuning_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py
+  repo_RUNTIME_tests_test_iron_source_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_iron_source_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_dma_py
+  repo_RUNTIME_tests_test_iron_source_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_iron_source_py
+  repo_RUNTIME_tests_test_iron_source_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_layout_py
+  repo_RUNTIME_tests_test_iron_source_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_planner_py
+  repo_RUNTIME_tests_test_layout_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_layout_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_layout_py
+  repo_RUNTIME_tests_test_manifest_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_dma_py
+  repo_RUNTIME_tests_test_manifest_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_manifest_py
+  repo_RUNTIME_tests_test_partition_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_graph_py
+  repo_RUNTIME_tests_test_partition_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_partition_py
+  repo_RUNTIME_tests_test_planner_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tests_test_planner_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_planner_py
+  repo_RUNTIME_tests_test_registry_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_manifest_py
+  repo_RUNTIME_tests_test_registry_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_registry_py
+  repo_RUNTIME_tests_test_registry_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_validation_py
+  repo_RUNTIME_tests_test_state_tracker_py -->|imports:INFERRED| repo_RUNTIME_tools_state_tracker_py
+  repo_RUNTIME_tests_test_toolchain_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_toolchain_py
+  repo_RUNTIME_tests_test_transition_planner_py -->|imports:INFERRED| repo_RUNTIME_tools_transition_planner_py
+  repo_RUNTIME_tests_test_unseen_state_py -->|imports:INFERRED| repo_RUNTIME_tools_state_tracker_py
+  repo_RUNTIME_tests_test_validation_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_manifest_py
+  repo_RUNTIME_tests_test_validation_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_registry_py
+  repo_RUNTIME_tests_test_validation_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_validation_py
+  repo_RUNTIME_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_latency_predictor_py
+  repo_RUNTIME_tools_adaptive_runner_mcp_py -->|imports:INFERRED| repo_RUNTIME_tools_adaptive_runner_py
+  repo_RUNTIME_tools_b2_analytical_interaction_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_b3_surrogate_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_build_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tools_build_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py
+  repo_RUNTIME_tools_build_kernel_dataset_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_dataset_py
+  repo_RUNTIME_tools_build_kernel_dataset_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py
+  repo_RUNTIME_tools_build_kernel_dataset_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_tools_dashboard_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py
+  repo_RUNTIME_tools_dashboard_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_tools_download_all_xclbin_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_tools_full_scan_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_schema_py
+  repo_RUNTIME_tools_full_scan_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_tools_gemv_marker_tiles_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py
+  repo_RUNTIME_tools_llm_agent_py -->|imports:INFERRED| repo_RUNTIME_tools_adaptive_runner_py
+  repo_RUNTIME_tools_m002_package_xclbin_py -->|imports:INFERRED| repo_RUNTIME_tools_gemm_harness_py
+  repo_RUNTIME_tools_m002_sweep_py -->|imports:INFERRED| repo_RUNTIME_tools_gemm_harness_py
+  repo_RUNTIME_tools_mechanism_experiment_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_observation_py
+  repo_RUNTIME_tools_p2_5_planner_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p2_5_v2_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p2_boundary_sweep_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p2_calibrate_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p3v2_large_gemv_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p3v3_freeze_manifest_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p3v3_sweep_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_p4b_interaction_looc_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_latency_predictor_py
+  repo_RUNTIME_tools_p4_b3_holdout_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_tools_p4_b3_holdout_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_tools_p4_b3_scale_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py
+  repo_RUNTIME_tools_p4_b3_scale_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_tools_p4_b3_scale_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_tools_p4_holdout_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_tools_pipeline_auto_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_git_tracker_py
+  repo_RUNTIME_tools_pipeline_auto_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_web_fetch_py
+  repo_RUNTIME_tools_qwen_ood0_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_tools_repair_planner_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_run_int8_gemv_oracle_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_gemv_py
+  repo_RUNTIME_tools_scan_xclbin_corpus_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_xclbin_extractor_py
+  repo_RUNTIME_tools_spec_effect_audit_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_contracts_py
+  repo_RUNTIME_tools_spec_effect_audit_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_iron_source_py
+  repo_RUNTIME_tools_spec_effect_audit_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_layout_py
+  repo_RUNTIME_tools_spec_effect_audit_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_planner_py
+  repo_RUNTIME_tools_topk_hardware_unseen_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_topk_unseen_py -->|imports:INFERRED| repo_RUNTIME_tools_p2_feasibility_py
+  repo_RUNTIME_tools_transition_planner_py -->|imports:INFERRED| repo_RUNTIME_tools_state_tracker_py
+  repo_RUNTIME_tools_tune_int8_gemv_py -->|imports:INFERRED| repo_RUNTIME_adaptive_xdna_runtime_int8_tuning_py
+  repo_RUNTIME_tools_unseen_shape_harness_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_tools_unseen_shape_harness_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_latency_predictor_py
+  repo_RUNTIME_tools_unseen_state_test_py -->|imports:INFERRED| repo_RUNTIME_tools_state_tracker_py
+  repo_RUNTIME_tools_whole_array_aot_py -->|imports:INFERRED| repo_RUNTIME_tools_whole_array_v140_whole_array_py
+  repo_RUNTIME_tools_whole_array_aot_v140_py -->|imports:INFERRED| repo_RUNTIME_tools_whole_array_v140_whole_array_py
+  repo_RUNTIME_tools_whole_array_seq8_aot_py -->|imports:INFERRED| repo_RUNTIME_tools_whole_array_v140_whole_array_py
+  repo_RUNTIME_tools__m002_diff_py -->|imports:INFERRED| repo_RUNTIME_tools_gemm_harness_py
+  repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_b3_physical_py
+  repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_execution_plan_py
+  repo_RUNTIME_xdna2__v2_tools_adaptive_planner_py -->|imports:INFERRED| repo_RUNTIME_xdna2__v2_tools_latency_predictor_py
+  repo_RUNTIME_xdna2__v2_tools_whole_array_aot_v140_py -->|imports:INFERRED| repo_RUNTIME_tools_whole_array_v140_whole_array_py
+```
