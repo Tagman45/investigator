@@ -1,0 +1,4 @@
+tools/auto_commit.log
+__pycache__/
+*.pyc
+.pytest_cache/
