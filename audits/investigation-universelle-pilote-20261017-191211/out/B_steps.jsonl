@@ -1,0 +1,7 @@
+{"ts": "2026-10-17T19:20:00", "step": "analyze_request", "detail": {"domaine": "science", "outil_choisi": "web_search + page primaire arXiv"}}
+{"ts": "2026-10-17T19:20:30", "step": "external_search", "detail": {"tool": "web_search (google)", "query": "Attention Is All You Need arXiv 1706.03762 Vaswani 2017", "results_count": 10}}
+{"ts": "2026-10-17T19:21:00", "step": "external_search", "detail": {"tool": "read_url", "query": "arxiv.org/abs/1706.03762 (source primaire)", "results_count": 1, "http": 200}}
+{"ts": "2026-10-17T19:21:30", "step": "verify_source", "detail": {"url": "https://arxiv.org/abs/1706.03762", "identité": "titre+DOI confirmés dans la page finale (pas de redirection : finalUrl == url)", "date_conformité": "12/06/2017 v1, v7 02/08/2023", "version": "v7"}}
+{"ts": "2026-10-17T19:21:40", "step": "verify_source", "detail": {"url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need", "identité": "informatif, source secondaire indépendante", "coherence": "2017 + 8 auteurs Google = cohérent"}}
+{"ts": "2026-10-17T19:21:50", "step": "cross_check", "detail": {"sources_independantes": 2, "contradiction_detectee": false}}
+{"ts": "2026-10-17T19:22:00", "step": "coverage_eval", "detail": {"limites": ["titre/auteurs/date vérifiés; contenu scientifique complet non audité (hors périmètre du claim)"]}}

@@ -1,0 +1,35 @@
+{
+  "request": "Confirmer les métadonnées de la publication arXiv 'Attention Is All You Need' (1706.03762) : auteurs, année 2017, versions",
+  "detection": {
+    "request": "Confirmer les métadonnées de la publication arXiv 'Attention Is All You Need' (1706.03762) : auteurs, année 2017, versions",
+    "domain_module": null,
+    "source_types": [
+      "science"
+    ],
+    "entities": [
+      "Confirmer",
+      "Attention",
+      "All",
+      "You",
+      "Need"
+    ],
+    "urls": [],
+    "versions": [
+      "1706.03762"
+    ],
+    "modules_seen": []
+  },
+  "profile": "standard",
+  "network_allowed": true,
+  "mandatory_steps": {
+    "external_search": 2,
+    "verify_source": 2,
+    "cross_check": 1,
+    "coverage_eval": 1
+  },
+  "restrictions": [],
+  "notes": [
+    "La recherche externe est obligatoire mais ADAPTÉE au domaine : les sources sont choisies par le plan, pas par une liste fermée.",
+    "Toute demande explicite de restriction réseau est honnorée et consignée ; le bilan est plafonné à UNVERIFIED en conséquence."
+  ]
+}

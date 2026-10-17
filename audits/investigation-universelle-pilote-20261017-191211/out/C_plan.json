@@ -1,0 +1,30 @@
+{
+  "request": "Vérifier la date d'inauguration de la tour Eiffel (sujet historique hors informatique)",
+  "detection": {
+    "request": "Vérifier la date d'inauguration de la tour Eiffel (sujet historique hors informatique)",
+    "domain_module": null,
+    "source_types": [
+      "historical"
+    ],
+    "entities": [
+      "Vérifier",
+      "Eiffel"
+    ],
+    "urls": [],
+    "versions": [],
+    "modules_seen": []
+  },
+  "profile": "deep",
+  "network_allowed": true,
+  "mandatory_steps": {
+    "external_search": 3,
+    "verify_source": 4,
+    "cross_check": 2,
+    "coverage_eval": 1
+  },
+  "restrictions": [],
+  "notes": [
+    "La recherche externe est obligatoire mais ADAPTÉE au domaine : les sources sont choisies par le plan, pas par une liste fermée.",
+    "Toute demande explicite de restriction réseau est honnorée et consignée ; le bilan est plafonné à UNVERIFIED en conséquence."
+  ]
+}
