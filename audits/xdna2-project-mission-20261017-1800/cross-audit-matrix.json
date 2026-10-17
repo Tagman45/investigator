@@ -1,0 +1,42 @@
+[
+ {
+  "affirmation": "Le gate (z) des couches linear_attention est fusionné dans qkv par le convertisseur FLM",
+  "sources": [
+   "EVD-20261017-004 (hypothese)",
+   "EVD-20261017-008 (contre-épreuve)"
+  ],
+  "verdict": "REFUTÉ par comptage exact : qkv=2560x8192 = q(2048)+k(2048)+v(4096), rien pour un z 4096",
+  "statut_final": "CONTRADICTED",
+  "experience_discriminante": "differencing des offsets byte-level du conteneur officiel (fait, PASS)"
+ },
+ {
+  "affirmation": "self_attn.gate_proj.weight n'est exigé QUE pour les couches linear_attention",
+  "sources": [
+   "scan manifest src/xclbins/Qwen3.5-4B-NPU2/open_kernels/manifest.json",
+   "EVD-20261017-007 (run PASS fraçait le gate)"
+  ],
+  "verdict": "CONFIRMÉ STATIC (les 8 full_attention n'en exigent pas)",
+  "statut_final": "CONFIRMED_STATIC",
+  "experience_discriminante": "moteur charge un conteneur avec gate pour les 24 linear uniquement"
+ },
+ {
+  "affirmation": "Les pics embed du run SFT sont des reads froides HDD (H1)",
+  "sources": [
+   "EVD-20261017-007 (notes)",
+   "experiment-plan.md de la mission"
+  ],
+  "verdict": "INCONNU tant que le run chaud n'est pas fait",
+  "statut_final": "INCONCLUSIVE",
+  "experience_discriminante": "plan propose: 2 runs phases froid/chaud"
+ },
+ {
+  "affirmation": "Les chemins EVD 'manquants' rendent des preuves perdues",
+  "sources": [
+   "evidence/oracle-inventory.json (1er pass)",
+   "provenance-resolution-detail.json (2e pass)"
+  ],
+  "verdict": "REFUTÉ pour l'échantillon : 0 preuve perdue, 1 chemin mal résolu (le doc existe à 2 endroits, 6707 o identiques)",
+  "statut_final": "ANALOGOUS->REFUTED",
+  "experience_discriminante": "re-résolution absolue+alternatives"
+ }
+]
