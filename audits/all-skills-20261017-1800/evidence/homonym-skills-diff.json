@@ -1,0 +1,24 @@
+{
+ "compared": "skills/local vs opencode/skills",
+ "common": [
+  "git-ecosystem-investigator",
+  "xdna2-cross-audit",
+  "xdna2-evidence-oracle",
+  "xdna2-path-explorer"
+ ],
+ "identical": [
+  "git-ecosystem-investigator",
+  "xdna2-cross-audit",
+  "xdna2-path-explorer"
+ ],
+ "differences": {
+  "xdna2-evidence-oracle": {
+   "only_on_one_side": [],
+   "differing_files": [
+    "scripts/__pycache__/oracle.cpython-313.pyc",
+    "scripts/check_urls.py",
+    "scripts/oracle.py"
+   ]
+  }
+ }
+}

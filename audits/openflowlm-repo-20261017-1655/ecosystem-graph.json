@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "local_repos_openflowlm_next__git_origin_",
+      "label": "local:repos_openflowlm_next (git origin)"
+    },
+    {
+      "id": "https___github_com_Atomic_Germ_OpenFlowLM_Next",
+      "label": "https://github.com/Atomic-Germ/OpenFlowLM-Next"
+    },
+    {
+      "id": "local_repos_openflowlm_next_docs_index_md_17",
+      "label": "local:repos_openflowlm_next/docs/index.md:17"
+    },
+    {
+      "id": "https___github_com_Atomic_Germ_OpenFlowLM_releases_latest_do",
+      "label": "https://github.com/Atomic-Germ/OpenFlowLM/releases/latest/download/oflm-setup.msi"
+    },
+    {
+      "id": "local_repos_openflowlm_next_docs_index_md_21",
+      "label": "local:repos_openflowlm_next/docs/index.md:21"
+    },
+    {
+      "id": "https___github_com_Atomic_Germ_OpenFlowLM",
+      "label": "https://github.com/Atomic-Germ/OpenFlowLM"
+    },
+    {
+      "id": "local_repos_openflowlm_next_README_md_5",
+      "label": "local:repos_openflowlm_next/README.md:5"
+    },
+    {
+      "id": "https___github_com_ROCm_FastFlowLM",
+      "label": "https://github.com/ROCm/FastFlowLM"
+    },
+    {
+      "id": "local_repos_openflowlm_next_docs_index_md_34",
+      "label": "local:repos_openflowlm_next/docs/index.md:34"
+    },
+    {
+      "id": "https___discord_com_invite_jtWZdMJ8ee",
+      "label": "https://discord.com/invite/jtWZdMJ8ee"
+    },
+    {
+      "id": "github_api_repos_Atomic_Germ_OpenFlowLM_Next",
+      "label": "github_api:repos/Atomic-Germ/OpenFlowLM-Next"
+    },
+    {
+      "id": "https___api_github_com_repos_Atomic_Germ_OpenFlowLM_Next",
+      "label": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next"
+    },
+    {
+      "id": "local_repos_openflowlm_next_src_open_qwen36__24_fichiers_",
+      "label": "local:repos_openflowlm_next src/open_qwen36 (24 fichiers)"
+    },
+    {
+      "id": "https___github_com_Atomic_Germ_OpenFlowLM_Next_tree_main_src",
+      "label": "https://github.com/Atomic-Germ/OpenFlowLM-Next/tree/main/src/open_qwen36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "local:repos_openflowlm_next (git origin)",
+      "destination": "https://github.com/Atomic-Germ/OpenFlowLM-Next",
+      "type": "is_local_clone_of",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "URL-NEXT-001"
+      ],
+      "context": "git remote -v -> origin fetch/push sur HEAD 7af242e"
+    },
+    {
+      "source": "local:repos_openflowlm_next/docs/index.md:17",
+      "destination": "https://github.com/Atomic-Germ/OpenFlowLM/releases/latest/download/oflm-setup.msi",
+      "type": "distributes_binary",
+      "certainty": "DECLARED",
+      "evidence_ids": [
+        "URL-003"
+      ],
+      "context": "CTA de telechargement Windows ('The OpenFlowLM team is now part of AMD')"
+    },
+    {
+      "source": "local:repos_openflowlm_next/docs/index.md:21",
+      "destination": "https://github.com/Atomic-Germ/OpenFlowLM",
+      "type": "upstream_project",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "URL-004"
+      ],
+      "context": "README racine: 'A community fork of [FastFlowLM]' (ROCm/FastFlowLM)"
+    },
+    {
+      "source": "local:repos_openflowlm_next/README.md:5",
+      "destination": "https://github.com/ROCm/FastFlowLM",
+      "type": "fork_parent",
+      "certainty": "DECLARED",
+      "evidence_ids": [
+        "URL-004b"
+      ],
+      "context": "Racine du fork declare dans le README"
+    },
+    {
+      "source": "local:repos_openflowlm_next/docs/index.md:34",
+      "destination": "https://discord.com/invite/jtWZdMJ8ee",
+      "type": "community_channel",
+      "certainty": "DECLARED",
+      "evidence_ids": [
+        "URL-005"
+      ],
+      "context": "CTA Discord du site docs"
+    },
+    {
+      "source": "github_api:repos/Atomic-Germ/OpenFlowLM-Next",
+      "destination": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next",
+      "type": "api_probe",
+      "certainty": "UNKNOWN",
+      "evidence_ids": [
+        "COLLECT-403"
+      ],
+      "context": "HTTP_403 sur tous les endpoints (rate limit unauthentifie) - collection.json"
+    },
+    {
+      "source": "local:repos_openflowlm_next src/open_qwen36 (24 fichiers)",
+      "destination": "https://github.com/Atomic-Germ/OpenFlowLM-Next/tree/main/src/open_qwen36",
+      "type": "code_inventory",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "INSPECT-SRC-001"
+      ],
+      "context": "24 fichiers .cpp/.hpp du moteur open + block_host, inventory local CONFIRMED"
+    }
+  ]
+}

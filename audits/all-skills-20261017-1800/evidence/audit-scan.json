@@ -1,0 +1,26 @@
+{
+ "analyzed_files": 212,
+ "refs_extracted": 255,
+ "canonical_urls": 80,
+ "github_urls": 43,
+ "path_refs_checked": 121,
+ "path_refs_missing": [
+  {
+   "skill_dir": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\aiehlc-cursor\\kernelcodegen",
+   "referenced": "references/project-layout.md"
+  },
+  {
+   "skill_dir": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\aiehlc-cursor\\kernelcodegen",
+   "referenced": "references/compile-env.md"
+  },
+  {
+   "skill_dir": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\aiehlc-cursor\\routinghwdebug",
+   "referenced": "references/validation-rules.md"
+  },
+  {
+   "skill_dir": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\aiehlc-cursor\\routinghwdebug",
+   "referenced": "references/validation-rules.md"
+  }
+ ],
+ "duplicate_paths_workspace_opencode": 0
+}

@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "C:\Users\videl\Desktop\doc-skill-xdna2-work\skills\local\git-ecosystem-investigator\scripts\inspect_repository.py", line 35, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "C:\Users\videl\Desktop\doc-skill-xdna2-work\skills\local\git-ecosystem-investigator\scripts\inspect_repository.py", line 28, in main
+    hits=re.findall(r'^(?:\s*(?:from\s+([^\s]+)|import\s+([^\s;]+)|#include\s*[<"]([^>"]+))', text, re.M)
+  File "C:\Users\videl\miniconda3\Lib\re\__init__.py", line 278, in findall
+    return _compile(pattern, flags).findall(string)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\videl\miniconda3\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\videl\miniconda3\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\videl\miniconda3\Lib\re\_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\videl\miniconda3\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\videl\miniconda3\Lib\re\_parser.py", line 865, in _parse
+    raise source.error("missing ), unterminated subpattern",
+                       source.tell() - start)
+re.PatternError: missing ), unterminated subpattern at position 1
+INSPECT_EXIT=1

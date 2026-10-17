@@ -1,0 +1,44 @@
+[
+ {
+  "evidence_id": "URL-NEXT-001",
+  "kind": "git_remote",
+  "when": "2026-10-17",
+  "detail": "git remote -v sur repos_openflowlm_next: origin = Atomic-Germ/OpenFlowLM-Next.git"
+ },
+ {
+  "evidence_id": "URL-003",
+  "kind": "extract_reference",
+  "when": "2026-10-17",
+  "detail": "extract_references.py docs/index.md:17 -> release oflm-setup.msi"
+ },
+ {
+  "evidence_id": "URL-004",
+  "kind": "extract_reference",
+  "when": "2026-10-17",
+  "detail": "extract_references.py docs/index.md:21 -> upstream repo"
+ },
+ {
+  "evidence_id": "URL-004b",
+  "kind": "extract_reference",
+  "when": "2026-10-17",
+  "detail": "extract_references.py README.md (l.6+) -> fork de ROCm/FastFlowLM"
+ },
+ {
+  "evidence_id": "URL-005",
+  "kind": "extract_reference",
+  "when": "2026-10-17",
+  "detail": "extract_references.py docs/index.md:34 -> Discord"
+ },
+ {
+  "evidence_id": "COLLECT-403",
+  "kind": "api_side_probe",
+  "when": "2026-10-17",
+  "detail": "collect_github_data.py non authentifie: 5/5 endpoints HTTP_403, aucune donnee"
+ },
+ {
+  "evidence_id": "INSPECT-SRC-001",
+  "kind": "local_inspection",
+  "when": "2026-10-17",
+  "detail": "inspect_repository.py sur src/: 1221 fichiers, 366 avec imports, open_qwen36 = 24 fichiers"
+ }
+]

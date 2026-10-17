@@ -1,0 +1,71 @@
+{
+  "repository": "Atomic-Germ/OpenFlowLM-Next",
+  "collected_at": "2026-10-17T14:51:48Z",
+  "authenticated": false,
+  "endpoints": [
+    {
+      "name": "metadata",
+      "page": 1,
+      "status": 403,
+      "url": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next?page=1&per_page=100",
+      "error": "HTTP_403"
+    },
+    {
+      "name": "branches",
+      "page": 1,
+      "status": 403,
+      "url": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next/branches?page=1&per_page=100",
+      "error": "HTTP_403"
+    },
+    {
+      "name": "tags",
+      "page": 1,
+      "status": 403,
+      "url": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next/tags?page=1&per_page=100",
+      "error": "HTTP_403"
+    },
+    {
+      "name": "releases",
+      "page": 1,
+      "status": 403,
+      "url": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next/releases?page=1&per_page=100",
+      "error": "HTTP_403"
+    },
+    {
+      "name": "pulls",
+      "page": 1,
+      "status": 403,
+      "url": "https://api.github.com/repos/Atomic-Germ/OpenFlowLM-Next/pulls?state=all&page=1&per_page=100",
+      "error": "HTTP_403"
+    }
+  ],
+  "limits": {
+    "pages": 1,
+    "per_page": 100
+  },
+  "metadata": {
+    "items": [],
+    "error": "HTTP_403",
+    "pages_attempted": 1
+  },
+  "branches": {
+    "items": [],
+    "error": "HTTP_403",
+    "pages_attempted": 1
+  },
+  "tags": {
+    "items": [],
+    "error": "HTTP_403",
+    "pages_attempted": 1
+  },
+  "releases": {
+    "items": [],
+    "error": "HTTP_403",
+    "pages_attempted": 1
+  },
+  "pulls": {
+    "items": [],
+    "error": "HTTP_403",
+    "pages_attempted": 1
+  }
+}
