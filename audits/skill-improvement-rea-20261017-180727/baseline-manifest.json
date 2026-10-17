@@ -1,0 +1,247 @@
+﻿[
+    {
+        "path":  ".gitignore",
+        "bytes":  56,
+        "sha256":  "636b5dac56f7058157c32a29ec716877eb3b46344014c3c88c8840d8e229ec7e"
+    },
+    {
+        "path":  "INDEX.md",
+        "bytes":  817,
+        "sha256":  "5773e080a59cf6f1e1abd580d515fad3b86fbd91ea57ec3084a6c363bc8203e5"
+    },
+    {
+        "path":  "README.md",
+        "bytes":  14,
+        "sha256":  "db48e2e5b64c1bd4ac0329514b706df86bf055aa8fd2a255f9539af0f2a95879"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/connection-ledger.jsonl",
+        "bytes":  2102,
+        "sha256":  "6c2a0382e4bf35069e19a47fdb4a6b5c9b72d9b23c710b911d9a132373a6744d"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/coverage-report.md",
+        "bytes":  502,
+        "sha256":  "4629e3e0411bbe43d490847f0a06a784ec20279a8e9ae702ae0a6baee2c8d51b"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/ecosystem-graph.json",
+        "bytes":  4246,
+        "sha256":  "8424712f311a417d3b6c67bd9940b039f2d547ad64454a0d6abb797618f76806"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/ecosystem-graph.mmd",
+        "bytes":  1996,
+        "sha256":  "614291014d8bd79e02a3de47e85986f8bdc9b11396f3c74950bca4bf9eac4f2b"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/evidence/audit-scan.json",
+        "bytes":  865,
+        "sha256":  "e98ab18883bfff4834d52ca809b2d6324b82d0bead3569c46c0016923c817d22"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/evidence/homonym-skills-diff.json",
+        "bytes":  509,
+        "sha256":  "cd3be23fcd1bb6ac8f74081bd8ea322a52d29fc067eeddb37ea4bfbaaaebc82b"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/evidence/missing-paths.json",
+        "bytes":  654,
+        "sha256":  "e83c8f0da96a40a6e7ad862cffee9407e40ff9c5d615995b587a9fc84eecabfb"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/improvements.md",
+        "bytes":  2509,
+        "sha256":  "15a0ad0846493692708c560d70d04b6317c88a97d2e295278d91dceb4f6312c7"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/specialization-matrix.md",
+        "bytes":  1929,
+        "sha256":  "fcc6a77a817b16733fae6fc93e02e202f526a2a19faf53b330c0388abdc5960d"
+    },
+    {
+        "path":  "audits/all-skills-20261017-1800/url-discovery-ledger.jsonl",
+        "bytes":  28431,
+        "sha256":  "19175aa7e82c304950fac4b54a1e61f7ae17c3a49a0282981aa3b0f7f90382fd"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/architecture-index.md",
+        "bytes":  1531,
+        "sha256":  "8ce347f3a61f84373a117c7588fe94ec8e6a42a90516c4ef1157452808c91888"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/collection.json",
+        "bytes":  1710,
+        "sha256":  "646cc7d87f82df2cd92118fad7c4ec210f16cdcc161a2bb8ce59f9a4de241f64"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/connection-ledger.jsonl",
+        "bytes":  3281,
+        "sha256":  "8091e9c6a505885b8b09d14ed37a2b3a8a28fa29153eddfbe9b2a0e43da96f9d"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/connection-ledger.md",
+        "bytes":  1423,
+        "sha256":  "2525aab04ed98e5b926e8f50392d9df58f569696080e7d17c91610dc42742f99"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/coverage-report.md",
+        "bytes":  683,
+        "sha256":  "7ec576b32d9c4f7040c0056d1ba3abecd84bef577de853fdfa2cd1e52353a37b"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/cross-repo-findings.md",
+        "bytes":  1449,
+        "sha256":  "7f53c8f3d421b7189f5d8ce0eb0818022249a87d52e7159493c313da80eb7432"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/ecosystem-graph.json",
+        "bytes":  4623,
+        "sha256":  "75d0dfd2c2a4120707243f97c681a00ae0bfe6a2fee5f53c00274fa9db46786f"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/ecosystem-graph.mmd",
+        "bytes":  2375,
+        "sha256":  "e0b033296f71fa081330549f0eb521fb225ab51e33efc6af263589ec43bd3e95"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/collection-notes.json",
+        "bytes":  1268,
+        "sha256":  "b967f55ddf7b38d99fc2e1a0ddbea9c94670254f1e9b8891832aa00a7a0794eb"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/inspect_run.log",
+        "bytes":  1608,
+        "sha256":  "bcf754b092a1153a5aea3eaba4059d74faf43f4b798e542d69fac9b538f37c00"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/inspect_run2.log",
+        "bytes":  15,
+        "sha256":  "8c892b771e22aec73c137261f172b2bc295048201ee368065b6fdcda516eeefd"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/refs_README.jsonl",
+        "bytes":  971,
+        "sha256":  "08631f73c65fe6f42ba75e39bac65ab7db04036fa87dce2382606ee93c382506"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/refs_all.jsonl",
+        "bytes":  7105,
+        "sha256":  "c82041d202e4910866d8379959705f617d7ffb2f4047a2a87df17617fe363228"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/refs_docs_index.jsonl",
+        "bytes":  4873,
+        "sha256":  "e1986e676fcc879768a37d19cc8fa94b99b6855e3a0620216e60a7a91c84cd6b"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/evidence/refs_docs_models.jsonl",
+        "bytes":  1255,
+        "sha256":  "cc18a686be6379048d1aceb276a700450511695a562cf19b445f75a11e4cad6e"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/external-references.md",
+        "bytes":  1680,
+        "sha256":  "31dd37d4f2ecb46dd3bb7ce4310f17ea2136a048cb4ae54be48df7841fe12b19"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/issue-pr-map.md",
+        "bytes":  1657,
+        "sha256":  "2c4c43a46924bb439863c7487aaad607183d33b374a4db0df4aea6fe01b00061"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/open-questions.md",
+        "bytes":  1457,
+        "sha256":  "d5e6b637c61b03a488805199ec6010cfa1dfbb41ff1610c06a65ce5a03208082"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/repository-inspect-src.json",
+        "bytes":  150711,
+        "sha256":  "9a28e63d91a017051a79ad8610512b1e869fc17a1d4b9261e1120114dc8e2312"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/repository-inspect.json",
+        "bytes":  311425,
+        "sha256":  "8633969bc87026d65cd5949eda1a452b2796592520e94e0b120a2d105c8ce193"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/repository-inventory.md",
+        "bytes":  2346,
+        "sha256":  "711c7979906ccdecd0b473165632756b838a8789c03f2c6211c1384bddb7af2e"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/state/README.md",
+        "bytes":  887,
+        "sha256":  "7b105d0dffcde551dd560ab5b9ee88947cbf56fe54c318336ae46c1890cf897c"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/timeline.md",
+        "bytes":  1244,
+        "sha256":  "0ebe46fe0e7573feab58eb857665ce357f374d58bfbcdc2c843a3fed3256023c"
+    },
+    {
+        "path":  "audits/openflowlm-repo-20261017-1655/url-discovery-ledger.jsonl",
+        "bytes":  5372,
+        "sha256":  "1cacb91d2c810ccaf7a3edadb85ce555e09db4d93fbcf54b183963a9a991ba06"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/connection-ledger.jsonl",
+        "bytes":  875,
+        "sha256":  "39db3b10c565e8d5220501bf967d5f3a6793637fd59739aa77ef33459faeff39"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/coverage-report.md",
+        "bytes":  516,
+        "sha256":  "2406fe416c22965d66e182b5d78eabb3662f521467f74b185510f91d30848e7f"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/cross-audit-matrix.json",
+        "bytes":  1739,
+        "sha256":  "3318f32bf6d711dddd30bb50914054ce27664dfb135e4490a8610e441342a8ba"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/ecosystem-graph.json",
+        "bytes":  2202,
+        "sha256":  "1ad2f2629b0157dd95d8b2e6eb2a973d116a7e72b3e04dd045e6cbbad45d0ec0"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/ecosystem-graph.mmd",
+        "bytes":  1119,
+        "sha256":  "7fbc55092e925f350fee5caa53717d4f14908ea5ae761b1c6704fe1fca26a2f0"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/evidence/evidence-oracle-inventory.json",
+        "bytes":  647,
+        "sha256":  "12ba3855fdaf0cb96823864ef0c86b4b505d05572aabd9bee3fd00017a150aec"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/evidence/missing-proof-resolution.json",
+        "bytes":  754,
+        "sha256":  "fe6bebd0ec2d5f56180105a73aa9ad2efbe51e145fcf762f2683d7bf3927c975"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/evidence/provenance-resolution-detail.json",
+        "bytes":  1399,
+        "sha256":  "cf64e1b1ac26f77df42ac3299343f8f66dc1c91745c1afc6a573c0df60017b03"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/experiment-plan.md",
+        "bytes":  2059,
+        "sha256":  "ba987037fcc6d8dc8e01cafb58d0074ce6327c57597ceb63ca4bdb1028cb1c94"
+    },
+    {
+        "path":  "audits/xdna2-project-mission-20261017-1800/url-discovery-ledger.jsonl",
+        "bytes":  1290,
+        "sha256":  "9810e1021f90ff8622acc2ff09b4c7d109dc62da397912754b06b726c2bfd53a"
+    },
+    {
+        "path":  "purpose.md",
+        "bytes":  205,
+        "sha256":  "d9ca340f5ef9c21b68c12ea562f34441b0adf5f85a412795cbad02b7b20ec3ea"
+    },
+    {
+        "path":  "tools/auto_commit_push.py",
+        "bytes":  3707,
+        "sha256":  "1d1f28cae676c8eb86cf211478635d663660af4bac88ccb45320b14eb953134c"
+    }
+]
