@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "skills_aiehlc_cursor_kernelcodegen_SKILL_md",
+      "label": "skills:aiehlc-cursor/kernelcodegen/SKILL.md"
+    },
+    {
+      "id": "internal_references_project_layout_md",
+      "label": "internal:references/project-layout.md"
+    },
+    {
+      "id": "internal_references_compile_env_md",
+      "label": "internal:references/compile-env.md"
+    },
+    {
+      "id": "skills_aiehlc_cursor_routinghwdebug_SKILL_md",
+      "label": "skills:aiehlc-cursor/routinghwdebug/SKILL.md"
+    },
+    {
+      "id": "internal_references_validation_rules_md",
+      "label": "internal:references/validation-rules.md"
+    },
+    {
+      "id": "skills_xdna2_evidence_oracle__opencode_copy_",
+      "label": "skills:xdna2-evidence-oracle (opencode copy)"
+    },
+    {
+      "id": "internal_skills_local_xdna2_evidence_oracle",
+      "label": "internal:skills/local/xdna2-evidence-oracle"
+    },
+    {
+      "id": "skills_git_ecosystem_investigator_scripts_inspect_repository",
+      "label": "skills:git-ecosystem-investigator/scripts/inspect_repository.py"
+    },
+    {
+      "id": "https___github_com_Tagman45_investigator",
+      "label": "https://github.com/Tagman45/investigator"
+    },
+    {
+      "id": "all_skills_scan__212_fiches_",
+      "label": "all-skills scan (212 fiches)"
+    },
+    {
+      "id": "internal_url_discovery_ledger_jsonl",
+      "label": "internal:url-discovery-ledger.jsonl"
+    },
+    {
+      "id": "audit_infra",
+      "label": "audit infra"
+    },
+    {
+      "id": "local_C__Users_videl_skills_audit_reports__git_dedie_",
+      "label": "local:C:/Users/videl/skills-audit-reports (git dedie)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "skills:aiehlc-cursor/kernelcodegen/SKILL.md",
+      "destination": "internal:references/project-layout.md",
+      "type": "dead_link",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "MISS-001"
+      ],
+      "context": "references/project-layout.md absent du dossier du skill"
+    },
+    {
+      "source": "skills:aiehlc-cursor/kernelcodegen/SKILL.md",
+      "destination": "internal:references/compile-env.md",
+      "type": "dead_link",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "MISS-002"
+      ],
+      "context": "references/compile-env.md absent"
+    },
+    {
+      "source": "skills:aiehlc-cursor/routinghwdebug/SKILL.md",
+      "destination": "internal:references/validation-rules.md",
+      "type": "dead_link",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "MISS-003"
+      ],
+      "context": "references/validation-rules.md absent (2 mentions)"
+    },
+    {
+      "source": "skills:xdna2-evidence-oracle (opencode copy)",
+      "destination": "internal:skills/local/xdna2-evidence-oracle",
+      "type": "stale_copy",
+      "certainty": "CONFIRMED_RUNTIME",
+      "evidence_ids": [
+        "DIFF-001"
+      ],
+      "context": "copie pre-fix du 15/10 (oracle.py 552 vs 587 lignes, check_urls.py 62 vs 81) - synchronisee le 17/10"
+    },
+    {
+      "source": "skills:git-ecosystem-investigator/scripts/inspect_repository.py",
+      "destination": "https://github.com/Tagman45/investigator",
+      "type": "upstream_placeholder",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "UPSTREAM-001"
+      ],
+      "context": "upstream vide (README 1 ligne, arbre sans scripts, aucun tag) : le fix regex n'existe qu'ici"
+    },
+    {
+      "source": "all-skills scan (212 fiches)",
+      "destination": "internal:url-discovery-ledger.jsonl",
+      "type": "references_inventory",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "SCAN-001"
+      ],
+      "context": "255 refs extraites, 80 URLs canoniques (43 GitHub), 121 chemins internes testes, 4 morts"
+    },
+    {
+      "source": "audit infra",
+      "destination": "local:C:/Users/videl/skills-audit-reports (git dedie)",
+      "type": "reports_home",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "HOME-001"
+      ],
+      "context": "depot dedie cree (commit c7dcefd), un dossier par mission + INDEX.md"
+    }
+  ]
+}
