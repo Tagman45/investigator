@@ -1,0 +1,15 @@
+```mermaid
+graph LR
+  local_doc_skill_xdna2_work["local:doc-skill-xdna2-work"]
+  https___github_com_Tagman45_doc_skill_xdna2["https://github.com/Tagman45/doc-skill-xdna2"]
+  local_skills_audit_reports["local:skills-audit-reports"]
+  https___github_com_Tagman45_investigator["https://github.com/Tagman45/investigator"]
+  local_repos_openflowlm_next["local:repos_openflowlm_next"]
+  https___github_com_Atomic_Germ_OpenFlowLM_Next["https://github.com/Atomic-Germ/OpenFlowLM-Next"]
+  mission_M3["mission-M3"]
+  local_C__Users_videl_skills_audit_reports_audits_xdna2_proje["local:C:/Users/videl/skills-audit-reports/audits/xdna2-project-mission-20261017-1800"]
+  local_doc_skill_xdna2_work -->|pushes_to:CONFIRMED_RUNTIME| https___github_com_Tagman45_doc_skill_xdna2
+  local_skills_audit_reports -->|pushes_to:CONFIRMED_RUNTIME| https___github_com_Tagman45_investigator
+  local_repos_openflowlm_next -->|push_forbidden:CONFIRMED_RUNTIME| https___github_com_Atomic_Germ_OpenFlowLM_Next
+  mission_M3 -->|folder_for_this_mission:CONFIRMED_STATIC| local_C__Users_videl_skills_audit_reports_audits_xdna2_proje
+```

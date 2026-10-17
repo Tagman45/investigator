@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "local_doc_skill_xdna2_work",
+      "label": "local:doc-skill-xdna2-work"
+    },
+    {
+      "id": "https___github_com_Tagman45_doc_skill_xdna2",
+      "label": "https://github.com/Tagman45/doc-skill-xdna2"
+    },
+    {
+      "id": "local_skills_audit_reports",
+      "label": "local:skills-audit-reports"
+    },
+    {
+      "id": "https___github_com_Tagman45_investigator",
+      "label": "https://github.com/Tagman45/investigator"
+    },
+    {
+      "id": "local_repos_openflowlm_next",
+      "label": "local:repos_openflowlm_next"
+    },
+    {
+      "id": "https___github_com_Atomic_Germ_OpenFlowLM_Next",
+      "label": "https://github.com/Atomic-Germ/OpenFlowLM-Next"
+    },
+    {
+      "id": "mission_M3",
+      "label": "mission-M3"
+    },
+    {
+      "id": "local_C__Users_videl_skills_audit_reports_audits_xdna2_proje",
+      "label": "local:C:/Users/videl/skills-audit-reports/audits/xdna2-project-mission-20261017-1800"
+    }
+  ],
+  "edges": [
+    {
+      "source": "local:doc-skill-xdna2-work",
+      "destination": "https://github.com/Tagman45/doc-skill-xdna2",
+      "type": "pushes_to",
+      "certainty": "CONFIRMED_RUNTIME",
+      "evidence_ids": [
+        "EVD-20261017-011"
+      ],
+      "context": ""
+    },
+    {
+      "source": "local:skills-audit-reports",
+      "destination": "https://github.com/Tagman45/investigator",
+      "type": "pushes_to",
+      "certainty": "CONFIRMED_RUNTIME",
+      "evidence_ids": [
+        "EVD-20261017-011"
+      ],
+      "context": ""
+    },
+    {
+      "source": "local:repos_openflowlm_next",
+      "destination": "https://github.com/Atomic-Germ/OpenFlowLM-Next",
+      "type": "push_forbidden",
+      "certainty": "CONFIRMED_RUNTIME",
+      "evidence_ids": [
+        "EVD-20261017-011"
+      ],
+      "context": ""
+    },
+    {
+      "source": "mission-M3",
+      "destination": "local:C:/Users/videl/skills-audit-reports/audits/xdna2-project-mission-20261017-1800",
+      "type": "folder_for_this_mission",
+      "certainty": "CONFIRMED_STATIC",
+      "evidence_ids": [
+        "PRJ-003"
+      ],
+      "context": ""
+    }
+  ]
+}
