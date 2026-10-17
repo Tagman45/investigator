@@ -1,0 +1,23 @@
+{
+ "echantillon_taille": 8,
+ "chemins_testes": 8,
+ "manquants": [
+  {
+   "id": "EVD-20261015-009",
+   "path": "source amont repos_mlir_aie/python/iron/runtime/runtime.py resolve"
+  },
+  {
+   "id": "EVD-20261017-002",
+   "path": "model E:/oflm_models/Granite-4.2-3B-NPU2"
+  },
+  {
+   "id": "EVD-20261017-002",
+   "path": "kernels src/xclbins/Granite-4.2-3B-NPU2/open_kernels"
+  },
+  {
+   "id": "EVD-20261016-027",
+   "path": "experiments/f3best_mt_ab/mt_multilayer_bench.py + mtml_verdict.json + mtml_verdict_run1.json + mtml_verdict_run2.json + "
+  }
+ ],
+ "resolution": "absolu -> relatif workspace -> relatif experiments/"
+}
