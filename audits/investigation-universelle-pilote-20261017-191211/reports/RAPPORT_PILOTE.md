@@ -28,7 +28,7 @@ Le MÊME moteur, SANS modification de code entre les trois investigations :
 
 | Nom du travail | Référence | Identifiants | Résultat antérieur | Lien avec la mission actuelle | Action restante | Provenance | Vérification |
 |---|---|---|---|---|---|---|---|
-| xdna2-project-mission-20261017-1800 | `audits/xdna2-project-mission-20261017-1800` (dépôt investigator) | mission 17/10 | expérience latence embed | a servi d'ancrage au critère « noms exacts » ; ses noms sont utilisés comme ANCRES dans les tests du moteur | ne pas réutiliser (tests/aptitude solamente) | dossier local cutie 17/10, contenu lu aujourd'hui | VERIFIED (17/10/2026, `ls - audits/`) |
+| xdna2-project-mission-20261017-1800 | `audits/xdna2-project-mission-20261017-1800` (dépôt investigator) | mission 17/10 | expérience latence embed | a servi d'ancrage au critère « noms exacts » ; ses noms sont utilisés comme ANCRES dans les tests du moteur | ne pas réutiliser (tests uniquement) | dossier local initialisé le 17/10 18:00, contenu référencé aujourd'hui | VERIFIED (17/10/2026, dossier présent dans `audits/`) |
 | openflowlm-repo-20261017-1655 | `audits/openflowlm-repo-20261017-1655` | M1, EVD-20261017-009 | PASS (bug regex corrigé) | la correction regex est révisée et pas encore propagée au moteur universel — voir §5 | reprendre (vérifier le FIX au moteur) | dossier local, INDEX.md | VERIFIED (17/10/2026, INDEX.md lu) |
 | all-skills-20261017-1800 | `audits/all-skills-20261017-1800` | M2, EVD-20261017-010 | PASS + 4 améliorations restantes | le §5 dresse le compte-rendu des 4 restantes | suivre | dossier local, INDEX.md | VERIFIED (17/10/2026, INDEX.md lu) |
 | Tagman45/adaptive-xdna-runtime | remote GitHub | — | NON pensé par la mission | périmètre hors mission | ne pas réutiliser cette fois | ls-remote OK mais contenu non audité | REFERENCE_ONLY (17/10/2026) |
@@ -45,21 +45,21 @@ Le MÊME moteur, SANS modification de code entre les trois investigations :
 
 - Le FIX regex d'`inspect_repository.py` (M1, EVD-20261017-009) est sur la copie locale mais l'**insight** (~/.config/opencode) n'a PAS été testé sur ce fichier précis (seuls 42 tests du skill y ont été ré-exécutés ; inspect_repository.py n'a pas de test).
 - `PARTIALLY_CONFIRMED` est démontré en tests mais pas encore en pilote réel (cas réel non rencontré).
-- Formats de sources riches (PDF, images, pages dynamiques) : le moteur consomme сегодня « extrait d'extrait » (snippet) quand `read_url` n'est pas utilisé — le clamp `identity_verified=true` repose sur la judgement de l'agent : un read_url du site officiel serait parfait pour rendre la checklist táctile.
+- Formats de sources riches (PDF, images, pages dynamiques) : le moteur consomme des extraits de résultats de recherche quand `read_url` n'est pas utilisé — le clamp `identity_verified=true` repose alors sur le jugement de l'agent ; un `read_url` du site officiel renforcerait la vérification d'identité.
 
 ## 6. Limites (explicitement consignées)
 
 - Les 3 `web_search` renvoient des extraits de résultats ; quand `read_url` a été employé (pilote B), l'identité de la page a été contrôlée dans le contenu final ; pour les pilotes A/C ci-dessus, `identity_verified=true` est fondé sur l'URL officielle + cohérence — lui apposer un `read_url` ne serait que renforcement.
 - `GitDiagram` / `DeepWiki` n'ont pas été appelés : les preuves primaires (ls-remote, arXiv, web) suffisent ici ; tout outil non appelé n'est PAS déclaré utilisé.
-- Ce rapport ne prétend pas à l'exhaustivité sur les capacités du moteur : il PRouve jour la discipline et le critère décisif C (3 domaines, même code).
+- Ce rapport ne prétend pas à l'exhaustivité sur les capacités du moteur : il prouve la discipline et le critère décisif C (3 domaines, même code).
 - Aucun contenu distant n'a été modifié/téléchargé en écrit — ls-remote est strictement en lecture.
 
 ## 7. Livrables de la mission
 
 ```
 audits/investigation-universelle-pilote-20261017-191211/
-├── REPORTS/RAPPORT_PILOTE.md            ← ce rapport
-├── REPORTS/COMPTAGE_CONFORMITE.md       ← compteur de conformité (16/16 critères)
+├── reports/RAPPORT_PILOTE.md            ← ce rapport
+├── reports/COMPTAGE_CONFORMITE.md       ← compteur de conformité (16/16 critères)
 ├── reports/{A,B,C}_bilan.md             ← bilans finaux de moteur (exit 0 VERIFIED)
 ├── out/{A,B,C}_{plan,claims,steps}.*    ← plans, preuves, journaux d'étapes
 └── evidence/                            ← (réservé : copies d'extraits si requis)
