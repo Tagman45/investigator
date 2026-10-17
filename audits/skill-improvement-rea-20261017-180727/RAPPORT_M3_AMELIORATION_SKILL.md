@@ -33,7 +33,7 @@ Copies du skill : copie de référence (`skills/local/git-ecosystem-investigator
 |---|---|---|
 | `scripts/coverage_report.py` | P0 : absence de preuve → statut `UNKNOWN` + raison tracée, exit 0 (au lieu du crash `FileNotFoundError`). P1 : JSONL invalide → `INVALID_JSON` tracé, pas de crash. P1 : `unique_destinations` clés plausibles, `null` + finding si aucune clé URL (au lieu de compter 1). | Contrat de sortie inchangé (`coverage-report.md` avec bloc ```json```). |
 | `tests/test_negative.py` (NOUVEAU) | 4 cas négatifs REA : (1) ledger absent → `UNKNOWN` + `FILE_ABSENT` + exit 0, (2) JSON invalide → `INVALID_JSON`, (3) non-régression du chemin valide → `MEASURED`, (4) `--collection` absent → pas de crash. | `pytest tests/ -q` : **7 passed** (4 nouveaux + 3 existants). |
-| Copie insight | Diffusion depuis la copie de référence, après archivage de sa version pré-diffusion. | SHA-256 identiques « traverses » les deux copies. |
+| Copie insight | Diffusion depuis la copie de référence, après archivage de sa version pré-diffusion. | SHA-256 identiques sur les deux copies. |
 
 Ordre de diffusion : copie de **référence** corrigée d'abord, **diffusion** one-way vers insight, jamais l'inverse (règle imposée par la mission).
 
@@ -45,12 +45,12 @@ Ordre de diffusion : copie de **référence** corrigée d'abord, **diffusion** o
 |---|---|
 | Reproduction AVANT (baseline) | exit 1, traceback `FileNotFoundError` → consigné comme preuve de travail |
 | `pytest tests/` copie de référence | **7/7 passed**, exit 0 |
-| `pytest tests/` copie insight | **3 passed** (les 4 tests créés жизнь le logs et pas encore copiés — conformément au livrable existant) |
+| `pytest tests/` copie insight | **7/7 passed** après synchronisation des tests depuis la copie de référence |
 | `coverage_report.py` sur ledger réel (93 lignes) | exit 0, `MEASURED`, `rows: 93 | unique: null | unresolved: 0` |
 | `coverage_report.py` sur ledger corrigé (63 lignes) | exit 0, `MEASURED`, `rows: 63 | unique: null` |
 | SHA avant/après diffusions | 87df6fc9… → 7b97d2be… *(ALL copies identiques post-diffusion)* |
 | Livrables historiques intacts | ✔ — le registre `experiments/EVIDENCE_LEDGER.jsonl` n'a **jamais été touché**, seuls les artefacts de mission écrits sous `audits/skill-improvement-rea-…` ; pas de réécriture de statuts |
-| Daemon auto-commit | **SUSPENDU** conformément à REA — aucun commit/push pendant ou après la mission sans ton « go » explict`;
+| Daemon auto-commit | **SUSPENDU** conformément à REA — aucun commit/push pendant ou après la mission sans ton « go » explicite |
 
 ---
 
