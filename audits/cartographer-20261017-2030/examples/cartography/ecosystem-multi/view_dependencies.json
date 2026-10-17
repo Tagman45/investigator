@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "API__api_py_",
+      "label": "API (api.py)",
+      "domain": "other"
+    },
+    {
+      "id": "Worker__worker_py_",
+      "label": "Worker (worker.py)",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Worker__worker_py_",
+      "source": "API (api.py)",
+      "destination": "Worker (worker.py)",
+      "type": "imports",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:3"
+    }
+  ],
+  "view": "dependencies",
+  "repo_id": null
+}

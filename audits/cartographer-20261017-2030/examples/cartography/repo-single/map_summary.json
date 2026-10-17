@@ -1,0 +1,25 @@
+{
+  "repos": [
+    "C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/tests/fixtures/multi-repos/repoA"
+  ],
+  "inspections": [
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\examples\\cartography\\repo-single\\inspect_repoA.json"
+  ],
+  "ledgers": [
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\examples\\cartography\\repo-single\\parsed_repoA_arch.jsonl"
+  ],
+  "steps": "C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\examples\\cartography\\repo-single\\steps.jsonl",
+  "step_compliance": {
+    "done": {
+      "analyze_request": 3,
+      "verify_source": 2,
+      "cross_check": 1,
+      "coverage_eval": 1,
+      "report": 1
+    },
+    "missing": {},
+    "unknown_steps": [],
+    "recorded_searches": [],
+    "network_allowed": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "graph-v1-correlated",
+  "edges": [
+    {
+      "source_object": "API (api.py)",
+      "canonical_url": "Worker (worker.py)",
+      "source_id": "API",
+      "target_id": "Worker",
+      "source_label": "api.py",
+      "target_label": "worker.py",
+      "relation": "imports",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:3",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          3
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'worker' dans src/api.py → src/worker.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "Worker",
+      "canonical_url": "DB ((\"store.py\"))",
+      "source_id": "Worker",
+      "target_id": "DB",
+      "source_label": "Worker",
+      "target_label": "(\"store.py\")",
+      "relation": "references",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:4",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          4
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'store' dans src/worker.py → src/store.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "API",
+      "canonical_url": "Ghost (gone.py)",
+      "source_id": "API",
+      "target_id": "Ghost",
+      "source_label": "API",
+      "target_label": "gone.py",
+      "relation": "references",
+      "certainty": "MISSING",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:5",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          5
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "MISSING",
+      "evidence": [],
+      "counter_evidence": [
+        "aucune trace dans les inspections ni l'historique"
+      ],
+      "uncertainty_reason": "endpoint introuvable : 'gone.py' (ni fichier, ni import, ni manifest)"
+    }
+  ]
+}

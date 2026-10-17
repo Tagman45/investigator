@@ -1,0 +1,31 @@
+{
+  "request": "cartographie: C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/tests/fixtures/multi-repos/repoA",
+  "detection": {
+    "request": "cartographie: C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/tests/fixtures/multi-repos/repoA",
+    "domain_module": null,
+    "source_types": [
+      "software"
+    ],
+    "entities": [
+      "Users",
+      "Desktop"
+    ],
+    "urls": [],
+    "versions": [],
+    "modules_seen": []
+  },
+  "profile": "quick",
+  "network_allowed": true,
+  "mandatory_steps": {
+    "external_search": 0,
+    "verify_source": 1,
+    "cross_check": 0,
+    "coverage_eval": 1
+  },
+  "restrictions": [],
+  "notes": [
+    "La recherche externe est obligatoire mais ADAPTÉE au domaine : les sources sont choisies par le plan, pas par une liste fermée.",
+    "Toute demande explicite de restriction réseau est honnorée et consignée ; le bilan est plafonné à UNVERIFIED en conséquence.",
+    "map local : external_search=0 (repos déjà présents) ; toute collecte distante ultérieure s'enregistre en external_search."
+  ]
+}

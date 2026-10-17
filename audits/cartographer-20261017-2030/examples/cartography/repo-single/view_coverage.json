@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "API",
+      "label": "API",
+      "domain": "other"
+    },
+    {
+      "id": "API__api_py_",
+      "label": "API (api.py)",
+      "domain": "other"
+    },
+    {
+      "id": "DB____store_py___",
+      "label": "DB ((\"store.py\"))",
+      "domain": "other"
+    },
+    {
+      "id": "Ghost__gone_py_",
+      "label": "Ghost (gone.py)",
+      "domain": "other"
+    },
+    {
+      "id": "Worker",
+      "label": "Worker",
+      "domain": "other"
+    },
+    {
+      "id": "Worker__worker_py_",
+      "label": "Worker (worker.py)",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Worker__worker_py_",
+      "source": "API (api.py)",
+      "destination": "Worker (worker.py)",
+      "type": "imports",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:3"
+    },
+    {
+      "source_id": "Worker",
+      "target_id": "DB____store_py___",
+      "source": "Worker",
+      "destination": "DB ((\"store.py\"))",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:4"
+    },
+    {
+      "source_id": "API",
+      "target_id": "Ghost__gone_py_",
+      "source": "API",
+      "destination": "Ghost (gone.py)",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:5"
+    }
+  ],
+  "view": "coverage",
+  "repo_id": null,
+  "counters": {
+    "DECLARED": 3
+  }
+}

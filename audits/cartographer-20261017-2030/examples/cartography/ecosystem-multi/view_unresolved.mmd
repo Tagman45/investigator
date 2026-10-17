@@ -1,0 +1,14 @@
+```mermaid
+graph LR
+  API["API"]
+  API__api_py_["API (api.py)"]
+  DB____store_py___["DB (('store.py'))"]
+  Ghost__gone_py_["Ghost (gone.py)"]
+  Svc__svc_go_["Svc (svc.go)"]
+  Worker["Worker"]
+  Worker__worker_py_["Worker (worker.py)"]
+  API__api_py_ -->|imports:DECLARED| Worker__worker_py_
+  Worker -->|references:DECLARED| DB____store_py___
+  API -->|references:DECLARED| Ghost__gone_py_
+  Svc__svc_go_ -->|calls:DECLARED| API__api_py_
+```
