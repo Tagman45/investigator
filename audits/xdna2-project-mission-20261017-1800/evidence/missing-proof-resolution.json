@@ -1,0 +1,16 @@
+{
+ "fichier_double_localisation": {
+  "evidence_valeur_initiale": "C:/Users/videl/Desktop/doc-skill-xdna2-work/docs/SESSION_11_08... (FAUX chemin)",
+  "workspace_collecte_rapports": {
+   "exists": true,
+   "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\collecte_rapports_xdna2\\SESSION_11_08_RÉGLAGE_DOUBLE_COMPTAGE_HRX_GEMM_PHASE5.md",
+   "size": 6707
+  },
+  "trixdna_docs": {
+   "exists": true,
+   "path": "E:\\trixdna_test\\docs\\SESSION_11_08_RÉGLAGE_DOUBLE_COMPTAGE_HRX_GEMM_PHASE5.md",
+   "size": 6707
+  },
+  "conclusion": "PREUVE PERDUE? NON - l'entréé EVD-20261014-020 pointe un chemin seed mal typé; la preuve existe en double. Amelioration proposée: canoniser les chemins EVD vers un chemin unique verifie."
+ }
+}
