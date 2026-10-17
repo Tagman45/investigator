@@ -1,0 +1,42 @@
+{
+ "EVD-20261017-002|model": {
+  "exists": true,
+  "path": "E:\\oflm_models\\Granite-4.2-3B-NPU2",
+  "note": "direct"
+ },
+ "EVD-20261017-002|kernels": {
+  "exists": true,
+  "path": "E:\\trixdna_test\\repos_openflowlm_next\\src\\xclbins\\Granite-4.2-3B-NPU2\\open_kernels",
+  "note": "direct"
+ },
+ "EVD-20261015-009|source": {
+  "exists": true,
+  "path": "E:\\trixdna_test\\repos_mlir_aie\\ironenv\\Lib\\site-packages\\mlir_aie\\python\\aie\\iron\\runtime\\runtime.py",
+  "note": "relocalisé E:/trixdna_test/repos_mlir_aie"
+ },
+ "EVD-20261016-027|mt_ab": {
+  "exists": true,
+  "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\experiments\\f3best_mt_ab",
+  "note": "direct"
+ },
+ "EVD-20261014-042|env": {
+  "exists": true,
+  "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\experiments\\ENV_REPORT.json",
+  "note": "direct"
+ },
+ "EVD-20261015-009|abab": {
+  "exists": true,
+  "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\experiments\\gemv_q4nx\\abab_run_out.txt",
+  "note": "direct"
+ },
+ "EVD-20261014-020|hrx": {
+  "exists": true,
+  "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\reverse\\hrx",
+  "note": "direct"
+ },
+ "EVD-20261014-020|docs11": {
+  "exists": false,
+  "path": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\docs\\SESSION_11_08_RÉGLAGE_DOUBLE_COMPTAGE_HRX_GEMM_PHASE5.md",
+  "note": "direct"
+ }
+}
