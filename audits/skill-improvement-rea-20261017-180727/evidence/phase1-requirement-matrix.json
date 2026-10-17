@@ -1,0 +1,44 @@
+[
+ [
+  "P1 couverture externe A1",
+  "non implémenté",
+  "M2: 43 URLs GitHub jamais sondées (HTTP_403 sans jeton)",
+  "aucun",
+  "OUVERT (bloqué credentials)"
+ ],
+ [
+  "P1 corrélation A2",
+  "non implémenté",
+  "M2: issue-pr-map 4 refs commit-squash locales",
+  "aucun",
+  "OUVERT (API)"
+ ],
+ [
+  "P1 purge artefacts A3",
+  "PARTIEL",
+  ".gitignore ajouté au dépôt dédié (commit 55ce666+chore)",
+  "git status propre",
+  "FERMÉ-partiel (workspace non véré)"
+ ],
+ [
+  "P1 tri synthèse A4",
+  "non implémenté",
+  "rapport final manuel M1/M2",
+  "aucun",
+  "[CORRIGÉ 17/10] livrable improvements.md/SPECIALIZATION-MATRIX"
+ ],
+ [
+  "P0 schéma preuve standard",
+  "PARTIEL (statuts famille CONFIRMED_*/INCONCLUSIVE/REFUTED sans mapper)",
+  "ledger EVD 92 lignes + ledger missions",
+  "aucun",
+  "OUVERT -> traite ci-dessous"
+ ],
+ [
+  "P0 robustesse coverage_report (L1)",
+  "BUG démontré",
+  "M3: FileNotFoundError avec --ledger absent, exit 1",
+  "reproduction ci-dessous",
+  "correction en cours"
+ ]
+]

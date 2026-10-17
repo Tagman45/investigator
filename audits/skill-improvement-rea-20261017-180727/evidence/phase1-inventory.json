@@ -1,0 +1,78 @@
+{
+ "copies_sha_identiques": true,
+ "divergences": [],
+ "cartographie": {
+  "normalize_git_urls.py": {
+   "entrees": [
+    "fichier 1 URL/ligne ou stdin"
+   ],
+   "sorties": [
+    "JSONL original/canonical/target_type"
+   ],
+   "validateur": "tests/test_core.py::normalize",
+   "consommateurs": [
+    "missions M1..M3 (ledger url-discovery)"
+   ]
+  },
+  "extract_references.py": {
+   "entrees": [
+    "md/html par fichier"
+   ],
+   "sorties": [
+    "JSONL url/kind/line/context"
+   ],
+   "validateur": "aucun dedie",
+   "consommateurs": [
+    "missions (refs evidence)"
+   ]
+  },
+  "inspect_repository.py": {
+   "entrees": [
+    "repertoire repo"
+   ],
+   "sorties": [
+    "JSON files/manifests/imports/git"
+   ],
+   "validateur": "regex corrigee 17/10",
+   "consommateurs": [
+    "inventaires M1/M2"
+   ]
+  },
+  "collect_github_data.py": {
+   "entrees": [
+    "owner/repo + jeton env"
+   ],
+   "sorties": [
+    "collection.json endpoints"
+   ],
+   "validateur": "codes status traces",
+   "consommateurs": [
+    "M1 (HTTP_403 constate)"
+   ]
+  },
+  "build_ecosystem_graph.py": {
+   "entrees": [
+    "ledger JSONL"
+   ],
+   "sorties": [
+    "mermaid + JSON"
+   ],
+   "validateur": "aucun dedie",
+   "consommateurs": [
+    "livrables missions"
+   ]
+  },
+  "coverage_report.py": {
+   "entrees": [
+    "ledger + collections"
+   ],
+   "sorties": [
+    "coverage-report.md"
+   ],
+   "validateur": "aucun dedie (lacune L1)",
+   "consommateurs": [
+    "livrables missions"
+   ]
+  }
+ }
+}

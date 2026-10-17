@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\videl\Desktop\doc-skill-xdna2-work\skills\local\git-ecosystem-investigator\scripts\coverage_report.py", line 25, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "C:\Users\videl\Desktop\doc-skill-xdna2-work\skills\local\git-ecosystem-investigator\scripts\coverage_report.py", line 13, in main
+    rows=load(args.ledger); report['inputs']['ledger_rows']=len(rows); report['inputs']['unique_destinations']=len({r.get('canonical_url') or r.get('url') for r in rows}); report['inputs']['unresolved_rows']=sum(1 for r in rows if r.get('status') in {'INACCESSIBLE','FETCH_FAILED','NOT_YET_INSPECTED','RATE_LIMITED'})
+  File "C:\Users\videl\Desktop\doc-skill-xdna2-work\skills\local\git-ecosystem-investigator\scripts\coverage_report.py", line 7, in load
+    if p.suffix=='.jsonl': return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x.strip()]
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\videl\miniconda3\Lib\pathlib\_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\videl\miniconda3\Lib\pathlib\_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\videl\miniconda3\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Program Files\\Git\\inexistant\\url-ledger.jsonl'
