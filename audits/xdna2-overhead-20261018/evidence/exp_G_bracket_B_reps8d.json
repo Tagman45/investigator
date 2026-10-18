@@ -1,0 +1,159 @@
+{
+  "test": "G_borne_B",
+  "vary": "B",
+  "A": 1998848,
+  "B": 2097152,
+  "C": 2097152,
+  "reps": 8,
+  "sizes": [
+    1949696
+  ],
+  "premier_reproductible": null,
+  "summary": [
+    {
+      "taille_variable": 1949696,
+      "A": 1998848,
+      "B": 1949696,
+      "C": 2097152,
+      "exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256_C": [
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "93ab11c6a7450888e06afb6b53cd2f38a9332ba267d2f87af628d47b84ecad9d",
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+        "09a2ba39563a53c0bf0e24ae05e0af6f05f4ef506d34f0fe071de9b3513d9e8d"
+      ],
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "deterministe": false,
+      "n_distinct_hash": 3
+    }
+  ],
+  "runs": [
+    {
+      "size": 1949696,
+      "rep": 1,
+      "exit": 0,
+      "json": "exp_G_B1949696_r1.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 2,
+      "exit": 0,
+      "json": "exp_G_B1949696_r2.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 3,
+      "exit": 0,
+      "json": "exp_G_B1949696_r3.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 4,
+      "exit": 0,
+      "json": "exp_G_B1949696_r4.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "93ab11c6a7450888e06afb6b53cd2f38a9332ba267d2f87af628d47b84ecad9d",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 5,
+      "exit": 0,
+      "json": "exp_G_B1949696_r5.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 6,
+      "exit": 0,
+      "json": "exp_G_B1949696_r6.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 7,
+      "exit": 0,
+      "json": "exp_G_B1949696_r7.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "e09ce91eca49f5eba8060a15974b0f35a1e19bfbbcb2d0a3bd02e9f8a09ba8f8",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    },
+    {
+      "size": 1949696,
+      "rep": 8,
+      "exit": 0,
+      "json": "exp_G_B1949696_r8.json",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "09a2ba39563a53c0bf0e24ae05e0af6f05f4ef506d34f0fe071de9b3513d9e8d",
+      "n_changed": 262144,
+      "bo_addr": {
+        "A": "0x4018000",
+        "B": "0x4200000",
+        "C": "0x43e0000"
+      }
+    }
+  ]
+}

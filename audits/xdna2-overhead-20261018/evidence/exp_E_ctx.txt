@@ -1,0 +1,3 @@
+fin du corps Python — le code de sortie du process révèle le crash éventuel
+JSON: evidence/exp_E_ctx.json
+EXIT_CORPS=0

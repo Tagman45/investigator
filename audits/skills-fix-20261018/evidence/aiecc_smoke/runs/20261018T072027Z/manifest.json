@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "scope": "COMPILATION_ONLY_NO_NPU",
+  "status": "TESTED",
+  "argv": [
+    "C:\\Users\\videl\\miniconda3\\Scripts\\aiecc.EXE",
+    "min.mlir",
+    "--xclbin-name=out.xclbin",
+    "--get-xclbin",
+    "--output-dir=C:\\Users\\videl\\skills-audit-reports\\audits\\skills-fix-20261018\\evidence\\aiecc_smoke\\runs\\20261018T072027Z\\o"
+  ],
+  "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\skills-fix-20261018\\evidence\\aiecc_smoke\\runs\\20261018T072027Z",
+  "exit": 0,
+  "duration_s": 0.182,
+  "aiecc": {
+    "path": "C:\\Users\\videl\\miniconda3\\Scripts\\aiecc.EXE",
+    "version_exit": 0,
+    "version": "aiecc (mlir-aie declarative driver)\n  git SHA:  af819a802f4\n  compiled: Aug 28 2026 21:56:18"
+  },
+  "env": {
+    "date_utc": "20261018T072027Z",
+    "python": "3.13.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64"
+  },
+  "artifacts": {
+    "mlir": {
+      "path": "min.mlir",
+      "size": 120
+    },
+    "xclbin": {
+      "path": "out.xclbin",
+      "size": 6818,
+      "sha256": "6e83a9768c661f6195fcf0587570fd21c90f9bec83394f42a70b5ccddff57051",
+      "magic": "xclbin2",
+      "magic_ok": true
+    },
+    "xclbin_info": {
+      "path": "xclbin_info.txt",
+      "status": "exit 0"
+    }
+  },
+  "outputs": {
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "command": "command.txt"
+  },
+  "limits": [
+    "COMPILATION uniquement : aucune exécution NPU, aucune mesure de latence ou de débit",
+    "design smoke trivial (1 tile, runtime_sequence vide) : ne valide aucun kernel du projet",
+    "le statut porte sur ce build précis, pas sur l'environnement global"
+  ]
+}

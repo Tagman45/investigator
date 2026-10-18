@@ -1,0 +1,95 @@
+fichier   : E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin (5168 o, 1292 mots)
+header    : {'major': 0, 'minor': 1, 'devgen': 4, 'rows': 6, 'cols': 8, 'memtile_rows': 1, 'numops': 136, 'txnsize': 5168}
+walk      : COHERENT  (136 records / numops=136)
+
+BD écrits : 40
+  col=0 row=0 bd=-2048  len=  32768  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2047  len=  32768  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2046  len=  65536  buf_off=0x00040000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2045  len=  65536  buf_off=0x00040000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2044  len=  16384  buf_off=0x00000200  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2043  len=  32768  buf_off=0x00100000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2042  len=  32768  buf_off=0x00180000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2041  len=  65536  buf_off=0x00040000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2040  len=  65536  buf_off=0x00040000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=0 row=0 bd=-2039  len=  16384  buf_off=0x00080200  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2048  len=  16384  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2047  len=  65536  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2046  len=  65536  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2045  len=  16384  buf_off=0x00000100  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2044  len=  32768  buf_off=0x00020000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2043  len=  32768  buf_off=0x000a0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2042  len=  16384  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2041  len=  65536  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2040  len=  65536  buf_off=0x00000000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2039  len=  16384  buf_off=0x00080100  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2038  len=  32768  buf_off=0x00120000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=1 row=0 bd=-2037  len=  32768  buf_off=0x001a0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2048  len=  32768  buf_off=0x00040000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2047  len=  65536  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2046  len=  32768  buf_off=0x000c0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2045  len=  65536  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2044  len=  16384  buf_off=0x00000300  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2043  len=  32768  buf_off=0x00140000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2042  len=  65536  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2041  len=  32768  buf_off=0x001c0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2040  len=  65536  buf_off=0x00080000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=2 row=0 bd=-2039  len=  16384  buf_off=0x00080300  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2048  len=  32768  buf_off=0x00060000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2047  len=  65536  buf_off=0x000c0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2046  len=  32768  buf_off=0x000e0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2045  len=  65536  buf_off=0x000c0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2044  len=  32768  buf_off=0x00160000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2043  len=  65536  buf_off=0x000c0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2042  len=  32768  buf_off=0x001e0000  addr_reg=0x00000000  next_bd=None  iter=None
+  col=3 row=0 bd=-2041  len=  65536  buf_off=0x000c0000  addr_reg=0x00000000  next_bd=None  iter=None
+
+Patches : 40
+  col  bd arg   arg_plus   len BD   seed(BD.addr)
+    0 -2048   0 0x00000000    32768 0x00000000
+    0 -2047   0 0x00080000    32768 0x00000000
+    0 -2046   1 0x00040000    65536 0x00000000
+    0 -2045   1 0x00040000    65536 0x00000000
+    0 -2044   2 0x00000200    16384 0x00000000
+    0 -2043   0 0x00100000    32768 0x00000000
+    0 -2042   0 0x00180000    32768 0x00000000
+    0 -2041   1 0x00040000    65536 0x00000000
+    0 -2040   1 0x00040000    65536 0x00000000
+    0 -2039   2 0x00080200    16384 0x00000000
+    1 -2048   2 0x00000000    16384 0x00000000
+    1 -2047   1 0x00000000    65536 0x00000000
+    1 -2046   1 0x00000000    65536 0x00000000
+    1 -2045   2 0x00000100    16384 0x00000000
+    1 -2044   0 0x00020000    32768 0x00000000
+    1 -2043   0 0x000a0000    32768 0x00000000
+    1 -2042   2 0x00080000    16384 0x00000000
+    1 -2041   1 0x00000000    65536 0x00000000
+    1 -2040   1 0x00000000    65536 0x00000000
+    1 -2039   2 0x00080100    16384 0x00000000
+    1 -2038   0 0x00120000    32768 0x00000000
+    1 -2037   0 0x001a0000    32768 0x00000000
+    2 -2048   0 0x00040000    32768 0x00000000
+    2 -2047   1 0x00080000    65536 0x00000000
+    2 -2046   0 0x000c0000    32768 0x00000000
+    2 -2045   1 0x00080000    65536 0x00000000
+    2 -2044   2 0x00000300    16384 0x00000000
+    2 -2043   0 0x00140000    32768 0x00000000
+    2 -2042   1 0x00080000    65536 0x00000000
+    2 -2041   0 0x001c0000    32768 0x00000000
+    2 -2040   1 0x00080000    65536 0x00000000
+    2 -2039   2 0x00080300    16384 0x00000000
+    3 -2048   0 0x00060000    32768 0x00000000
+    3 -2047   1 0x000c0000    65536 0x00000000
+    3 -2046   0 0x000e0000    32768 0x00000000
+    3 -2045   1 0x000c0000    65536 0x00000000
+    3 -2044   0 0x00160000    32768 0x00000000
+    3 -2043   1 0x000c0000    65536 0x00000000
+    3 -2042   0 0x001e0000    32768 0x00000000
+    3 -2041   1 0x000c0000    65536 0x00000000
+
+Résumé par argument (contrat de tailles implicite) :
+  arg0: 16 patches  plus 0x0..0x1e0000  lens=[32768]  somme_len=524288  (plage min exigée = 0x1e0000 + len)
+  arg1: 16 patches  plus 0x0..0xc0000  lens=[65536]  somme_len=1048576  (plage min exigée = 0xc0000 + len)
+  arg2: 8 patches  plus 0x0..0x80300  lens=[16384]  somme_len=131072  (plage min exigée = 0x80300 + len)
+
+JSON: evidence/txn_struct.json

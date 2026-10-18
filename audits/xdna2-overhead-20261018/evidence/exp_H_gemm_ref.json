@@ -1,0 +1,80 @@
+{
+  "test": "H_GEMM_reference_documentee",
+  "xclbin": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512.xclbin",
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha_xclbin": "ba93cb7376161fcf63293ea2fbd22e6b62ee4fdf1db666653972917ff1e570d4",
+  "sha_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "M": 512,
+  "K": 8192,
+  "N": 512,
+  "bo": 16777216,
+  "attendu": 8192.0,
+  "runs": [
+    {
+      "rep": 1,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 4.742,
+      "sha256_C": "e43f34ad38f2044d09ee26e638096a75024255cc6d149d911c9514528cf1758e",
+      "n_values": 262144,
+      "correct": 262144,
+      "wrong": 0,
+      "nan": 0,
+      "min": 8192.0,
+      "max": 8192.0,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    },
+    {
+      "rep": 2,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 1.88,
+      "sha256_C": "e43f34ad38f2044d09ee26e638096a75024255cc6d149d911c9514528cf1758e",
+      "n_values": 262144,
+      "correct": 262144,
+      "wrong": 0,
+      "nan": 0,
+      "min": 8192.0,
+      "max": 8192.0,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    }
+  ],
+  "verdict": "PASS_NUMERIQUE",
+  "reproductible": true
+}

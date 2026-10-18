@@ -1,0 +1,129 @@
+# ORACLE xdna2-evidence-oracle — 2026-10-18T13:17:06+02:00
+## root= C:/Users/videl/skills-audit-reports/audits/xdna2-overhead-20261018
+## Q1: phase5_atb bornes buffer B C descripteurs
+{
+  "question": "phase5_atb bornes buffer B C descripteurs",
+  "answered_at": "2026-10-18T11:17:06.535478+00:00",
+  "results": [
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\JOURNAL_EXPERIMENTAL_2026-10-18.md",
+      "score": 33,
+      "headers": [
+        "Journal expérimental — NPU XDNA2 sous Windows — 18/10/2026 (session 2)",
+        "T0 — Structure du TXN (préalable, exécuté)",
+        "Test A — référence sans patch / sensibilité aux entrées",
+        "Test B — visibilité mémoire",
+        "B1 — aller-retour hôte → device → hôte, **sans soumission**"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_TESTS_ABCDE_2026-10-18.md",
+      "score": 26,
+      "headers": [
+        "XDNA2 / Windows — tests A–E réellement exécutés, cause établie",
+        "1. Résultat en une phrase",
+        "2. Ce que les tests changent par rapport au rapport du matin",
+        "3. Test A — référence / sensibilité",
+        "4. Test B — visibilité mémoire"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_MISSION_OVERHEAD_2026-10-18.md",
+      "score": 22,
+      "headers": [
+        "Mission XDNA2 — identifier et éliminer l'overhead runtime sur Windows",
+        "1. Environnement réellement constaté (mesuré, pas supposé)",
+        "2. Pourquoi le smoke XCLBIN n'avait pas été suivi d'une exécution NPU",
+        "3. Commandes exécutées, résultats bruts",
+        "4. Diagnostic du résultat (ce que le NPU écrit réellement)"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\ANNEXE_REVERSE_AXES_2026-10-18.md",
+      "score": 19,
+      "headers": [
+        "Annexe — reverse des axes bloquants (18/10/2026)",
+        "0. Sources : ce qui est dans le master, ce qui manque",
+        "1. Axe ABI — signature réelle du noyau (FACT)",
+        "2. Axe BD / arg_plus — sémantique tranchée (FACT, source primaire)",
+        "3. Axe tailles de buffers — CAUSE STRUCTURELLE (FACT, réfute la forme 64×256×128)"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_GARDE_FOU_BORNE_C_DEBIT_2026-10-18.md",
+      "score": 14,
+      "headers": [
+        "Garde-fou de dimensionnement, borne de C, débit boucle chaude — 18/10/2026",
+        "1. Pré-vol de dimensionnement — désormais exécuté AVANT toute allocation",
+        "1.1 Règle",
+        "1.2 Intégration",
+        "1.3 Tests du garde-fou (exits réels)"
+      ]
+    }
+  ]
+}
+EXIT_Q1=0
+
+## Q2: preflight dimensionnement BO allocation
+{
+  "question": "preflight dimensionnement BO allocation garde-fou",
+  "answered_at": "2026-10-18T11:17:06.699240+00:00",
+  "results": [
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_GARDE_FOU_BORNE_C_DEBIT_2026-10-18.md",
+      "score": 22,
+      "headers": [
+        "Garde-fou de dimensionnement, borne de C, débit boucle chaude — 18/10/2026",
+        "1. Pré-vol de dimensionnement — désormais exécuté AVANT toute allocation",
+        "1.1 Règle",
+        "1.2 Intégration",
+        "1.3 Tests du garde-fou (exits réels)"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_MISSION_OVERHEAD_2026-10-18.md",
+      "score": 9,
+      "headers": [
+        "Mission XDNA2 — identifier et éliminer l'overhead runtime sur Windows",
+        "1. Environnement réellement constaté (mesuré, pas supposé)",
+        "2. Pourquoi le smoke XCLBIN n'avait pas été suivi d'une exécution NPU",
+        "3. Commandes exécutées, résultats bruts",
+        "4. Diagnostic du résultat (ce que le NPU écrit réellement)"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\ANNEXE_REVERSE_AXES_2026-10-18.md",
+      "score": 3,
+      "headers": [
+        "Annexe — reverse des axes bloquants (18/10/2026)",
+        "0. Sources : ce qui est dans le master, ce qui manque",
+        "1. Axe ABI — signature réelle du noyau (FACT)",
+        "2. Axe BD / arg_plus — sémantique tranchée (FACT, source primaire)",
+        "3. Axe tailles de buffers — CAUSE STRUCTURELLE (FACT, réfute la forme 64×256×128)"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\RAPPORT_TESTS_ABCDE_2026-10-18.md",
+      "score": 3,
+      "headers": [
+        "XDNA2 / Windows — tests A–E réellement exécutés, cause établie",
+        "1. Résultat en une phrase",
+        "2. Ce que les tests changent par rapport au rapport du matin",
+        "3. Test A — référence / sensibilité",
+        "4. Test B — visibilité mémoire"
+      ]
+    },
+    {
+      "path": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\JOURNAL_EXPERIMENTAL_2026-10-18.md",
+      "score": 1,
+      "headers": [
+        "Journal expérimental — NPU XDNA2 sous Windows — 18/10/2026 (session 2)",
+        "T0 — Structure du TXN (préalable, exécuté)",
+        "Test A — référence sans patch / sensibilité aux entrées",
+        "Test B — visibilité mémoire",
+        "B1 — aller-retour hôte → device → hôte, **sans soumission**"
+      ]
+    }
+  ]
+}
+EXIT_Q2=0

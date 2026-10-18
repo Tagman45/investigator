@@ -1,0 +1,136 @@
+{
+  "test": "H_GEMM_reference_documentee",
+  "xclbin": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512.xclbin",
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha_xclbin": "ba93cb7376161fcf63293ea2fbd22e6b62ee4fdf1db666653972917ff1e570d4",
+  "sha_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "M": 512,
+  "K": 8192,
+  "N": 512,
+  "bo": 16777216,
+  "bo_map": [
+    16777216,
+    8388608,
+    16777216
+  ],
+  "attendu": 8192.0,
+  "preflight": {
+    "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+    "sha256_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+    "planchers_connus_pour_ce_design": true,
+    "extents": {
+      "0": 7995392,
+      "1": 7995392,
+      "2": 795520
+    },
+    "sizes": [
+      16777216,
+      8388608,
+      16777216
+    ],
+    "checks": [
+      {
+        "arg": 0,
+        "borne_decodee": 7995392,
+        "alloue": 16777216,
+        "plancher_mesure": 7995392,
+        "cible": 7995392,
+        "desaccord_descripteur": false,
+        "marge": 8781824,
+        "ok": true
+      },
+      {
+        "arg": 1,
+        "borne_decodee": 7995392,
+        "alloue": 8388608,
+        "plancher_mesure": 8388608,
+        "cible": 8388608,
+        "desaccord_descripteur": true,
+        "marge": 0,
+        "ok": true
+      },
+      {
+        "arg": 2,
+        "borne_decodee": 795520,
+        "alloue": 16777216,
+        "plancher_mesure": null,
+        "cible": 795520,
+        "desaccord_descripteur": false,
+        "marge": 15981696,
+        "ok": true
+      }
+    ],
+    "ok": true,
+    "allow_undersized": true,
+    "design_certifie": true,
+    "verdict": "PASS"
+  },
+  "runs": [
+    {
+      "rep": 1,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 4.435,
+      "sha256_C": "e43f34ad38f2044d09ee26e638096a75024255cc6d149d911c9514528cf1758e",
+      "n_values": 262144,
+      "correct": 262144,
+      "wrong": 0,
+      "nan": 0,
+      "min": 8192.0,
+      "max": 8192.0,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    },
+    {
+      "rep": 2,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 2.164,
+      "sha256_C": "e43f34ad38f2044d09ee26e638096a75024255cc6d149d911c9514528cf1758e",
+      "n_values": 262144,
+      "correct": 262144,
+      "wrong": 0,
+      "nan": 0,
+      "min": 8192.0,
+      "max": 8192.0,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    }
+  ],
+  "verdict": "PASS_NUMERIQUE",
+  "reproductible": true
+}

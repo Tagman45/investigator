@@ -1,0 +1,108 @@
+{
+  "test": "A_sensibilite_entree",
+  "sizes": [
+    4194304,
+    2097152,
+    2097152
+  ],
+  "bo_addr": {
+    "A": "0x4018000",
+    "B": "0x4418000",
+    "C": "0x4618000"
+  },
+  "runs": [
+    {
+      "tag": "A1_B1",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "7330e0d510ac5724bda6096d0f877a4d0ca493450072627f003a86ff3dfffedb",
+      "C_premiers_mots": [
+        "0x8e8000",
+        "0x8e9800",
+        "0x8eb000",
+        "0x8ec800",
+        "0x8ee000",
+        "0x8ef800",
+        "0x8f1000",
+        "0x8f2800"
+      ],
+      "C_modele_change": 524288,
+      "C_plages": [
+        [
+          0,
+          524287
+        ]
+      ]
+    },
+    {
+      "tag": "A1_B1_bis",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "7330e0d510ac5724bda6096d0f877a4d0ca493450072627f003a86ff3dfffedb",
+      "C_premiers_mots": [
+        "0x8e8000",
+        "0x8e9800",
+        "0x8eb000",
+        "0x8ec800",
+        "0x8ee000",
+        "0x8ef800",
+        "0x8f1000",
+        "0x8f2800"
+      ],
+      "C_modele_change": 524288,
+      "C_plages": [
+        [
+          0,
+          524287
+        ]
+      ]
+    },
+    {
+      "tag": "A2_B1",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "d380b10e06961cdcca98bb377983ca34121abc8a75a0b7f9910795ef1fa6c14a",
+      "C_premiers_mots": [
+        "0x8d9c00",
+        "0x8db400",
+        "0x8dcc00",
+        "0x8de400",
+        "0x8dfc00",
+        "0x8e1400",
+        "0x8e2c00",
+        "0x8e4400"
+      ],
+      "C_modele_change": 524288,
+      "C_plages": [
+        [
+          0,
+          524287
+        ]
+      ]
+    }
+  ],
+  "decision": {
+    "run1_vs_run2_octets_differents": 0,
+    "run1_vs_run3_octets_differents": 500032,
+    "deterministe": true,
+    "C_depend_de_A": true
+  },
+  "_rec": {
+    "ts": "2026-10-18T12:27:04",
+    "python": "3.13.13",
+    "argv": [
+      "scripts/npu_exp.py",
+      "sensitivity",
+      "--asize",
+      "4194304",
+      "--bsize",
+      "2097152",
+      "--csize",
+      "2097152",
+      "--json",
+      "evidence/exp_A_sensitivity_bigBO.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 1025056,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958"
+  }
+}

@@ -1,0 +1,9 @@
+B=  1048576 (1.0000 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+B=  1048592 (1.0000 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+B=  1101056 (1.0500 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+B=  1310720 (1.2500 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+B=  2097152 (2.0000 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+
+plus petite taille reproductible : 2097152
+tailles non reproductibles        : [1048576, 1048592, 1101056, 1310720]
+JSON: C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\evidence\exp_G_bracket_B.json

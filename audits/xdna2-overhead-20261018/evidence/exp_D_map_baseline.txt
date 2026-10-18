@@ -1,0 +1,8 @@
+  bo0: 499712 mots, 0 modifiés, 0 plages -> []
+  bo1: 212992 mots, 0 modifiés, 0 plages -> []
+  bo2: 136192 mots, 136192 modifiés, 1 plages -> [[0, 136191]]
+JSON: evidence/exp_D_map_baseline.json
+plages attendues (mots) : [0, 64, 128, 192, 131072, 131136, 131200, 131264]
+plages observées        : [[0, 136191]]
+plages attendues couvertes : 1/8
+EXIT_CORPS=0

@@ -1,0 +1,20 @@
+  pre-vol arg0: borne_decodee=1998848 cible=1998848 alloue=1998848 marge=+0 OK
+  pre-vol arg1: borne_decodee=1900544 cible=2097152 alloue=2097152 marge=+0 OK [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=803584 cible=1048576 alloue=4194304 marge=+3145728 OK [plancher mesure > borne decodee]
+tailles=[1998848, 2097152, 4194304]  groups=[16318465, 16318464, 16318464, 16318464]  preflight=PASS
+  [ones] run1 bo0 (1998848 o) : modifiés=499712 min=0 max_excl=1998848 plages=1
+  [ones] run1 bo1 (2097152 o) : modifiés=524288 min=0 max_excl=2097152 plages=1
+  [ones] run1 bo2 (4194304 o) : modifiés=262144 min=0 max_excl=1048576 plages=1
+  [ones] run2 bo0 (1998848 o) : modifiés=499712 min=0 max_excl=1998848 plages=1
+  [ones] run2 bo1 (2097152 o) : modifiés=524288 min=0 max_excl=2097152 plages=1
+  [ones] run2 bo2 (4194304 o) : modifiés=262144 min=0 max_excl=1048576 plages=1
+  [marker] run1 bo0 (1998848 o) : modifiés=0 min=None max_excl=None plages=0
+  [marker] run1 bo1 (2097152 o) : modifiés=0 min=None max_excl=None plages=0
+  [marker] run1 bo2 (4194304 o) : modifiés=262144 min=0 max_excl=1048576 plages=1
+  [marker] run2 bo0 (1998848 o) : modifiés=0 min=None max_excl=None plages=0
+  [marker] run2 bo1 (2097152 o) : modifiés=0 min=None max_excl=None plages=0
+  [marker] run2 bo2 (4194304 o) : modifiés=262144 min=0 max_excl=1048576 plages=1
+
+C : stable=True borne_sup=1048576 o plage_unique=True
+A/B jamais écrits (remplissage marqueur) : True
+JSON: evidence/exp_N_footprint.json

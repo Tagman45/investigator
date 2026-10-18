@@ -1,0 +1,49 @@
+{
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "opcode": 3,
+  "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+  "wait_ms": 2.398,
+  "argplus_max": {
+    "0": 1966080,
+    "1": 786432,
+    "2": 525056
+  },
+  "bo_sizes": [
+    1998848,
+    851968,
+    544768
+  ],
+  "patches_arg2_attendus": [
+    0,
+    256,
+    512,
+    768,
+    524288,
+    524544,
+    524800,
+    525056
+  ],
+  "ecritures_observees": [
+    [
+      0,
+      352564
+    ],
+    [
+      352566,
+      29202
+    ],
+    [
+      381770,
+      34158
+    ],
+    [
+      415930,
+      128838
+    ]
+  ],
+  "offsets_attendus_atteints": [
+    0
+  ],
+  "verdict": "FAIL_STRUCTUREL"
+}

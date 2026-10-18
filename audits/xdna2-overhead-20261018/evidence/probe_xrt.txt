@@ -1,0 +1,35 @@
+=== xrt-smi --version ===
+  Version              : 2.21.0
+  Branch               : HEAD
+  Hash                 : 15e6319be8de1e76a6150111a3861729e988fdb5
+  Hash Date            : 2026-04-04 00:09:34
+  NPU Driver Version   : 32.0.20101.3760
+  NPU Firmware Version : 1.1.2.64
+EXIT=0
+=== xrt-smi examine ===
+System Configuration
+  OS Name              : Windows NT
+  Release              : 26200.9711
+  Machine              : x86_64
+  CPU Cores            : 20
+  Memory               : 32041 MB
+  Distribution         : Windows 11 Home
+  Model                : Nitro AN16S-61
+  BIOS Vendor          : INSYDE Corp.
+  BIOS Version         : V1.53
+  Processor            : AMD Ryzen AI 9 365 w/ Radeon 880M              
+
+XRT
+  Version              : 2.21.0
+  Branch               : HEAD
+  Hash                 : 15e6319be8de1e76a6150111a3861729e988fdb5
+  Hash Date            : 2026-04-04 00:09:34
+  NPU Driver Version   : 32.0.20101.3760
+  NPU Firmware Version : 1.1.2.64
+
+Device(s) Present
+|BDF             |Name       |
+|----------------|-----------|
+|[0065:00:01.1]  |NPU Strix  |
+
+

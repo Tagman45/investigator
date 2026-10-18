@@ -1,0 +1,32 @@
+{
+  "url": "https://docs.amd.com/r/en-US/ug1079-ai-engine-kernel-coding/Tiling-Parameters-and-Buffer-Descriptors",
+  "final_url": "https://docs.amd.com/r/en-US/ug1079-ai-engine-kernel-coding/Tiling-Parameters-and-Buffer-Descriptors",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 2575,
+  "sha256": "7b14f1d721aaf6977696dd73fa9b91e8e0eef4faeed5f94439618e263c57fc55",
+  "is_pdf": false,
+  "body_saved": null,
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://docs.amd.com/r/en-US/ug1079-ai-engine-kernel-coding/Tiling-Parameters-and-Buffer-Descriptors",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 2575
+    }
+  ],
+  "limit_codes": [],
+  "limits": [],
+  "started_at": "2026-10-18T12:24:10Z",
+  "elapsed_s": 0.434,
+  "caps": {
+    "attempts": 2,
+    "timeout": 12.0,
+    "deadline": 30,
+    "max_bytes": 200000
+  }
+}

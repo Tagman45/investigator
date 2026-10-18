@@ -1,0 +1,89 @@
+{
+  "status": "FAILED_AT_EXECUTION",
+  "xclbin": "C:/Users/videl/skills-audit-reports/audits/skills-fix-20261018/evidence/aiecc_smoke/runs/20261018T072027Z/out.xclbin",
+  "kernel": null,
+  "steps": [
+    {
+      "step": "pyxrt.device(0)",
+      "status": "OK",
+      "duration_ms": 17.007,
+      "value": "<pyxrt.device object at 0x0000029857C7F930>"
+    },
+    {
+      "step": "device.get_info(name)",
+      "status": "OK",
+      "duration_ms": 0.205,
+      "value": "'NPU Strix'"
+    },
+    {
+      "step": "device.get_info(bdf)",
+      "status": "OK",
+      "duration_ms": 2.65,
+      "value": "'0065:00:01.1'"
+    },
+    {
+      "step": "pyxrt.xclbin(path)",
+      "status": "OK",
+      "duration_ms": 0.147,
+      "value": "<pyxrt.xclbin object at 0x0000029857C7CCB0>"
+    },
+    {
+      "step": "xclbin.get_uuid()",
+      "status": "OK",
+      "duration_ms": 0.005,
+      "value": "<pyxrt.uuid object at 0x0000029859470270>"
+    },
+    {
+      "step": "device.register_xclbin(xclbin)",
+      "status": "OK",
+      "duration_ms": 0.008,
+      "value": "<pyxrt.uuid object at 0x00000298594703B0>"
+    },
+    {
+      "step": "pyxrt.hw_context(dev, uuid)",
+      "status": "OK",
+      "duration_ms": 3.565,
+      "value": "<pyxrt.hw_context object at 0x00000298594703F0>"
+    },
+    {
+      "step": "xclbin.get_kernels()",
+      "status": "OK",
+      "duration_ms": 0.01,
+      "value": "[<pyxrt.xclbin.xclbinkernel object at 0x00000298594704B0>]"
+    },
+    {
+      "step": "kernel_obj.get_name()",
+      "status": "OK",
+      "duration_ms": 0.002,
+      "value": "'MLIR_AIE'"
+    },
+    {
+      "step": "pyxrt.kernel(hwctx, MLIR_AIE)",
+      "status": "OK",
+      "duration_ms": 0.061,
+      "value": "<pyxrt.kernel object at 0x0000029857C7ECF0>"
+    },
+    {
+      "step": "kernel(...) — soumission",
+      "status": "OK",
+      "duration_ms": 0.1,
+      "value": "<pyxrt.run object at 0x0000029859470570>"
+    },
+    {
+      "step": "run.wait() — synchronisation",
+      "status": "OK",
+      "duration_ms": 0.253,
+      "value": "<ert_cmd_state.ERT_CMD_STATE_ERROR: 5>"
+    },
+    {
+      "step": "verdict d'exécution",
+      "status": "FAIL",
+      "error": "état retourné par le matériel : ert_cmd_state.ERT_CMD_STATE_ERROR (attendu ERT_CMD_STATE_COMPLETED)"
+    }
+  ],
+  "premier_echec": {
+    "step": "verdict d'exécution",
+    "status": "FAIL",
+    "error": "état retourné par le matériel : ert_cmd_state.ERT_CMD_STATE_ERROR (attendu ERT_CMD_STATE_COMPLETED)"
+  }
+}

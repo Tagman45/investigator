@@ -1,0 +1,208 @@
+{
+  "test": "K_debit_boucle_chaude",
+  "xclbin": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512.xclbin",
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha_xclbin": "ba93cb7376161fcf63293ea2fbd22e6b62ee4fdf1db666653972917ff1e570d4",
+  "sha_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "M": 512,
+  "K": 8192,
+  "N": 512,
+  "bo": 16777216,
+  "preflight": {
+    "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+    "sha256_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+    "planchers_connus_pour_ce_design": false,
+    "extents": {
+      "0": 7995392,
+      "1": 5832704,
+      "2": 1581952
+    },
+    "sizes": [
+      16777216,
+      16777216,
+      16777216
+    ],
+    "checks": [
+      {
+        "arg": 0,
+        "requis": 7995392,
+        "alloue": 16777216,
+        "plancher_mesure": null,
+        "cible": 7995392,
+        "desaccord_descripteur": false,
+        "marge": 8781824,
+        "ok": true
+      },
+      {
+        "arg": 1,
+        "requis": 5832704,
+        "alloue": 16777216,
+        "plancher_mesure": null,
+        "cible": 5832704,
+        "desaccord_descripteur": false,
+        "marge": 10944512,
+        "ok": true
+      },
+      {
+        "arg": 2,
+        "requis": 1581952,
+        "alloue": 16777216,
+        "plancher_mesure": null,
+        "cible": 1581952,
+        "desaccord_descripteur": false,
+        "marge": 15195264,
+        "ok": true
+      }
+    ],
+    "ok": true,
+    "allow_undersized": false,
+    "verdict": "PASS"
+  },
+  "peak_tops_claim": 58.98,
+  "with_sync": false,
+  "h2d_3bo_ms": 0.364,
+  "flops_par_run": 4294967296,
+  "warmup": 2,
+  "reps": 10,
+  "runs": [
+    {
+      "rep": 1,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.282,
+      "batch_ms": 2.509,
+      "per_run_ms": 1.254
+    },
+    {
+      "rep": 2,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.105,
+      "batch_ms": 2.374,
+      "per_run_ms": 1.187
+    },
+    {
+      "rep": 3,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.216,
+      "batch_ms": 2.47,
+      "per_run_ms": 1.235
+    },
+    {
+      "rep": 4,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.102,
+      "batch_ms": 2.448,
+      "per_run_ms": 1.224
+    },
+    {
+      "rep": 5,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.089,
+      "batch_ms": 2.401,
+      "per_run_ms": 1.2
+    },
+    {
+      "rep": 6,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.094,
+      "batch_ms": 2.355,
+      "per_run_ms": 1.178
+    },
+    {
+      "rep": 7,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.066,
+      "batch_ms": 2.424,
+      "per_run_ms": 1.212
+    },
+    {
+      "rep": 8,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.095,
+      "batch_ms": 2.352,
+      "per_run_ms": 1.176
+    },
+    {
+      "rep": 9,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.161,
+      "batch_ms": 2.453,
+      "per_run_ms": 1.227
+    },
+    {
+      "rep": 10,
+      "depth": 2,
+      "states": [
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+        "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+      ],
+      "submit_batch_ms": 0.285,
+      "batch_ms": 2.475,
+      "per_run_ms": 1.238
+    }
+  ],
+  "D2H_ms": 0.29,
+  "read_ms": 975.504,
+  "sha256_C": "e43f34ad38f2044d09ee26e638096a75024255cc6d149d911c9514528cf1758e",
+  "correct": 262144,
+  "attendu": 262144,
+  "stats_total": {
+    "n": 10,
+    "min_ms": 1.176,
+    "median_ms": 1.218,
+    "mean_ms": 1.213,
+    "max_ms": 1.254,
+    "stdev_ms": 0.027
+  },
+  "stats_submit": {
+    "n": 10,
+    "min_ms": 0.033,
+    "median_ms": 0.052,
+    "mean_ms": 0.075,
+    "max_ms": 0.142,
+    "stdev_ms": 0.041
+  },
+  "gflops_median": 3526.246,
+  "t_theorique_ms_at_peak": 0.0728,
+  "pct_pic": 5.9787,
+  "tout_correct": true,
+  "depth": 2,
+  "states": [
+    "ert_cmd_state.ERT_CMD_STATE_COMPLETED"
+  ]
+}

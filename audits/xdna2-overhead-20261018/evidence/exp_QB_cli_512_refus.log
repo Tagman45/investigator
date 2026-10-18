@@ -1,0 +1,18 @@
+PRE-VOL: REFUSE — PRE-VOL REFUSE l'allocation — arg1: alloué 5832704 < requis 8388608 (2555904 octets manquants) | cible = max(plancher mesuré, borne décodée du format) (exp_G_bracket_B/C, exp_M, exp_N_footprint). Utiliser allow_undersized=True uniquement pour TESTER la borne.
+{
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "extents": {
+    "0": 7995392,
+    "1": 7995392,
+    "2": 795520
+  },
+  "sizes": [
+    7995392,
+    5832704,
+    7995392
+  ],
+  "ok": false,
+  "refused": true,
+  "verdict": "FAIL"
+}
+JSON: evidence/exp_QB_cli_512_refus.json

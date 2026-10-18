@@ -1,0 +1,35 @@
+{
+  "url": "https://github.com/Xilinx/mlir-aie/discussions/3390",
+  "final_url": "https://github.com/Xilinx/mlir-aie/discussions/3390",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 200001,
+  "sha256": "57abf55dc3f8d4a30de828a2a635426df894c70c1b960dbd5fa0f76c7a55d015",
+  "is_pdf": false,
+  "body_saved": null,
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://github.com/Xilinx/mlir-aie/discussions/3390",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 200001
+    }
+  ],
+  "limit_codes": [],
+  "limits": [
+    "corps tronqué à 200000 octets (max_bytes)"
+  ],
+  "started_at": "2026-10-18T12:24:06Z",
+  "elapsed_s": 0.588,
+  "caps": {
+    "attempts": 2,
+    "timeout": 12.0,
+    "deadline": 30,
+    "max_bytes": 200000
+  },
+  "truncated": true
+}

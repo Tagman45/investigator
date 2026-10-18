@@ -1,0 +1,1250 @@
+{
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "header": {
+    "major": 0,
+    "minor": 1,
+    "devgen": 4,
+    "rows": 6,
+    "cols": 8,
+    "memtile_rows": 1,
+    "numops": 136,
+    "txnsize": 5168
+  },
+  "n_records": 136,
+  "rows": [
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2048,
+      "reg": 33673216,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673220,
+      "arg": 2,
+      "plus": 0,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2048,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 33673728,
+      "value": 3840,
+      "mask": 7936,
+      "col": 1,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673732,
+      "value": 2147549184,
+      "col": 1,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2048,
+      "reg": 118784,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118788,
+      "arg": 0,
+      "plus": 0,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2048,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119316,
+      "value": 65536,
+      "col": 0,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2047,
+      "reg": 33673248,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673252,
+      "arg": 1,
+      "plus": 0,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2047,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673756,
+      "value": 65537,
+      "col": 1,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2047,
+      "reg": 118816,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118820,
+      "arg": 0,
+      "plus": 524288,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2047,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119316,
+      "value": 65537,
+      "col": 0,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2046,
+      "reg": 33673280,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673284,
+      "arg": 1,
+      "plus": 0,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2046,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673756,
+      "value": 65538,
+      "col": 1,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2045,
+      "reg": 33673312,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 256
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673316,
+      "arg": 2,
+      "plus": 256,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2045,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 33673736,
+      "value": 3840,
+      "mask": 7936,
+      "col": 1,
+      "off": 119304
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673740,
+      "value": 2147549187,
+      "col": 1,
+      "off": 119308
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2044,
+      "reg": 33673344,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 131072
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673348,
+      "arg": 0,
+      "plus": 131072,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2044,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673748,
+      "value": 65540,
+      "col": 1,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2046,
+      "reg": 118848,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 262144
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118852,
+      "arg": 1,
+      "plus": 262144,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2046,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119324,
+      "value": 65538,
+      "col": 0,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2043,
+      "reg": 33673376,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 655360
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673380,
+      "arg": 0,
+      "plus": 655360,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2043,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673748,
+      "value": 65541,
+      "col": 1,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2045,
+      "reg": 118880,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 262144
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118884,
+      "arg": 1,
+      "plus": 262144,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2045,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119324,
+      "value": 65539,
+      "col": 0,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2044,
+      "reg": 118912,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 512
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118916,
+      "arg": 2,
+      "plus": 512,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2044,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 119296,
+      "value": 3840,
+      "mask": 7936,
+      "col": 0,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 119300,
+      "value": 2147549188,
+      "col": 0,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2048,
+      "reg": 67227648,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 262144
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227652,
+      "arg": 0,
+      "plus": 262144,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2048,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228180,
+      "value": 65536,
+      "col": 2,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2047,
+      "reg": 67227680,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227684,
+      "arg": 1,
+      "plus": 524288,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2047,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228188,
+      "value": 65537,
+      "col": 2,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2046,
+      "reg": 67227712,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 786432
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227716,
+      "arg": 0,
+      "plus": 786432,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2046,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228180,
+      "value": 65538,
+      "col": 2,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2045,
+      "reg": 67227744,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227748,
+      "arg": 1,
+      "plus": 524288,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2045,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228188,
+      "value": 65539,
+      "col": 2,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2044,
+      "reg": 67227776,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 768
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227780,
+      "arg": 2,
+      "plus": 768,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2044,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 67228160,
+      "value": 3840,
+      "mask": 7936,
+      "col": 2,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228164,
+      "value": 2147549188,
+      "col": 2,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2048,
+      "reg": 100782080,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 393216
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782084,
+      "arg": 0,
+      "plus": 393216,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2048,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782612,
+      "value": 65536,
+      "col": 3,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2047,
+      "reg": 100782112,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 786432
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782116,
+      "arg": 1,
+      "plus": 786432,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2047,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782620,
+      "value": 65537,
+      "col": 3,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2046,
+      "reg": 100782144,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 917504
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782148,
+      "arg": 0,
+      "plus": 917504,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2046,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782612,
+      "value": 65538,
+      "col": 3,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2045,
+      "reg": 100782176,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 786432
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782180,
+      "arg": 1,
+      "plus": 786432,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2045,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782620,
+      "value": 65539,
+      "col": 3,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2042,
+      "reg": 33673408,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673412,
+      "arg": 2,
+      "plus": 524288,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2042,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 33673728,
+      "value": 3840,
+      "mask": 7936,
+      "col": 1,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673732,
+      "value": 2147549190,
+      "col": 1,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2043,
+      "reg": 118944,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1048576
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118948,
+      "arg": 0,
+      "plus": 1048576,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2043,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119316,
+      "value": 65541,
+      "col": 0,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2041,
+      "reg": 33673440,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673444,
+      "arg": 1,
+      "plus": 0,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2041,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673756,
+      "value": 65543,
+      "col": 1,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2042,
+      "reg": 118976,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1572864
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 118980,
+      "arg": 0,
+      "plus": 1572864,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2042,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119316,
+      "value": 65542,
+      "col": 0,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2040,
+      "reg": 33673472,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 0
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673476,
+      "arg": 1,
+      "plus": 0,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2040,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673756,
+      "value": 65544,
+      "col": 1,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2039,
+      "reg": 33673504,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 524544
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673508,
+      "arg": 2,
+      "plus": 524544,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2039,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 33673736,
+      "value": 3840,
+      "mask": 7936,
+      "col": 1,
+      "off": 119304
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673740,
+      "value": 2147549193,
+      "col": 1,
+      "off": 119308
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2038,
+      "reg": 33673536,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1179648
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673540,
+      "arg": 0,
+      "plus": 1179648,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2038,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673748,
+      "value": 65546,
+      "col": 1,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2041,
+      "reg": 119008,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 262144
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 119012,
+      "arg": 1,
+      "plus": 262144,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2041,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119324,
+      "value": 65543,
+      "col": 0,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 1,
+      "row": 0,
+      "bd_id": -2037,
+      "reg": 33673568,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1703936
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 33673572,
+      "arg": 0,
+      "plus": 1703936,
+      "action": 0,
+      "col": 1,
+      "bd_id": -2037,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 33673748,
+      "value": 65547,
+      "col": 1,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2040,
+      "reg": 119040,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 262144
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 119044,
+      "arg": 1,
+      "plus": 262144,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2040,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 119324,
+      "value": 65544,
+      "col": 0,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 0,
+      "row": 0,
+      "bd_id": -2039,
+      "reg": 119072,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 524800
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 119076,
+      "arg": 2,
+      "plus": 524800,
+      "action": 0,
+      "col": 0,
+      "bd_id": -2039,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 119296,
+      "value": 3840,
+      "mask": 7936,
+      "col": 0,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 119300,
+      "value": 2147549193,
+      "col": 0,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2043,
+      "reg": 67227808,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1310720
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227812,
+      "arg": 0,
+      "plus": 1310720,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2043,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228180,
+      "value": 65541,
+      "col": 2,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2042,
+      "reg": 67227840,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227844,
+      "arg": 1,
+      "plus": 524288,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2042,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228188,
+      "value": 65542,
+      "col": 2,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2041,
+      "reg": 67227872,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1835008
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227876,
+      "arg": 0,
+      "plus": 1835008,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2041,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228180,
+      "value": 65543,
+      "col": 2,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2040,
+      "reg": 67227904,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 524288
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227908,
+      "arg": 1,
+      "plus": 524288,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2040,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228188,
+      "value": 65544,
+      "col": 2,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 2,
+      "row": 0,
+      "bd_id": -2039,
+      "reg": 67227936,
+      "reg_off": 0,
+      "len": 16384,
+      "buf_off": 525056
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 67227940,
+      "arg": 2,
+      "plus": 525056,
+      "action": 0,
+      "col": 2,
+      "bd_id": -2039,
+      "reg_off": 4
+    },
+    {
+      "op": "MASKWRITE",
+      "addr": 67228160,
+      "value": 3840,
+      "mask": 7936,
+      "col": 2,
+      "off": 119296
+    },
+    {
+      "op": "WRITE",
+      "addr": 67228164,
+      "value": 2147549193,
+      "col": 2,
+      "off": 119300
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2044,
+      "reg": 100782208,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1441792
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782212,
+      "arg": 0,
+      "plus": 1441792,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2044,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782612,
+      "value": 65540,
+      "col": 3,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2043,
+      "reg": 100782240,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 786432
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782244,
+      "arg": 1,
+      "plus": 786432,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2043,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782620,
+      "value": 65541,
+      "col": 3,
+      "off": 119324
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2042,
+      "reg": 100782272,
+      "reg_off": 0,
+      "len": 32768,
+      "buf_off": 1966080
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782276,
+      "arg": 0,
+      "plus": 1966080,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2042,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782612,
+      "value": 65542,
+      "col": 3,
+      "off": 119316
+    },
+    {
+      "op": "BLOCKWRITE",
+      "col": 3,
+      "row": 0,
+      "bd_id": -2041,
+      "reg": 100782304,
+      "reg_off": 0,
+      "len": 65536,
+      "buf_off": 786432
+    },
+    {
+      "op": "DDR_PATCH",
+      "reg": 100782308,
+      "arg": 1,
+      "plus": 786432,
+      "action": 0,
+      "col": 3,
+      "bd_id": -2041,
+      "reg_off": 4
+    },
+    {
+      "op": "WRITE",
+      "addr": 100782620,
+      "value": 65543,
+      "col": 3,
+      "off": 119324
+    },
+    {
+      "op": "TCT",
+      "target": "0x10000",
+      "meta": "0x10100",
+      "col": 1,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x10000",
+      "meta": "0x1010100",
+      "col": 1,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x0",
+      "meta": "0x10100",
+      "col": 0,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x20000",
+      "meta": "0x10100",
+      "col": 2,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x10000",
+      "meta": "0x10100",
+      "col": 1,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x10000",
+      "meta": "0x1010100",
+      "col": 1,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x0",
+      "meta": "0x10100",
+      "col": 0,
+      "row": 0,
+      "dir": 0
+    },
+    {
+      "op": "TCT",
+      "target": "0x20000",
+      "meta": "0x10100",
+      "col": 2,
+      "row": 0,
+      "dir": 0
+    }
+  ],
+  "per_arg": {
+    "2": {
+      "n": 8,
+      "plus_min": 0,
+      "plus_max": 525056,
+      "lens": [
+        16384
+      ]
+    },
+    "0": {
+      "n": 16,
+      "plus_min": 0,
+      "plus_max": 1966080,
+      "lens": [
+        32768
+      ]
+    },
+    "1": {
+      "n": 16,
+      "plus_min": 0,
+      "plus_max": 786432,
+      "lens": [
+        65536
+      ]
+    }
+  }
+}

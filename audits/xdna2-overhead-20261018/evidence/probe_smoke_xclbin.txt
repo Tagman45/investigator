@@ -1,0 +1,22 @@
+pyxrt   : C:\Users\videl\miniconda3\Lib\site-packages\pyxrt.pyd
+python  : 3.13.13
+xclbin  : C:/Users/videl/skills-audit-reports/audits/skills-fix-20261018/evidence/aiecc_smoke/runs/20261018T072027Z/out.xclbin
+kernel  : None
+----------------------------------------------------------------------------------------------------
+[OK]   pyxrt.device(0)                           17.007 ms  <pyxrt.device object at 0x0000029857C7F930>
+[OK]   device.get_info(name)                      0.205 ms  'NPU Strix'
+[OK]   device.get_info(bdf)                       2.650 ms  '0065:00:01.1'
+[OK]   pyxrt.xclbin(path)                         0.147 ms  <pyxrt.xclbin object at 0x0000029857C7CCB0>
+[OK]   xclbin.get_uuid()                          0.005 ms  <pyxrt.uuid object at 0x0000029859470270>
+[OK]   device.register_xclbin(xclbin)             0.008 ms  <pyxrt.uuid object at 0x00000298594703B0>
+[OK]   pyxrt.hw_context(dev, uuid)                3.565 ms  <pyxrt.hw_context object at 0x00000298594703F0>
+[OK]   xclbin.get_kernels()                       0.010 ms  [<pyxrt.xclbin.xclbinkernel object at 0x00000298594704B0>]
+[OK]   kernel_obj.get_name()                      0.002 ms  'MLIR_AIE'
+       attributs noyau: ['get_name', 'get_num_args']
+[OK]   pyxrt.kernel(hwctx, MLIR_AIE)              0.061 ms  <pyxrt.kernel object at 0x0000029857C7ECF0>
+[OK]   kernel(...) — soumission                   0.100 ms  <pyxrt.run object at 0x0000029859470570>
+[OK]   run.wait() — synchronisation               0.253 ms  <ert_cmd_state.ERT_CMD_STATE_ERROR: 5>
+----------------------------------------------------------------------------------------------------
+STATUS GLOBAL: FAILED_AT_EXECUTION
+PREMIER BLOCAGE: verdict d'exécution → None: état retourné par le matériel : ert_cmd_state.ERT_CMD_STATE_ERROR (attendu ERT_CMD_STATE_COMPLETED)
+preuve JSON: evidence/probe_smoke_xclbin.json

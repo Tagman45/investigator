@@ -1,0 +1,10 @@
+{
+  "nodes": 8,
+  "schema_version": "graph-v1",
+  "relations": 7,
+  "skipped_lines": 0,
+  "subgraphs_seen": 0,
+  "notes": [
+    "statuts DECLARED : à corréler par correlate.py, jamais une preuve"
+  ]
+}

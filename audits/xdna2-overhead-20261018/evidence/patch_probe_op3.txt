@@ -1,0 +1,9 @@
+arg_plus max : ['0x1e0000', '0xc0000', '0x80300']
+BO dimensionnes : ['0x1e8000', '0xd0000', '0x85000'] ([1998848, 851968, 544768] octets)
+bo0: addr=0x4018000 size=1998848
+bo1: addr=0x4200000 size=851968
+bo2: addr=0x42d0000 size=544768
+etat: ert_cmd_state.ERT_CMD_STATE_COMPLETED  wait=2.685 ms
+attendus arg2 : ['0x0', '0x100', '0x200', '0x300', '0x80000', '0x80100', '0x80200', '0x80300']
+observes      : [('0x0', 352564), ('0x56136', 63362), ('0x658ba', 121890), ('0x834de', 6946)]
+VERDICT: FAIL_STRUCTUREL

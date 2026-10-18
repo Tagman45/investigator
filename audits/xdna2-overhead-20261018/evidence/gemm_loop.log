@@ -1,0 +1,21 @@
+  pre-vol arg0: etendue=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: etendue=5832704 cible=5832704 alloue=16777216 marge=+10944512 OK
+  pre-vol arg2: etendue=1581952 cible=1581952 alloue=16777216 marge=+15195264 OK
+noyau=MLIR_AIE args=8 groups=[8060929, 8060928, 8060928, 8060928] BO=16777216
+H2D 3 x 16777216 o : 0.339 ms
+warmup1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 4.558 ms
+warmup2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 1.338 ms
+warmup3: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 1.310 ms
+run1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.043 ms total=1.362 ms
+run2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.063 ms total=1.352 ms
+run3: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.038 ms total=1.272 ms
+run10: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.064 ms total=1.327 ms
+run20: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.038 ms total=1.229 ms
+run30: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED soumission=0.066 ms total=1.317 ms
+
+total   : {'n': 30, 'min_ms': 1.227, 'median_ms': 1.281, 'mean_ms': 1.296, 'max_ms': 1.534, 'stdev_ms': 0.064}
+soumission seule : {'n': 30, 'min_ms': 0.033, 'median_ms': 0.061, 'mean_ms': 0.062, 'max_ms': 0.24, 'stdev_ms': 0.038}
+D2H=0.315 ms  read=982.593 ms  sha256(C)=e43f34ad38f2044d…
+numérique : 262144/262144 valeurs = 8192.0 (tout_correct=True)
+débit médian : 3352.82 GFLOP/s  vs pic 58.98 TOPS (5.685 %) | coût théorique 72.8 µs vs 1281 µs mesurés
+JSON: evidence/exp_K_gemm_loop.json

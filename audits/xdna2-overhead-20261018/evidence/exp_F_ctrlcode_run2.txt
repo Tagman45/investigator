@@ -1,0 +1,8 @@
+  bo0: 2097152 mots, 0 modifiés, 0 plages -> []
+  bo1: 2097152 mots, 0 modifiés, 0 plages -> []
+  bo2: 524288 mots, 0 modifiés, 0 plages -> []
+JSON: evidence/exp_F_ctrlcode_run2.json
+plages attendues (mots) : [0, 64, 128, 192, 131072, 131136, 131200, 131264]
+plages observées        : []
+plages attendues couvertes : 0/8
+EXIT_CORPS=0

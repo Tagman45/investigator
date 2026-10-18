@@ -1,0 +1,46 @@
+# RAG ciblé Phase 0 — 2026-10-18T13:16:28+02:00
+
+### QUERY: phase5_atb m32k64n128 descripteur BD buffer_length ctrlcode
+cache=miss mode=normal 106 ms, 3 résultats
+
+[1] (17.937) docs/ANALYSE_EXHAUSTIVE_DMA_IRON_09_08.md
+    Le ctrlcode FLM qui a écrit dans le NPU (`raw_dma_txn.bin`, 29 mots) utilise le format **raw XAie** avec **adresses physiques self-patchées** (PAS de DDR_PATCH, PAS d'APPLY_OFFSET_
+
+[2] (17.637) docs/xrt_oracle.md
+    # XRT / HRX Oracle — Documentation complète (O1–O9, T1)  Doc maîtresse du projet **oracle** : produire la vérité côté XRT sur ce qui est écrit dans chaque BD (DDR_PATCH) et la conf
+
+[3] (16.021) RAPPORT_FINAL_SOURCES_28_07.md
+    ### 2.5 Architecture BD — `AIETargetXAIEV2.cpp` **Fichier :** `E:\trixdna_test\repos_mlir_aie\lib\Targets\AIETargetXAIEV2.cpp` **Statut :** ✅ Lu (300 premières lignes)  Le flux de 
+
+KG hints: bd, ctrlcode, BD
+EXIT=0
+
+### QUERY: payload[6] iteration stride buffer_length BD format TXN XDNA2
+cache=miss mode=normal 131 ms, 3 résultats
+
+[1] (22.892) docs/RAPPORT_REVERSE_COMPLET.md
+    - Opcode=1 (PMC) : ne passe PAS par AIEBU → pas de patching - Opcode=3 (TXN) : passe par AIEBU → patching appliqué  ### 6.2 Format BD Descriptor (32 bytes)  ``` Offset │ 31..0     
+
+[2] (19.301) docs/SESSION_07_08_PATCH_VALUE_FIX_GEMM_PHASE5.md
+    ### `generate_ctrlcode.cpp` (Approach 1) - Corrige la signature `npu_dma_memcpy_nd` (source officielle FLM `npu_instr_utils.hpp:391`) :   ```   npu_dma_memcpy_nd(elem_size, arg_idx
+
+[3] (19.268) SYNTHESE_FINALE_FLM_XDNA2.md
+    ### 1.4 Kernel MLIR_AIE — Convention d'arguments  | Arg | Type | Contenu | |-----|------|---------| | 0 | u64 | opcode (0=AIE_partition, 1=PMC, 2=embedded, 3=TXN) | | 1 | BO | inst
+
+KG hints: bd, txn, payload
+EXIT=0
+
+### QUERY: taille buffer B XDNA2 hors bornes ERT COMPLETED donnees fausses
+cache=miss mode=normal 150 ms, 3 résultats
+
+[1] (19.599) docs/SESSION_08_08_GEMM_OFFICIEL_BREUSE_GGMLXDNA.md
+    ### Verdict patch JNC->JMP (rapport 8col) - Le champ +0x48 du rapport = cols_filled (bitmap colonnes actives) - Le patch bypass la garde index>=count = force iteration sur toutes
+
+[2] (18.848) docs/SESSION_04_08_ELF_COMPLET_OPCODE_DPU_VS_PREEMPT.md
+    ### États ERT (`ert.h:754-765`) - 1 NEW, 2 QUEUED, 3 RUNNING, 4 COMPLETED, 5 ERROR, **6 ABORT**, 7 SUBMITTED, **8 TIMEOUT**, 9 NORESPONSE.
+
+[3] (17.897) XRT_POURQUOI.md
+    # XRT_POURQUOI.md — Pourquoi XRT public ne calcule pas sur Windows  ## L'architecture ERT  XRT utilise le protocole **ERT (Embedded Runtime)** pour soumettre des commandes au NPU. 
+
+KG hints: completed, buffer, NPU XDNA2 Reverse
+EXIT=0

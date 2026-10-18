@@ -1,0 +1,139 @@
+{
+  "test": "B_visibilite_memoire",
+  "soumission": "AUCUNE",
+  "cases": [
+    {
+      "size": 16384,
+      "flags": "cacheable",
+      "addr": "0x4010000",
+      "roundtrip_identique": true,
+      "octets_differents": 0,
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "roundtrip2_identique": true,
+      "roundtrip1_egal_2": true
+    },
+    {
+      "size": 16384,
+      "flags": "host_only",
+      "addr": "0x13000",
+      "roundtrip_identique": true,
+      "octets_differents": 0,
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "roundtrip2_identique": true,
+      "roundtrip1_egal_2": true
+    },
+    {
+      "size": 544768,
+      "flags": "cacheable",
+      "addr": "0x4010000",
+      "roundtrip_identique": true,
+      "octets_differents": 0,
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "roundtrip2_identique": true,
+      "roundtrip1_egal_2": true
+    },
+    {
+      "size": 544768,
+      "flags": "host_only",
+      "addr": "0x13000",
+      "roundtrip_identique": true,
+      "octets_differents": 0,
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "roundtrip2_identique": true,
+      "roundtrip1_egal_2": true
+    }
+  ],
+  "group_id_arg3": 1376256,
+  "verdict": "PASS_VISIBILITE",
+  "_rec": {
+    "ts": "2026-10-18T12:21:54",
+    "python": "3.13.13",
+    "argv": [
+      "scripts/npu_exp.py",
+      "visibility",
+      "--json",
+      "evidence/exp_B_visibility.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 791612,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958"
+  }
+}

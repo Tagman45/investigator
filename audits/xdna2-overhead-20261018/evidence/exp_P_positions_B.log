@@ -1,0 +1,19 @@
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8388608 marge=+0 OK [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+B=  8388608 r1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 0) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+B=  8388608 r2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 0) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8372224 marge=-16384 INSUFFISANT [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+B=  8372224 r1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 512) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+B=  8372224 r2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 512) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8323072 marge=-65536 INSUFFISANT [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+B=  8323072 r1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 2048) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+B=  8323072 r2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED fausses=0 (prédit 2048) queue_contigue=False idx=[None,None] nan=0 sha=399c99f6
+
+H1 (nombre = D×M/(2K)) validée partout : False
+H1 (queue contiguë de C)              : True
+JSON: evidence/exp_P_positions_B.json

@@ -1,0 +1,6 @@
+variante: variante_arg_plus_fold — 40 patches modifiés (seule variable : arg_plus)
+  bo0: 499712 mots, 0 modifiés, 0 plages -> []
+  bo1: 212992 mots, 0 modifiés, 0 plages -> []
+  bo2: 136192 mots, 0 modifiés, 0 plages -> []
+JSON: evidence/exp_C_patchfold_run1.json
+EXIT_CORPS=0

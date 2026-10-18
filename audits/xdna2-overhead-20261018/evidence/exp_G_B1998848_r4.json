@@ -1,0 +1,263 @@
+{
+  "label": "baseline_TXN_original",
+  "opcode": 3,
+  "bo_sizes": [
+    1998848,
+    1998848,
+    2097152
+  ],
+  "preflight": {
+    "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+    "sha256_insts": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+    "planchers_connus_pour_ce_design": true,
+    "extents": {
+      "0": 1998848,
+      "1": 2097152,
+      "2": 1590016
+    },
+    "sizes": [
+      1998848,
+      1998848,
+      2097152
+    ],
+    "checks": [
+      {
+        "arg": 0,
+        "requis": 1998848,
+        "alloue": 1998848,
+        "plancher_mesure": 1998848,
+        "cible": 1998848,
+        "desaccord_descripteur": false,
+        "marge": 0,
+        "ok": true
+      },
+      {
+        "arg": 1,
+        "requis": 2097152,
+        "alloue": 1998848,
+        "plancher_mesure": 2097152,
+        "cible": 2097152,
+        "desaccord_descripteur": false,
+        "marge": -98304,
+        "ok": false
+      },
+      {
+        "arg": 2,
+        "requis": 1590016,
+        "alloue": 2097152,
+        "plancher_mesure": 1048576,
+        "cible": 1048576,
+        "desaccord_descripteur": true,
+        "marge": 1048576,
+        "ok": true
+      }
+    ],
+    "ok": false,
+    "allow_undersized": true,
+    "verdict": "PASS_SOUS_RESERVE"
+  },
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "sha_insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+  "patch_edits": {
+    "n": 0,
+    "distinct_old": [],
+    "new": []
+  },
+  "groups": [
+    12845057,
+    12845056,
+    12845056,
+    12845056
+  ],
+  "bo0_addr": "0x4018000",
+  "bo0_size": 1998848,
+  "bo1_addr": "0x4200000",
+  "bo1_size": 1998848,
+  "bo2_addr": "0x43e8000",
+  "bo2_size": 2097152,
+  "pre_roundtrip_identique": {
+    "bo0": true,
+    "bo1": true,
+    "bo2": true
+  },
+  "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+  "submit_ms_approx": 0.262,
+  "submit_plus_wait_ms": 2.598,
+  "changes": {
+    "bo0": {
+      "n_words": 499712,
+      "n_changed": 0,
+      "ranges": [],
+      "n_ranges": 0,
+      "sha256": "39ef097f2c10480e8ece8a591cb5ae2199617ed88b1af9c447480a3407276324",
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    },
+    "bo1": {
+      "n_words": 499712,
+      "n_changed": 0,
+      "ranges": [],
+      "n_ranges": 0,
+      "sha256": "39ef097f2c10480e8ece8a591cb5ae2199617ed88b1af9c447480a3407276324",
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    },
+    "bo2": {
+      "n_words": 524288,
+      "n_changed": 262144,
+      "ranges": [
+        [
+          0,
+          262143
+        ]
+      ],
+      "n_ranges": 1,
+      "sha256": "7c80d185374157fa154c8186d7153165264dd26c9fb187ea8414d55ebc75c5a9",
+      "premiers_mots": [
+        "0xd31800",
+        "0xd33000",
+        "0xd34800",
+        "0xd36000",
+        "0xd37800",
+        "0xd39000",
+        "0xd3a800",
+        "0xd3c000"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    }
+  },
+  "entrees_intactes": {
+    "bo0": true,
+    "bo1": true
+  },
+  "attendu_C_offsets": [
+    0,
+    256,
+    512,
+    768,
+    524288,
+    524544,
+    524800,
+    525056
+  ],
+  "_rec": {
+    "ts": "2026-10-18T12:58:13",
+    "python": "3.13.13",
+    "argv": [
+      "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\scripts\\npu_exp.py",
+      "map",
+      "--asize",
+      "1998848",
+      "--bsize",
+      "1998848",
+      "--csize",
+      "2097152",
+      "--allow-undersized",
+      "--json",
+      "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\evidence\\exp_G_B1998848_r4.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 1057696,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+    "preflight": [
+      {
+        "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+        "sha256_insts": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+        "planchers_connus_pour_ce_design": true,
+        "extents": {
+          "0": 1998848,
+          "1": 2097152,
+          "2": 1590016
+        },
+        "sizes": [
+          1998848,
+          1998848,
+          2097152
+        ],
+        "checks": [
+          {
+            "arg": 0,
+            "requis": 1998848,
+            "alloue": 1998848,
+            "plancher_mesure": 1998848,
+            "cible": 1998848,
+            "desaccord_descripteur": false,
+            "marge": 0,
+            "ok": true
+          },
+          {
+            "arg": 1,
+            "requis": 2097152,
+            "alloue": 1998848,
+            "plancher_mesure": 2097152,
+            "cible": 2097152,
+            "desaccord_descripteur": false,
+            "marge": -98304,
+            "ok": false
+          },
+          {
+            "arg": 2,
+            "requis": 1590016,
+            "alloue": 2097152,
+            "plancher_mesure": 1048576,
+            "cible": 1048576,
+            "desaccord_descripteur": true,
+            "marge": 1048576,
+            "ok": true
+          }
+        ],
+        "ok": false,
+        "allow_undersized": true,
+        "verdict": "PASS_SOUS_RESERVE"
+      }
+    ]
+  }
+}

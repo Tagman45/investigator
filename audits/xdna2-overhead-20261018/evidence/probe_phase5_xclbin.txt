@@ -1,0 +1,19 @@
+pyxrt   : C:\Users\videl\miniconda3\Lib\site-packages\pyxrt.pyd
+python  : 3.13.13
+xclbin  : E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin
+kernel  : None
+----------------------------------------------------------------------------------------------------
+[OK]   pyxrt.device(0)                           14.210 ms  <pyxrt.device object at 0x000002277E80AD30>
+[OK]   device.get_info(name)                      0.182 ms  'NPU Strix'
+[OK]   device.get_info(bdf)                       2.345 ms  '0065:00:01.1'
+[OK]   pyxrt.xclbin(path)                         0.178 ms  <pyxrt.xclbin object at 0x000002277E80F8B0>
+[OK]   xclbin.get_uuid()                          0.005 ms  <pyxrt.uuid object at 0x000002277EC808B0>
+[OK]   device.register_xclbin(xclbin)             0.006 ms  <pyxrt.uuid object at 0x000002277EC809F0>
+[OK]   pyxrt.hw_context(dev, uuid)                4.659 ms  <pyxrt.hw_context object at 0x000002277EC80970>
+[OK]   xclbin.get_kernels()                       0.009 ms  [<pyxrt.xclbin.xclbinkernel object at 0x000002277EC80AB0>]
+[OK]   kernel_obj.get_name()                      0.002 ms  'MLIR_AIE'
+       attributs noyau: ['get_name', 'get_num_args']
+[OK]   pyxrt.kernel(hwctx, MLIR_AIE)              0.057 ms  <pyxrt.kernel object at 0x000002277E7FE570>
+----------------------------------------------------------------------------------------------------
+STATUS GLOBAL: TESTED
+preuve JSON: evidence/probe_phase5_xclbin.json

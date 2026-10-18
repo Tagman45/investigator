@@ -1,0 +1,23 @@
+================================================================================================
+phase5_atb_m32k64n128_insts.bin   (5168 octets)
+  header : Major=0 Minor=1 DevGen=4 rows=6 cols=8 NumOps=136 TxnSize=5168
+  walk   : COHERENT  (136 records decodes / NumOps=136)
+  ops    : BLOCKWRITE=40  DDR_PATCH=40  MASKWRITE=8  TCT=8  WRITE=40
+  DDR_PATCH : 40   args=[0, 1, 2]   offsets!=0 : 34/40   mot BD vise (index payload)=[1]
+  argplus == BLOCKWRITE.buf_off : 40/40
+  >>> SEED du mot BD patche == argplus : 40/40   |  seed non nul : 34/40
+  regaddr    bd_base    col  arg  argplus    bd_len     buf_off    SEED      
+  0x0201D004 0x0201D000 1    2    0x00000000 16384      0x00000000 0x00000000
+  0x0001D004 0x0001D000 0    0    0x00000000 32768      0x00000000 0x00000000
+  0x0201D024 0x0201D020 1    1    0x00000000 65536      0x00000000 0x00000000
+  0x0001D024 0x0001D020 0    0    0x00080000 32768      0x00080000 0x00080000
+  0x0201D044 0x0201D040 1    1    0x00000000 65536      0x00000000 0x00000000
+  0x0201D064 0x0201D060 1    2    0x00000100 16384      0x00000100 0x00000100
+  0x0201D084 0x0201D080 1    0    0x00020000 32768      0x00020000 0x00020000
+  0x0001D044 0x0001D040 0    1    0x00040000 65536      0x00040000 0x00040000
+  ... (32 autres)
+
+================================================================================================
+SYNTHESE T0
+fichier                                        NumOps patches off!=0   seed==off walk     
+phase5_atb_m32k64n128_insts.bin                136    40      34       40        OK       

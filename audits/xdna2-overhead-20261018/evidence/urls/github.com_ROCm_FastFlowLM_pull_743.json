@@ -1,0 +1,35 @@
+{
+  "url": "https://github.com/ROCm/FastFlowLM/pull/743",
+  "final_url": "https://github.com/ROCm/FastFlowLM/pull/743",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 200001,
+  "sha256": "2be02870267bcec674d74aa066ab0bfd1ed92fafe88de04372db91c15edc0d6f",
+  "is_pdf": false,
+  "body_saved": null,
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://github.com/ROCm/FastFlowLM/pull/743",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 200001
+    }
+  ],
+  "limit_codes": [],
+  "limits": [
+    "corps tronqué à 200000 octets (max_bytes)"
+  ],
+  "started_at": "2026-10-18T12:24:07Z",
+  "elapsed_s": 1.488,
+  "caps": {
+    "attempts": 2,
+    "timeout": 12.0,
+    "deadline": 30,
+    "max_bytes": 200000
+  },
+  "truncated": true
+}

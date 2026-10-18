@@ -1,0 +1,25 @@
+group instr=720897 (0xb0001)  group data=720896 (0xb0000)
+  FAIL normal(0)            group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL normal(0)            group=data  RuntimeError: unsupported buffer type: invalid argument
+  OK   cacheable            group=instr addr=0x4010000
+  OK   cacheable            group=data  addr=0x4018000
+  OK   host_only            group=instr addr=0x13000
+  OK   host_only            group=data  addr=0x14000
+  FAIL device_only          group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL device_only          group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL raw0x17              group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL raw0x17              group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL raw0x98              group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL raw0x98              group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x9                  group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x9                  group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x1                  group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x1                  group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x2                  group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x2                  group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x8                  group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x8                  group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x80                 group=instr RuntimeError: unsupported buffer type: invalid argument
+  FAIL 0x80                 group=data  RuntimeError: unsupported buffer type: invalid argument
+  FAIL cacheable|host_only  group=instr RuntimeError: Unknown buffer type
+  FAIL cacheable|host_only  group=data  RuntimeError: Unknown buffer type

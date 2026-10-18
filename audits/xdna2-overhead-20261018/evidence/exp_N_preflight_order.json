@@ -1,0 +1,586 @@
+{
+  "dir": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018\\scripts",
+  "files": [
+    {
+      "file": "npu_dump_c.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            77
+          ],
+          "pre_vol_lignes": [
+            76
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [
+            76
+          ],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "alias_lignes": [
+            77,
+            82
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_exp.py",
+      "functions": [
+        {
+          "unite": "alloc",
+          "premier_declencheur": [
+            "alloc",
+            229
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "GARDE_INTERNE"
+        },
+        {
+          "unite": "cmd_api",
+          "premier_declencheur": null,
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "ALIAS_SEUL"
+        },
+        {
+          "unite": "cmd_visibility",
+          "premier_declencheur": [
+            "alloc",
+            265
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [
+            254
+          ],
+          "verdict": "PERIMETRE_DECLARE"
+        },
+        {
+          "unite": "_run_variant",
+          "premier_declencheur": [
+            "alloc",
+            317
+          ],
+          "pre_vol_lignes": [
+            305
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        },
+        {
+          "unite": "cmd_sensitivity",
+          "premier_declencheur": [
+            "alloc",
+            413
+          ],
+          "pre_vol_lignes": [
+            412
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        },
+        {
+          "unite": "cmd_teardown",
+          "premier_declencheur": [
+            "alloc",
+            484
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [
+            467
+          ],
+          "verdict": "PERIMETRE_DECLARE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "alloc",
+          "premier_declencheur": [
+            "alloc",
+            229
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "GARDE_INTERNE",
+          "note": "garde-fou interne (raise) : chemin couvert par le wrapper"
+        },
+        {
+          "unite": "cmd_api",
+          "premier_declencheur": null,
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "ALIAS_SEUL",
+          "note": "alias seul (aucune allocation propre) — couverture textuelle non garantie"
+        },
+        {
+          "unite": "cmd_api",
+          "alias_lignes": [
+            242
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        },
+        {
+          "unite": "cmd_visibility",
+          "premier_declencheur": [
+            "alloc",
+            265
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [
+            254
+          ],
+          "verdict": "PERIMETRE_DECLARE",
+          "note": "alloue hors contrat des descripteurs (perimetre declare)"
+        },
+        {
+          "unite": "cmd_visibility",
+          "alias_lignes": [
+            265
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        },
+        {
+          "unite": "_run_variant",
+          "alias_lignes": [
+            317,
+            322
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        },
+        {
+          "unite": "cmd_sensitivity",
+          "alias_lignes": [
+            413,
+            416,
+            417,
+            418
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        },
+        {
+          "unite": "cmd_teardown",
+          "premier_declencheur": [
+            "alloc",
+            484
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [
+            467
+          ],
+          "verdict": "PERIMETRE_DECLARE",
+          "note": "alloue hors contrat des descripteurs (perimetre declare)"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_gemm_diag.py",
+      "functions": [
+        {
+          "unite": "run_once",
+          "premier_declencheur": [
+            "alloc",
+            64
+          ],
+          "pre_vol_lignes": [
+            63
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "run_once",
+          "premier_declencheur": [
+            "alloc",
+            64
+          ],
+          "pre_vol_lignes": [
+            63
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE",
+          "note": "pre-vol en opt-out litteral (mode borne declare)"
+        },
+        {
+          "unite": "run_once",
+          "alias_lignes": [
+            64,
+            67,
+            68,
+            69
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_gemm_loop.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            73
+          ],
+          "pre_vol_lignes": [
+            67
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "alias_lignes": [
+            73,
+            76,
+            77,
+            78
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_gemm_ref.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            68
+          ],
+          "pre_vol_lignes": [
+            66
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "alias_lignes": [
+            68,
+            71,
+            72,
+            73
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_gemm_verify.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            84
+          ],
+          "pre_vol_lignes": [
+            82
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            84
+          ],
+          "pre_vol_lignes": [
+            82
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE",
+          "note": "pre-vol en opt-out litteral (mode borne declare)"
+        },
+        {
+          "unite": "main",
+          "alias_lignes": [
+            84,
+            88,
+            89,
+            90
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_patch_probe.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            104
+          ],
+          "pre_vol_lignes": [
+            94
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            104
+          ],
+          "pre_vol_lignes": [
+            94
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE",
+          "note": "pre-vol en opt-out litteral (mode borne declare)"
+        },
+        {
+          "unite": "main",
+          "alias_lignes": [
+            104,
+            110
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_readsem.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            38
+          ],
+          "pre_vol_lignes": [
+            37
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [
+            37
+          ],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "alias_lignes": [
+            38,
+            41,
+            42,
+            43
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "npu_run_txn.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            84
+          ],
+          "pre_vol_lignes": [
+            63
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE"
+        }
+      ],
+      "defauts": [],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            84
+          ],
+          "pre_vol_lignes": [
+            63
+          ],
+          "modes": [
+            "opt_out_litteral"
+          ],
+          "perimetre_declare_lignes": [],
+          "verdict": "PASS_ORDRE",
+          "note": "pre-vol en opt-out litteral (mode borne declare)"
+        },
+        {
+          "unite": "main",
+          "alias_lignes": [
+            84
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "PRODUCTION"
+    },
+    {
+      "file": "test_alloc_guard.py",
+      "functions": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            73
+          ],
+          "pre_vol_lignes": [
+            80,
+            86,
+            99
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [
+            110,
+            130
+          ],
+          "verdict": "DEFAUT_ORDRE"
+        },
+        {
+          "unite": "<module>",
+          "premier_declencheur": [
+            "indirect",
+            141
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "DEFAUT_ABSENT"
+        }
+      ],
+      "defauts": [
+        {
+          "unite": "main",
+          "premier_declencheur": [
+            "alloc",
+            73
+          ],
+          "pre_vol_lignes": [
+            80,
+            86,
+            99
+          ],
+          "modes": [
+            "defaut_refus"
+          ],
+          "perimetre_declare_lignes": [
+            110,
+            130
+          ],
+          "verdict": "DEFAUT_ORDRE"
+        },
+        {
+          "unite": "<module>",
+          "premier_declencheur": [
+            "indirect",
+            141
+          ],
+          "pre_vol_lignes": [],
+          "modes": [],
+          "perimetre_declare_lignes": [],
+          "verdict": "DEFAUT_ABSENT"
+        }
+      ],
+      "incertitudes": [
+        {
+          "unite": "main",
+          "alias_lignes": [
+            122
+          ],
+          "note": "alias d'API d'allocation : couverture textuelle non garantie"
+        }
+      ],
+      "perimetre": "TEST"
+    }
+  ],
+  "n_defauts": 0,
+  "n_defauts_fichiers_de_test": 2,
+  "n_incertitudes": 21,
+  "verdict": "PASS_ORDRE_GLOBAL"
+}

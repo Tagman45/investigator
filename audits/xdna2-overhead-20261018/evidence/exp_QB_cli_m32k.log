@@ -1,0 +1,57 @@
+  pre-vol arg0: borne_decodee=1998848 cible=1998848 alloue=1998848 marge=+0 OK
+  pre-vol arg1: borne_decodee=1900544 cible=2097152 alloue=2097152 marge=+0 OK [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=803584 cible=1048576 alloue=1048576 marge=+0 OK [plancher mesure > borne decodee]
+  AVERTISSEMENT: plancher de REPRODUCTIBILITE seulement (nature=REPRODUCTIBLE_SEUL) — la justesse n'est pas etablie pour ce design (aucune reference numerique). Le pre-vol ne certifie que la borne basse.
+{
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "sha256_insts": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+  "planchers_connus_pour_ce_design": true,
+  "nature_du_plancher": "REPRODUCTIBLE_SEUL",
+  "extents": {
+    "0": 1998848,
+    "1": 1900544,
+    "2": 803584
+  },
+  "sizes": [
+    1998848,
+    2097152,
+    1048576
+  ],
+  "checks": [
+    {
+      "arg": 0,
+      "borne_decodee": 1998848,
+      "alloue": 1998848,
+      "plancher_mesure": 1998848,
+      "cible": 1998848,
+      "desaccord_descripteur": false,
+      "marge": 0,
+      "ok": true
+    },
+    {
+      "arg": 1,
+      "borne_decodee": 1900544,
+      "alloue": 2097152,
+      "plancher_mesure": 2097152,
+      "cible": 2097152,
+      "desaccord_descripteur": true,
+      "marge": 0,
+      "ok": true
+    },
+    {
+      "arg": 2,
+      "borne_decodee": 803584,
+      "alloue": 1048576,
+      "plancher_mesure": 1048576,
+      "cible": 1048576,
+      "desaccord_descripteur": true,
+      "marge": 0,
+      "ok": true
+    }
+  ],
+  "ok": true,
+  "allow_undersized": false,
+  "design_certifie": false,
+  "verdict": "PASS_SOUS_RESERVE"
+}
+JSON: evidence/exp_QB_cli_m32k.json

@@ -1,0 +1,97 @@
+{
+  "test": "A_sensibilite_entree",
+  "bo_addr": {
+    "A": "0x4018000",
+    "B": "0x4200000",
+    "C": "0x42d0000"
+  },
+  "runs": [
+    {
+      "tag": "A1_B1",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "72ef2cd5f05d2dc3bda92d9694dd7304eb3ec9b08373c6c6639333ae72328ab4",
+      "C_premiers_mots": [
+        "0x8e8000",
+        "0x8e9800",
+        "0x8eb000",
+        "0x8ec800",
+        "0x8ee000",
+        "0x8ef800",
+        "0x8f1000",
+        "0x8f2800"
+      ],
+      "C_modele_change": 136192,
+      "C_plages": [
+        [
+          0,
+          136191
+        ]
+      ]
+    },
+    {
+      "tag": "A1_B1_bis",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "da38342111e5da53571eaca5a02299d60f2ce8f8e769768166fdd323bb4a1733",
+      "C_premiers_mots": [
+        "0x8e8000",
+        "0x8e9800",
+        "0x8eb000",
+        "0x8ec800",
+        "0x8ee000",
+        "0x8ef800",
+        "0x8f1000",
+        "0x8f2800"
+      ],
+      "C_modele_change": 136192,
+      "C_plages": [
+        [
+          0,
+          136191
+        ]
+      ]
+    },
+    {
+      "tag": "A2_B1",
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "sha256_C": "5bc9dfc98a1c0cc15f755d78d9b85e6f2c98cc47a4002218964a5e44cb2b4254",
+      "C_premiers_mots": [
+        "0x8d9c00",
+        "0x8db400",
+        "0x8dcc00",
+        "0x8de400",
+        "0x8dfc00",
+        "0x8e1400",
+        "0x8e2c00",
+        "0x8e4400"
+      ],
+      "C_modele_change": 136192,
+      "C_plages": [
+        [
+          0,
+          136191
+        ]
+      ]
+    }
+  ],
+  "decision": {
+    "run1_vs_run2_octets_differents": 170276,
+    "run1_vs_run3_octets_differents": 312087,
+    "deterministe": false,
+    "C_depend_de_A": true
+  },
+  "_rec": {
+    "ts": "2026-10-18T12:23:09",
+    "python": "3.13.13",
+    "argv": [
+      "scripts/npu_exp.py",
+      "sensitivity",
+      "--json",
+      "evidence/exp_A_sensitivity.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 18700,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958"
+  }
+}

@@ -1,0 +1,6 @@
+  ok   alloc_544768 -> <pyxrt.bo object at 0x000001C1D2AF58B0>
+  ok   write -> True
+  ok   sync_to -> True
+  ok   sync_from -> True
+fin du corps Python — le code de sortie du process révèle le crash éventuel
+JSON: evidence/exp_E_ctx_bo544k.json

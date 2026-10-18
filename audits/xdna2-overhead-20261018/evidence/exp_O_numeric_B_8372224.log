@@ -1,0 +1,12 @@
+noyau=MLIR_AIE args=8 groups=[16646145, 16646144, 16646144, 16646144]
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8372224 marge=-16384 INSUFFISANT [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+tailles BO demandees : A=16777216 B=8372224 C=16777216
+BO A=0x4028000 B=0x5028000 C=0x5828000 ([16777216, 8372224, 16777216] o)
+run1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 4.047 ms | valeurs=262144 correctes=261632 fausses=512 nan=0 min=0.0 max=8192.0 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+run2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 1.858 ms | valeurs=262144 correctes=261632 fausses=512 nan=0 min=0.0 max=8192.0 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+
+attendu : 262144 valeurs = 8192.0 | obtenu : [261632, 261632]
+reproductible: True   VERDICT: FAIL_NUMERIQUE
+JSON: evidence/exp_O_numeric_B_8372224.json

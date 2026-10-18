@@ -1,0 +1,6 @@
+B=  1572864 (1.5000 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+B=  1835008 (1.7500 Mio)  exit=[0, 0, 0]  hash distincts=3  déterministe=False  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+
+plus petite taille reproductible : aucune
+tailles non reproductibles        : [1572864, 1835008]
+JSON: evidence/exp_G_bracket_B_mid.json

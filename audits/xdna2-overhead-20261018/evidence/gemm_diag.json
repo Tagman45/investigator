@@ -1,0 +1,65 @@
+{
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "resultats": {
+    "opcode_3": {
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "nan": 0,
+      "zeros": 7872,
+      "total": 8192,
+      "max_abs": 3.1236857900945523e+38,
+      "mean_abs": Infinity,
+      "marqueur_restant": 0,
+      "ressemble_A": {
+        "prefixe_octets_communs": 0,
+        "offset": null
+      },
+      "ressemble_B": {
+        "prefixe_octets_communs": 0,
+        "offset": null
+      },
+      "cos_A@B": 0.005685,
+      "cos_A_mem(KxM).T@B": -0.01277,
+      "cos_(A@B).T_stockage_transpose": -0.000698,
+      "cos_(A@B)_reordonne_NM": 0.005685,
+      "c_premiers": [
+        0.0,
+        0.0,
+        -0.002258,
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "opcode_1": {
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "nan": 0,
+      "zeros": 0,
+      "total": 8192,
+      "max_abs": 429916160.0,
+      "mean_abs": 429916160.0,
+      "marqueur_restant": 8192,
+      "ressemble_A": {
+        "prefixe_octets_communs": 0,
+        "offset": null
+      },
+      "ressemble_B": {
+        "prefixe_octets_communs": 0,
+        "offset": null
+      },
+      "cos_A@B": 0.004303,
+      "cos_A_mem(KxM).T@B": 0.004732,
+      "cos_(A@B).T_stockage_transpose": 0.004303,
+      "cos_(A@B)_reordonne_NM": 0.004303,
+      "c_premiers": [
+        -429916160.0,
+        -429916160.0,
+        -429916160.0,
+        -429916160.0,
+        -429916160.0,
+        -429916160.0
+      ]
+    }
+  },
+  "lecture": "aucun statut PASS ici : ce script CLASSE l'observation"
+}

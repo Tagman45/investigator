@@ -1,0 +1,18 @@
+C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_gemm_verify.py:106: RuntimeWarning: invalid value encountered in multiply
+  num = float(np.sum(ref * C))
+C:\Users\videl\miniconda3\Lib\site-packages\numpy\_core\fromnumeric.py:83: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+C:\Users\videl\miniconda3\Lib\site-packages\numpy\linalg\_linalg.py:2767: RuntimeWarning: overflow encountered in dot
+  sqnorm = x.dot(x)
+C:\Users\videl\miniconda3\Lib\site-packages\numpy\linalg\_linalg.py:2767: RuntimeWarning: invalid value encountered in dot
+  sqnorm = x.dot(x)
+C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_gemm_verify.py:109: RuntimeWarning: invalid value encountered in subtract
+  "max_abs_err": round(float(np.max(np.abs(ref - C))), 6),
+A(64x256) @0x4018000  B(256x128) @0x4020000  C(64x128) @0x4030000
+state=ert_cmd_state.ERT_CMD_STATE_COMPLETED  submit=0.181 ms  wait=2.354 ms
+C: 0/8192 mots encore au marqueur 0xcdcdcdcd  (sync=0.16 ms read=0.182 ms)
+------------------------------------------------------------------------------------------
+STATUT: COMPLETED_RESULTAT_NON_CONFIRME  (meilleur candidat: A@B cos=nan)
+  C[0:8]   = [0.000732, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0]
+  ref[0:8] = [-2.910112, 1.766786, 0.432202, -3.206396, 0.081001, 0.237868, 1.364861, 0.746925]
+preuve JSON: evidence/gemm_verify_op3.json

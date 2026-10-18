@@ -1,0 +1,8 @@
+graph LR
+  H["hote pyxrt: bo0..bo4"] -->|"address + arg_plus"| F["firmware TXN 0x81 DDR_PATCH"]
+  F -->|"patch BD[1]"| B["SHIM DMA BD 0x1D004.."]
+  B -->|"MM2S/S2MM"| T["tiles AIE + MemTile"]
+  T -->|"resultat"| C["bo2 (C)"]
+  X["xclbin MLIR_AIE 8 args"] --> K["kernel(opcode=3, instr, 1292, bo0..bo4)"]
+  K --> F
+  S["TxnEncoding.h: arg_plus = byte offset"] --> F

@@ -1,0 +1,8 @@
+  bo0: 499712 mots, 0 modifiés, 0 plages -> []
+  bo1: 212992 mots, 0 modifiés, 0 plages -> []
+  bo2: 136192 mots, 0 modifiés, 0 plages -> []
+JSON: evidence/exp_neg_opcode1_map.json
+plages attendues (mots) : [0, 64, 128, 192, 131072, 131136, 131200, 131264]
+plages observées        : []
+plages attendues couvertes : 0/8
+EXIT_CORPS=0

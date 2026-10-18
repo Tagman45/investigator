@@ -1,0 +1,14 @@
+{
+  "design": "min.mlir (aie.device(npu1), 1 tile, runtime_sequence vide)",
+  "commande": "aiecc min.mlir --xclbin-name=out.xclbin --get-xclbin --output-dir=<tmp>/o2",
+  "exit": 0,
+  "etapes_pipeline": 30,
+  "xclbin": {
+    "taille": 6818,
+    "magic": "xclbin2",
+    "sha256": "d823a6b91b93c62532d70690b4adaf1b748000c36dc2ca4e5654ef4b1cec6a43"
+  },
+  "verifie_par": "xclbinutil --info --input out.xclbin (XRT 2.21.0)",
+  "portee": "chaîne de COMPILATION AIE valide sur Windows ; aucune exécution NPU",
+  "date": "2026-10-18"
+}

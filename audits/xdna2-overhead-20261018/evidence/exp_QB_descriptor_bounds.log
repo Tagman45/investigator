@@ -1,0 +1,14 @@
+BD analysées : 40   (source E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin)
+arg   n   plus_max  iters      len  étendue requise  mesuré suffisant   verdict
+  0  16 0x001e0000    [0] [32768]    1998848 (0x1e8000) 1998848     EXACT
+  1  16 0x000c0000   [19] [65536]    2097152 (0x200000) 1966080  MAJORANT
+  2   8 0x00080300   [16] [16384]    1590016 (0x184300) 1048576  MAJORANT
+
+[RÉFUTÉ 18/10/2026] Ce modèle N'EST PAS un décodage : `payload[6]>>16` mélange
+`iteration_size` et `iteration_stride`. Sortie conservée comme diagnostic et
+traçabilité de la réfutation — voir npu_preflight.py pour la règle utilisée.
+Lecture d'époque : l'étendue requise était calculée depuis les descripteurs, PAS
+depuis la réussite du kernel.
+B : prédit 2 097 152 o ; mesuré (8 répétitions/point) 1 949 696 KO,
+    1 966 080 OK -> majorant de 131 072 o.
+JSON: evidence/_tmp_db2.json

@@ -1,0 +1,10 @@
+C=  1572864 (1.5000 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+C=  1589760 (1.5161 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+C=  1590016 (1.5164 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+C=  1590528 (1.5168 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+C=  1638400 (1.5625 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+C=  2097152 (2.0000 Mio)  exit=[0, 0, 0]  hash distincts=1  déterministe=True  état=['ert_cmd_state.ERT_CMD_STATE_COMPLETED']
+
+plus petite taille reproductible : 1572864
+tailles non reproductibles        : []
+JSON: evidence/exp_G_bracket_C.json

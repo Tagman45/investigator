@@ -1,0 +1,11 @@
+xclbin=E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin
+insts =E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin (5168 o, 1292 mots)
+opcode=3  tailles BO=[32768, 65536, 16384]
+noyau=MLIR_AIE args=8 group(instr)=655361 groups(data)=[655360, 655360, 655360]
+Traceback (most recent call last):
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_run_txn.py", line 134, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_run_txn.py", line 76, in main
+    bo_instr = pyxrt.bo(dev, len(instr), F(0x98), gid_instr)
+RuntimeError: unsupported buffer type: invalid argument

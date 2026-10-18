@@ -1,0 +1,44 @@
+{
+  "test": "E_teardown",
+  "cas": "ctx_bo16k",
+  "ops": [
+    {
+      "step": "alloc_16384",
+      "ok": true,
+      "value": 67174400
+    },
+    {
+      "step": "write",
+      "ok": true,
+      "value": true
+    },
+    {
+      "step": "sync_to",
+      "ok": true,
+      "value": true
+    },
+    {
+      "step": "sync_from",
+      "ok": true,
+      "value": true
+    }
+  ],
+  "fin_normale": true,
+  "_rec": {
+    "ts": "2026-10-18T12:25:40",
+    "python": "3.13.13",
+    "argv": [
+      "scripts/npu_exp.py",
+      "teardown",
+      "--case",
+      "ctx_bo16k",
+      "--json",
+      "evidence/exp_E_ctx_bo16k.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 1032944,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958"
+  }
+}

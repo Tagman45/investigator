@@ -1,0 +1,15 @@
+  ok   alloc_1998848 -> <pyxrt.bo object at 0x000001CBB8F4D4B0>
+  ok   alloc_851968 -> <pyxrt.bo object at 0x000001CBBAC06070>
+  ok   alloc_544768 -> <pyxrt.bo object at 0x000001CBBAC06130>
+  ok   write -> True
+  ok   sync_to -> True
+  ok   sync_from -> True
+  ok   write -> True
+  ok   sync_to -> True
+  ok   sync_from -> True
+  ok   write -> True
+  ok   sync_to -> True
+  ok   sync_from -> True
+fin du corps Python — le code de sortie du process révèle le crash éventuel
+JSON: evidence/exp_E_ctx_bo3_del.json
+EXIT_CORPS=0

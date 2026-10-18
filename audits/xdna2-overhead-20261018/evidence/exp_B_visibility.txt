@@ -1,0 +1,13 @@
+{"size": 16384, "flags": "cacheable", "addr": "0x4010000", "roundtrip_identique": true, "octets_differents": 0, "premiers_mots": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "attendu": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "roundtrip2_identique": true, "roundtrip1_egal_2": true}
+{"size": 16384, "flags": "host_only", "addr": "0x13000", "roundtrip_identique": true, "octets_differents": 0, "premiers_mots": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "attendu": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "roundtrip2_identique": true, "roundtrip1_egal_2": true}
+{"size": 544768, "flags": "cacheable", "addr": "0x4010000", "roundtrip_identique": true, "octets_differents": 0, "premiers_mots": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "attendu": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "roundtrip2_identique": true, "roundtrip1_egal_2": true}
+{"size": 544768, "flags": "host_only", "addr": "0x13000", "roundtrip_identique": true, "octets_differents": 0, "premiers_mots": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "attendu": ["0xdead0000", "0xdead0001", "0xdead0002", "0xdead0003", "0xdead0004", "0xdead0005", "0xdead0006", "0xdead0007"], "roundtrip2_identique": true, "roundtrip1_egal_2": true}
+VERDICT: PASS_VISIBILITE  (4/4 roundtrips identiques)
+JSON: evidence/exp_B_visibility.json
+EXIT_CORPS=0
+Traceback (most recent call last):
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_exp.py", line 358, in <module>
+    sys.exit(rc)
+    ~~~~~~~~^^^^
+SystemExit: 0
+ERREUR: SystemExit: 0

@@ -1,0 +1,28 @@
+{
+  "fix-defects": {
+    "required_skills": [
+      "evidence",
+      "debug-method",
+      "search-policy",
+      "xdna2-cross-audit",
+      "xdna2-path-explorer",
+      "git-ecosystem-investigator"
+    ],
+    "requires_tests": true
+  },
+  "audit-skills": {
+    "required_skills": [
+      "evidence",
+      "search-policy",
+      "git-ecosystem-investigator"
+    ],
+    "requires_tests": true
+  },
+  "remote-publish": {
+    "required_skills": [
+      "evidence"
+    ],
+    "requires_tests": true,
+    "requires_git_authorization": true
+  }
+}

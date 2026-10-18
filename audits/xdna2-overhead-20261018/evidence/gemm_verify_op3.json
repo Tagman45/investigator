@@ -1,0 +1,57 @@
+{
+  "status": "COMPLETED_RESULTAT_NON_CONFIRME",
+  "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+  "shape": {
+    "M": 64,
+    "K": 256,
+    "N": 128
+  },
+  "opcode": 3,
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "bo_addresses": {
+    "A": "0x4018000",
+    "B": "0x4020000",
+    "C": "0x4030000",
+    "instr": "0x4010000"
+  },
+  "c_marqueur_restant": 0,
+  "times_ms": {
+    "submit": 0.181,
+    "wait": 2.354,
+    "sync_from": 0.16,
+    "read": 0.182,
+    "load": 0.251,
+    "register": 0.01,
+    "hw_context": 4.0,
+    "kernel_open": 0.06
+  },
+  "comparaisons": {
+    "A@B": {
+      "cos": NaN,
+      "max_abs_err": NaN,
+      "ref_norm": 120.6143
+    }
+  },
+  "meilleur": "A@B",
+  "c_premiers_float": [
+    0.000732,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.0,
+    0.0
+  ],
+  "ref_premiers_float": [
+    -2.910112,
+    1.766786,
+    0.432202,
+    -3.206396,
+    0.081001,
+    0.237868,
+    1.364861,
+    0.746925
+  ]
+}

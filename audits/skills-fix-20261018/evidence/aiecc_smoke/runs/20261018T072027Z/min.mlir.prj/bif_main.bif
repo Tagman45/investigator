@@ -1,0 +1,14 @@
+all:
+{
+  id_code = 0x14ca8093
+  extended_id_code = 0x01
+  image
+  {
+    name=aie_image, id=0x1c000000
+    { type=cdo
+      file=C:\Users\videl\skills-audit-reports\audits\skills-fix-20261018\evidence\aiecc_smoke\runs\20261018T072027Z\min.mlir.prj\cdo_main/main_aie_cdo_elfs.bin
+      file=C:\Users\videl\skills-audit-reports\audits\skills-fix-20261018\evidence\aiecc_smoke\runs\20261018T072027Z\min.mlir.prj\cdo_main/main_aie_cdo_init.bin
+      file=C:\Users\videl\skills-audit-reports\audits\skills-fix-20261018\evidence\aiecc_smoke\runs\20261018T072027Z\min.mlir.prj\cdo_main/main_aie_cdo_enable.bin
+    }
+  }
+}

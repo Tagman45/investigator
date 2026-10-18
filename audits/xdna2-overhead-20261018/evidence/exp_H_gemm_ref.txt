@@ -1,0 +1,8 @@
+noyau=MLIR_AIE args=8 groups=[5242881, 5242880, 5242880, 5242880]
+BO A=0x4028000 B=0x5028000 C=0x6028000 (16777216 o)
+run1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 4.742 ms | valeurs=262144 correctes=262144 fausses=0 nan=0 min=8192.0 max=8192.0 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+run2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 1.88 ms | valeurs=262144 correctes=262144 fausses=0 nan=0 min=8192.0 max=8192.0 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+
+attendu : 262144 valeurs = 8192.0 | obtenu : [262144, 262144]
+reproductible: True   VERDICT: PASS_NUMERIQUE
+JSON: evidence/exp_H_gemm_ref.json

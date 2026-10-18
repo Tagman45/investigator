@@ -1,0 +1,14 @@
+noyau=MLIR_AIE args=8 groups=[16056321, 16056320, 16056320, 16056320]
+  pre-vol arg0: etendue=7995392 cible=7995392 alloue=7995392 marge=+0 OK
+  pre-vol arg1: etendue=5832704 cible=5832704 alloue=7995392 marge=+2162688 OK
+  pre-vol arg2: etendue=1581952 cible=1581952 alloue=7995392 marge=+6413440 OK
+tailles BO demandees : A=7995392 B=7995392 C=7995392
+BO A=0x4028000 B=0x47c8000 C=0x4f68000 ([7995392, 7995392, 7995392] o)
+C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_gemm_ref.py:100: RuntimeWarning: invalid value encountered in subtract
+  correct = int(np.sum(np.abs(c - float(K)) <= 1.0))
+run1: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 4.39 ms | valeurs=262144 correctes=249856 fausses=12288 nan=8704 min=-2.4592421160857323e+31 max=2.994824543039192e+31 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+run2: état=ert_cmd_state.ERT_CMD_STATE_COMPLETED 1.825 ms | valeurs=262144 correctes=249856 fausses=12288 nan=8704 min=-2.4592421160857323e+31 max=2.994824543039192e+31 | C[0:4]=[8192.0, 8192.0, 8192.0, 8192.0]
+
+attendu : 262144 valeurs = 8192.0 | obtenu : [249856, 249856]
+reproductible: False   VERDICT: FAIL_NUMERIQUE
+JSON: evidence/exp_W_512_refus.json

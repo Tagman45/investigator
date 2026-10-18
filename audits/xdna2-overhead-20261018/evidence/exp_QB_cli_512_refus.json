@@ -1,0 +1,16 @@
+{
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "extents": {
+    "0": 7995392,
+    "1": 7995392,
+    "2": 795520
+  },
+  "sizes": [
+    7995392,
+    5832704,
+    7995392
+  ],
+  "ok": false,
+  "refused": true,
+  "verdict": "FAIL"
+}

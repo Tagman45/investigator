@@ -1,0 +1,68 @@
+{
+  "status": "TESTED",
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "kernel": null,
+  "steps": [
+    {
+      "step": "pyxrt.device(0)",
+      "status": "OK",
+      "duration_ms": 14.21,
+      "value": "<pyxrt.device object at 0x000002277E80AD30>"
+    },
+    {
+      "step": "device.get_info(name)",
+      "status": "OK",
+      "duration_ms": 0.182,
+      "value": "'NPU Strix'"
+    },
+    {
+      "step": "device.get_info(bdf)",
+      "status": "OK",
+      "duration_ms": 2.345,
+      "value": "'0065:00:01.1'"
+    },
+    {
+      "step": "pyxrt.xclbin(path)",
+      "status": "OK",
+      "duration_ms": 0.178,
+      "value": "<pyxrt.xclbin object at 0x000002277E80F8B0>"
+    },
+    {
+      "step": "xclbin.get_uuid()",
+      "status": "OK",
+      "duration_ms": 0.005,
+      "value": "<pyxrt.uuid object at 0x000002277EC808B0>"
+    },
+    {
+      "step": "device.register_xclbin(xclbin)",
+      "status": "OK",
+      "duration_ms": 0.006,
+      "value": "<pyxrt.uuid object at 0x000002277EC809F0>"
+    },
+    {
+      "step": "pyxrt.hw_context(dev, uuid)",
+      "status": "OK",
+      "duration_ms": 4.659,
+      "value": "<pyxrt.hw_context object at 0x000002277EC80970>"
+    },
+    {
+      "step": "xclbin.get_kernels()",
+      "status": "OK",
+      "duration_ms": 0.009,
+      "value": "[<pyxrt.xclbin.xclbinkernel object at 0x000002277EC80AB0>]"
+    },
+    {
+      "step": "kernel_obj.get_name()",
+      "status": "OK",
+      "duration_ms": 0.002,
+      "value": "'MLIR_AIE'"
+    },
+    {
+      "step": "pyxrt.kernel(hwctx, MLIR_AIE)",
+      "status": "OK",
+      "duration_ms": 0.057,
+      "value": "<pyxrt.kernel object at 0x000002277E7FE570>"
+    }
+  ],
+  "premier_echec": null
+}

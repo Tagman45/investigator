@@ -1,0 +1,2 @@
+cwd: C:\Users\videl\skills-audit-reports\audits\skills-fix-20261018\evidence\aiecc_smoke\runs\20261018T072027Z
+C:\Users\videl\miniconda3\Scripts\aiecc.EXE min.mlir --xclbin-name=out.xclbin --get-xclbin --output-dir=C:\Users\videl\skills-audit-reports\audits\skills-fix-20261018\evidence\aiecc_smoke\runs\20261018T072027Z\o

@@ -1,0 +1,16 @@
+noyau=MLIR_AIE args=8 groups=[15532033, 15532032, 15532032, 15532032]
+PRE-VOL: REFUSE l'allocation — PRE-VOL REFUSE l'allocation — arg0: alloué 2097152 < requis 7995392 (5898240 octets manquants); arg1: alloué 2097152 < requis 5832704 (3735552 octets manquants) | cible = min(étendue descripteur, plancher mesuré) (exp_I_descriptor_bounds.json, exp_G_bracket_B/C). Utiliser allow_undersized=True uniquement pour TESTER la borne.
+Traceback (most recent call last):
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_gemm_ref.py", line 122, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_gemm_ref.py", line 56, in main
+    pf = E.preflight((ns.bo, ns.bo, ns.bo), INSTS, allow=ns.allow_undersized)
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_exp.py", line 71, in preflight
+    rep = npu_preflight.check(sizes, insts, allow_undersized=allow, quiet=False)
+  File "C:\Users\videl\skills-audit-reports\audits\xdna2-overhead-20261018\scripts\npu_preflight.py", line 118, in check
+    raise UndersizedBufferError(
+    ...<3 lines>...
+        "Utiliser allow_undersized=True uniquement pour TESTER la borne.")
+npu_preflight.UndersizedBufferError: PRE-VOL REFUSE l'allocation — arg0: alloué 2097152 < requis 7995392 (5898240 octets manquants); arg1: alloué 2097152 < requis 5832704 (3735552 octets manquants) | cible = min(étendue descripteur, plancher mesuré) (exp_I_descriptor_bounds.json, exp_G_bracket_B/C). Utiliser allow_undersized=True uniquement pour TESTER la borne.
+ERREUR: UndersizedBufferError: PRE-VOL REFUSE l'allocation — arg0: alloué 2097152 < requis 7995392 (5898240 octets manquants); arg1: alloué 2097152 < requis 5832704 (3735552 octets manquants) | cible = min(étendue descripteur, plancher mesuré) (exp_I_descriptor_bounds.json, exp_G_bracket_B/C). Utiliser allow_undersized=True uniquement pour TESTER la borne.

@@ -1,0 +1,160 @@
+{
+  "label": "baseline_TXN_original",
+  "opcode": 3,
+  "bo_sizes": [
+    4194304,
+    851968,
+    2097152
+  ],
+  "xclbin": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin",
+  "insts": "E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin",
+  "sha_insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958",
+  "patch_edits": {
+    "n": 0,
+    "distinct_old": [],
+    "new": []
+  },
+  "groups": [
+    3538945,
+    3538944,
+    3538944,
+    3538944
+  ],
+  "bo0_addr": "0x4018000",
+  "bo0_size": 4194304,
+  "bo1_addr": "0x4418000",
+  "bo1_size": 851968,
+  "bo2_addr": "0x44e8000",
+  "bo2_size": 2097152,
+  "pre_roundtrip_identique": {
+    "bo0": true,
+    "bo1": true,
+    "bo2": true
+  },
+  "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+  "submit_ms_approx": 0.285,
+  "submit_plus_wait_ms": 2.441,
+  "changes": {
+    "bo0": {
+      "n_words": 1048576,
+      "n_changed": 0,
+      "ranges": [],
+      "n_ranges": 0,
+      "sha256": "28d95925153ae8f8b3f32657e4f5d246eae694eb4c526fa406031fbe7e818114",
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    },
+    "bo1": {
+      "n_words": 212992,
+      "n_changed": 0,
+      "ranges": [],
+      "n_ranges": 0,
+      "sha256": "d2407e19e4dadf5ff64a380cf69d0d4d2a51f7313323bd8bd9c2280d907e1b1b",
+      "premiers_mots": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    },
+    "bo2": {
+      "n_words": 524288,
+      "n_changed": 262144,
+      "ranges": [
+        [
+          0,
+          262143
+        ]
+      ],
+      "n_ranges": 1,
+      "sha256": "95797a489049cd43c3a40504369e56b082e8ca371cce259615efd4e2f66a8b07",
+      "premiers_mots": [
+        "0xd31800",
+        "0xd33000",
+        "0xd34800",
+        "0xd36000",
+        "0xd37800",
+        "0xd39000",
+        "0xd3a800",
+        "0xd3c000"
+      ],
+      "premiers_mots_attendu": [
+        "0xdead0000",
+        "0xdead0001",
+        "0xdead0002",
+        "0xdead0003",
+        "0xdead0004",
+        "0xdead0005",
+        "0xdead0006",
+        "0xdead0007"
+      ]
+    }
+  },
+  "entrees_intactes": {
+    "bo0": true,
+    "bo1": true
+  },
+  "attendu_C_offsets": [
+    0,
+    256,
+    512,
+    768,
+    524288,
+    524544,
+    524800,
+    525056
+  ],
+  "_rec": {
+    "ts": "2026-10-18T12:27:43",
+    "python": "3.13.13",
+    "argv": [
+      "scripts/npu_exp.py",
+      "map",
+      "--asize",
+      "4194304",
+      "--bsize",
+      "851968",
+      "--csize",
+      "2097152",
+      "--json",
+      "evidence/exp_D_iso_4194304_851968_r2.json"
+    ],
+    "cwd": "C:\\Users\\videl\\skills-audit-reports\\audits\\xdna2-overhead-20261018",
+    "pid": 313228,
+    "pyxrt": "C:\\Users\\videl\\miniconda3\\Lib\\site-packages\\pyxrt.pyd",
+    "xclbin_sha256": "2139e4ad952061bc9730ab3b61c3c6b7dd9131217fd22d6bfac99c509c2aac81",
+    "insts_sha256": "0a3d03e92849fa5dd43f9f5d595cd10aae7a0846e7c8d4ffb9385138f1b0c958"
+  }
+}

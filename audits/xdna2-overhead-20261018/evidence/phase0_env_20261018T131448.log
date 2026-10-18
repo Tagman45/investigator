@@ -1,0 +1,169 @@
+=== ENVIRONNEMENT ===
+cwd=/c/Users/videl/skills-audit-reports/audits/xdna2-overhead-20261018
+uname=MINGW64_NT-10.0-26200 nitro 3.6.9-b4195d69.x86_64 2026-06-06 17:49 UTC x86_64 Msys
+date=2026-10-18T13:14:48+02:00
+
+=== python_version ===
+Python 3.13.13
+EXIT=0
+
+=== python_py ===
+  Version              : 2.21.0
+  Branch               : HEAD
+  Hash                 : 15e6319be8de1e76a6150111a3861729e988fdb5
+  Hash Date            : 2026-04-04 00:09:34
+  NPU Driver Version   : 32.0.20101.3760
+  NPU Firmware Version : 1.1.2.64
+EXIT=0
+
+=== xrt_smi_report ===
+System Configuration
+  OS Name              : Windows NT
+  Release              : 26200.9711
+  Machine              : x86_64
+  CPU Cores            : 20
+  Memory               : 32041 MB
+  Distribution         : Windows 11 Home
+  Model                : Nitro AN16S-61
+  BIOS Vendor          : INSYDE Corp.
+  BIOS Version         : V1.53
+  Processor            : AMD Ryzen AI 9 365 w/ Radeon 880M              
+
+XRT
+  Version              : 2.21.0
+  Branch               : HEAD
+  Hash                 : 15e6319be8de1e76a6150111a3861729e988fdb5
+  Hash Date            : 2026-04-04 00:09:34
+  NPU Driver Version   : 32.0.20101.3760
+  NPU Firmware Version : 1.1.2.64
+
+Device(s) Present
+|BDF             |Name       |
+|----------------|-----------|
+|[0065:00:01.1]  |NPU Strix  |
+
+
+EXIT=0
+
+=== xclbinutil_help ===
+This utility operates on a xclbin produced by v++.
+
+For example:
+  1) Reporting xclbin information  : xclbinutil --info --input binary_container_1.xclbin
+  2) Extracting the bitstream image: xclbinutil --dump-section BITSTREAM:RAW:bitstream.bit --input binary_container_1.xclbin
+  3) Extracting the build metadata : xclbinutil --dump-section BUILD_METADATA:HTML:buildMetadata.json --input binary_container_1.xclbin
+  4) Removing a section            : xclbinutil --remove-section BITSTREAM --input binary_container_1.xclbin --output binary_container_modified.xclbin
+  5) Signing xclbin                : xclbinutil --private-key key.priv --certificate cert.pem --input binary_container_1.xclbin --output signed.xclbin
+
+Command Line Options
+Options:
+  --add-merge-section arg   Section name to add or merge.  Format: 
+                            <section>:<format>:<file>
+  --add-pskernel arg        Helper option to add PS kernels.  Format: 
+                            [<mem_banks>]:[<symbol_name>]:[<instances>]:<path_t
+                            o_shared_library>
+  --add-replace-section arg Section name to add or replace.  Format: 
+                            <section>:<format>:<file>
+  --add-section arg         Section name to add.  Format: 
+                            <section>:<format>:<file>
+  --add-signature arg       Adds a user defined signature to the given xclbin 
+                            image.
+  --certificate arg         Certificate used in signing and validating the 
+                            xclbin image.
+  --digest-algorithm arg    Digest algorithm. Default: sha512
+  --dump-section arg        Section to dump. Format: <section>:<format>:<file>
+  --force                   Forces a file overwrite.
+  --get-signature           Returns the user defined signature (if set) of the 
+                            xclbin image.
+  -h [ --help ]             Print help messages
+  --info [=arg(=<console>)] Report accelerator binary content.  Including: 
+                            generation and packaging data, kernel signatures, 
+                            connectivity, clocks, sections, etc.  Note: 
+                            Optionally an output file can be specified.  If 
+                            none is specified, then the output will go to the 
+                            console.
+  -i [ --input ] arg        Input file name. Reads xclbin into memory.
+  --key-value arg           Key value pairs.  Format: [USER|SYS]:<key>:<value>
+  --list-sections           List all possible section names (Stand Alone 
+                            Option)
+  --migrate-forward         Migrate the xclbin archive forward to the new 
+                            binary format.
+  -o [ --output ] arg       Output file name. Writes in memory xclbin image to 
+                            a file.
+  --private-key arg         Private key used in signing the xclbin image.
+  -q [ --quiet ]            Minimize reporting information.
+  --remove-key arg          Removes the given user key from the xclbin archive.
+  --remove-section arg      Section name to remove.
+  --remove-signature        Removes the signature from the xclbin image.
+  --replace-section arg     Section to replace. 
+  --target arg              Target flow for this image.  Valid values: hw, 
+                            hw_emu, and sw_emu.
+  --validate-signature      Validates the signature for the given xclbin 
+                            archive.
+  -v [ --verbose ]          Display verbose/debug information.
+  --version                 Version of this executable.
+  --file-check              Check for Linux file command utility compliance
+
+Addition Syntax Information
+---------------------------
+Syntax: <section>:<format>:<file>
+    <section> - The section to add or dump (e.g., BUILD_METADATA, BITSTREAM, etc.)
+                Note: If a JSON format is being used, this value can be empty.  If so, then
+                      the JSON metadata will determine the section it is associated with.
+                      In addition, only sections that are found in the JSON file will be reported.
+
+    <format>  - The format to be used.  Currently, there are three formats available:
+                RAW: Binary Image; JSON: JSON file format; and HTML: Browser visible.
+
+                Note: Only selected operations and sections supports these file types.
+
+    <file>    - The name of the input/output file to use.
+
+  Used By: --add_section and --dump_section
+  Example: xclbinutil --add-section BITSTREAM:RAW:mybitstream.bit
+
+EXIT=0
+
+=== aiecc_version ===
+aiecc (mlir-aie declarative driver)
+  git SHA:  af819a802f4
+  compiled: Aug 28 2026 21:56:18
+EXIT=0
+
+=== git_version ===
+git version 2.55.0.windows.3
+EXIT=0
+
+=== sha256_version ===
+sha256sum (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Ulrich Drepper, Scott Miller, and David Madore.
+EXIT=0
+
+=== PYXRT ===
+pyxrt_file= C:\Users\videl\miniconda3\Lib\site-packages\pyxrt.pyd
+pyxrt_import=OK
+EXIT_PYXRT=0
+
+=== PYTHON MODULES ===
+WARNING: Package(s) not found: pyxrt
+EXIT_PIP_SHOW_PYXRT=1
+
+=== REPOSITORY ===
+C:/Users/videl/skills-audit-reports
+EXIT_GIT_ROOT=0
+ M INDEX.md
+?? AGENTS.md
+?? audits/skills-fix-20261018/
+?? audits/skills-usage/
+?? audits/xdna2-overhead-20261018/
+?? tests/
+?? tools/aiecc_smoke_evidence.py
+?? tools/git_authorization.py
+?? tools/skills_preflight.py
+?? tools/skills_registry.json
+EXIT_GIT_STATUS=0

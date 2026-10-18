@@ -1,0 +1,40 @@
+xclbin=E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128.xclbin
+insts =E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin (5168 o, 1292 mots)
+opcode=3  tailles BO=[32768, 65536, 16384]
+noyau=MLIR_AIE args=8 group(instr)=851969 groups(data)=[851968, 851968, 851968]
+addr bo_instr = 0x4010000  (5168 o)
+addr bo0 = 0x4018000  (32768 o)
+addr bo1 = 0x4020000  (65536 o)
+addr bo2 = 0x4030000  (16384 o)
+état après soumission : <bound method pybind11_detail_function_record_v1_msvc_mt_mscver1941.state of <pyxrt.run object at 0x000001B95CF8D430>>
+état après wait       : ert_cmd_state.ERT_CMD_STATE_COMPLETED
+  bo0: 32768 o — identique=True — octets différents=0 — début=[0, 1, 2, 3, 4, 5, 6, 7]
+  bo1: 65536 o — identique=True — octets différents=0 — début=[17, 18, 19, 20, 21, 22, 23, 24]
+  bo2: 16384 o — identique=False — octets différents=16320 — début=[48, 130, 217, 0, 48, 7, 106, 255]
+------------------------------------------------------------------------------------------
+STATUT: TESTED_EXECUTION_MOVE_DMA
+  load_xclbin              0.207 ms
+  register_xclbin          0.008 ms
+  hw_context               3.878 ms
+  kernel_open              0.124 ms
+  bo_instr_alloc           0.077 ms
+  bo_instr_write           0.006 ms
+  bo_instr_sync_to         0.006 ms
+  bo0_alloc                0.033 ms
+  bo0_write                0.002 ms
+  bo0_sync_to              0.002 ms
+  bo1_alloc                0.008 ms
+  bo1_write                0.007 ms
+  bo1_sync_to              0.003 ms
+  bo2_alloc                0.019 ms
+  bo2_write                0.002 ms
+  bo2_sync_to              0.002 ms
+  SUBMIT                   0.205 ms
+  WAIT                     2.176 ms
+  bo0_sync_from            0.095 ms
+  bo0_read                85.713 ms
+  bo1_sync_from            0.256 ms
+  bo1_read                 0.072 ms
+  bo2_sync_from            0.171 ms
+  bo2_read                 0.019 ms
+preuve JSON: evidence/run_txn_op3_cacheable.json

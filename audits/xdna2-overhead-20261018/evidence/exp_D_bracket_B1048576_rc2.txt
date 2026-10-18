@@ -1,0 +1,8 @@
+  bo0: 499712 mots, 0 modifiés, 0 plages -> []
+  bo1: 262144 mots, 0 modifiés, 0 plages -> []
+  bo2: 524288 mots, 262144 modifiés, 1 plages -> [[0, 262143]]
+JSON: evidence/exp_D_bracket_B1048576_rc2.json
+plages attendues (mots) : [0, 64, 128, 192, 131072, 131136, 131200, 131264]
+plages observées        : [[0, 262143]]
+plages attendues couvertes : 1/8
+EXIT_CORPS=0

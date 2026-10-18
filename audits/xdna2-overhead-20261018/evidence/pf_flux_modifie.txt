@@ -1,0 +1,17 @@
+PRE-VOL: REFUSE — PRE-VOL REFUSE l'allocation — arg2: alloué 1048576 < requis 1590016 (541440 octets manquants) | cible = min(étendue descripteur, plancher mesuré) (exp_I_descriptor_bounds.json, exp_G_bracket_B/C). Utiliser allow_undersized=True uniquement pour TESTER la borne.
+{
+  "insts": "C:/Users/videl/skills-audit-reports/audits/xdna2-overhead-20261018/evidence/insts_modifie_1bit.bin",
+  "extents": {
+    "0": 1998848,
+    "1": 2097152,
+    "2": 1590016
+  },
+  "sizes": [
+    1998848,
+    2097152,
+    1048576
+  ],
+  "ok": false,
+  "refused": true,
+  "verdict": "FAIL"
+}

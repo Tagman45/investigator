@@ -1,0 +1,35 @@
+{
+  "url": "https://github.com/amd/xdna-driver",
+  "final_url": "https://github.com/amd/xdna-driver",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 200001,
+  "sha256": "95cbef9debdcffeb7985f1dccc2ac6a59c45cf7596fd99845cefccbc06a8d66b",
+  "is_pdf": false,
+  "body_saved": null,
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://github.com/amd/xdna-driver",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 200001
+    }
+  ],
+  "limit_codes": [],
+  "limits": [
+    "corps tronqué à 200000 octets (max_bytes)"
+  ],
+  "started_at": "2026-10-18T12:24:09Z",
+  "elapsed_s": 0.787,
+  "caps": {
+    "attempts": 2,
+    "timeout": 12.0,
+    "deadline": 30,
+    "max_bytes": 200000
+  },
+  "truncated": true
+}

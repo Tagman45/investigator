@@ -1,0 +1,9 @@
+BD analysées : 40   (source E:/trixdna_test/phase5_atb/phase5_atb_m32k64n128_insts.bin)
+arg   n   plus_max  iters      len  étendue requise  mesuré suffisant   verdict
+  0  16 0x001e0000    [0] [32768]    1998848 (0x1e8000) 1998848      PASS
+  1  16 0x000c0000   [19] [65536]    2097152 (0x200000) 2097152      PASS
+  2   8 0x00080300   [16] [16384]    1590016 (0x184300) 2097152      PASS
+
+Lecture : l'étendue requise est calculée depuis les descripteurs, PAS depuis
+la réussite du kernel. B : étendue prédite = 2097152 octets ; mesuré : 1,25 Mio échoue, 2 Mio réussit.
+JSON: evidence/exp_I_descriptor_bounds.json

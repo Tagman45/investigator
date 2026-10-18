@@ -1,0 +1,130 @@
+{
+  "test": "H_GEMM_reference_documentee",
+  "xclbin": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512.xclbin",
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha_xclbin": "ba93cb7376161fcf63293ea2fbd22e6b62ee4fdf1db666653972917ff1e570d4",
+  "sha_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "M": 512,
+  "K": 8192,
+  "N": 512,
+  "bo": 7995392,
+  "attendu": 8192.0,
+  "preflight": {
+    "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+    "sha256_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+    "planchers_connus_pour_ce_design": false,
+    "extents": {
+      "0": 7995392,
+      "1": 5832704,
+      "2": 1581952
+    },
+    "sizes": [
+      7995392,
+      7995392,
+      7995392
+    ],
+    "checks": [
+      {
+        "arg": 0,
+        "requis": 7995392,
+        "alloue": 7995392,
+        "plancher_mesure": null,
+        "cible": 7995392,
+        "desaccord_descripteur": false,
+        "marge": 0,
+        "ok": true
+      },
+      {
+        "arg": 1,
+        "requis": 5832704,
+        "alloue": 7995392,
+        "plancher_mesure": null,
+        "cible": 5832704,
+        "desaccord_descripteur": false,
+        "marge": 2162688,
+        "ok": true
+      },
+      {
+        "arg": 2,
+        "requis": 1581952,
+        "alloue": 7995392,
+        "plancher_mesure": null,
+        "cible": 1581952,
+        "desaccord_descripteur": false,
+        "marge": 6413440,
+        "ok": true
+      }
+    ],
+    "ok": true,
+    "allow_undersized": false,
+    "verdict": "PASS"
+  },
+  "runs": [
+    {
+      "rep": 1,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 4.42,
+      "sha256_C": "924cc11c52c7d78cfec50839f3a2143696bc79118dcf483bb06eee37d9ddbe19",
+      "n_values": 262144,
+      "correct": 249856,
+      "wrong": 12288,
+      "nan": 8704,
+      "min": -2.4592421160857323e+31,
+      "max": 2.994824543039192e+31,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    },
+    {
+      "rep": 2,
+      "state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED",
+      "submit_plus_wait_ms": 1.935,
+      "sha256_C": "b2adc3b2478f4e86a12f0bcd905d7b438fa9e0eb4e6faed2f8b5d85f9729c206",
+      "n_values": 262144,
+      "correct": 249856,
+      "wrong": 12288,
+      "nan": 8704,
+      "min": -2.4592421160857323e+31,
+      "max": 2.994824543039192e+31,
+      "c0_8": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c0_8_hex": [
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000",
+        "0x46000000"
+      ]
+    }
+  ],
+  "verdict": "FAIL_NUMERIQUE",
+  "reproductible": false
+}

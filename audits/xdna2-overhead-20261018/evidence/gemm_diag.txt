@@ -1,0 +1,6 @@
+C:\Users\videl\miniconda3\Lib\site-packages\numpy\_core\fromnumeric.py:83: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+groupes: {'instr': 1114113, 'a': 1114112, 'b': 1114112, 'c': 1114112}
+opcode=3: {"state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED", "nan": 0, "zeros": 7872, "total": 8192, "max_abs": 3.1236857900945523e+38, "mean_abs": Infinity, "marqueur_restant": 0, "ressemble_A": {"prefixe_octets_communs": 0, "offset": null}, "ressemble_B": {"prefixe_octets_communs": 0, "offset": null}, "cos_A@B": 0.005685, "cos_A_mem(KxM).T@B": -0.01277, "cos_(A@B).T_stockage_transpose": -0.000698, "cos_(A
+opcode=1: {"state": "ert_cmd_state.ERT_CMD_STATE_COMPLETED", "nan": 0, "zeros": 0, "total": 8192, "max_abs": 429916160.0, "mean_abs": 429916160.0, "marqueur_restant": 8192, "ressemble_A": {"prefixe_octets_communs": 0, "offset": null}, "ressemble_B": {"prefixe_octets_communs": 0, "offset": null}, "cos_A@B": 0.004303, "cos_A_mem(KxM).T@B": 0.004732, "cos_(A@B).T_stockage_transpose": 0.004303, "cos_(A@B)_reord
+preuve JSON: evidence/gemm_diag.json
