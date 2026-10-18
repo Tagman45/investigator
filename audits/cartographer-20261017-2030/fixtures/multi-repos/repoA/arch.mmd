@@ -1,0 +1,6 @@
+```mermaid
+graph LR
+  API["api.py"] -->|imports| Worker("worker.py")
+  Worker --> DB[("store.py")]
+  API --> Ghost["gone.py"]
+```

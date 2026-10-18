@@ -1,0 +1,16 @@
+{
+  "note": "Artefact MESURE du defaut avant correction (auto-ingestion) : conserve en resume, gros fichiers supprimes.",
+  "defaut": "map relisait ses propres view_*.mmd/diagram_*.mmd situes dans out_dir",
+  "edges_buggy_run": 2591,
+  "statuses_buggy_run": {
+    "MISSING": 2589,
+    "INFERRED": 2
+  },
+  "edges_after_fix_map2": 33,
+  "statuses_after_fix_map2": {
+    "VERIFIED": 20,
+    "INFERRED": 12,
+    "MISSING": 1
+  },
+  "date": "2026-10-18"
+}

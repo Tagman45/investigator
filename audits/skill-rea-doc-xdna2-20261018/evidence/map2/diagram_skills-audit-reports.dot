@@ -1,0 +1,26 @@
+digraph ecosystem {
+  rankdir=LR;
+  node [shape=box, style=filled];
+
+  subgraph cluster_legend {
+    label="Légende"; style=dashed;
+    legend_ok [label="fait confirmé", fillcolor="#c6f6c6"];
+    legend_inf [label="lien supposé", fillcolor="#fff3c6"];
+  }
+
+  subgraph cluster_internal {
+    label="internal";
+    n_internal__racine__ [label="internal:(racine)/"];
+    n_internal_audits_ [label="internal:audits/"];
+    n_internal_tools_ [label="internal:tools/"];
+  }
+
+  subgraph cluster_other {
+    label="other";
+    n_repo_skills_audit_reports [label="repo:skills-audit-reports"];
+  }
+
+  n_repo_skills_audit_reports -> n_internal__racine__ [label="contains:INFERRED", color="#b8860b", style="dashed"];
+  n_repo_skills_audit_reports -> n_internal_audits_ [label="contains:INFERRED", color="#b8860b", style="dashed"];
+  n_repo_skills_audit_reports -> n_internal_tools_ [label="contains:INFERRED", color="#b8860b", style="dashed"];
+}

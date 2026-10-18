@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_audits_",
+      "label": "internal:audits/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tools_",
+      "label": "internal:tools/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_skills_audit_reports",
+      "label": "repo:skills-audit-reports",
+      "domain": "other"
+    },
+    {
+      "id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "label": "repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal__racine__",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_audits_",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:audits/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (audits)"
+    },
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_tools_",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:tools/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tools)"
+    },
+    {
+      "source_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "target_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "source": "repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py",
+      "destination": "repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/worker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'worker' résolu vers audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/worker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "target_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "source": "repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/worker.py",
+      "destination": "repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/store.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'store' résolu vers audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/store.py (statique, pas une preuve d'exécution)"
+    }
+  ]
+}

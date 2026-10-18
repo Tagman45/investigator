@@ -1,0 +1,33 @@
+{
+  "repos": [
+    "C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator",
+    "C:/Users/videl/skills-audit-reports"
+  ],
+  "inspections": [
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\inspect_git-ecosystem-investigator.json",
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\inspect_skills-audit-reports.json"
+  ],
+  "ledgers": [
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\parsed_git-ecosystem-investigator_generated.jsonl",
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\parsed_git-ecosystem-investigator_arch.jsonl",
+    "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\parsed_skills-audit-reports_generated.jsonl"
+  ],
+  "generated_diagrams": {
+    "git-ecosystem-investigator": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+    "skills-audit-reports": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd"
+  },
+  "steps": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\steps.jsonl",
+  "step_compliance": {
+    "done": {
+      "analyze_request": 6,
+      "verify_source": 5,
+      "cross_check": 1,
+      "coverage_eval": 1,
+      "report": 1
+    },
+    "missing": {},
+    "unknown_steps": [],
+    "recorded_searches": [],
+    "network_allowed": true
+  }
+}

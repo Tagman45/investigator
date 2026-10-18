@@ -1,0 +1,78 @@
+```mermaid
+graph LR
+  API__api_py_["API (api.py)"]
+  DB____store_py___["DB (('store.py'))"]
+  Ghost__gone_py_["Ghost (gone.py)"]
+  Worker__worker_py_["Worker (worker.py)"]
+  internal__racine____internal__racine___["internal__racine__ (internal:(racine)/)"]
+  internal_adapters___internal_adapters__["internal_adapters_ (internal:adapters/)"]
+  internal_audits___internal_audits__["internal_audits_ (internal:audits/)"]
+  internal_formats___internal_formats__["internal_formats_ (internal:formats/)"]
+  internal_references___internal_references__["internal_references_ (internal:references/)"]
+  internal_scripts___internal_scripts__["internal_scripts_ (internal:scripts/)"]
+  internal_templates___internal_templates__["internal_templates_ (internal:templates/)"]
+  internal_tests___internal_tests__["internal_tests_ (internal:tests/)"]
+  internal_tools___internal_tools__["internal_tools_ (internal:tools/)"]
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig["repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)"]
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep["repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)"]
+  repo_git_ecosystem_investigator_scripts_build_ecosystem_grap["repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)"]
+  repo_git_ecosystem_investigator_scripts_compare_repos_py__re["repo_git_ecosystem_investigator_scripts_compare_repos_py (repo:git-ecosystem-investigator/scripts/compare_repos.py)"]
+  repo_git_ecosystem_investigator_scripts_correlate_py__repo_g["repo_git_ecosystem_investigator_scripts_correlate_py (repo:git-ecosystem-investigator/scripts/correlate.py)"]
+  repo_git_ecosystem_investigator_scripts_coverage_report_py__["repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)"]
+  repo_git_ecosystem_investigator_scripts_diagram_local_py__re["repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)"]
+  repo_git_ecosystem_investigator_scripts_diff_repos_py__repo_["repo_git_ecosystem_investigator_scripts_diff_repos_py (repo:git-ecosystem-investigator/scripts/diff_repos.py)"]
+  repo_git_ecosystem_investigator_scripts_graph_validate_py__r["repo_git_ecosystem_investigator_scripts_graph_validate_py (repo:git-ecosystem-investigator/scripts/graph_validate.py)"]
+  repo_git_ecosystem_investigator_scripts_investigation_engine["repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)"]
+  repo_git_ecosystem_investigator_scripts_parse_mermaid_py__re["repo_git_ecosystem_investigator_scripts_parse_mermaid_py (repo:git-ecosystem-investigator/scripts/parse_mermaid.py)"]
+  repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo["repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)"]
+  repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep["repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)"]
+  repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g["repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)"]
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r["repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)"]
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__["repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)"]
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p["repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)"]
+  repo_git_ecosystem_investigator_tests_test_web_science_py__r["repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)"]
+  repo_skills_audit_reports__repo_skills_audit_reports_["repo_skills_audit_reports (repo:skills-audit-reports)"]
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_["repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)"]
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal__racine____internal__racine___
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_adapters___internal_adapters__
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_formats___internal_formats__
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_references___internal_references__
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_scripts___internal_scripts__
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_templates___internal_templates__
+  repo_git_ecosystem_investigator__repo_git_ecosystem_investig -->|contains:INFERRED:DECLARED| internal_tests___internal_tests__
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g
+  repo_git_ecosystem_investigator_scripts_diagram_local_py__re -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_build_ecosystem_grap
+  repo_git_ecosystem_investigator_scripts_investigation_engine -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_scripts_investigation_engine -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep
+  repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_build_ecosystem_grap
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_correlate_py__repo_g
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_diff_repos_py__repo_
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_graph_validate_py__r
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_investigation_engine
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_parse_mermaid_py__re
+  repo_git_ecosystem_investigator_tests_test_cartographer_py__ -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_compare_repos_py__re
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_diagram_local_py__re
+  repo_git_ecosystem_investigator_tests_test_web_science_py__r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep
+  repo_git_ecosystem_investigator_tests_test_web_science_py__r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_coverage_report_py__
+  repo_git_ecosystem_investigator_tests_test_web_science_py__r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo
+  repo_git_ecosystem_investigator_tests_test_web_science_py__r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r -->|imports:INFERRED:DECLARED| repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r
+  API__api_py_ -->|imports:DECLARED| Worker__worker_py_
+  Worker__worker_py_ -->|references:DECLARED| DB____store_py___
+  API__api_py_ -->|references:DECLARED| Ghost__gone_py_
+  repo_skills_audit_reports__repo_skills_audit_reports_ -->|contains:INFERRED:DECLARED| internal__racine____internal__racine___
+  repo_skills_audit_reports__repo_skills_audit_reports_ -->|contains:INFERRED:DECLARED| internal_audits___internal_audits__
+  repo_skills_audit_reports__repo_skills_audit_reports_ -->|contains:INFERRED:DECLARED| internal_tools___internal_tools__
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_ -->|imports:INFERRED:DECLARED| repo_skills_audit_reports_audits_cartographer_20261017_2030_
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_ -->|imports:INFERRED:DECLARED| repo_skills_audit_reports_audits_cartographer_20261017_2030_
+  API__api_py_ -->|imports:DECLARED| Worker__worker_py_
+  Worker__worker_py_ -->|references:DECLARED| DB____store_py___
+  API__api_py_ -->|references:DECLARED| Ghost__gone_py_
+```

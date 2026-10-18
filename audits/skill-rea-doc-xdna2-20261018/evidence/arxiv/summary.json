@@ -1,0 +1,17 @@
+{
+  "retrieved_at": "2026-10-18T06:06:08Z",
+  "network_allowed": true,
+  "api": "http://export.arxiv.org/api/query",
+  "query": null,
+  "id_list": [
+    "1706.03762"
+  ],
+  "url": "http://export.arxiv.org/api/query?id_list=1706.03762",
+  "http_status": 200,
+  "limit_codes": [],
+  "limits": [
+    "redirection suivie : identité de la destination NON vérifiée (identity_verified=false) — 200 sur l'URL finale ≠ source originale."
+  ],
+  "entries": 1,
+  "total_results": 1
+}

@@ -1,0 +1,59 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_adapters_["internal:adapters/"]
+  internal_formats_["internal:formats/"]
+  internal_references_["internal:references/"]
+  internal_scripts_["internal:scripts/"]
+  internal_templates_["internal:templates/"]
+  internal_tests_["internal:tests/"]
+  repo_git_ecosystem_investigator["repo:git-ecosystem-investigator"]
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py["repo:git-ecosystem-investigator/scripts/arxiv_search.py"]
+  repo_git_ecosystem_investigator_scripts_build_ecosystem_grap["repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py"]
+  repo_git_ecosystem_investigator_scripts_compare_repos_py["repo:git-ecosystem-investigator/scripts/compare_repos.py"]
+  repo_git_ecosystem_investigator_scripts_correlate_py["repo:git-ecosystem-investigator/scripts/correlate.py"]
+  repo_git_ecosystem_investigator_scripts_coverage_report_py["repo:git-ecosystem-investigator/scripts/coverage_report.py"]
+  repo_git_ecosystem_investigator_scripts_diagram_local_py["repo:git-ecosystem-investigator/scripts/diagram_local.py"]
+  repo_git_ecosystem_investigator_scripts_diff_repos_py["repo:git-ecosystem-investigator/scripts/diff_repos.py"]
+  repo_git_ecosystem_investigator_scripts_graph_validate_py["repo:git-ecosystem-investigator/scripts/graph_validate.py"]
+  repo_git_ecosystem_investigator_scripts_investigation_engine["repo:git-ecosystem-investigator/scripts/investigation_engine.py"]
+  repo_git_ecosystem_investigator_scripts_parse_mermaid_py["repo:git-ecosystem-investigator/scripts/parse_mermaid.py"]
+  repo_git_ecosystem_investigator_scripts_pdf_extract_py["repo:git-ecosystem-investigator/scripts/pdf_extract.py"]
+  repo_git_ecosystem_investigator_scripts_verify_bilan_py["repo:git-ecosystem-investigator/scripts/verify_bilan.py"]
+  repo_git_ecosystem_investigator_scripts_web_fetch_py["repo:git-ecosystem-investigator/scripts/web_fetch.py"]
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r["repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py"]
+  repo_git_ecosystem_investigator_tests_test_cartographer_py["repo:git-ecosystem-investigator/tests/test_cartographer.py"]
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p["repo:git-ecosystem-investigator/tests/test_diagram_compare.py"]
+  repo_git_ecosystem_investigator_tests_test_web_science_py["repo:git-ecosystem-investigator/tests/test_web_science.py"]
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal__racine__
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_adapters_
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_formats_
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_references_
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_scripts_
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_templates_
+  repo_git_ecosystem_investigator -->|contains:INFERRED| internal_tests_
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_pdf_extract_py
+  repo_git_ecosystem_investigator_scripts_arxiv_search_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_web_fetch_py
+  repo_git_ecosystem_investigator_scripts_diagram_local_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_build_ecosystem_grap
+  repo_git_ecosystem_investigator_scripts_investigation_engine -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_scripts_investigation_engine -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_verify_bilan_py
+  repo_git_ecosystem_investigator_scripts_pdf_extract_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_scripts_web_fetch_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_build_ecosystem_grap
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_correlate_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_diff_repos_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_graph_validate_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_investigation_engine
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_parse_mermaid_py
+  repo_git_ecosystem_investigator_tests_test_cartographer_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_verify_bilan_py
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_compare_repos_py
+  repo_git_ecosystem_investigator_tests_test_diagram_compare_p -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_diagram_local_py
+  repo_git_ecosystem_investigator_tests_test_web_science_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_arxiv_search_py
+  repo_git_ecosystem_investigator_tests_test_web_science_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_coverage_report_py
+  repo_git_ecosystem_investigator_tests_test_web_science_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_pdf_extract_py
+  repo_git_ecosystem_investigator_tests_test_web_science_py -->|imports:INFERRED| repo_git_ecosystem_investigator_scripts_web_fetch_py
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r -->|imports:INFERRED| repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r
+  repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r -->|imports:INFERRED| repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r
+```

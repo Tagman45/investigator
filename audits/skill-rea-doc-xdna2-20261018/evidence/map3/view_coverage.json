@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "API__api_py_",
+      "label": "API (api.py)",
+      "domain": "other"
+    },
+    {
+      "id": "DB____store_py___",
+      "label": "DB ((\"store.py\"))",
+      "domain": "other"
+    },
+    {
+      "id": "Ghost__gone_py_",
+      "label": "Ghost (gone.py)",
+      "domain": "other"
+    },
+    {
+      "id": "Worker__worker_py_",
+      "label": "Worker (worker.py)",
+      "domain": "other"
+    },
+    {
+      "id": "internal__racine____internal__racine___",
+      "label": "internal__racine__ (internal:(racine)/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_adapters___internal_adapters__",
+      "label": "internal_adapters_ (internal:adapters/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_audits___internal_audits__",
+      "label": "internal_audits_ (internal:audits/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_formats___internal_formats__",
+      "label": "internal_formats_ (internal:formats/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_references___internal_references__",
+      "label": "internal_references_ (internal:references/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_scripts___internal_scripts__",
+      "label": "internal_scripts_ (internal:scripts/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_templates___internal_templates__",
+      "label": "internal_templates_ (internal:templates/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_tests___internal_tests__",
+      "label": "internal_tests_ (internal:tests/)",
+      "domain": "other"
+    },
+    {
+      "id": "internal_tools___internal_tools__",
+      "label": "internal_tools_ (internal:tools/)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "label": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep",
+      "label": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "label": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_compare_repos_py__re",
+      "label": "repo_git_ecosystem_investigator_scripts_compare_repos_py (repo:git-ecosystem-investigator/scripts/compare_repos.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_correlate_py__repo_g",
+      "label": "repo_git_ecosystem_investigator_scripts_correlate_py (repo:git-ecosystem-investigator/scripts/correlate.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "label": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_diagram_local_py__re",
+      "label": "repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_diff_repos_py__repo_",
+      "label": "repo_git_ecosystem_investigator_scripts_diff_repos_py (repo:git-ecosystem-investigator/scripts/diff_repos.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_graph_validate_py__r",
+      "label": "repo_git_ecosystem_investigator_scripts_graph_validate_py (repo:git-ecosystem-investigator/scripts/graph_validate.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "label": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py__re",
+      "label": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py (repo:git-ecosystem-investigator/scripts/parse_mermaid.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo",
+      "label": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep",
+      "label": "repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g",
+      "label": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "label": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "label": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "label": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_web_science_py__r",
+      "label": "repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_skills_audit_reports__repo_skills_audit_reports_",
+      "label": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "domain": "other"
+    },
+    {
+      "id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "label": "repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal__racine____internal__racine___",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal__racine__ (internal:(racine)/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:28"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_adapters___internal_adapters__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_adapters_ (internal:adapters/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:29"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_formats___internal_formats__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_formats_ (internal:formats/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:30"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_references___internal_references__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_references_ (internal:references/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:31"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_scripts___internal_scripts__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_scripts_ (internal:scripts/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:32"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_templates___internal_templates__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_templates_ (internal:templates/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:33"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator__repo_git_ecosystem_investig",
+      "target_id": "internal_tests___internal_tests__",
+      "source": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "destination": "internal_tests_ (internal:tests/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:34"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:35"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep",
+      "target_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo",
+      "source": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:36"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep",
+      "target_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g",
+      "source": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:37"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py__re",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source": "repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:38"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:39"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep",
+      "source": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:40"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:41"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:42"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:43"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_correlate_py__repo_g",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_correlate_py (repo:git-ecosystem-investigator/scripts/correlate.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:44"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:45"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diff_repos_py__repo_",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_diff_repos_py (repo:git-ecosystem-investigator/scripts/diff_repos.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:46"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_graph_validate_py__r",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_graph_validate_py (repo:git-ecosystem-investigator/scripts/graph_validate.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:47"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:48"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py__re",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py (repo:git-ecosystem-investigator/scripts/parse_mermaid.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:49"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py__",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py__rep",
+      "source": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:50"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_compare_repos_py__re",
+      "source": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_compare_repos_py (repo:git-ecosystem-investigator/scripts/compare_repos.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:51"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py__re",
+      "source": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:52"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py__r",
+      "target_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py__rep",
+      "source": "repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:53"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py__r",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py__",
+      "source": "repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:54"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py__r",
+      "target_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py__repo",
+      "source": "repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:55"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py__r",
+      "target_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py__repo_g",
+      "source": "repo_git_ecosystem_investigator_tests_test_web_science_py (repo:git-ecosystem-investigator/tests/test_web_science.py)",
+      "destination": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:56"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "destination": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:57"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "destination": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_git-ecosystem-investigator.mmd:58"
+    },
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Worker__worker_py_",
+      "source": "API (api.py)",
+      "destination": "Worker (worker.py)",
+      "type": "imports",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:3"
+    },
+    {
+      "source_id": "Worker__worker_py_",
+      "target_id": "DB____store_py___",
+      "source": "Worker (worker.py)",
+      "destination": "DB ((\"store.py\"))",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:4"
+    },
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Ghost__gone_py_",
+      "source": "API (api.py)",
+      "destination": "Ghost (gone.py)",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:5"
+    },
+    {
+      "source_id": "repo_skills_audit_reports__repo_skills_audit_reports_",
+      "target_id": "internal__racine____internal__racine___",
+      "source": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "destination": "internal__racine__ (internal:(racine)/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_skills-audit-reports.mmd:8"
+    },
+    {
+      "source_id": "repo_skills_audit_reports__repo_skills_audit_reports_",
+      "target_id": "internal_audits___internal_audits__",
+      "source": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "destination": "internal_audits_ (internal:audits/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_skills-audit-reports.mmd:9"
+    },
+    {
+      "source_id": "repo_skills_audit_reports__repo_skills_audit_reports_",
+      "target_id": "internal_tools___internal_tools__",
+      "source": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "destination": "internal_tools_ (internal:tools/)",
+      "type": "contains:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_skills-audit-reports.mmd:10"
+    },
+    {
+      "source_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "target_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "source": "repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)",
+      "destination": "repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_skills-audit-reports.mmd:11"
+    },
+    {
+      "source_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "target_id": "repo_skills_audit_reports_audits_cartographer_20261017_2030_",
+      "source": "repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)",
+      "destination": "repo_skills_audit_reports_audits_cartographer_20261017_2030_ (repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py)",
+      "type": "imports:INFERRED",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map3\\diagram_skills-audit-reports.mmd:12"
+    },
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Worker__worker_py_",
+      "source": "API (api.py)",
+      "destination": "Worker (worker.py)",
+      "type": "imports",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\fixtures\\multi-repos\\repoA\\arch.mmd:3"
+    },
+    {
+      "source_id": "Worker__worker_py_",
+      "target_id": "DB____store_py___",
+      "source": "Worker (worker.py)",
+      "destination": "DB ((\"store.py\"))",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\fixtures\\multi-repos\\repoA\\arch.mmd:4"
+    },
+    {
+      "source_id": "API__api_py_",
+      "target_id": "Ghost__gone_py_",
+      "source": "API (api.py)",
+      "destination": "Ghost (gone.py)",
+      "type": "references",
+      "status": "DECLARED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\cartographer-20261017-2030\\fixtures\\multi-repos\\repoA\\arch.mmd:5"
+    }
+  ],
+  "view": "coverage",
+  "repo_id": null,
+  "counters": {
+    "DECLARED": 42
+  }
+}

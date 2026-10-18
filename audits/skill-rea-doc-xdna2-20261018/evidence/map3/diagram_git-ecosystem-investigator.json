@@ -1,0 +1,441 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_adapters_",
+      "label": "internal:adapters/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_formats_",
+      "label": "internal:formats/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_references_",
+      "label": "internal:references/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_scripts_",
+      "label": "internal:scripts/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_templates_",
+      "label": "internal:templates/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tests_",
+      "label": "internal:tests/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator",
+      "label": "repo:git-ecosystem-investigator",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "label": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "label": "repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_compare_repos_py",
+      "label": "repo:git-ecosystem-investigator/scripts/compare_repos.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_correlate_py",
+      "label": "repo:git-ecosystem-investigator/scripts/correlate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_diagram_local_py",
+      "label": "repo:git-ecosystem-investigator/scripts/diagram_local.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_diff_repos_py",
+      "label": "repo:git-ecosystem-investigator/scripts/diff_repos.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_graph_validate_py",
+      "label": "repo:git-ecosystem-investigator/scripts/graph_validate.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "label": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py",
+      "label": "repo:git-ecosystem-investigator/scripts/parse_mermaid.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "label": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py",
+      "label": "repo:git-ecosystem-investigator/scripts/verify_bilan.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "label": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "label": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "label": "repo:git-ecosystem-investigator/tests/test_diagram_compare.py",
+      "domain": "other"
+    },
+    {
+      "id": "repo_git_ecosystem_investigator_tests_test_web_science_py",
+      "label": "repo:git-ecosystem-investigator/tests/test_web_science.py",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal__racine__",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_adapters_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:adapters/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (adapters)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_formats_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:formats/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (formats)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_references_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:references/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (references)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_scripts_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:scripts/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (scripts)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_templates_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:templates/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (templates)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_tests_",
+      "source": "repo:git-ecosystem-investigator",
+      "destination": "internal:tests/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tests)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "source": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'pdf_extract' résolu vers scripts/pdf_extract.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "source": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'web_fetch' résolu vers scripts/web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source": "repo:git-ecosystem-investigator/scripts/diagram_local.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'build_ecosystem_graph' résolu vers scripts/build_ecosystem_graph.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py",
+      "source": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/verify_bilan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'verify_bilan' résolu vers scripts/verify_bilan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'build_ecosystem_graph' résolu vers scripts/build_ecosystem_graph.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_correlate_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/correlate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'correlate' résolu vers scripts/correlate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diff_repos_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/diff_repos.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'diff_repos' résolu vers scripts/diff_repos.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_graph_validate_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/graph_validate.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'graph_validate' résolu vers scripts/graph_validate.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'investigation_engine' résolu vers scripts/investigation_engine.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/parse_mermaid.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'parse_mermaid' résolu vers scripts/parse_mermaid.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/verify_bilan.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'verify_bilan' résolu vers scripts/verify_bilan.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_compare_repos_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_diagram_compare.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/compare_repos.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'compare_repos' résolu vers scripts/compare_repos.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_diagram_compare.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/diagram_local.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'diagram_local' résolu vers scripts/diagram_local.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_web_science.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'arxiv_search' résolu vers scripts/arxiv_search.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_web_science.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'coverage_report' résolu vers scripts/coverage_report.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_web_science.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'pdf_extract' résolu vers scripts/pdf_extract.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_test_web_science_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "source": "repo:git-ecosystem-investigator/tests/test_web_science.py",
+      "destination": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'web_fetch' résolu vers scripts/web_fetch.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "destination": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/worker.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'worker' résolu vers tests/fixtures/multi-repos/repoA/src/worker.py (statique, pas une preuve d'exécution)"
+    },
+    {
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/worker.py",
+      "destination": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/store.py",
+      "type": "imports",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "import 'store' résolu vers tests/fixtures/multi-repos/repoA/src/store.py (statique, pas une preuve d'exécution)"
+    }
+  ]
+}

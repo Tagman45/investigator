@@ -1,0 +1,830 @@
+{
+  "schema_version": "graph-v1-correlated",
+  "edges": [
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal__racine__ (internal:(racine)/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal__racine__",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:(racine)/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:27",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          27
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/racine), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_adapters_ (internal:adapters/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_adapters_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:adapters/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:28",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          28
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_formats_ (internal:formats/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_formats_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:formats/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:29",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          29
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_references_ (internal:references/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_references_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:references/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:30",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          30
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/suffixe), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_scripts_ (internal:scripts/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_scripts_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:scripts/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:31",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          31
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_templates_ (internal:templates/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_templates_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:templates/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:32",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          32
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator (repo:git-ecosystem-investigator)",
+      "canonical_url": "internal_tests_ (internal:tests/)",
+      "source_id": "repo_git_ecosystem_investigator",
+      "target_id": "internal_tests_",
+      "source_label": "repo:git-ecosystem-investigator",
+      "target_label": "internal:tests/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:33",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          33
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:34",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          34
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'coverage_report' dans scripts/arxiv_search.py → scripts/coverage_report.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:35",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          35
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'pdf_extract' dans scripts/arxiv_search.py → scripts/pdf_extract.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_arxiv_search_py (repo:git-ecosystem-investigator/scripts/arxiv_search.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_arxiv_search_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/arxiv_search.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:36",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          36
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'web_fetch' dans scripts/arxiv_search.py → scripts/web_fetch.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source_label": "repo:git-ecosystem-investigator/scripts/diagram_local.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:37",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          37
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'build_ecosystem_graph' dans scripts/diagram_local.py → scripts/build_ecosystem_graph.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:38",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          38
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'coverage_report' dans scripts/investigation_engine.py → scripts/coverage_report.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/verify_bilan.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:39",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          39
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'verify_bilan' dans scripts/investigation_engine.py → scripts/verify_bilan.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_pdf_extract_py (repo:git-ecosystem-investigator/scripts/pdf_extract.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_pdf_extract_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/pdf_extract.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:40",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          40
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'coverage_report' dans scripts/pdf_extract.py → scripts/coverage_report.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_scripts_web_fetch_py (repo:git-ecosystem-investigator/scripts/web_fetch.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "source_id": "repo_git_ecosystem_investigator_scripts_web_fetch_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source_label": "repo:git-ecosystem-investigator/scripts/web_fetch.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:41",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          41
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'coverage_report' dans scripts/web_fetch.py → scripts/coverage_report.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap (repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_build_ecosystem_grap",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/build_ecosystem_graph.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:42",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          42
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'build_ecosystem_graph' dans tests/test_cartographer.py → scripts/build_ecosystem_graph.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_correlate_py (repo:git-ecosystem-investigator/scripts/correlate.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_correlate_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/correlate.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:43",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          43
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'correlate' dans tests/test_cartographer.py → scripts/correlate.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_coverage_report_py (repo:git-ecosystem-investigator/scripts/coverage_report.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_coverage_report_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/coverage_report.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:44",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          44
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'coverage_report' dans tests/test_cartographer.py → scripts/coverage_report.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_diff_repos_py (repo:git-ecosystem-investigator/scripts/diff_repos.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diff_repos_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/diff_repos.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:45",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          45
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'diff_repos' dans tests/test_cartographer.py → scripts/diff_repos.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_graph_validate_py (repo:git-ecosystem-investigator/scripts/graph_validate.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_graph_validate_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/graph_validate.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:46",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          46
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'graph_validate' dans tests/test_cartographer.py → scripts/graph_validate.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_investigation_engine (repo:git-ecosystem-investigator/scripts/investigation_engine.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_investigation_engine",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/investigation_engine.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:47",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          47
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'investigation_engine' dans tests/test_cartographer.py → scripts/investigation_engine.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py (repo:git-ecosystem-investigator/scripts/parse_mermaid.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_parse_mermaid_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/parse_mermaid.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:48",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          48
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'parse_mermaid' dans tests/test_cartographer.py → scripts/parse_mermaid.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_cartographer_py (repo:git-ecosystem-investigator/tests/test_cartographer.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_verify_bilan_py (repo:git-ecosystem-investigator/scripts/verify_bilan.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_cartographer_py",
+      "target_id": "repo_git_ecosystem_investigator_scripts_verify_bilan_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_cartographer.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/verify_bilan.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:49",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          49
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'verify_bilan' dans tests/test_cartographer.py → scripts/verify_bilan.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_compare_repos_py (repo:git-ecosystem-investigator/scripts/compare_repos.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_compare_repos_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_diagram_compare.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/compare_repos.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:50",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          50
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'compare_repos' dans tests/test_diagram_compare.py → scripts/compare_repos.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p (repo:git-ecosystem-investigator/tests/test_diagram_compare.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_scripts_diagram_local_py (repo:git-ecosystem-investigator/scripts/diagram_local.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_test_diagram_compare_p",
+      "target_id": "repo_git_ecosystem_investigator_scripts_diagram_local_py",
+      "source_label": "repo:git-ecosystem-investigator/tests/test_diagram_compare.py",
+      "target_label": "repo:git-ecosystem-investigator/scripts/diagram_local.py",
+      "relation": "imports:INFERRED",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:51",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          51
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'diagram_local' dans tests/test_diagram_compare.py → scripts/diagram_local.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source_label": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "target_label": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "relation": "imports:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:52",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          52
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (basename/basename), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "canonical_url": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r (repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py)",
+      "source_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "target_id": "repo_git_ecosystem_investigator_tests_fixtures_multi_repos_r",
+      "source_label": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "target_label": "repo:git-ecosystem-investigator/tests/fixtures/multi-repos/repoA/src/api.py",
+      "relation": "imports:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd:53",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_git-ecosystem-investigator.mmd",
+        "lines": [
+          53
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (basename/basename), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "API (api.py)",
+      "canonical_url": "Worker (worker.py)",
+      "source_id": "API",
+      "target_id": "Worker",
+      "source_label": "api.py",
+      "target_label": "worker.py",
+      "relation": "imports",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:3",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          3
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'worker' dans tests/fixtures/multi-repos/repoA/src/api.py → tests/fixtures/multi-repos/repoA/src/worker.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "Worker (worker.py)",
+      "canonical_url": "DB ((\"store.py\"))",
+      "source_id": "Worker",
+      "target_id": "DB",
+      "source_label": "worker.py",
+      "target_label": "(\"store.py\")",
+      "relation": "references",
+      "certainty": "VERIFIED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:4",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          4
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "VERIFIED",
+      "evidence": [
+        "import 'store' dans tests/fixtures/multi-repos/repoA/src/worker.py → tests/fixtures/multi-repos/repoA/src/store.py"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": null
+    },
+    {
+      "source_object": "API (api.py)",
+      "canonical_url": "Ghost (gone.py)",
+      "source_id": "API",
+      "target_id": "Ghost",
+      "source_label": "api.py",
+      "target_label": "gone.py",
+      "relation": "references",
+      "certainty": "MISSING",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd:5",
+      "provenance": {
+        "file": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator\\tests\\fixtures\\multi-repos\\repoA\\arch.mmd",
+        "lines": [
+          5
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "MISSING",
+      "evidence": [],
+      "counter_evidence": [
+        "aucune trace dans les inspections ni l'historique"
+      ],
+      "uncertainty_reason": "endpoint introuvable : 'gone.py' (ni fichier, ni import, ni manifest)"
+    },
+    {
+      "source_object": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "canonical_url": "internal__racine__ (internal:(racine)/)",
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal__racine__",
+      "source_label": "repo:skills-audit-reports",
+      "target_label": "internal:(racine)/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd:7",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd",
+        "lines": [
+          7
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/racine), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "canonical_url": "internal_audits_ (internal:audits/)",
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_audits_",
+      "source_label": "repo:skills-audit-reports",
+      "target_label": "internal:audits/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd:8",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd",
+        "lines": [
+          8
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    },
+    {
+      "source_object": "repo_skills_audit_reports (repo:skills-audit-reports)",
+      "canonical_url": "internal_tools_ (internal:tools/)",
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_tools_",
+      "source_label": "repo:skills-audit-reports",
+      "target_label": "internal:tools/",
+      "relation": "contains:INFERRED",
+      "certainty": "INFERRED",
+      "evidence_ids": [],
+      "context": "diagramme C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd:9",
+      "provenance": {
+        "file": "C:\\Users\\videl\\skills-audit-reports\\audits\\skill-rea-doc-xdna2-20261018\\evidence\\map2\\diagram_skills-audit-reports.mmd",
+        "lines": [
+          9
+        ]
+      },
+      "extraction_method": "mermaid_parser",
+      "status": "INFERRED",
+      "evidence": [
+        "endpoints résolus (exacte/sous-chaîne), sans lien code"
+      ],
+      "counter_evidence": [],
+      "uncertainty_reason": "endpoints existent, aucun lien code trouvé (import/call-site/manifest)"
+    }
+  ]
+}

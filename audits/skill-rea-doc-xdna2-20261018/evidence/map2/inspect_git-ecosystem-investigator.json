@@ -1,0 +1,290 @@
+{
+  "repository": "C:\\Users\\videl\\Desktop\\doc-skill-xdna2-work\\skills\\local\\git-ecosystem-investigator",
+  "git": {
+    "returncode": 0,
+    "stdout": "C:/Users/videl/Desktop/doc-skill-xdna2-work\n",
+    "stderr": ""
+  },
+  "head": {
+    "returncode": 0,
+    "stdout": "7e1a88729d6cf3479f23388ce6ce8b62e0727d5e\n",
+    "stderr": ""
+  },
+  "recent_log": {
+    "returncode": 0,
+    "stdout": "7e1a88729d6cf3479f23388ce6ce8b62e0727d5e\t2026-10-17T21:05:55+02:00\tgit-eco cartographe M4: 110/110 (3 fixes tests), fix multi-repo correlate (ledger_all), formats/mermaid.json, LIMIT_CODES, docs schema/vues, section SKILL Cartographe \u00e2\u20ac\u201d LOCAL, aucun push (daemon suspendu)\n546b2a33a2d6f8ac192a6e6dd88748861da06338\t2026-10-17T20:17:37+02:00\tauto-commit 2026-10-17 20:17: 7 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nb7981af188bb2554b12443fd4ac3c56ebf2cad73\t2026-10-17T20:16:23+02:00\tauto-commit 2026-10-17 20:16: 3 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\n76b4a227493f9033d95ec95871c0867055eaa5e3\t2026-10-17T20:15:15+02:00\tauto-commit 2026-10-17 20:15: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nf9a739d2ad120afe57387fcfd4393933e391d1f8\t2026-10-17T20:12:58+02:00\tauto-commit 2026-10-17 20:12: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nd016e3c80832af94b9af4cd5b1a547e9cf8a8c73\t2026-10-17T20:03:52+02:00\tgit-eco: graphe \u00c3\u00a0 IDs stables (build_ecosystem_graph mmd+dot+JSON parit\u00c3\u00a9) + graph_validate (extr\u00c3\u00a9mit\u00c3\u00a9s/preuves/parit\u00c3\u00a9/compl\u00c3\u00a9tude) \u00e2\u20ac\u201d 51 tests, 3 copies sync\n1fd359ae1f712bf3d5da24c49e25cb6a76e7648b\t2026-10-17T19:24:35+02:00\tgit-eco: moteur d'investigation UNIVERSEL (investigation_engine.py) \u00e2\u20ac\u201d d\u00c3\u00a9tection modulaire sans nom de projet, profils quick/standard/deep, garde-fou au point d'entr\u00c3\u00a9e, 42 tests multi-domaines (3 copies sync)\n417ebfd3c9bd509b42309cb83150ae8548426479\t2026-10-17T18:49:53+02:00\tauto-commit 2026-10-17 18:49: 4 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nac42b3337e60d27ce5b3386a6b2ed6eda6ac2d80\t2026-10-17T18:38:49+02:00\tauto-commit 2026-10-17 18:38: 7 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\n8feb54c8950c31a35f744ef36235067cde2b1cf3\t2026-10-17T18:37:47+02:00\tauto-commit 2026-10-17 18:37: 2 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nfb6b55cf978e4d8fb4eb1ffa96c92bdd7f90341d\t2026-10-17T18:36:45+02:00\tauto-commit 2026-10-17 18:36: 2 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\ndb6b47dbebb7a95a7cca2df6ad1647df2d8d7784\t2026-10-17T18:35:43+02:00\tauto-commit 2026-10-17 18:35: 3 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\n005c055d36dceedc8523895f7c89be02b79eba69\t2026-10-17T18:34:41+02:00\tauto-commit 2026-10-17 18:34: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nf5a37b88df856a6ef08bd95e2b9df9fb8a3e586f\t2026-10-17T18:12:33+02:00\tauto-commit 2026-10-17 18:12: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\n46d310ba76ef4dfb28d5a2d4242741abd56c3fc8\t2026-10-17T18:10:26+02:00\tauto-commit 2026-10-17 18:10: 2 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\ndd6113f34ca744e927b86a7a5c74953d91b8dcdf\t2026-10-17T17:39:22+02:00\tauto-commit 2026-10-17 17:39: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\nec74af6dab4ee42f76c1159e65f9e3867e790107\t2026-10-17T17:38:18+02:00\tauto-commit 2026-10-17 17:38: 1 fichier(s) - regle 17/10 (rapports->investigator, recherche->doc-skill-xdna2, fork interdit)\necefb05bb131fd058bb19aafc228fcf2a92e61a5\t2026-10-17T17:35:53+02:00\tSession 17/10: integration skill git-ecosystem-investigator (EVD-009/010, bug regex corrige), specialisation des 4 skills homonymes, sources_master a jour\nb5cd02c7256d837b1c3fff9b4dee333fc8f7bb2e\t2026-10-16T21:32:38+02:00\tdocs+experiments(16/10): Phase 1 Granite audit \u00e2\u20ac\u201d RAM phases, BO sweep, gid->bank, dispatch counter\n75224c12c35324214bf191ef468589c96b4f4793\t2026-10-16T06:49:44+02:00\tSession 16/10 (2e partie): B3 corrige au complet (VS18 + 2 bugs unitaires -> CLI XRT build), banc A/B memtile execute, trace FLM totale EVD-022, inputs >2Mo gzipes\n",
+    "stderr": ""
+  },
+  "submodules": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "files": [
+    "SKILL.md",
+    "adapters/claude.md",
+    "adapters/codex.md",
+    "adapters/opencode.md",
+    "formats/mermaid.json",
+    "references/evidence-schema.md",
+    "references/graph-schema-v1.md",
+    "references/portable-agents.md",
+    "references/source-methods.md",
+    "references/views.md",
+    "scripts/arxiv_search.py",
+    "scripts/build_ecosystem_graph.py",
+    "scripts/collect_github_data.py",
+    "scripts/compare_repos.py",
+    "scripts/correlate.py",
+    "scripts/coverage_report.py",
+    "scripts/diagram_local.py",
+    "scripts/diff_repos.py",
+    "scripts/extract_references.py",
+    "scripts/graph_validate.py",
+    "scripts/inspect_repository.py",
+    "scripts/investigation_engine.py",
+    "scripts/normalize_git_urls.py",
+    "scripts/parse_mermaid.py",
+    "scripts/pdf_extract.py",
+    "scripts/prior_works.py",
+    "scripts/verify_bilan.py",
+    "scripts/web_fetch.py",
+    "templates/investigation-index.md",
+    "tests/test_all_functions.py",
+    "tests/test_cartographer.py",
+    "tests/test_core.py",
+    "tests/test_diagram_compare.py",
+    "tests/test_engine_universal.py",
+    "tests/test_graph.py",
+    "tests/test_negative.py",
+    "tests/test_partial.py",
+    "tests/test_prior_works.py",
+    "tests/test_verify_bilan.py",
+    "tests/fixtures/multi-repos/repoA/arch.mmd",
+    "tests/fixtures/multi-repos/repoA/requirements.txt",
+    "tests/fixtures/multi-repos/repoA/src/api.py",
+    "tests/fixtures/multi-repos/repoA/src/store.py",
+    "tests/fixtures/multi-repos/repoA/src/worker.py",
+    "tests/fixtures/multi-repos/repoA/tests/test_smoke.py",
+    "tests/fixtures/multi-repos/repoB/arch.mmd",
+    "tests/fixtures/multi-repos/repoB/go.mod",
+    "tests/fixtures/multi-repos/repoB/lib/svc.go"
+  ],
+  "manifests": [
+    "tests/fixtures/multi-repos/repoA/requirements.txt",
+    "tests/fixtures/multi-repos/repoB/go.mod"
+  ],
+  "imports": {
+    "scripts/arxiv_search.py": [
+      "argparse,",
+      "coverage_report",
+      "pathlib",
+      "pdf_extract",
+      "urllib.parse",
+      "web_fetch",
+      "xml.etree"
+    ],
+    "scripts/build_ecosystem_graph.py": [
+      "argparse,",
+      "collections",
+      "pathlib"
+    ],
+    "scripts/collect_github_data.py": [
+      "argparse,",
+      "urllib.error",
+      "urllib.request"
+    ],
+    "scripts/compare_repos.py": [
+      "argparse,",
+      "collections",
+      "pathlib"
+    ],
+    "scripts/correlate.py": [
+      "argparse,",
+      "collections",
+      "pathlib"
+    ],
+    "scripts/coverage_report.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/diagram_local.py": [
+      "argparse,",
+      "build_ecosystem_graph",
+      "pathlib"
+    ],
+    "scripts/diff_repos.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/extract_references.py": [
+      "argparse,",
+      "html",
+      "urllib.parse"
+    ],
+    "scripts/graph_validate.py": [
+      "argparse,",
+      "pathlib",
+      "re"
+    ],
+    "scripts/inspect_repository.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/investigation_engine.py": [
+      "argparse,",
+      "collections",
+      "coverage_report",
+      "datetime",
+      "pathlib",
+      "subprocess",
+      "verify_bilan"
+    ],
+    "scripts/normalize_git_urls.py": [
+      "argparse,",
+      "urllib.parse"
+    ],
+    "scripts/parse_mermaid.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/pdf_extract.py": [
+      "argparse,",
+      "coverage_report",
+      "pathlib",
+      "pypdf"
+    ],
+    "scripts/prior_works.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/verify_bilan.py": [
+      "argparse,",
+      "pathlib"
+    ],
+    "scripts/web_fetch.py": [
+      "argparse,",
+      "coverage_report",
+      "pathlib",
+      "urllib.error",
+      "urllib.request"
+    ],
+    "tests/test_all_functions.py": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "sys",
+      "unittest",
+      "urllib.error"
+    ],
+    "tests/test_cartographer.py": [
+      "build_ecosystem_graph",
+      "correlate",
+      "coverage_report",
+      "diff_repos",
+      "graph_validate",
+      "investigation_engine",
+      "json,",
+      "parse_mermaid",
+      "pathlib",
+      "subprocess",
+      "tempfile",
+      "verify_bilan"
+    ],
+    "tests/test_core.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_diagram_compare.py": [
+      "compare_repos",
+      "diagram_local",
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_engine_universal.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_graph.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_negative.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_partial.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/test_prior_works.py": [
+      "pathlib",
+      "subprocess,"
+    ],
+    "tests/test_verify_bilan.py": [
+      "json,",
+      "pathlib"
+    ],
+    "tests/fixtures/multi-repos/repoA/src/api.py": [
+      "worker"
+    ],
+    "tests/fixtures/multi-repos/repoA/src/worker.py": [
+      "store"
+    ]
+  },
+  "languages": {
+    "autre": 15,
+    "python": 32,
+    "go": 1
+  },
+  "entry_points": [],
+  "ci": [],
+  "tests": {
+    "present": true,
+    "dirs": [
+      "tests"
+    ],
+    "files": [
+      "tests/test_all_functions.py",
+      "tests/test_cartographer.py",
+      "tests/test_core.py",
+      "tests/test_diagram_compare.py",
+      "tests/test_engine_universal.py",
+      "tests/test_graph.py",
+      "tests/test_negative.py",
+      "tests/test_partial.py",
+      "tests/test_prior_works.py",
+      "tests/test_verify_bilan.py",
+      "tests/fixtures/multi-repos/repoA/arch.mmd",
+      "tests/fixtures/multi-repos/repoA/requirements.txt",
+      "tests/fixtures/multi-repos/repoA/src/api.py",
+      "tests/fixtures/multi-repos/repoA/src/store.py",
+      "tests/fixtures/multi-repos/repoA/src/worker.py",
+      "tests/fixtures/multi-repos/repoA/tests/test_smoke.py",
+      "tests/fixtures/multi-repos/repoB/arch.mmd",
+      "tests/fixtures/multi-repos/repoB/go.mod",
+      "tests/fixtures/multi-repos/repoB/lib/svc.go"
+    ]
+  },
+  "dependencies": {
+    "tests/fixtures/multi-repos/repoA/requirements.txt": [
+      "requests"
+    ]
+  },
+  "limits": {
+    "max_files": 5000,
+    "ignored_dirs": [
+      ".git",
+      ".mypy_cache",
+      ".pytest_cache",
+      ".ruff_cache",
+      ".venv",
+      "__pycache__",
+      "build",
+      "dist",
+      "node_modules"
+    ],
+    "truncated": false,
+    "unreadable_files": []
+  }
+}

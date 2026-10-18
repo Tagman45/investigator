@@ -1,0 +1,13 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_audits_["internal:audits/"]
+  internal_tools_["internal:tools/"]
+  repo_skills_audit_reports["repo:skills-audit-reports"]
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_["repo:skills-audit-reports/audits/cartographer-20261017-2030/fixtures/multi-repos/repoA/src/api.py"]
+  repo_skills_audit_reports -->|contains:INFERRED| internal__racine__
+  repo_skills_audit_reports -->|contains:INFERRED| internal_audits_
+  repo_skills_audit_reports -->|contains:INFERRED| internal_tools_
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_ -->|imports:INFERRED| repo_skills_audit_reports_audits_cartographer_20261017_2030_
+  repo_skills_audit_reports_audits_cartographer_20261017_2030_ -->|imports:INFERRED| repo_skills_audit_reports_audits_cartographer_20261017_2030_
+```

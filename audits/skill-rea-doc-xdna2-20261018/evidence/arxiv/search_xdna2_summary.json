@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-10-18T06:11:27Z",
+  "network_allowed": true,
+  "api": "http://export.arxiv.org/api/query",
+  "query": "NPU accelerator memory bandwidth LLM inference overhead",
+  "id_list": null,
+  "url": "http://export.arxiv.org/api/query?search_query=NPU+accelerator+memory+bandwidth+LLM+inference+overhead&start=0&max_results=3&sortBy=relevance",
+  "http_status": 200,
+  "limit_codes": [],
+  "limits": [
+    "redirection suivie : identité de la destination NON vérifiée (identity_verified=false) — 200 sur l'URL finale ≠ source originale."
+  ],
+  "entries": 3,
+  "total_results": 385635
+}

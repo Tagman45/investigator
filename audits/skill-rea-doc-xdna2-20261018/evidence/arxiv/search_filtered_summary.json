@@ -1,0 +1,68 @@
+{
+  "retrieved_at": "2026-10-18T06:11:42Z",
+  "network_allowed": true,
+  "api": "http://export.arxiv.org/api/query",
+  "query": "NPU accelerator memory bandwidth LLM inference overhead",
+  "id_list": null,
+  "url": "http://export.arxiv.org/api/query?search_query=NPU+accelerator+memory+bandwidth+LLM+inference+overhead&start=0&max_results=8&sortBy=relevance",
+  "http_status": 200,
+  "limit_codes": [],
+  "limits": [
+    "redirection suivie : identité de la destination NON vérifiée (identity_verified=false) — 200 sur l'URL finale ≠ source originale."
+  ],
+  "entries": 3,
+  "total_results": 385635,
+  "lexical_filter": {
+    "require": [
+      "npu",
+      "neural",
+      "inference",
+      "transformer",
+      "llm"
+    ],
+    "exclude": [
+      "collider",
+      "particle",
+      "detector"
+    ],
+    "kept": 3,
+    "dropped": 5,
+    "dropped_entries": [
+      {
+        "arxiv_id": "0802.4023",
+        "reason": "NO_REQUIRED_TERM",
+        "signals": []
+      },
+      {
+        "arxiv_id": "1901.03169",
+        "reason": "EXCLUDED_TERM",
+        "signals": [
+          "particle"
+        ]
+      },
+      {
+        "arxiv_id": "2009.14544",
+        "reason": "EXCLUDED_TERM",
+        "signals": [
+          "detector"
+        ]
+      },
+      {
+        "arxiv_id": "2011.01638",
+        "reason": "EXCLUDED_TERM",
+        "signals": [
+          "collider",
+          "particle"
+        ]
+      },
+      {
+        "arxiv_id": "2407.10216",
+        "reason": "EXCLUDED_TERM",
+        "signals": [
+          "particle"
+        ]
+      }
+    ],
+    "note": "pré-filtre LEXICAL déclaré : il ne mesure pas l'intérêt technique réel de l'article"
+  }
+}

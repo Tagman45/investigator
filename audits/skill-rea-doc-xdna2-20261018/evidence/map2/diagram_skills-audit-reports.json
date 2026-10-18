@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "internal__racine__",
+      "label": "internal:(racine)/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_audits_",
+      "label": "internal:audits/",
+      "domain": "internal"
+    },
+    {
+      "id": "internal_tools_",
+      "label": "internal:tools/",
+      "domain": "internal"
+    },
+    {
+      "id": "repo_skills_audit_reports",
+      "label": "repo:skills-audit-reports",
+      "domain": "other"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal__racine__",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:(racine)/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau ((racine))"
+    },
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_audits_",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:audits/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (audits)"
+    },
+    {
+      "source_id": "repo_skills_audit_reports",
+      "target_id": "internal_tools_",
+      "source": "repo:skills-audit-reports",
+      "destination": "internal:tools/",
+      "type": "contains",
+      "status": "INFERRED",
+      "evidence_ids": [],
+      "context": "dossier de premier niveau (tools)"
+    }
+  ]
+}

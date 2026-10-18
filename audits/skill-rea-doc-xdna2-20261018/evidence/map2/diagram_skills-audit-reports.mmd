@@ -1,0 +1,10 @@
+```mermaid
+graph LR
+  internal__racine__["internal:(racine)/"]
+  internal_audits_["internal:audits/"]
+  internal_tools_["internal:tools/"]
+  repo_skills_audit_reports["repo:skills-audit-reports"]
+  repo_skills_audit_reports -->|contains:INFERRED| internal__racine__
+  repo_skills_audit_reports -->|contains:INFERRED| internal_audits_
+  repo_skills_audit_reports -->|contains:INFERRED| internal_tools_
+```
