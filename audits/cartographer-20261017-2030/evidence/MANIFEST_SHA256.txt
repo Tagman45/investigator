@@ -1,4 +1,9 @@
-b1360e5c94eedb9142a764931515d06fd8dd050d8d7898e2668c4359e9535a9d  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/arxiv_search.py
+# MANIFEST SHA-256 — mission M4 cartographe
+# Régénéré le 2026-10-18 (commit aefd132) : M6 a modifié
+# arxiv_search.py et pdf_extract.py. État d'origine : commit 7e1a887.
+
+
+a973d2f37a2b6b7b625b1f2cbe0f73d0592abcbabad430231ef7a7f6f559ff89  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/arxiv_search.py
 288703e6d1bd7a9e302c1e74a030afc4d61e9aa8a374bb90860feb9e94e430fa  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/build_ecosystem_graph.py
 0a3e66c417cdca7e0944a13a09bbc8500ff992d224a5933996e32e5317eba9cd  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/collect_github_data.py
 9b2046163c4003870292814f7738a5976250f634b7fc1616075d82063fd25326  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/compare_repos.py
@@ -12,7 +17,7 @@ e324188cedcc580c94d0c25e53b83bc826c7a2f169b3edf1873fc994e232f63f  C:/Users/videl
 4ec76ee6747b6abfd9752a97a6b4bba1948dfbf3d74e5ed3c1f44974c91de16b  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/investigation_engine.py
 147f685130d3553d3529802eee307cb71b0bdabf91672ae0a05eb1cdaa3d6c20  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/normalize_git_urls.py
 481503d372b04e660487deb6fd1bf98e43e5091e04f8b057b73d421cc4a16d92  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/parse_mermaid.py
-7c946ab495ea5caaac6e41238e3e48651be8fa34d90451ca8560db0c28efe9ce  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/pdf_extract.py
+8b1aca43a13b7c9791767e9e1d2079ee24b5403666f999ee37707bf44bf03a06  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/pdf_extract.py
 db6fec82a977f82b572c44786d380be7e919eab73468d294199249a739ea5dfa  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/prior_works.py
 2bd38ed9339700b6faa9c983249247981d6a32c1a7ea2cc942660d4d11be9924  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/verify_bilan.py
 ed2c0185269128c9aa539c2a30ce4772ec9eaf074591b163412ef7b3bb7858ee  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/scripts/web_fetch.py
@@ -22,6 +27,7 @@ c64d9c02d7ed9b666c5fd7186abd1c62b4b7dc13099f3ec0e2180baf27c2f702  C:/Users/videl
 23ccdb93e550d23d292a4272515b531892f1a4630522903dbcdbc0f917e848cc  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/references/portable-agents.md
 08637143cf790654cf5d8129909e842880cd07ea1786ab7aef8ba639760a5e0f  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/references/source-methods.md
 bdb87866a4e61af754ae00e7e4828a5d927dac206ffde49030b142d8654e61ad  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/references/views.md
+aa7d4f250063c99542fceeb3defcb9b514d45bd562f5b1277c8c317d4f6da94d  C:/Users/videl/Desktop/doc-skill-xdna2-work/skills/local/git-ecosystem-investigator/references/web-science.md
 17f9bf7c3d75c909329da9b4cf183e54ebf93cf95515b37d733d473404590f2d  C:/Users/videl/skills-audit-reports/audits/cartographer-20261017-2030/audit/AUDIT.md
 edadc7c6596e5fbce06176f78474860566a03983731266a1ca036dc835342fe1  C:/Users/videl/skills-audit-reports/audits/cartographer-20261017-2030/audit/GAP_MATRIX.md
 faf11fa38c71e486c509409a4f7a0926e85700351afdbba6c73befb131551268  C:/Users/videl/skills-audit-reports/audits/cartographer-20261017-2030/audit/PLAN.md

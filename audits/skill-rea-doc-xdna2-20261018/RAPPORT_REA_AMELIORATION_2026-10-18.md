@@ -111,7 +111,8 @@ Les deux copies (insight, backup) ont été resynchronisées puis vérifiées **
 | Arêtes `MISSING` sur le dépôt du skill | 256 / 258 (99 %) | **1 / 33** (le seul vrai manquant : fixture `gone.py`) | `correlated.json` |
 | Croissance du graphe à l'exécution répétée | 258 → 2591 (×10) | 33 → 42, **entièrement expliqué** par 4 imports du nouveau test + 1 fixture copiée (diff d'ensembles) | comparaison `source_label/target_label` |
 | Faux positifs arXiv (requête NPU/LLM) | 5 / 8 (physique des particules) | **0 / 3** retenus | `lexical_filter.dropped_entries` |
-| Preuves de mission M4 | 0 fichier | **62 entrées SHA-256** + journal de commandes + fixtures | `evidence/MANIFEST_SHA256.txt` |
+| Preuves de mission M4 | 0 fichier | **63 entrées SHA-256** + journal de commandes + fixtures | `evidence/MANIFEST_SHA256.txt` (régénéré 18/10, vérifié 63/63) |
+| Preuves de cette mission | — | **94 entrées SHA-256** (skill + tests + livrables) | `evidence/MANIFEST_SHA256_M6.txt` (vérifié 94/94) |
 | Codes de limites fermés | 10 | **21** | `coverage_report.LIMIT_CODES` |
 
 ## 7. Limites restantes et recommandations
@@ -131,7 +132,7 @@ Les deux copies (insight, backup) ont été resynchronisées puis vérifiées **
 | Critère | Poids | Note | Justification (preuve) |
 |---|---|---|---|
 | Lacunes réellement corrigées (mesurées) | 25 | 22 | 3 défauts P0 corrigés avec avant/après chiffré (§6) |
-| Traçabilité des preuves | 15 | 13 | SHA-256 (manifeste 62 entrées, PDF, Atom), dates, commandes + exits |
+| Traçabilité des preuves | 15 | 13 | SHA-256 (manifestes 63 + 94 entrées, PDF, Atom), dates, commandes + exits |
 | Honnêteté des statuts (pas de faux succès) | 15 | 14 | `EMPTY_CONTENT`, `HTTP_404`, `PDF_PARTIAL`, `text_consulted`, test « simulé » nommé |
 | Couverture de tests | 15 | 12 | 25 tests, mais erreurs réseau réelles seulement locales (R1) |
 | Absence de duplication inter-skills | 10 | 9 | frontière oracle/arXiv explicitée et respectée |
