@@ -22,7 +22,7 @@ Règle : un échec silencieux (sortie 0 sans avertissement) est un défaut P1.
 
 | Skill | Prérequis | Modes d'échec | D / d | Tests 18/10 |
 |---|---|---|---|---|
-| `git-ecosystem-investigator` | réseau ; `GITHUB_TOKEN` optionnel ; `pypdf` optionnel | codes fermés `ACCESS_DENIED`/`RATE_LIMITED`/`HTTP_404`/`EMPTY_CONTENT`/`PDF_*` ; `--no-network` → `UNVERIFIED` | D ✓ / d : pagination, PDF partiel | 135 tests M6 (exit 0), **non re-exécutés** |
+| `git-ecosystem-investigator` | réseau ; `GITHUB_TOKEN` optionnel ; `pypdf` optionnel | codes fermés `ACCESS_DENIED`/`RATE_LIMITED`/`HTTP_404`/`EMPTY_CONTENT`/`PDF_*` ; `--no-network` → `UNVERIFIED` | D ✓ / d : pagination, PDF partiel ; skip réseau possible avec exit 0 (C1) | **135 passed, 0 skipped, exit 0 ×3 copies** (18/10) ; conftest audité |
 | `xdna2-evidence-oracle` | rapports locaux ; réseau pour `check-urls` | 403/429/timeout → statut HTTP, jamais « vrai/faux » | D ✓ §5 / d : 4 scripts, 1 documenté | scripts présents ; vérif HTTP `NOT_TESTED` |
 | `xdna2-path-explorer` | `E:\trixdna_test` ; templates | pas de script → aucune erreur runtime possible | D ✓ §4 / d : `COST_MODEL.json` absent | 9/10 templates ; expériences `OUT_OF_SCOPE` |
 | `xdna2-cross-audit` | oracle + path-explorer + RAG | doc-only : aucune erreur exécutable | D ✓ §Interdits / d : dépend de 3 skills | `NOT_TESTED` (doc) |

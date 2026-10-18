@@ -141,7 +141,7 @@ Colonnes : **D** = limite écrite dans le fichier (section ou interdit) ·
 
 | Skill | D | M | Limite mesurée principale |
 |---|---|---|---|
-| `git-ecosystem-investigator` | ✓ §Sécurité et limites | non (inchangé) | 135 tests M6 sur 3 copies — non re-exécutés, fichiers inchangés |
+| `git-ecosystem-investigator` | ✓ §Sécurité et limites | ✓ (18/10) | **135 passed, 0 skipped, exit 0 sur les 3 copies** (18,24 / 18,07 / 17,15 s) ; `conftest.py` audité — voir `AUDIT_CONFTEST.md` |
 | `xdna2-evidence-oracle` | ✓ §5 | partiel | scripts présents ; vérif HTTP non lancée |
 | `xdna2-path-explorer` | ✓ §4 | partiel | 9/10 templates ; `COST_MODEL.json` absent (D6) ; aucun script à tester |
 | `xdna2-cross-audit` | ✓ §Interdits | non | doc-only, aucune commande |
@@ -160,11 +160,10 @@ Colonnes : **D** = limite écrite dans le fichier (section ou interdit) ·
 | `op15-apk-debug` | ✓ §Anti-patterns | ✓ (script) | **0 device** → verbes phone non testables |
 
 **Bilan (compté sur le tableau ci-dessus, pas estimé)** : 17/17 ont des
-contraintes écrites ; 2/17 ont une section titrée « Limites » ; **14/17 ont au
+contraintes écrites ; 2/17 ont une section titrée « Limites » ; **15/17 ont au
 moins un élément testé dans cette session** (dont 5 partiellement : oracle,
-path-explorer, les deux familles WSL/Granite). **3/17 n'ont aucun test cette
-session** : `git-ecosystem-investigator` (135 tests M6 non re-exécutés,
-fichiers inchangés), `xdna2-cross-audit` (aucun exécutable — doc-only),
+path-explorer, les deux familles WSL/Granite). **2/17 n'ont aucun test cette
+session** : `xdna2-cross-audit` (aucun exécutable — doc-only),
 `token-scout` (outil `Agent` absent). « Partiel » n'est pas « validé » : les
 builds xclbin, l'APK sur device et les expériences NPU restent `UNKNOWN`/
 `INACCESSIBLE`.
@@ -182,7 +181,7 @@ builds xclbin, l'APK sur device et les expériences NPU restent `UNKNOWN`/
 | APK build/install/launch (`op15-apk-debug`) | 0 device attaché ; Gradle non lancé | `INACCESSIBLE` |
 | `token-scout` | pas d'outil sous-agent dans cet environnement | `NOT_EXECUTABLE` |
 | `xdna2-path-explorer` expériences | aucune expérience matérielle demandée ; écritures de résultats non déclenchées | `OUT_OF_SCOPE` |
-| Tests `git-ecosystem-investigator` | fichiers inchangés depuis M6 (135 passed, exit 0) | non re-exécutés volontairement |
+| Tests `git-ecosystem-investigator` | — | **exécutés 18/10 : 135 passed, 0 skipped, exit 0 ×3 copies** (voir `AUDIT_CONFTEST.md`) |
 
 ---
 
@@ -192,6 +191,8 @@ builds xclbin, l'APK sur device et les expériences NPU restent `UNKNOWN`/
 |---|---|
 | `RAPPORT_AUDIT_17_SKILLS.md` | ce rapport |
 | `LIMITES_CONTRAT.md` | contrat commun proposé + application aux 17 skills (P1 de la note du 18/10) |
+| `DEFECTS_D1_D8.md` | fiche de réparation par défaut : reproduction, sortie observée, correctif minimal, test de non-régression |
+| `AUDIT_CONFTEST.md` | audit de `conftest.py` + valeur réelle des 135 tests (skips, mocks, tests faibles) |
 | `evidence/npu_refs_resolution.json` | résolution machine des 5 références, 2 bases |
 | `evidence/aie2p_smoke/test_sans_marqueur.s` | kernel synthétique, bundle 7 sans marqueur (D2) |
 | `evidence/aie2p_smoke/test_avec_marqueur.s` | même code avec `## @`, contrôle positif |
@@ -205,7 +206,8 @@ D1–D8 sont **documentés avec preuve**, pas appliqués.
 **ACCEPT** pour l'audit : les 3 limites annoncées sont levées —
 17/17 `SKILL.md` lus intégralement, chemins de `npu-offload-pipeline` testés
 sur deux bases (0/5 vs 5/5), scripts métier exécutés avec codes de sortie
-réels. **8 défauts** documentés, dont 3 P1 (D1, D2, D5). **14/17 skills** ont
-au moins un élément testé (5 partiellement) ; **3/17** n'ont aucun test cette
-session et sont marqués comme tels, pas comme validés. Builds xclbin, APK sur
-device et expériences NPU restent hors de portée ici.
+réels. **8 défauts** documentés, dont 3 P1 (D1, D2, D5), avec fiches de
+réparation (`DEFECTS_D1_D8.md`). **15/17 skills** ont au moins un élément testé
+(5 partiellement) ; **2/17** n'ont aucun test cette session et sont marqués
+comme tels, pas comme validés. Builds xclbin, APK sur device et expériences NPU
+restent hors de portée ici.
