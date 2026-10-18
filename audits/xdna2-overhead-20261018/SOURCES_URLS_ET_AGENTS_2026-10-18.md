@@ -49,7 +49,7 @@ octets, horodatage). `check-urls` de l'oracle a par ailleurs été exécuté (vo
 | Référence | Raison |
 |---|---|
 | TileFuse (Pang et al., 2026) — +121,6 % GEMM / +281 % GEMV | non retrouvée/fetchée dans cette session |
-| STEEL (Jung et al., 2026) — 22,8× attention | non fetchée |
+| ~~STEEL (Jung et al., 2026) — 22,8× attention~~ | **[CORRIGÉ 18/10/2026]** `STEEL_2607.09385.pdf` (sha `fb5120af…`) lu par `pdf_extract.py` : `PDF_TEXT_OK`, texte intégral, le chiffre « delivers a **22.8×** speedup on average compared to a layer-by-layer attention implementation » est retrouvé (abstract + intro) → passe en **VÉRIFIÉ-CONTENU** pour ce chiffre. Preuve : `audits/p1-web-pdf-github-20261018/evidence/pdf_steel.{txt,log}`. Limite : les **tableaux** du PDF ne sont pas extraits (0 ligne détectée). |
 | « From Human Guidance to Autonomy » (Li et al., 2026) — 2,2× prefill / 4× decode | non fetchée |
 | Docs IRON `aiex.npu.writebd` (énoncé « iteration_size biaisé de 1, iteration_stride en mots de 32 bits ») | remplacé par une **source plus forte** : le code du clone local (§2) |
 
