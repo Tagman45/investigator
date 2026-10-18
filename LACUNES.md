@@ -16,7 +16,7 @@ Un test vert ne suffit pas si le comportement demandé n'est pas exercé.
 | L-P0-03 | Aucun registre central des lacunes : `INDEX.md` liste des missions, pas des problèmes | ce fichier (créé 18/10) | **CORRIGÉE (preuve)** — `LACUNES.md` | un identifiant cité depuis au moins deux missions |
 | L-P0-04 | Aucun registre des preuves (sources, SHA-256, versions, limites) | `PREUVES.md` (créé 18/10) | **CORRIGÉE (preuve)** | au moins une entrée par campagne, avec code de sortie |
 | L-P0-05 | Pas de règle de clôture opposable | `CLOTURE.md` (créé 18/10) | **CORRIGÉE (preuve)** | une lacune passée en `CORRIGÉE` avec correction + validation |
-| L-P0-06 | Missions `M7` (`skills-contract-20261018`) et `M8` (`skills-fix-20261018`) absentes de l'arbre public au 18/10 | `git status` avant commit : dossiers non suivis | **À REVÉRIFIER** après push (le dossier doit apparaître dans `origin/main`) | `git ls-tree origin/main audits/` liste les deux dossiers |
+| L-P0-06 | Missions `M7` (`skills-contract-20261018`) et `M8` (`skills-fix-20261018`) absentes de l'arbre public au 18/10 | `git status` avant commit : dossiers non suivis | **CORRIGÉE (preuve)** — présentes dans `origin/main` après push `dbc9601` | `git ls-tree --name-only origin/main audits/` → `audits/skills-contract-20261018`, `audits/skills-fix-20261018` (vérifié 18/10) |
 
 ## P1 — lacunes techniques relevées par les audits antérieurs
 
