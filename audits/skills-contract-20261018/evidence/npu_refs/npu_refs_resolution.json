@@ -1,0 +1,67 @@
+{
+  "installe": {
+    "base": "C:\\Users\\videl\\.config\\opencode\\skills\\npu-offload-pipeline",
+    "refs": [
+      {
+        "ref": "../npu_offload_pipeline.md",
+        "resolu": "C:\\Users\\videl\\.config\\opencode\\skills\\npu_offload_pipeline.md",
+        "existe": false
+      },
+      {
+        "ref": "../../../docs/precompiled_replacement_map.md",
+        "resolu": "C:\\Users\\videl\\.config\\docs\\precompiled_replacement_map.md",
+        "existe": false
+      },
+      {
+        "ref": "../../../docs/precompiled_artifacts.json",
+        "resolu": "C:\\Users\\videl\\.config\\docs\\precompiled_artifacts.json",
+        "existe": false
+      },
+      {
+        "ref": "../../../utilities/binary-inventory/inventory.py",
+        "resolu": "C:\\Users\\videl\\.config\\utilities\\binary-inventory\\inventory.py",
+        "existe": false
+      },
+      {
+        "ref": "../../../REPLACEMENT_PLAN.md",
+        "resolu": "C:\\Users\\videl\\.config\\REPLACEMENT_PLAN.md",
+        "existe": false
+      }
+    ],
+    "resolus": 0,
+    "total": 5
+  },
+  "repo_agents": {
+    "base": "E:\\trixdna_test\\repos_openflowlm_next\\.agents\\skills\\npu-offload-pipeline",
+    "refs": [
+      {
+        "ref": "../npu_offload_pipeline.md",
+        "resolu": "E:\\trixdna_test\\repos_openflowlm_next\\.agents\\skills\\npu_offload_pipeline.md",
+        "existe": true
+      },
+      {
+        "ref": "../../../docs/precompiled_replacement_map.md",
+        "resolu": "E:\\trixdna_test\\repos_openflowlm_next\\docs\\precompiled_replacement_map.md",
+        "existe": true
+      },
+      {
+        "ref": "../../../docs/precompiled_artifacts.json",
+        "resolu": "E:\\trixdna_test\\repos_openflowlm_next\\docs\\precompiled_artifacts.json",
+        "existe": true
+      },
+      {
+        "ref": "../../../utilities/binary-inventory/inventory.py",
+        "resolu": "E:\\trixdna_test\\repos_openflowlm_next\\utilities\\binary-inventory\\inventory.py",
+        "existe": true
+      },
+      {
+        "ref": "../../../REPLACEMENT_PLAN.md",
+        "resolu": "E:\\trixdna_test\\repos_openflowlm_next\\REPLACEMENT_PLAN.md",
+        "existe": true
+      }
+    ],
+    "resolus": 5,
+    "total": 5
+  },
+  "conclusion": "5/5 refs resolues dans <repo>/.agents/skills/ ; 0/5 depuis l'installation .config/opencode/skills/ -> dependance d'emplacement non declaree"
+}
