@@ -60,7 +60,8 @@ def main(argv=None) -> int:
     # Garde-fou de dimensionnement (avant toute allocation) : ce script est une sonde
     # fonctionnelle à BO volontairement minimaux -> mode historique (avertit, ne refuse pas).
     import npu_preflight  # noqa: PLC0415
-    npu_preflight.check(sizes, ns.insts, allow_undersized=True, quiet=False)
+    npu_preflight.check(sizes, ns.insts, allow_undersized=True, quiet=False,
+                        strict_bounds=False)
 
     print(f"xclbin={ns.xclbin}")
     print(f"insts ={ns.insts} ({len(instr)} o, {(len(instr) + 3) // 4} mots)")

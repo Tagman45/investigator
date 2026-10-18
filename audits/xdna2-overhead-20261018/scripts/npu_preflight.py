@@ -136,6 +136,21 @@ class UndersizedBufferError(RuntimeError):
     """Un BO demandé est plus petit que l'étendue adressée par les descripteurs."""
 
 
+class BoundConflictError(RuntimeError):
+    """Plancher MESURÉ > borne DÉCODÉE : les deux bornes sont incompatibles.
+
+    [AJOUTÉ 18/10/2026 — ferme la lacune L-X-01]
+    La borne décodée est une borne BASSE du format (elle ignore d0/d1/d2) ; quand un
+    plancher mesuré la dépasse, le modèle et la mesure se contredisent. Avant ce
+    correctif, le pré-vol prenait `max()` et signalait le désaccord **sans jamais
+    refuser** : un design pouvait donc être présenté comme « PASS » alors que le
+    décodeur qui justifie la taille était contredit par la mesure.
+    Posture désormais *fail-closed* : le pré-vol REFUSE (exit 4) par défaut, et
+    l'acceptation du conflit est un acte explicite (`strict_bounds=False` côté API,
+    `--allow-bound-conflict` côté CLI), journalisé dans le rapport.
+    """
+
+
 def bd_records(insts_path: str) -> list[tuple[int, int, list[int]]]:
     """[(arg, arg_plus, mots_du_BD)] pour chaque DDR_PATCH du TXN."""
     raw = open(insts_path, "rb").read()
@@ -200,10 +215,14 @@ def txn_extents_refute(insts_path: str) -> dict[int, int]:
     return ext
 
 
-def check(sizes, insts: str, allow_undersized: bool = False, quiet: bool = False) -> dict:
+def check(sizes, insts: str, allow_undersized: bool = False, quiet: bool = False,
+          strict_bounds: bool = True) -> dict:
     """Vérifie que chaque BO couvre l'étendue de son argument. Refuse sinon.
 
     sizes : séquence (a, b, c) des tailles demandées, dans l'ordre des args 0,1,2…
+    strict_bounds : si True (défaut, *fail-closed*), un désaccord « plancher mesuré
+        > borne décodée » lève BoundConflictError ; l'appelant qui accepte
+        explicitement ce conflit (design déjà mesuré) passe strict_bounds=False.
     """
     with open(insts, "rb") as fh:
         sha_insts = hashlib.sha256(fh.read()).hexdigest()
@@ -231,6 +250,20 @@ def check(sizes, insts: str, allow_undersized: bool = False, quiet: bool = False
                                  "marge": got - cible, "ok": ok})
         if not ok:
             report["ok"] = False
+    conflicts = [c for c in report["checks"] if c["desaccord_descripteur"]]
+    report["bound_conflict"] = bool(conflicts)
+    report["strict_bounds"] = strict_bounds
+    if conflicts and strict_bounds:
+        detail = "; ".join(
+            f"arg{c['arg']}: plancher mesure {c['plancher_mesure']} > borne decodee "
+            f"{c['borne_decodee']} (ecart {c['plancher_mesure'] - c['borne_decodee']} o)"
+            for c in conflicts)
+        raise BoundConflictError(
+            "PRE-VOL FAIL_BOUND_CONFLICT — les deux bornes sont incompatibles : " + detail +
+            ". La borne decodee du format est une borne BASSE (d0/d1/d2 non inclus) : "
+            "elle ne peut ni certifier ni reduire le plancher mesure. Relancer avec "
+            "strict_bounds=False (API) / --allow-bound-conflict (CLI) pour accepter "
+            "explicitement ce conflit — la cible reste max(plancher, borne).")
     if not report["ok"] and not allow_undersized:
         bad = [c for c in report["checks"] if not c["ok"]]
         msg = "; ".join(
@@ -249,6 +282,10 @@ def check(sizes, insts: str, allow_undersized: bool = False, quiet: bool = False
                   f"{'OK' if c['ok'] else 'INSUFFISANT'}{flag}")
     report["allow_undersized"] = allow_undersized
     report["design_certifie"] = bool(floors) and nature == "NUMERIQUE_ET_REPRODUCTIBLE"
+    if report["ok"] and conflicts:
+        print("  AVERTISSEMENT: conflit de bornes ACCEPTE explicitement "
+              "(plancher mesure > borne decodee) — cible = plancher mesure, "
+              "le decodeur de format est mis en defaut (lacune L-X-03).")
     if report["ok"] and floors and not report["design_certifie"]:
         # [AJOUTÉ 18/10/2026, exp_O] Plancher présent mais issu d'un test de
         # DÉTERMINISME uniquement : ni refus (la cible reste >= borne décodée et >= ce
@@ -270,6 +307,10 @@ def check(sizes, insts: str, allow_undersized: bool = False, quiet: bool = False
     else:
         report["verdict"] = "PASS" if report["ok"] else (
             "PASS_SOUS_RESERVE" if allow_undersized else "FAIL")
+    # Un PASS simple est interdit quand le modèle de format est contredit : le verdict
+    # doit porter le conflit (les verdicts déjà non certificatifs sont conservés).
+    if report["verdict"] == "PASS" and report["bound_conflict"]:
+        report["verdict"] = "PASS_BOUND_CONFLICT_ASSUME"
     return report
 
 
@@ -281,12 +322,23 @@ def main() -> int:
     ap.add_argument("--json", default=None)
     ap.add_argument("--allow-undersized", action="store_true",
                     help="ne pas refuser : uniquement pour une expérience qui TESTE la borne")
+    ap.add_argument("--allow-bound-conflict", action="store_true",
+                    help="accepter EXPLICITEMENT un plancher mesure > borne decodee "
+                         "(sinon FAIL_BOUND_CONFLICT, exit 4)")
     ns = ap.parse_args()
     sizes = [int(x) for x in ns.sizes.split(",")] if ns.sizes else []
     rc = 0
     if sizes:
         try:
-            rep = check(sizes, ns.insts, allow_undersized=ns.allow_undersized, quiet=False)
+            rep = check(sizes, ns.insts, allow_undersized=ns.allow_undersized, quiet=False,
+                        strict_bounds=not ns.allow_bound_conflict)
+        except BoundConflictError as exc:
+            print(f"PRE-VOL: REFUSE — {exc}")
+            rc = 4
+            rep = {"insts": ns.insts, "extents": {str(k): v for k, v in
+                   sorted(txn_extents(ns.insts).items())}, "sizes": sizes, "ok": False,
+                   "refused": True, "bound_conflict": True,
+                   "verdict": "FAIL_BOUND_CONFLICT"}
         except UndersizedBufferError as exc:
             print(f"PRE-VOL: REFUSE — {exc}")
             rc = 3

@@ -1,0 +1,19 @@
+PRE-VOL: REFUSE — PRE-VOL FAIL_BOUND_CONFLICT — les deux bornes sont incompatibles : arg1: plancher mesure 8388608 > borne decodee 7995392 (ecart 393216 o). La borne decodee du format est une borne BASSE (d0/d1/d2 non inclus) : elle ne peut ni certifier ni reduire le plancher mesure. Relancer avec strict_bounds=False (API) / --allow-bound-conflict (CLI) pour accepter explicitement ce conflit — la cible reste max(plancher, borne).
+{
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "extents": {
+    "0": 7995392,
+    "1": 7995392,
+    "2": 795520
+  },
+  "sizes": [
+    16777216,
+    8388608,
+    16777216
+  ],
+  "ok": false,
+  "refused": true,
+  "bound_conflict": true,
+  "verdict": "FAIL_BOUND_CONFLICT"
+}
+EXIT=4

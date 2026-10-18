@@ -1,0 +1,35 @@
+{
+  "url": "https://doi.org/10.48550/arXiv.2512.13282",
+  "final_url": "https://arxiv.org/abs/2512.13282",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 41309,
+  "sha256": "29d05daa1b5eea51f05a6385e1baa8a864b39ed073a840b549b71cc09d4815f0",
+  "is_pdf": false,
+  "body_saved": "C:\\Users\\videl\\skills-audit-reports\\audits\\p1-web-pdf-github-20261018\\evidence\\web_doi.org_10.48550_arXiv.2512.13282.body",
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2512.13282",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41309
+    }
+  ],
+  "limit_codes": [],
+  "limits": [
+    "redirection suivie : identité de la destination NON vérifiée (identity_verified=false) — 200 sur l'URL finale ≠ source originale."
+  ],
+  "started_at": "2026-10-18T12:46:57Z",
+  "elapsed_s": 0.175,
+  "caps": {
+    "attempts": 2,
+    "timeout": 25.0,
+    "deadline": 30,
+    "max_bytes": 5000000
+  },
+  "identity_verified": false
+}

@@ -1,0 +1,174 @@
+{
+  "test": "L_X_04_mapping_A_B_par_contenu",
+  "xclbin": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512.xclbin",
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha_xclbin": "ba93cb7376161fcf63293ea2fbd22e6b62ee4fdf1db666653972917ff1e570d4",
+  "sha_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "M": 512,
+  "K": 8192,
+  "N": 512,
+  "sizes": [
+    8388608,
+    8388608,
+    16777216
+  ],
+  "preflight_verdict": "PASS_BOUND_CONFLICT_ASSUME",
+  "sha_pattern": "de10345fe83b24ca9d17f697ba8e7426460273b93460bf9f6530f6f5caa310bd",
+  "runs": [
+    {
+      "c_0_n": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c_m_0": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "attendu_colonne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "attendu_ligne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "verdict": "CONSTANT",
+      "uniforme_8192": true,
+      "rep": 1,
+      "essai": "temoin_un_et_un",
+      "state": 4,
+      "t_ms": 4.056,
+      "prediction_si_bo0_A": "CONSTANT",
+      "prediction_si_bo1_A": "CONSTANT",
+      "sha256_C": "399c99f6a99804ad3c5ffa6b27f64e5f141f8f7068a19e361a59e41ce7e01f62"
+    },
+    {
+      "c_0_n": [
+        8192.0,
+        16384.0,
+        24576.0,
+        32768.0,
+        40960.0,
+        49152.0,
+        57344.0,
+        65536.0
+      ],
+      "c_m_0": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "attendu_colonne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "attendu_ligne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "verdict": "VARIE_EN_COLONNE",
+      "uniforme_8192": false,
+      "rep": 1,
+      "essai": "motif_en_bo1",
+      "state": 4,
+      "t_ms": 1.961,
+      "prediction_si_bo0_A": "VARIE_EN_COLONNE",
+      "prediction_si_bo1_A": "VARIE_EN_LIGNE",
+      "sha256_C": "9b9bac0ff70f535ec90e6526afabf2419057f1593c64420d6c8a402c4231824d"
+    },
+    {
+      "c_0_n": [
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0,
+        8192.0
+      ],
+      "c_m_0": [
+        8192.0,
+        16384.0,
+        24576.0,
+        32768.0,
+        40960.0,
+        49152.0,
+        57344.0,
+        65536.0
+      ],
+      "attendu_colonne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "attendu_ligne": [
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152,
+        57344,
+        65536
+      ],
+      "verdict": "VARIE_EN_LIGNE",
+      "uniforme_8192": false,
+      "rep": 1,
+      "essai": "motif_en_bo0",
+      "state": 4,
+      "t_ms": 1.889,
+      "prediction_si_bo0_A": "VARIE_EN_LIGNE",
+      "prediction_si_bo1_A": "VARIE_EN_COLONNE",
+      "sha256_C": "7fa87bac25f9483fbafd6cd0a28a069978bf00bf6f381978634c646b15948ee6"
+    }
+  ],
+  "conclusion": "bo0=A, bo1=B",
+  "etats_ok": true
+}

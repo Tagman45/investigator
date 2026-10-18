@@ -1,0 +1,12 @@
+noyau=MLIR_AIE args=8 groups=[524289, 524288, 524288, 524288]
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=8388608 marge=+393216 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8388608 marge=+0 OK [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+  AVERTISSEMENT: conflit de bornes ACCEPTE explicitement (plancher mesure > borne decodee) — cible = plancher mesure, le decodeur de format est mis en defaut (lacune L-X-03).
+BO0=0x4028000 BO1=0x4828000 C=0x5028000
+  [temoin_un_et_un] state=4 t=4.056 ms verdict=CONSTANT c[0,0:8]=[8192, 8192, 8192, 8192, 8192, 8192, 8192, 8192] c[0:8,0]=[8192, 8192, 8192, 8192, 8192, 8192, 8192, 8192]
+  [motif_en_bo1] state=4 t=1.961 ms verdict=VARIE_EN_COLONNE c[0,0:8]=[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536] c[0:8,0]=[8192, 8192, 8192, 8192, 8192, 8192, 8192, 8192]
+  [motif_en_bo0] state=4 t=1.889 ms verdict=VARIE_EN_LIGNE c[0,0:8]=[8192, 8192, 8192, 8192, 8192, 8192, 8192, 8192] c[0:8,0]=[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536]
+
+CONCLUSION: bo0=A, bo1=B (états 4 partout: True)
+JSON: evidence/exp_LX04_ab_map.json

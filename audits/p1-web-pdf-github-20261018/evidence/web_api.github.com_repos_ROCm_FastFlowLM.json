@@ -1,0 +1,32 @@
+{
+  "url": "https://api.github.com/repos/ROCm/FastFlowLM",
+  "final_url": "https://api.github.com/repos/ROCm/FastFlowLM",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 6065,
+  "sha256": "b4f3b2b1eb887a43b61b8ae816416e7c7a092ee6d418f62b6565f789e675b8d9",
+  "is_pdf": false,
+  "body_saved": "C:\\Users\\videl\\skills-audit-reports\\audits\\p1-web-pdf-github-20261018\\evidence\\web_api.github.com_repos_ROCm_FastFlowLM.body",
+  "ok": true,
+  "verdict": "CONTENT_OBTAINED",
+  "attempts": [
+    {
+      "n": 1,
+      "t": 0.0,
+      "status": 200,
+      "final_url": "https://api.github.com/repos/ROCm/FastFlowLM",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 6065
+    }
+  ],
+  "limit_codes": [],
+  "limits": [],
+  "started_at": "2026-10-18T12:46:59Z",
+  "elapsed_s": 0.308,
+  "caps": {
+    "attempts": 2,
+    "timeout": 25.0,
+    "deadline": 30,
+    "max_bytes": 5000000
+  }
+}

@@ -1,0 +1,58 @@
+  pre-vol arg0: borne_decodee=7995392 cible=7995392 alloue=16777216 marge=+8781824 OK
+  pre-vol arg1: borne_decodee=7995392 cible=8388608 alloue=8388608 marge=+0 OK [plancher mesure > borne decodee]
+  pre-vol arg2: borne_decodee=795520 cible=795520 alloue=16777216 marge=+15981696 OK
+  AVERTISSEMENT: conflit de bornes ACCEPTE explicitement (plancher mesure > borne decodee) — cible = plancher mesure, le decodeur de format est mis en defaut (lacune L-X-03).
+{
+  "insts": "E:/trixdna_test/repos_strixhalo_npu_setup/saved_xclbins/phase5_bf16_512x8192x512_insts.bin",
+  "sha256_insts": "487fa1ff00444985dd5e992e19dc24049ae7f864fec2fce298f4df45d57d9ecc",
+  "planchers_connus_pour_ce_design": true,
+  "nature_du_plancher": "NUMERIQUE_ET_REPRODUCTIBLE",
+  "extents": {
+    "0": 7995392,
+    "1": 7995392,
+    "2": 795520
+  },
+  "sizes": [
+    16777216,
+    8388608,
+    16777216
+  ],
+  "checks": [
+    {
+      "arg": 0,
+      "borne_decodee": 7995392,
+      "alloue": 16777216,
+      "plancher_mesure": 7995392,
+      "cible": 7995392,
+      "desaccord_descripteur": false,
+      "marge": 8781824,
+      "ok": true
+    },
+    {
+      "arg": 1,
+      "borne_decodee": 7995392,
+      "alloue": 8388608,
+      "plancher_mesure": 8388608,
+      "cible": 8388608,
+      "desaccord_descripteur": true,
+      "marge": 0,
+      "ok": true
+    },
+    {
+      "arg": 2,
+      "borne_decodee": 795520,
+      "alloue": 16777216,
+      "plancher_mesure": null,
+      "cible": 795520,
+      "desaccord_descripteur": false,
+      "marge": 15981696,
+      "ok": true
+    }
+  ],
+  "ok": true,
+  "bound_conflict": true,
+  "strict_bounds": false,
+  "allow_undersized": false,
+  "design_certifie": true,
+  "verdict": "PASS_BOUND_CONFLICT_ASSUME"
+}

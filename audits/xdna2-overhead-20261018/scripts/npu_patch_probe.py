@@ -91,7 +91,8 @@ def main(argv=None) -> int:
     # Garde-fou de dimensionnement : ces BO ne couvrent que arg_plus + un chunk
     # (pas l'étendue complète des descripteurs) -> mode historique explicite.
     import npu_preflight  # noqa: PLC0415
-    npu_preflight.check(sizes, ns.insts, allow_undersized=True, quiet=False)
+    npu_preflight.check(sizes, ns.insts, allow_undersized=True, quiet=False,
+                        strict_bounds=False)
 
     t = {}
     dev = pyxrt.device(0)

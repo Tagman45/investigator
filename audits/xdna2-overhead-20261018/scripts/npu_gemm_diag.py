@@ -60,7 +60,8 @@ def run_once(pyxrt, ns, opcode, a_bytes, b_bytes, bo_specs, ref_ab, ref_atb):
     dev, F = ns["dev"], ns["F"]
     # Garde-fou de dimensionnement AVANT allocation (taille logique M*K*2 / K*N*2 / M*N*2).
     import npu_preflight  # noqa: PLC0415
-    npu_preflight.check((SZ_A, SZ_B, SZ_C), ns["insts"], allow_undersized=True, quiet=False)
+    npu_preflight.check((SZ_A, SZ_B, SZ_C), ns["insts"], allow_undersized=True, quiet=False,
+                        strict_bounds=False)
     bo_instr = pyxrt.bo(dev, len(instr), F(pyxrt.bo.cacheable), groups["instr"])
     bo_instr.write(instr, 0)
     fl = F(pyxrt.bo.cacheable)

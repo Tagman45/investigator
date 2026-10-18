@@ -59,16 +59,27 @@ def marker_words(n_words: int) -> bytes:
     return struct.pack("<%dI" % n_words, *[0xDEAD0000 | (i & 0xFFFF) for i in range(n_words)])
 
 
-def preflight(sizes, insts: str, allow: bool = False) -> dict:
+def preflight(sizes, insts: str, allow: bool = False,
+              strict_bounds: bool = True) -> dict:
     """PRÉ-VOL obligatoire avant toute allocation de BO.
 
     Refuse (UndersizedBufferError) si un BO est plus petit que l'étendue adressée
     par les descripteurs du TXN. `allow=True` réservé aux expériences qui TESTENT
-    la borne de taille. Retourne le rapport pour l'archiver dans le JSON.
+    la borne de taille. `strict_bounds=True` (défaut, *fail-closed*) refuse
+    (BoundConflictError) quand le plancher MESURÉ dépasse la borne DÉCODÉE : un
+    appelant qui accepte explicitement ce conflit (design déjà mesuré) passe
+    `strict_bounds=False`, et le verdict devient `PASS_BOUND_CONFLICT_ASSUME`.
+    Retourne le rapport pour l'archiver dans le JSON.
     """
     import npu_preflight  # noqa: PLC0415
     try:
-        rep = npu_preflight.check(sizes, insts, allow_undersized=allow, quiet=False)
+        rep = npu_preflight.check(sizes, insts, allow_undersized=allow, quiet=False,
+                                  strict_bounds=strict_bounds)
+    except npu_preflight.BoundConflictError as exc:
+        # l'exception porte déjà le préfixe « PRE-VOL FAIL_BOUND_CONFLICT » : ne pas
+        # le dupliquer (même défaut cosmétique que l'undersize, corrigé le 18/10/2026).
+        print(str(exc))
+        raise
     except npu_preflight.UndersizedBufferError as exc:
         # Le message de l'exception commence déjà par « PRE-VOL REFUSE l'allocation » :
         # ne pas le préfixer deux fois (cosmétique, constaté le 18/10/2026).
@@ -88,7 +99,9 @@ def preflight_historical(sizes, insts: str) -> dict:
     historiques (sonde fonctionnelle, test de borne, rejeu d'une preuve antérieure).
     """
     print("PRE-VOL: MODE HISTORIQUE — tailles possiblement sous l'etendue descripteur")
-    return preflight(sizes, insts, allow=True)
+    # Mode historique = expérience de borne assumée : le conflit de bornes est accepté
+    # explicitement (strict_bounds=False), jamais silencieusement.
+    return preflight(sizes, insts, allow=True, strict_bounds=False)
 
 
 # --- Contexte de pré-vol : protéger le CHEMIN d'allocation lui-même --------------
@@ -304,7 +317,9 @@ def _run_variant(pyxrt, ns, instr_bytes: bytes, label: str, patch_edits=None):
     b_size = getattr(ns, "bsize", 0) or SZ_B
     c_size = getattr(ns, "csize", 0) or SZ_C
     sizes = (a_size, b_size, c_size)
-    rep = preflight(sizes, ns.insts, allow=getattr(ns, "allow_undersized", False))
+    # Expérience sur un design déjà mesuré : conflit de bornes accepté explicitement.
+    rep = preflight(sizes, ns.insts, allow=getattr(ns, "allow_undersized", False),
+                    strict_bounds=False)
     doc = {"label": label, "opcode": ns.opcode, "bo_sizes": list(sizes),
            "preflight": rep,
            "xclbin": ns.xclbin, "insts": ns.insts, "sha_insts_sha256": sha(ns.insts)}

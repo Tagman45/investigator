@@ -115,7 +115,8 @@ def main() -> int:
 
     dev, xb, ctx, kern, kb = E.make_ctx(pyxrt, ns.xclbin)
     g = [kern.group_id(i) for i in (1, 3, 4, 5)]
-    pf = E.preflight(tuple(sizes), ns.insts, allow=False)
+    # Conflit de bornes CONNU et accepté (L-X-01) — cible = plancher mesuré.
+    pf = E.preflight(tuple(sizes), ns.insts, allow=False, strict_bounds=False)
     print(f"tailles={sizes}  groups={g}  preflight={pf['verdict']}")
 
     bi = E.alloc(dev, pyxrt, len(raw_txn), g[0], role="instr")

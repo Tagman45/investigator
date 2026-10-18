@@ -79,7 +79,8 @@ def main(argv=None) -> int:
     # Garde-fou de dimensionnement AVANT allocation (tailles logiques M*K*2, K*N*2, M*N*2).
     # Mode historique : tailles logiques, potentiellement sous l'étendue des descripteurs.
     import npu_preflight  # noqa: PLC0415
-    npu_preflight.check((SZ_A, SZ_B, SZ_C), ns.insts, allow_undersized=True, quiet=False)
+    npu_preflight.check((SZ_A, SZ_B, SZ_C), ns.insts, allow_undersized=True, quiet=False,
+                        strict_bounds=False)
 
     bo_instr = pyxrt.bo(dev, len(instr), fl, kern.group_id(1))
     bo_instr.write(instr, 0)

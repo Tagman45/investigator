@@ -105,7 +105,8 @@ def main() -> int:
         # respecté dans CHAQUE itération : le garde-fou d'allocation est indexé par
         # ordre d'appel (mesuré le 18/10/2026 — un appel hors ordre lève
         # UnscopedAllocationError, ce qui est le comportement attendu).
-        E.preflight((BO_A, b_size, BO_C), ns.insts, allow=True)
+        # Conflit de bornes CONNU et accepté (L-X-01) : le but est de TESTER la borne.
+        E.preflight((BO_A, b_size, BO_C), ns.insts, allow=True, strict_bounds=False)
         boA = E.alloc(dev, pyxrt, BO_A, g[1])
         boB = E.alloc(dev, pyxrt, b_size, g[2])
         boC = E.alloc(dev, pyxrt, BO_C, g[3])

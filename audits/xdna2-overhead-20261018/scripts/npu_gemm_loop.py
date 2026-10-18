@@ -64,7 +64,9 @@ def main() -> int:
     dev, xb, ctx, kern, kb = E.make_ctx(pyxrt, XCLBIN)
     g = [kern.group_id(i) for i in (1, 3, 4, 5)]
 
-    pf = E.preflight((ns.bo, ns.bo, ns.bo), INSTS, allow=ns.allow_undersized)
+    # Conflit de bornes CONNU et accepté (L-X-01) : plancher mesuré > borne décodée.
+    pf = E.preflight((ns.bo, ns.bo, ns.bo), INSTS, allow=ns.allow_undersized,
+                     strict_bounds=False)
     print(f"noyau={kb.get_name()} args={kb.get_num_args()} groups={g} BO={ns.bo}")
 
     ones = np.full(ns.bo // 2, ONEF, dtype="<u2").tobytes()

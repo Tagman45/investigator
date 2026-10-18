@@ -63,7 +63,9 @@ def main() -> int:
         return 2
     ns.bo = max(sizes)
     # PRÉ-VOL : refus si les descripteurs adressent au-delà des BO demandés.
-    pf = E.preflight(tuple(sizes), INSTS, allow=ns.allow_undersized)
+    # Conflit de bornes CONNU et accepté (L-X-01) : le plancher numérique mesuré
+    # (8 388 608) dépasse la borne décodée du format. La cible reste le plancher.
+    pf = E.preflight(tuple(sizes), INSTS, allow=ns.allow_undersized, strict_bounds=False)
     print(f"tailles BO demandees : A={sizes[0]} B={sizes[1]} C={sizes[2]}")
     bi = E.alloc(dev, pyxrt, len(raw_txn), g[0], role="instr")
     bi.write(raw_txn, 0)

@@ -14,9 +14,14 @@ Chaque cas a un résultat attendu explicite ; tout écart = échec (exit 1).
   T8  F-1 : design 512, B=5 832 704 (= cible de l'ancien min()) -> REFUS (exit 3)
   T9  empreinte exacte C : 1 048 576 accepté, 1 048 572 refusé (exp_N_footprint)
   T10 design inconnu (sha256 absent de la table) -> PASS_NON_CERTIFIE, pas PASS
-  T11 design 512, B = 8 388 608 (plancher NUMÉRIQUE, exp_O) -> accepté + verdict PASS
+  T11 design 512, B = 8 388 608 (plancher NUMÉRIQUE, exp_O) -> accepté, verdict
+      PASS_BOUND_CONFLICT_ASSUME (le conflit de bornes est réel et assumé)
   T12 m32k64n128 : plancher de REPRODUCTIBILITÉ seul -> PASS_SOUS_RESERVE, jamais PASS
-"""
+  T13 [L-X-01] défaut *fail-closed* : plancher mesuré > borne décodée
+      -> BoundConflictError (aucun PASS possible sans l'accepter explicitement)
+  T14 [L-X-01] CLI : défaut -> exit 4 FAIL_BOUND_CONFLICT ; avec
+      --allow-bound-conflict -> exit 0 + verdict PASS_BOUND_CONFLICT_ASSUME
+""";
 from __future__ import annotations
 
 import os
@@ -84,13 +89,15 @@ def main() -> int:
 
     # T6 — cibles issues du rapport
     reset()
-    rep = E.preflight(SIZES, INSTS, allow=False)
+    # m32k64n128 : conflit de bornes (plancher > borne décodée) → accepté
+    # explicitement ; ce cas teste les CIBLES, pas la politique de refus (T13).
+    rep = E.preflight(SIZES, INSTS, allow=False, strict_bounds=False)
     targets = {c["arg"]: c["cible"] for c in rep["checks"]}
     check("T6 cibles posees", E._PF["targets"] == targets, f"({targets})")
 
     # T2 — refus à la source, en strict
     reset()
-    E.preflight(SIZES, INSTS, allow=False)
+    E.preflight(SIZES, INSTS, allow=False, strict_bounds=False)
     try:
         E.alloc(None, pyxrt, 1998848, 3)      # arg0 : OK
         E.alloc(None, pyxrt, 2097152, 4)      # arg1 : OK
@@ -103,7 +110,7 @@ def main() -> int:
 
     # T3 — mode borne : autorisé (expérience qui teste la borne)
     reset()
-    E.preflight(SIZES, INSTS, allow=True)
+    E.preflight(SIZES, INSTS, allow=True, strict_bounds=False)
     try:
         E.alloc(None, pyxrt, 1998848, 3)
         E.alloc(None, pyxrt, 2097152, 4)
@@ -150,7 +157,7 @@ def main() -> int:
             ("T9 C=1048572 (4 o sous l'empreinte)", INSTS, (1998848, 2097152, 1048572), 1048576)):
         reset()
         try:
-            rep = E.preflight(sizes, path, allow=False)
+            rep = E.preflight(sizes, path, allow=False, strict_bounds=False)
             ok = name.startswith("T9 C=1048576")
             cible = {c["arg"]: c["cible"] for c in rep["checks"]}
             check(name, ok and cible.get(1 if "F-1" in name else 2) == attendu_cible,
@@ -172,7 +179,7 @@ def main() -> int:
         fh.write(_s.pack("<%dI" % len(words), *words))
         synth = fh.name
     reset()
-    rep = E.preflight((0x4000,), synth, allow=False)
+    rep = E.preflight((0x4000,), synth, allow=False, strict_bounds=False)
     check("T10 design inconnu non certifie",
           rep.get("verdict") == "PASS_NON_CERTIFIE" and rep.get("design_certifie") is False,
           f"(verdict={rep.get('verdict')})")
@@ -180,20 +187,52 @@ def main() -> int:
 
     # T11/T12 — nature du plancher : seul un plancher validé NUMÉRIQUEMENT certifie.
     reset()
-    rep512 = E.preflight((16777216, 8388608, 16777216), INSTS_512, allow=False)
-    check("T11 plancher numerique -> PASS",
-          rep512.get("verdict") == "PASS"
+    # Conflit de bornes sur ce design (plancher 8 388 608 > borne décodée) : accepté
+    # EXPLICITEMENT, sinon le pré-vol refuse (T13). Même propriété vérifiée : c'est
+    # le plancher NUMÉRIQUE qui certifie, pas le modèle de format.
+    rep512 = E.preflight((16777216, 8388608, 16777216), INSTS_512, allow=False,
+                         strict_bounds=False)
+    check("T11 plancher numerique -> PASS_BOUND_CONFLICT_ASSUME",
+          rep512.get("verdict") == "PASS_BOUND_CONFLICT_ASSUME"
+          and rep512.get("design_certifie") is True
+          and rep512.get("bound_conflict") is True
           and rep512.get("nature_du_plancher") == "NUMERIQUE_ET_REPRODUCTIBLE",
-          f"(verdict={rep512.get('verdict')}, nature={rep512.get('nature_du_plancher')})")
+          f"(verdict={rep512.get('verdict')}, certifie={rep512.get('design_certifie')}, "
+          f"conflit={rep512.get('bound_conflict')})")
     reset()
-    rep32 = E.preflight(SIZES, INSTS, allow=False)
+    rep32 = E.preflight(SIZES, INSTS, allow=False, strict_bounds=False)
     check("T12 plancher de reproductibilite -> PASS_SOUS_RESERVE",
           rep32.get("verdict") == "PASS_SOUS_RESERVE"
           and rep32.get("nature_du_plancher") == "REPRODUCTIBLE_SEUL"
           and rep32.get("design_certifie") is False,
           f"(verdict={rep32.get('verdict')}, certifie={rep32.get('design_certifie')})")
 
-    print(f"\n{len(failures)} echec(s) sur 12 cas" + (f" : {failures}" if failures else ""))
+    # T13 — [L-X-01] fail-closed : le désaccord plancher/borne décodée REFUSE par défaut.
+    reset()
+    try:
+        E.preflight((16777216, 8388608, 16777216), INSTS_512, allow=False)
+        check("T13 conflit de bornes refuse par defaut", False,
+              "(accepte sans strict_bounds=False)")
+    except npu_preflight.BoundConflictError as exc:
+        check("T13 conflit de bornes refuse par defaut", True,
+              f"(BoundConflictError: {str(exc)[:48]}...)")
+
+    # T14 — CLI : exit 4 par défaut, exit 0 seulement si le conflit est accepté.
+    import subprocess
+    cli = os.path.join(os.path.dirname(os.path.abspath(__file__)), "npu_preflight.py")
+    base = [sys.executable, cli, "--insts", INSTS_512,
+            "--sizes", "16777216,8388608,16777216"]
+    r_strict = subprocess.run(base, capture_output=True, text=True,
+                              encoding="utf-8", errors="replace")
+    r_accept = subprocess.run(base + ["--allow-bound-conflict"], capture_output=True,
+                              text=True, encoding="utf-8", errors="replace")
+    ok14 = (r_strict.returncode == 4 and "FAIL_BOUND_CONFLICT" in r_strict.stdout
+            and r_accept.returncode == 0
+            and "PASS_BOUND_CONFLICT_ASSUME" in r_accept.stdout)
+    check("T14 CLI exit 4 / --allow-bound-conflict exit 0", ok14,
+          f"(strict={r_strict.returncode}, accepte={r_accept.returncode})")
+
+    print(f"\n{len(failures)} echec(s) sur 14 cas" + (f" : {failures}" if failures else ""))
     return 1 if failures else 0
 
 
